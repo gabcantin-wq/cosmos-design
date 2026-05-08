@@ -20,6 +20,312 @@
 
 ---
 
+# Batch 0 — Founding overview
+
+## 00 — Founding Image — Structural relation between e, t=0, t=x, T and 4df(x)
+
+### Title
+**Phase 1i — Founding Image**
+
+### Subtitle
+Structural relation between e, t=0, t=x, T and 4df(x)
+
+### Labels around the central sphere
+- **unique e**
+- **t = x** — observation membrane
+- **t = x − 1** — dynamic phase
+- **t = 0** — fundamental register
+- **t = 0 + 1**
+- **energy-links**
+- **4df(x)** — integral operator
+- **T** — circular and constant axis
+
+### Bottom caption
+Everything observed in t=x is an addressing of the same e.
+
+---
+
+## 01 — Founding Structure of the Model — Overview of T and the addressing mechanism of e
+
+### Title
+**01 — FOUNDING STRUCTURE OF THE MODEL**
+
+### Subtitle
+Overview of T and the addressing mechanism of e
+
+### Energy-link forms — legend
+**FILAMENT (1 PERPENDICULAR)**
+Default attractor. Minimal structure.
+Ex.: electron, base quark.
+
+**FABRIC (2 PERPENDICULARS)**
+Opening of a 2nd perpendicular.
+Dimensional along propagation.
+Ex.: muon, W/Z bosons.
+
+**LUMP (3 PERPENDICULARS)**
+Saturation of the 3 axes.
+Crosses the edge of t = 0+1.
+Ex.: tau, heavy bosons.
+
+### Central labels
+**t = 0+1 — INITIAL ADDRESSING POINT (PERMANENT RE-ADDRESSING)**
+What standard physics calls the "Big Bang."
+Not a past event: a permanent structural re-addressing by constant T.
+
+**t = 0 = e**
+UNIQUE — INDIVISIBLE — AMBIENT
+NOT BEHIND, NOT ELSEWHERE, EVERYWHERE.
+Without distance, the entire energy of the universe exists. Whole definition of e.
+
+**t = x — OBSERVATION MEMBRANE (OUR STRUCTURAL POSITION)**
+Corresponds to the 3D membrane of our measurements.
+Not the "present" of linear time — T defines our position.
+
+**t = x − 1 — DYNAMIC RETURN PHASE**
+Just before manifestation in t = x.
+This is where wakes are inscribed in T.
+
+### Energy-link details
+**ENERGY-LINK (NESTED IN T-DURATION)**
+4D structural weaving.
+Closed loop: outbound is outbound-return, read in t = x and beyond.
+Charge = outbound-return gap.
+
+**4df(x) PATH — INTEGRAL OPERATOR OF DEPTH**
+Not a single trajectory, but the integration of all depths between e and t = x.
+Produces observable outputs: mass, displacement, signature, lifetime, etc.
+
+### Regimes of e displacement
+**BOTTLED / ANCHORED**
+Outbound-return continuously retained. Dominant mass.
+
+**FREE**
+Outbound-return open locally. Limited duration — fluid mass.
+
+**NON-LOCALIZED & COHERENT IN DEPTH**
+Free over whole T, not locally singularized.
+Manifests as dark energy (integrated wake).
+
+### 5 fundamental structural manifestations
+**PROTON · ELECTRON · NEUTRINO · PHOTON · SINGULARITY**
+
+### Outbound-return duality
+Always 2 vectors, same point:
+- ↓ DESCENDING: toward t = 0
+- ↑ RISING: always carries more e (return increment)
+
+### 4D simplified schema (conceptual cross-section)
+- 3D MEMBRANE (OBSERVATION)
+- DEPTH t = 0+y (4df(x) PATH IN INTEGRATION)
+- RESIDENCE OF e (OUT OF SEQUENCE)
+
+### Key principles
+- There is only one e, at t = 0.
+- It is constant and circular, inscribed in block.
+- Energy-links address e in t = x.
+- Mass is always an OUTPUT of 4df(x), never an input.
+- Gravity = energy-link in depth.
+- The singularity's energy stays maintained on T.
+- Closed cycles are the structural directors.
+- Singularities are structurally necessary.
+
+### Unified reading of regimes
+Everything is a regime of agglomeration of the same weaving:
+- BOTTLED (firmly impeded) → ordinary matter
+- FREE (weakly impeded) → radiation (photon)
+- NON-LOCALIZED & COHERENT (not impeded over T) → dark energy (integrated over T)
+
+### Bottom note
+T is not a time that passes. It is an inscribed totality. What we call "past, present, future" are structural positions on T.
+
+---
+
+## 02 — The Big Bang as Structural Re-Addressing at t = 0+1
+
+### Title
+**02 — THE BIG BANG AS STRUCTURAL RE-ADDRESSING AT t = 0+1**
+
+### Subtitle
+Not an explosion in the void, but a massive re-addressing of e from t = 0 toward t = x.
+
+### Top banner
+**T: CIRCULAR AND CONSTANT AXIS**
+All points coexist. No arrow of time.
+
+### Central labels
+**MASSIVE INITIAL RE-ADDRESSING**
+At t = 0+1, the unique e is massively addressed in all structural directions, through the simultaneous opening of a vast number of energy-links.
+
+**INITIAL STRUCTURAL ADDRESSING POINT**
+What standard physics calls the "Big Bang."
+Not a past event: it is always structurally now.
+
+**t = 0** — unique, indivisible, ambient.
+
+**OBSERVATION MEMBRANE**
+Our structural position. Not the linear "present" but what is observed at t = x.
+
+**MASSIVE OPENING OF ENERGY-LINKS**
+Each energy-link stretches from t = 0+1 to t = x.
+Outbound-return duality already in place.
+
+### This is NOT
+- An explosion in a pre-existing void
+- Creation of matter out of nothing
+- A single past event
+- A point of origin in space
+
+### This IS
+- A permanent re-addressing by constant T
+- The massive opening of 4df(x) corridors
+- A structural re-addressing always active
+- The very definition of t = 0+1
+
+### Progressive 4D deployment (structural phases)
+1. **t = 0+1: BEGINNING** — Massive opening of energy-links. No corridors yet. Free energy dominant.
+2. **PLASMA PHASE** — Energy-links forming. Light particles (quarks, leptons). High structural bottling.
+3. **NUCLEOSYNTHESIS PHASE** — Sharing of access to t = 0 (mechanism A). Atomic nuclei stabilize. First atoms.
+4. **RECOMBINATION PHASE** — Photons free themselves (decoupling). CMB = structural snapshot of t = 0+y. Not a cooling.
+5. **STRUCTURES PHASE** — Gravity (energy-link) drives fusion. Galaxies, stars, black holes. Complex structural weaving.
+6. **TODAY (t = x)** — All phases unfold in T. Dark matter and dark energy as cumulative wake.
+
+### Outbound-return duality of the opening
+**DESCENDING VECTOR**
+Toward t = 0. Carries e toward t = 0. Woven "outbound."
+
+**RISING VECTOR**
+From t = 0. Returns with more e. Woven "return" (return increment).
+
+**DIFFERENCE = return − outbound = CHARGE observed in t = x**
+Explains neutron/proton (1.293 MeV) and matter–antimatter asymmetry.
+
+### Weaving and wakes — the structural trace
+Open woven links leave a trace (wake) in the dynamic phase t = x − 1.
+- Closed link → wake = dark matter
+- Open link → wake = dark energy
+
+### This model is NOT
+- The standard Big Bang model (explosion in a void)
+- A theory of creation (the question of "where does nothing come from?")
+- A linear past → present → future time
+- A correction of the Standard Model
+
+It is an alternative structural reading that stands on its own. Based on 9 postulates, not on parameter adjustments.
+
+### Fundamental principle
+The Big Bang = the massive opening of energy-links at t = 0+1.
+A permanent structural re-addressing by constant T.
+
+### Structural reality
+e was not created. It has always been at t = 0.
+What changes is the mode of addressing in t = x.
+
+### Consequence
+Expansion is not a displacement in T.
+It is the growth of the weaving (wakes) that drives gravity.
+
+### Generative equation
+4df(x) = ∫ F(structure, perpendiculars, proximity, regimes...) dy
+Recalculated at every step in depth.
+
+---
+
+## 03 — Weaving in Transverse Layers of 4df(x)
+
+### Title
+**03 — WEAVING IN TRANSVERSE LAYERS OF 4df(x)**
+
+### Subtitle
+A series of images of the same event across the layers of T.
+
+### Top banner
+**T: CIRCULAR AND CONSTANT AXIS (UNFOLDED LINE VIEW)**
+All points coexist. No arrow of time.
+
+Slices: t = 0, t = 0+1, t = 0+2, t = 0+3, t = 0+y, t = x − 1, t = x (observation).
+
+### Series of transverse layers (slice by slice)
+Same event: emission of a photon by an electron toward a proton.
+
+### How to read the layers
+- **t = 0** — unique e.
+- **t = 0+1** — e is addressed outbound through energy-links (IN/OUT exit). No propagation yet.
+- **t = 0+2 → ... → t = 0+y** — the weaving propagates into depth. The free photon travels at c with no mass; the bottled energy-link forms its weaving.
+- **t = x − 1** — wakes from ALL active events deposit. Global weaving.
+- **t = x** — our slice of observation. We see the result (emission of a photon).
+
+### Legend
+- Bottled energy-link (outbound-return)
+- Free energy-link / photon (outbound open at c)
+- Wake (structural trace)
+- Photon
+- Electron
+- Access point at t = 0
+- Neutral weaving
+
+### Per-slice descriptions
+**t = 0** — unique e. Neutral zone. No structure. No Big Bang.
+
+**t = 0+1** (initial output of e) — Outbound output of e in all directions. Energy-links beginning. No depth yet. Massive opening of weaving.
+
+**t = 0+2** (emerging organization) — Organization of bottled and photon weaving lines. Free energy starts propagating in depth.
+
+**t = 0+3 ... t = 0+y** (dynamic return phase) — Free photon at c. Photon wake. Electron–nucleus samples. Wake continues.
+
+**t = x** (our observation) — We see the photon's path: emission by the electron, propagation, absorption by the proton.
+
+### Outbound (descending) toward t = 0 → Return (rising) from t = 0
+Outbound-return duality within 4df(x).
+
+### Regimes of the envelope at each layer
+- **Asymptotic singularity** — all directions externally equivalent.
+- **FREE MAXIMAL (neutrino)** — weakly structural weaving. Maximum displacement.
+- **NON-LOCALIZED COHERENT** — wakes spread over whole T. No local singularization.
+- **BOTTLED (matter)** — fragmented weaving, open locally. Maximally constrained outbound-return. Observable 3D localization.
+
+### Cosmic symmetry
+- **Ordinary matter** — structurally recombining e
+- **Dark matter** — wake of bottled e over whole T
+- **Dark energy** — wakes of all free links cumulated over whole T
+
+### Zoom: detail of a bottled energy-link (electron)
+Outbound-return cycle at t = 0.
+- Descending vector (toward t = 0): outbound + return increment
+- Rising vector (from t = 0): increment + e
+The difference = the charge, e.g. 1.293 MeV gap.
+
+### Zoom: free energy-link (photon)
+- Trajectory at c
+- t = 0+1 (opening)
+- t = 0+y (depths traversed)
+- t = x (observation)
+The photon descends at c with no return. Its wake is inscribed in the dynamic phase t = x − 1 and contributes to dark energy.
+
+### Cumulative weaving in t = x − 1
+Sum of ALL events over whole T.
+The cumulative wake is the intersection of millions (billions) of energy-link wakes that have traversed.
+
+### 4D geometric analogy
+Conceptual visualization.
+- t = x (our observation)
+- Depth (operated by 4df(x))
+- t = 0
+Our 3D = a slice of the observation cone. Gravity = depth of the cone.
+
+### Bottom — fundamental principle
+T is not a time that passes. It is an inscribed totality.
+What we call "past, present, future" are structural positions on T.
+
+### Consequence
+Expansion of the universe = accumulation of wakes in t = x − 1.
+Gravity = propagation of that weaving (energy-link).
+
+### Canonical image
+Mass (energy-link) is a wake of the dynamic phase.
+
+---
+
 # Batch A — Structural early-cycle sequence
 
 ## A1 — `t = 0 + 1` — Initial Addressing / Output Without Distance
@@ -1692,4 +1998,434 @@ At t = x, distance and time are the same reading through c.
 
 ### Footer
 At t = x, 3D shows only a local reading. The real coherence of structures happens inside 4df(x).
+
+---
+
+# Batch D — Additional pedagogy
+
+## D1 — Outbound-Return Duality of the Energy-Link
+
+### Title
+**OUTBOUND-RETURN DUALITY OF THE ENERGY-LINK**
+
+### Subtitle
+**STRUCTURAL COSMOLOGICAL MODEL OF GABRIEL CANTIN**
+
+### Top label
+**t = x — observation membrane**
+At t = x, the membrane reads the return.
+No real motion: structural reading.
+
+### Left side — IN
+**IN — structuring descent toward t = 0**
+
+**ENTRY PATH**
+The energy-link descends following structures and coherences.
+
+**DIRECTION**
+Anchored to the cross-sections of 4df(x); direction is toward the t = 0 reference.
+
+**INCREASING ATTRACTIVITY**
+The link's intensity strengthens as one approaches t = 0.
+
+**REFERENCE PRESERVED**
+Addressing permanently preserves the reference at every instant t.
+
+**ADDRESSING: THE REFERENCE IS PRESERVED**
+t = x → reference preserved → t = 0 (e)
+Addressing permanently preserves the reference at every instant t.
+
+### Right side — OUT
+**OUT — return, read at t = x**
+
+**RETURN PATH**
+The return is read by the structures and converges toward t = x.
+
+**STRUCTURAL READING**
+At t = x, the membrane reads the return.
+No real motion: structural reading.
+
+**REVELATION**
+The manifestation is not created at t = x: it is revealed by the structural reading of the return.
+
+**REAL VOLUME — ONLY AS A GLUE FABRIC**
+A continuous volume exists only in parallel with the return. The frame becomes a glue fabric — only threads of coherence, no parallel space.
+
+**NO REAL MOTION: STRUCTURAL READING OF THE RETURN**
+t = x ← reading
+t = 0 (e)
+No displacement in ordinary spacetime.
+Only the structure is addressed.
+The reading of the return takes place at t = x.
+
+### Central labels
+- time vector in 2 directions
+- very strong structural reinforcement near t = 0
+
+### Bottom — t = 0
+**t = 0 — e, dimensionless register — universal structural referent**
+
+- There is no outside of the universe.
+- t = 0 is the dimensionless referent where e resides.
+- No path, no displacement: only addressing and structural reading.
+
+### Scale of e
+SCALE OF e — original force commutation by all singularities at t = x to t = x ± 1, throughout the whole duration of T.
+
+### Closing line
+At t = x, we read the return.
+The energy-link preserves its reference toward t = 0 at every instant t.
+Descent and return reinforce each other structurally near t = 0.
+
+### Legend
+- IN — structuring descent
+- OUT — return
+- energy-link (corridor)
+- observation membrane
+
+---
+
+## D2 — Sequential Plan of the Model — From t=0 to t=x
+
+### Title
+**SEQUENTIAL PLAN OF THE MODEL — FROM t=0 TO t=x**
+
+### Subtitle
+Complete structural reading: from the unique e at t=0 to phenomena observable at t=x.
+
+### Top right reminder
+Key reminder: T is constant and circular (unfolded view). This sequence is a reading for understanding, not a chronology.
+
+### Top row — structural depth (not directly observable)
+
+**1. t = 0 — The unique e**
+Without dimension, without space, outside sequence. It is the base that envelops all singularities on t = x to t = x ± 1, throughout the whole duration of T. There is no outside; e is everywhere on T.
+*POSTULATE 1B*
+
+**2. t = 0 → t = 0+1 — Initial addressing**
+The IN vector descends. First addressing of e. Unique access point; free dimension takes immediate output (OUT) with maximum displacement. The OUT vector rises with a return.
+*POSTULATE 2*
+
+**3. t = 0+1 → t = 0+2 — Birth of space**
+IN structuring. OUT at the surface. First structural IN. Distance appears. The 3D axes and direction. The balance reinforces between IN and OUT (toward the end of the descent and on the return).
+*POSTULATE 3*
+
+**4. t = 0+2 → t = 0+3 — First structures**
+IN. OUT. First geometries, first structural returns. Localizations appear at t = 0+y (matter, strong interactions).
+*POSTULATE 4*
+
+**5. t = x − 1 — Accumulation**
+Accumulation of all wakes that have traversed.
+t = x − 1: dynamic phase (not yet manifestation).
+Cumulation of all energy-link passages (closed and open) over the whole duration of T.
+*POSTULATE 5*
+
+### Section break
+**STRUCTURAL DEPTH (not directly observable)** | **OBSERVABLE MANIFESTATION AT t = x (local reading)**
+
+### Bottom row — observable manifestation at t = x
+
+**6. t = x — Observable membrane**
+Slice where we read. We do not see the total: we read only what reaches us from all energy-links.
+
+**7. t = x — Outbound-return duality**
+- IN vector (descent): reference toward t = 0
+- OUT vector (rising): reading at t = x
+- CHARGE = OUT − IN — measurable difference at t = x
+- Always two senses, in both directions. This is the return motion.
+*CANONICAL*
+
+**8. t = x — Observable signatures**
+Charges:
+- IN > OUT (positive)
+- IN ≈ OUT (neutral)
+- IN < OUT (negative)
+The weaving of return filaments. Always more e descends — this is the return increment.
+*CANONICAL*
+
+**9. t = x — Structural regimes**
+- **OPEN FREE (Photon)** — Cycle with 1 perpendicular. Short IN, long OUT.
+- **CLOSED FREE (Neutrino)** — Cycle with 2 perpendiculars. IN ≈ OUT.
+- **CLOSED ANCHORED (Matter)** — Cycle with 3, 5, … perpendiculars. Long IN, short OUT.
+- **OPEN ANCHORED (Singularity)** — Open energy-link remains at t = 0 in depth.
+*CANONICAL*
+
+**10. t = x — Unification of phenomena**
+Unified schema: energy-link, outbound-return duality in 4df(x) → Matter, Photon, Neutrino, Gravity, Charges, Galaxies, Black holes, Consciousness.
+Everything is a variation of the same link in different regimes and different structural depths.
+
+### Key structural principles
+- T is constant and circular (everything coexists).
+- No chronology overlaid.
+- 4df(x) is an integral operator (not algebraic).
+- Outbound-return duality is always present.
+- Charge = IN/OUT difference.
+- IN and OUT read simultaneously at t = x.
+- Nothing is created, nothing is lost.
+- Everything recalculates at each step in depth.
+- We are a structural reading.
+
+### Central point
+At t = x, we do not see through the gaps produced by the outbound-return duality of energy-links in 4df(x) over the whole T.
+- This is the point that produces all appearances.
+- The mode of addressing of e at a particular point of T generates the mode of addressing from t = 0 to t = x in the depth of space.
+- The deeper one goes, the more powerful 4df(x) becomes.
+- Cumulative weaving over T.
+
+### To remember
+T is not a time that passes — it is an inscribed totality. Our conception of the future is an illusion.
+The addressing mechanism is continuous and permanent. We do not see the whole mechanism; we only read the return at t = x.
+The output is not a departure: it is a constant accumulation of weaving.
+The strength of e grows as depth increases.
+Expansion of the universe and gravity are consequences.
+Our 3D = a slice of an observation cone. Gravity = depth (observation cone).
+
+### Reinforcement scale (indicative)
+- t = x (local reading): 10⁰
+- Descending toward t = 0+1: 10² to 10⁴
+- t = 0+1: 10⁵ to 10⁶
+- On return from t = 0 toward t = x: 10⁰
+
+These factors are not certainties; they emerge from 4df(x) at depth and constrain reading at t = x.
+
+Scale indicator: Weak → Extreme.
+
+---
+
+## D3 — Structural Reading of T — Observe at t=x, Read at c, Traverse T
+
+### Title
+**STRUCTURAL READING OF T: OBSERVE AT t=x, READ AT c, TRAVERSE T**
+
+### Subtitle
+We do not see t = 0+1. We read proportions of t = x via c.
+The vector traverses T as an arc. 13 billion years of depth remain structurally close to t = 0.
+
+### T axis description
+**T: CIRCULAR AND CONSTANT AXIS**
+Inscribed in block, no flow.
+All points coexist.
+No privileged arrow.
+Circular and closed back on t = 0.
+
+### Axis labels
+- **t = 0+1** — Initial structural addressing point
+- **t = 0+2**
+- **t = 0+y** — Generic depth
+- **t = x** — Our 3D observation membrane
+
+### Top — t = 0
+**t = 0 — where the unique e resides**
+Out of sequence, omnipresent.
+Structural proximity to t = 0.
+
+### Inside the cone
+**STRUCTURAL WEIGHT**
+Very strong (near t = 0).
+Weaker as one moves away from t = 0.
+
+**AVAILABLE DIMENSIONS**
+Few (near t = 0).
+More and more (moving away from t = 0).
+
+**DEPTH IN T (t = 0 + y)**
+
+### Closer to t = 0
+- Fewer available dimensions
+- Stronger structural weight
+- "Weird" possible forms
+- Unstable at t = x
+- Stable at their own depth (t = 0+y)
+
+### Vector traversing T (arc of a circle)
+**13 BILLION YEARS IN DEPTH**
+Still relatively close to t = 0 structurally.
+
+### Reading at t = x (our position)
+- What we see = states at t = x
+- Proportions of seconds/years
+- Information transported at c
+- Distance = travel time at c
+- No direct vision of t = 0+1
+
+### Vector traversing T
+- Goes from t = x toward the structural past
+- Follows the circular curvature of T
+- Traverses all depths
+- Can cover 13 billion years
+- Stays close to t = 0 structurally
+
+### Key principles
+- The earliest beginnings count the most.
+- Few dimensions = strong structures.
+- Proximity to t = 0 = strange/unstable forms in t = x.
+- Stable at their own depth (t = 0+y).
+- What we see = a reading at c, not the structure itself.
+
+### Bottom labels
+- **OUR 3D OBSERVATION MEMBRANE**
+- **OBSERVABLE STATES — IN t = x — Proportions of t = x (seconds/years)**
+- **INFORMATION TRANSPORTED AT c — What we read arrives at c**
+- **DISTANCE = TIME AT c — What we see comes from far in T**
+
+### Legend
+- t = 0 — where the unique e resides
+- t = 0+1 — Initial addressing point
+- t = 0+y — Generic depth
+- 13 Ga — t = 0+y — Reading depth
+- t = x — Our observation position
+
+### Summary
+We do not see t = 0+1. We read states at t = x via c.
+A vector traversing T can cover 13 billion years and remain structurally close to t = 0.
+The early regimes fix the fundamental structures.
+
+---
+
+## D4 — The Electron Around Its Nucleus — Tennis-Ball Analogy
+
+### Title
+**THE ELECTRON AROUND ITS NUCLEUS: TENNIS-BALL ANALOGY**
+
+### Subtitle
+The nucleus acts as a structural funnel: the electron leaves t = x, plunges toward t = 0, rebounds in the nucleus funnel, and rises on the other side.
+It does not stay at t = x; it only manifests there.
+
+### 1. 4D structure — the nucleus funnel
+- Quarks held very close (tight weaving).
+- This proximity produces the strength of mass.
+- The structural funnel attracts the electron's center.
+
+Legend:
+- Quarks held very close
+- Forced weaving between quarks
+- Structural funnel
+
+### 2. Tennis-ball analogy
+- **Departure**
+- **1) IN** — accelerated descent toward t = 0
+- **2) Rebound** at t = 0
+- **3) OUT** — rebound, then manifestation at t = x
+
+Like a tennis ball striking water: it plunges with acceleration, rebounds; the electron follows this motion and rises from the other side.
+A complete outbound-return cycle is required for the electron to manifest at t = x. It only manifests there.
+
+### 3. Why the electron is "trapped"
+- **IN** pulls it closer to t = 0.
+- **OUT** comes back shifted by the return rebound.
+- The nucleus pulls the e closer to t = 0.
+- The OUT comes back shifted by the same nucleus's return attraction.
+- This shift traps the electron structure around the nucleus.
+
+### 4. Complete cycle of the tennis ball
+1. **Manifestation** — the ball (electron) manifests at t = x before the cycle continues.
+2. **IN** — it plunges into the nucleus funnel toward t = 0.
+3. **Rebound — Acceleration** — it strikes the inner pass of the funnel.
+4. **OUT shifted** — it rises from the funnel, shifted by the return attraction.
+5. **New manifestation** — it manifests at t = x in another position of the weaving. The cycle continues.
+
+### 5. The nucleus — why it forms a funnel
+- Quarks held very close (tight weaving).
+- The energy-links of the quarks (very dense) converge in a common direction.
+- The resulting union of the quarks' energy-links creates the "gravitation" of the structural funnel: the electron is attracted by the return of e.
+
+### 6. No solid orbit
+- Classical image: false.
+- The electron does not orbit the nucleus.
+- Correct structural reading: a probabilistic reading at t = x in the nucleus, not a solid trajectory.
+- Manifestation position at t = x depends on the return cycle.
+- The "observed gradient" corresponds to the probability of manifestation at the nucleus.
+
+### 7. Visual summary
+Funnel at t = x → Plunge → Rebound → Rise → Manifestation at t = x → Next cycle.
+
+### Central idea
+The electron behaves like a tennis ball rebounding in the nucleus.
+It does not stay at t = x; it manifests there only at the end of a complete cycle.
+
+---
+
+## D5 — The Electron Around Its Nucleus — Why the Return Is Probabilistic
+
+### Title
+**THE ELECTRON AROUND ITS NUCLEUS: WHY THE RETURN IS PROBABILISTIC**
+
+### Subtitle
+The e at t = 0 is bottled in an outbound-return cycle via t = 0+1. The return does not come back along a single path but via a probabilistic distribution — it is the coupling that dictates it.
+
+### 1. The whole — 4D structure of the cycle
+Cross-section view (depth dimension toward t = 0).
+- **Depth = time**
+- **Rising phase**
+- **Rebound phase**
+- **OUTBOUND-RETURN DUALITY**
+- descending vector (toward t = 0)
+- rising vector (toward t = x)
+- **t = x** (atomic output)
+- **t = 0+y** (return toward x)
+- **t = 0+1** (rebound)
+- **t = 0** (resident e)
+
+### 2. The electron — coupling to the nucleus (bottled regime)
+**NUCLEUS**
+proton(s) + neutron(s)
+
+View: in its 3D space.
+
+**Probability cloud** — positions where the electron's return can manifest at t = x.
+
+The electron is not "in orbit" along a path. The return at t = x occupies a set of positions dictated by the coupling.
+
+### 3. Why the return is probabilistic
+- At t = 0+1, the electron's energy-link anchors in the nucleus funnel.
+- The nucleus "shares" its access to t = 0 with the electron (mechanism B).
+- There is no privileged path for the return.
+- All directions compatible with the coupling and the geometry of 4df(x) have the SAME structural legitimacy.
+- Nature does not choose: it unfolds 4df(x) all at once. The return therefore inscribes equally on all possible positions.
+
+### Top view (t = x)
+No point is "special": the symmetry of the system imposes equal probabilities.
+Each blue point = an equally legitimate possible return.
+
+### 4. Detail of the outbound-return cycle of the electron
+1. **Descent (outbound)** — the descending vector goes from t = x toward t = 0 via 4df(x).
+2. **Anchoring at t = 0+1** — the link anchors in the nucleus funnel.
+3. **Sharing at t = 0** — nucleus and electron share access to t = 0.
+4. **Rise (return)** — the rising vector rises with MORE e (return increment).
+5. **Dynamic phase** — at t = x − 1 the wake inscribes in the dynamic phase.
+6. **Manifestation at t = x** — the return manifests at t = x but at a position that varies cycle to cycle.
+
+### 5. Consequence — wave-particle duality re-explained
+- **Wave** = probability distribution (cloud of possible points)
+- **Particle** = pointlike manifestation (choice at one precise given point)
+
+### 6. Why no deterministic path
+- If the return always reached the same point, that would be a symmetry break.
+- The spherical symmetry of the nucleus enforces the equivalence of all directions.
+- All compatible directions are simultaneously legitimate.
+- Manifestation at t = x picks one position from a set of equally legitimate paths.
+
+### 7. Visual summary
+- Descent toward t = 0 (4df(x))
+- Link anchors at t = 0+1 (rebound)
+- Sharing at t = 0 (resident e)
+- Rise with + e (return increment, probabilistic)
+- Manifestation at t = x at a return cycle
+- The cycle repeats endlessly: the electron has only equal probability of being at one t = x point versus another.
+
+### Central idea
+The electron is not "around" the nucleus like a marble on an orbit.
+It is the unique e bottled in an energy-link that returns probabilistically because all possible returns are equally legitimate in T.
+
+### Conceptual structural formula
+Return distribution:
+P(r) = f(coupling, geometry, depth, weaving, total)
+∫ P(r) dr = 1
+Σ ψ(r) over the set of possible positions around the nucleus.
+
+### Legend
+- Blue: descending vector (outbound)
+- Red: rising vector (return)
+- Energy-link (corridor)
+- Orange: anchoring position (rebound)
 

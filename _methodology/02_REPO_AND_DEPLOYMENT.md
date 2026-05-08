@@ -1,0 +1,59 @@
+# Repository and Deployment
+
+## Two GitHub repos to distinguish
+
+| Repo | Type | Use |
+|---|---|---|
+| `gabcantin-wq/cosmos` | Wix Velo (created by `velo-app[bot]`) | DO NOT push site content here. Reserved for Wix Velo JS code. Currently disconnected from any active Wix site. |
+| `gabcantin-wq/cosmos-design` | Plain git, **public** | This site. Deployed via GitHub Pages. The directory `c:\Users\gabca\OneDrive\Bureau\MODEL_master\site` is its working tree. |
+
+## Git config (local to cosmos-design)
+
+```
+user.name = gabcantin-wq
+user.email = 261086514+gabcantin-wq@users.noreply.github.com
+http.sslBackend = schannel
+```
+
+`credential.helper = manager` is set globally (uses Git Credential Manager — opens browser auth on first push).
+
+## Deployment
+
+- **GitHub Pages** is enabled, source = `main` / root.
+- Default URL: `https://gabcantin-wq.github.io/cosmos-design/`
+- Every push to `main` triggers a rebuild (~30s–2min).
+- Repo is public.
+- No build step (no Jekyll-specific code, no React, no SSG). Plain HTML/CSS — Pages serves files as-is. Jekyll runs by default though, and excludes folders starting with `_` (this is how `_methodology/` is hidden from the served site).
+
+## Daily workflow
+
+```powershell
+git add .
+git commit -m "description"
+git push
+```
+
+## Custom domain (planned)
+
+`qubit.coop` is to be wired up. Status as of 2026-05-08:
+- DNS still managed by Wix (`ns12/ns13.wixdns.net`).
+- Office 365 emails depend on this DNS — see `05_QUBIT_COOP_DNS.md` for the full picture and migration options.
+- Custom domain field in GitHub Pages settings has been **temporarily removed** to avoid breaking the github.io URL (which gets disabled when a custom domain is configured but DNS doesn't resolve).
+- Re-add the custom domain in Settings → Pages **only after** Bénoit applies the DNS changes.
+
+## Files NOT to commit
+
+- `standalone_*.html` (build artifacts, ~15 MB each — gitignored)
+- `__pycache__/`, `.venv/`
+- `.vscode/`, `.idea/`
+- `desktop.ini`, `Thumbs.db`, `~$*` (OS / OneDrive)
+
+See `.gitignore` at the repo root for the full list.
+
+## OneDrive caveat
+
+The working tree lives inside OneDrive (`C:\Users\gabca\OneDrive\Bureau\MODEL_master\site`). Git + OneDrive can occasionally produce file lock conflicts. If `git status` reports unexpected `.~lock` or staging weirdness, pause OneDrive sync, run the git command, then resume. The `.git/` folder itself ideally should be excluded from OneDrive sync to avoid corruption — check this if working in this repo for long sessions.
+
+## History note
+
+The initial commit was force-pushed once (2026-05-07) to remove `standalone_*.html` (~30 MB) from the very first commit. The amend used `--force-with-lease` and was safe (repo was new, no other clones). If future history rewrites are needed, follow the same pattern: amend or filter, then `--force-with-lease`.
