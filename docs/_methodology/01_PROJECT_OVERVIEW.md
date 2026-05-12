@@ -35,16 +35,18 @@ CC BY-NC-ND 4.0. Reading and citation allowed (attribution required). Modificati
 
 ## Key entry points
 
-All site paths below are inside `docs/` (the repo root contains the canonical corpus + the `docs/` folder served by Pages).
+Le contenu cosmologique vit sous `docs/univers/`. `docs/index.html` (la racine du site) est une page de redirection vers `/univers/` pour l'instant ; deviendra un portail listant les 4 sections (`univers`, `conscience`, `politique`, `projets`) quand au moins une autre section existera.
 
 | Path | Role |
 |---|---|
-| `docs/index.html` | Landing page → FR/EN selector |
-| `docs/fr/index.html` | French long-form page |
-| `docs/en/index.html` | English long-form page |
-| `docs/css/style.css` | Single stylesheet (dark theme, orange/blue accents, Inter font) |
-| `docs/images/*.png` | 28 conceptual diagrams |
-| `docs/downloads/{fr,en}/*.md` | LLM-targeted corpus (mirror of root corpus) |
-| `docs/downloads/corpus_*.zip` | Bundled corpus |
-| `docs/build_standalone.py` | Generates `docs/standalone_{fr,en}.html` (offline single-file versions) |
+| `docs/index.html` | Landing racine — redirige vers `/univers/` (futur portail) |
+| `docs/CNAME` | `parti-orange.com` — domaine custom GitHub Pages |
+| `docs/univers/index.html` | Landing du modèle → sélecteur FR/EN |
+| `docs/univers/fr/index.html` | French long-form page |
+| `docs/univers/en/index.html` | English long-form page |
+| `docs/univers/css/style.css` | Single stylesheet (dark theme, orange/blue accents, Inter font) |
+| `docs/univers/images/*.png` | 28 conceptual diagrams |
+| `docs/univers/downloads/{fr,en}/*.md` | LLM-targeted corpus (mirror of root corpus) |
+| `docs/univers/downloads/corpus_*.zip` | Bundled corpus |
+| `docs/univers/build_standalone.py` | Generates `docs/univers/standalone_{fr,en}.html` (offline single-file versions) |
 | `<root>/0X_*.md`, `EXECUTIVE_SUMMARY_en.md`, etc. | Canonical corpus source — edit here first |

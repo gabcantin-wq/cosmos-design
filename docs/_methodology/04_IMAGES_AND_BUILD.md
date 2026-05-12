@@ -1,6 +1,6 @@
 # Images and the Standalone Build
 
-## Image inventory (28 PNGs in `docs/images/`)
+## Image inventory (28 PNGs in `docs/univers/images/`)
 
 | Code prefix | Count | Theme |
 |---|---|---|
@@ -35,10 +35,10 @@ Every image lives inside a `<figure class="figure">` block:
 </figure>
 ```
 
-`../images/<file>.png` is relative to `docs/fr/` or `docs/en/`, so it resolves to `docs/images/<file>.png`.
+`../images/<file>.png` is relative to `docs/univers/fr/` or `docs/univers/en/`, so it resolves to `docs/univers/images/<file>.png`.
 
 Conventions:
-- `alt` text: descriptive, full sentence, in the page language (FR for `docs/fr/index.html`, EN for `docs/en/index.html`).
+- `alt` text: descriptive, full sentence, in the page language (FR for `docs/univers/fr/index.html`, EN for `docs/univers/en/index.html`).
 - `<span class="tag">`: short tag like `Fig. 0`, `A1 · t=0+1`, `B2 · 4 forces`. Same tag in FR and EN.
 - `<strong>`: one-line title, translated.
 - Body text after `<strong>`: the explanation; do not echo what is inside the image — give the reader what to take away.
@@ -49,19 +49,19 @@ Some images are large (1.5–3 MB). The page does not currently use `loading="la
 
 ## `build_standalone.py`
 
-A Python script (`docs/build_standalone.py`) that produces `docs/standalone_fr.html` and `docs/standalone_en.html` — single-file offline versions of each language page. It:
+A Python script (`docs/univers/build_standalone.py`) that produces `docs/univers/standalone_fr.html` and `docs/univers/standalone_en.html` — single-file offline versions of each language page. It:
 
-1. Reads `docs/fr/index.html` (or `docs/en/`).
-2. Inlines `docs/css/style.css`.
+1. Reads `docs/univers/fr/index.html` (or `docs/univers/en/`).
+2. Inlines `docs/univers/css/style.css`.
 3. Re-encodes each image as a JPEG (quality 75, max-width 1280px) and embeds as `data:image/jpeg;base64,...`.
 4. Embeds every `downloads/...md` and `downloads/...zip` as a `data:` URI on the link `href` and sets `download="<filename>"` so browsers save with the correct filename — no JS needed.
 5. Disables nav links (no FR↔EN switching in standalone form).
 6. Adds a "Standalone version" banner.
 
-Output files end up at `docs/standalone_fr.html` and `docs/standalone_en.html`. They are **gitignored** — do not commit them. Regenerate from `docs/` with:
+Output files end up at `docs/univers/standalone_fr.html` and `docs/univers/standalone_en.html`. They are **gitignored** — do not commit them. Regenerate from `docs/univers/` with:
 
 ```powershell
-cd docs
+cd docs/univers
 python build_standalone.py        # both languages
 python build_standalone.py fr     # FR only
 python build_standalone.py en     # EN only

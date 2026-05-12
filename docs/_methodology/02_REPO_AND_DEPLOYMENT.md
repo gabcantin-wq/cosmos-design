@@ -7,7 +7,7 @@
 | `gabcantin-wq/cosmos` | Wix Velo (created by `velo-app[bot]`) | DO NOT push site content here. Reserved for Wix Velo JS code. Currently disconnected from any active Wix site. |
 | `gabcantin-wq/cosmos-design` | Plain git, **public** | This site + the source corpus. Deployed via GitHub Pages from `docs/`. The directory `c:\Users\gabca\OneDrive\Bureau\MODEL_master` is its working tree. |
 
-## Repo layout (since 2026-05-11 restructuration)
+## Repo layout (since 2026-05-12 sous-répertorisation)
 
 ```
 MODEL_master/                     ← repo root (cosmos-design)
@@ -19,14 +19,24 @@ MODEL_master/                     ← repo root (cosmos-design)
 ├── README_images.md
 ├── image_translation_pack_en.md
 └── docs/                         ← served by GitHub Pages (main/docs)
-    ├── index.html, fr/, en/, css/, images/
-    ├── downloads/{fr,en}/*.md    ← copies of the corpus served to visitors
-    ├── downloads/corpus_*.zip
-    ├── _methodology/             ← this folder (excluded from Pages by Jekyll `_` prefix)
-    └── build_standalone.py
+    ├── CNAME                     ← parti-orange.com
+    ├── index.html                ← landing minimaliste, redirige vers /univers/
+    ├── _methodology/             ← excluded from Pages by Jekyll `_` prefix
+    └── univers/                  ← le modèle cosmologique (V1 actuelle)
+        ├── index.html, fr/, en/, css/, images/
+        ├── downloads/{fr,en}/*.md  ← copies of the corpus served to visitors
+        ├── downloads/corpus_*.zip
+        └── build_standalone.py
 ```
 
-The corpus at the repo root is the **authoritative source**. `docs/downloads/{fr,en}/` currently mirrors it manually — keep them in sync until a build step automates the copy.
+**Sections futures** prévues à côté de `univers/` (chacune autonome, même mécanique) :
+- `docs/conscience/` — contenu sur la conscience (lié au chapitre 10)
+- `docs/politique/` — parti Orange (politique)
+- `docs/projets/` — projets
+
+Quand au moins une autre section sera ajoutée, `docs/index.html` (actuellement une simple redirection) sera transformée en portail listant les 4 sections.
+
+Le corpus à la racine du repo est la **source canonique**. `docs/univers/downloads/{fr,en}/` le mirroir manuellement — garder synchro jusqu'à ce qu'un build step automatise la copie.
 
 ## Git config (local to this repo)
 
@@ -63,7 +73,7 @@ The `qubit.coop` plan is suspended (kept in `05_CUSTOM_DOMAIN_DNS.md` for refere
 ## Files NOT to commit (gitignored at root `.gitignore`)
 
 Artefacts:
-- `docs/standalone_*.html` (build outputs, ~15 MB each)
+- `docs/**/standalone_*.html` (build outputs, ~15 MB each)
 - `__pycache__/`, `.venv/`
 - `.vscode/`, `.idea/`
 - `desktop.ini`, `Thumbs.db`, `~$*` (OS / OneDrive)
@@ -85,3 +95,4 @@ The working tree lives inside OneDrive (`C:\Users\gabca\OneDrive\Bureau\MODEL_ma
 
 - 2026-05-07 — initial commit was force-pushed once to remove `standalone_*.html` (~30 MB) from the very first commit. The amend used `--force-with-lease` and was safe (repo was new, no other clones).
 - 2026-05-11 — repo working tree expanded from `site/` to `MODEL_master/`. `.git` moved up, `site/` renamed to `docs/`, corpus added at the root, personal files gitignored. All ~65 prior tracked files were renamed (not duplicated) so history is preserved.
+- 2026-05-12 — site déplacé dans `docs/univers/` (sous-répertoire), `docs/index.html` devient une page de redirection vers `/univers/`. Ouvre la voie pour `/conscience/`, `/politique/`, `/projets/` à côté.

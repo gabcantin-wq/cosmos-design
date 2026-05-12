@@ -36,7 +36,7 @@ env/
 node_modules/
 
 # --- Artefacts de build (lourds, non versionnés) ---
-docs/standalone_*.html
+docs/**/standalone_*.html
 standalone_*.html
 
 # =============================================================================

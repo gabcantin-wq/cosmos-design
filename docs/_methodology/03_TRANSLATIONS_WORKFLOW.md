@@ -4,7 +4,7 @@
 
 FR is the canonical source — when FR and EN diverge, retranslate EN from FR. ("Il n'y a qu'un seul e.")
 
-`docs/fr/index.html` and `docs/en/index.html` must mirror each other:
+`docs/univers/fr/index.html` and `docs/univers/en/index.html` must mirror each other:
 - Same section IDs (`#overview`, `#warnings`, `#genesis`, `#particles`, `#structural`, `#bonus`, `#chain`, `#downloads`).
 - Same image references (same files in `/images/`).
 - Same number of figures, same order, same tags (e.g., `Fig. 0`, `A1 · t=0+1`).
@@ -16,9 +16,9 @@ When updating one language, update the other. If a translation is delayed, mark 
 
 | Layer | What | Where | Status |
 |---|---|---|---|
-| **Page text** | Headings, paragraphs, captions, callouts | `docs/fr/index.html` and `docs/en/index.html` | ✅ Translated |
-| **Image text (inside the PNGs)** | Labels, headings, equations rendered into the images themselves | `docs/images/*.png` (no source files) | ❌ Still in French — see below |
-| **Image transcriptions** | English text that should appear inside the EN versions of the images | `image_translation_pack_en.md` (root + `docs/downloads/en/`) | Partially complete — covers A1–A7, B1–B5, C1–C7 (19 images). 9 images still untranscribed: 00, 01, 02, 03, D1–D5. |
+| **Page text** | Headings, paragraphs, captions, callouts | `docs/univers/fr/index.html` and `docs/univers/en/index.html` | ✅ Translated |
+| **Image text (inside the PNGs)** | Labels, headings, equations rendered into the images themselves | `docs/univers/images/*.png` (no source files) | ❌ Still in French — see below |
+| **Image transcriptions** | English text that should appear inside the EN versions of the images | `image_translation_pack_en.md` (root + `docs/univers/downloads/en/`) | Partially complete — covers A1–A7, B1–B5, C1–C7 (19 images). 9 images still untranscribed: 00, 01, 02, 03, D1–D5. |
 
 ## Why the images are not translated
 
@@ -74,8 +74,8 @@ This is the agreed lexicon from the existing pack. Stick to it when transcribing
 
 ## Workflow when translations need updating
 
-1. Edit BOTH `docs/fr/index.html` and `docs/en/index.html` together. Keep section IDs and structure aligned.
-2. If captions describe an image whose internal text changed, update the figcaption AND the corresponding entry in `image_translation_pack_en.md` (both copies — root and `docs/downloads/en/`).
+1. Edit BOTH `docs/univers/fr/index.html` and `docs/univers/en/index.html` together. Keep section IDs and structure aligned.
+2. If captions describe an image whose internal text changed, update the figcaption AND the corresponding entry in `image_translation_pack_en.md` (both copies — root and `docs/univers/downloads/en/`).
 3. If a new image is added, add transcription entries to the pack for both FR and EN (current pack is EN-only; if FR transcription is needed, add a parallel `image_translation_pack_fr.md`).
 4. Test locally by opening the HTML files in a browser, then push to deploy.
 
@@ -85,4 +85,4 @@ This is the agreed lexicon from the existing pack. Stick to it when transcribing
 - `c:\Users\gabca\OneDrive\Bureau\MODEL_master\image_translation_pack_en.md` (repo root, canonical editorial copy)
 - `c:\Users\gabca\OneDrive\Bureau\MODEL_master\docs\downloads\en\image_translation_pack_en.md` (inside the served downloads)
 
-The root copy is the editorial copy; the `docs/downloads/` copy is what visitors download. Keep them identical. A future cleanup could symlink or generate one from the other, but for now both must be edited together.
+The root copy is the editorial copy; the `docs/univers/downloads/` copy is what visitors download. Keep them identical. A future cleanup could symlink or generate one from the other, but for now both must be edited together.
