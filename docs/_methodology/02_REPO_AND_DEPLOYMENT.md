@@ -33,7 +33,7 @@ MODEL_master/                     ← repo root (cosmos-design)
     │   └── index.html
     ├── projets/                  ← placeholder « en préparation »
     │   └── index.html
-    └── AI/                       ← placeholder « en préparation » (note : majuscules)
+    └── ai/                       ← placeholder « en préparation »
         └── index.html
 ```
 
@@ -44,7 +44,7 @@ MODEL_master/                     ← repo root (cosmos-design)
 - `conscience/` — lié au chapitre 10 (Conscience / Sillages / Schémas)
 - `politique/` — parti Orange (politique)
 - `projets/` — projets
-- `AI/` — IA (note : seule section avec lettres majuscules dans l'URL — `/AI/`, pas `/ai/`)
+- `ai/` — IA
 
 Quand `docs/index.html` (actuellement une redirection vers `/univers/`) sera transformé en vrai portail, il listera ces 5 sections.
 
@@ -108,4 +108,4 @@ The working tree lives inside OneDrive (`C:\Users\gabca\OneDrive\Bureau\MODEL_ma
 - 2026-05-07 — initial commit was force-pushed once to remove `standalone_*.html` (~30 MB) from the very first commit. The amend used `--force-with-lease` and was safe (repo was new, no other clones).
 - 2026-05-11 — repo working tree expanded from `site/` to `MODEL_master/`. `.git` moved up, `site/` renamed to `docs/`, corpus added at the root, personal files gitignored. All ~65 prior tracked files were renamed (not duplicated) so history is preserved.
 - 2026-05-12 — site déplacé dans `docs/univers/` (sous-répertoire), `docs/index.html` devient une page de redirection vers `/univers/`. Ouvre la voie pour `/conscience/`, `/politique/`, `/projets/` à côté.
-- 2026-05-12 — création des placeholders `/conscience/`, `/politique/`, `/projets/`, `/AI/` (4 stub `index.html` « section en préparation »). Le redirect racine liste maintenant ces sections à venir.
+- 2026-05-12 — création des placeholders `/conscience/`, `/politique/`, `/projets/`, `/ai/` (4 stub `index.html` « section en préparation »). Le redirect racine liste maintenant ces sections à venir. (Une version initiale était en `/AI/` majuscules, immédiatement renommée en `/ai/` pour suivre le pattern lowercase des autres sections.)
