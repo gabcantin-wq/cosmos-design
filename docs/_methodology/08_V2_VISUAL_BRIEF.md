@@ -5,14 +5,46 @@
 
 ## Comment utiliser ce document
 
-GPT ne garde **pas** vraiment le catalogue en référence persistante d'une requête à l'autre — il fonctionne en mode « 1 prompt → 1 image ». Donc :
+**Constat empirique (2026-05-12) : GPT ne tient pas l'enchaînement d'images dans une même conversation.** Il dérive après la première ou ne fait pas la suivante. Workflow adopté : **1 nouvelle conversation = 1 image V2.** Chaque conversation est jetable.
 
-1. **Au début de chaque session ChatGPT** : upload `images_catalog.png` + colle le **STYLE BASE** ci-dessous une fois
-2. **Pour chaque image V2** : colle le bloc « Prompt prêt-à-coller » de la fiche correspondante
-3. **Valide ou corrige** l'image reçue, puis passe à la suivante
-4. **Sauve** chaque image V2 validée dans `docs/univers/images/v2/` (à créer)
+### Recette par image (workflow distinct)
 
-> Si la conversation devient longue / GPT dérive : ouvre une nouvelle conversation, upload à nouveau le catalogue, recolle le STYLE BASE, et continue.
+À répéter pour chaque image V2 :
+
+1. **Ouvre une nouvelle conversation ChatGPT** (idéalement avec accès image gen)
+2. **Upload `images_catalog.png`** (le catalogue des 28 V1, comme référence visuelle)
+3. **Colle dans la même requête** : le **PRÉAMBULE COMPACT** ci-dessous + le **« Prompt prêt-à-coller »** de la fiche image (les deux ensemble dans un seul message)
+4. **Récupère l'image**, valide ou corrige (corrections dans la même conversation, c'est l'enchaînement d'IMAGES qui ne marche pas, pas l'itération sur une image)
+5. **Sauve l'image validée** dans `docs/univers/images/v2/<nom>.png`
+6. **Ferme la conversation**, passe à la suivante
+
+### PRÉAMBULE COMPACT (à coller avant chaque prompt d'image)
+
+```
+=== STYLE V2 — modèle cosmologique structurel de Gabriel Cantin ===
+
+Catalogue de référence : voir images_catalog.png uploadé. Style anchor : 
+A7_tx_manifestations_observables (cosmique, sombre, painterly).
+
+Style obligatoire pour toute image V2 :
+- Fond navy/noir profond #0a0a0f, étoiles fines, ambiance contemplative
+- Palette : orange #ffb74d (corridors 4df(x), photons, énergie), 
+  cyan/bleu #82b1ff (retours, atomes, neutrinos), violet 
+  diffus (sillages, énergie noire), blanc-bleu (e)
+- Sphères lumineuses douces (effet plasma), filaments fins, 
+  entonnoirs/funnels comme métaphore récurrente, aération marquée
+
+Règle non-négociable : AUCUN texte dans l'image (pas de "4df(x)", 
+"t=0+1", "t=x", équations, noms, labels, légendes). Les labels 
+viendront en overlay HTML/SVG après la génération.
+
+Vocabulaire du modèle (pour orienter l'illustration, jamais à écrire 
+dans l'image) : e unique à t=0, axe T circulaire constant, 4df(x) 
+opérateur intégral en profondeur, lien-énergie, tissage, sillage, 
+dualité aller-retour (IN/OUT), corridor, embouteillage.
+```
+
+> Le STYLE BASE complet plus bas est conservé pour référence, mais en pratique le PRÉAMBULE COMPACT ci-dessus suffit pour chaque conversation distincte.
 
 ---
 
@@ -1087,23 +1119,25 @@ aucune équation. Pure progression visuelle.
 
 ---
 
-## Workflow recommandé
+## Workflow recommandé (à jour 2026-05-12)
 
-1. **Première session** : upload `images_catalog.png`, colle le STYLE BASE, demande **V2-A5 d'abord** (c'est le style anchor — sa réussite conditionne tout le reste)
-2. Valide V2-A5 → si OK, c'est le standard pour tous les autres
-3. Génère ensuite dans cet ordre (du plus simple au plus complexe) :
+**Mode confirmé : 1 conversation ChatGPT = 1 image V2.** GPT dérive ou refuse d'enchaîner. Chaque conversation : upload catalogue + paste PRÉAMBULE COMPACT + paste prompt-image, récupère, sauve, ferme.
+
+1. **V2-A5 d'abord** (déjà fait — le style anchor) → standard validé
+2. Pour chaque image suivante, dans cet ordre (du plus simple/sûr au plus complexe/risqué) :
    - V2-A1, V2-A3, V2-C6, V2-B1 (HERO simples)
    - V2-OVERVIEW, V2-BIGBANG, V2-C4 (HERO plus chargés)
+   - V2-B2 (HERO portrait vertical — composition profondeur)
    - V2-A2, V2-A4, V2-LAYERS (SEQUENCE 5 panneaux)
    - V2-B3, V2-C2, V2-C5 (SEQUENCE 3-5 panneaux)
    - V2-B4 (SEQUENCE 6 panneaux)
-   - V2-B2 (HERO complexe 4 zones)
    - V2-C1, V2-C3 (TABLE)
-   - V2-SYNTHESIS (SEQUENCE 10 panneaux — le plus risqué, dernier)
+   - V2-SYNTHESIS (SEQUENCE 10 panneaux — le plus risqué, en dernier)
 
-4. **Une nouvelle conversation toutes les 5-6 images** pour éviter la dérive (re-upload catalogue, re-colle STYLE BASE)
-
-5. **À chaque image validée** : sauve dans `docs/univers/images/v2/<nom>.png`, ajoute une ligne dans un journal `docs/_methodology/09_V2_GENERATION_LOG.md` (à créer au moment opportun) avec date + verdict + observations
+3. **À chaque image validée** :
+   - Sauve dans `docs/univers/images/v2/<nom>.png`
+   - Note la date + verdict + observations dans un journal `docs/_methodology/09_V2_GENERATION_LOG.md` (à créer)
+   - Si plusieurs essais ont été nécessaires, noter ce qui a marché pour reproduire les bons réflexes sur la suivante
 
 ---
 
