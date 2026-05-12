@@ -510,55 +510,87 @@ de probabilité.
 
 ---
 
-## V2-B2 — 4 forces comme 4 régimes du même mécanisme
+## V2-B2 — 4 forces = 4 régimes selon la profondeur de l'ancrage
 
-**Hérite de** : `B2_quatre_forces.png` (refonte)
-**Template** : HERO
-**Format** : 1600 × 1200
-**Sujet** : forte, faible, EM, gravité ne sont pas 4 forces séparées mais 4 régimes du même mécanisme de tissage selon la proximité et la cohérence des vecteurs 4df(x).
+**Hérite de** : `B2_quatre_forces.png` (refonte, nouvel angle conceptuel)
+**Template** : HERO (composition verticale)
+**Format** : 1200 × 1800 portrait
+**Sujet** : les 4 forces (gravité, EM, faible, forte) ne sont pas 4 forces séparées mais **4 régimes du même mécanisme de tissage selon la PROFONDEUR DE L'ANCRAGE des vecteurs 4df(x) dans t=x**. Plus l'ancrage est profond, plus la force est concentrée et serrée. Une seule colonne, 4 strates.
+
+**Différence-clé avec V1 B2_quatre_forces et avec le V2-B2 précédent** : on n'organise PAS les 4 forces côte à côte horizontalement. On les organise **verticalement** sur un axe profondeur, du plus étalé/superficiel (gravité en haut) au plus concentré/profond (forte en bas).
 
 **Composition** :
-- 4 zones distinctes sur le plan t=x, chacune avec son tissage caractéristique :
-  - Forte (gauche) : 3 sphères ultra-proches collées (quarks)
-  - Faible (centre-gauche) : 3 sphères en train de se reconfigurer
-  - EM (centre-droite) : sphère + petit cercle qui orbite, faisceau orange émergent
-  - Gravité (droite) : amas étendu de sphères avec halo violet étendu
-- Sous chaque zone : descente vers t=0 avec densité de vecteurs 4df(x) variable
-- Gradient visuel de gauche à droite (densité décroissante)
+- Fond : noir profond cosmique cohérent A7
+- Axe vertical = profondeur d'ancrage. Haut = t=x (ancrage superficiel). Bas = t=0 (ancrage profond).
+- 4 strates lumineuses successives de haut en bas, **toutes traversées par une même colonne centrale de filaments orange/cyan** qui se resserre en descendant :
+  1. **STRATE HAUTE — GRAVITÉ** (ancrage le plus superficiel, le plus étalé) : amas de sphères dispersées sur grande largeur avec halo violet diffus très étendu. Filaments très espacés.
+  2. **STRATE — ÉM** (ancrage moyen) : une sphère lumineuse bleue centrale avec un point qui orbite, un faisceau orange (photon) qui s'échappe horizontalement. Filaments moyennement serrés.
+  3. **STRATE — FAIBLE** (ancrage proche) : 3 sphères en train de se reconfigurer dans une zone plus étroite, vecteurs orange qui changent de corridor. Filaments resserrés.
+  4. **STRATE BASSE — FORTE** (ancrage le plus profond, le plus serré) : 3 sphères ultra-proches collées en triangle équilatéral très serré (quarks d'un proton). Filaments quasi-superposés.
+- **En bas exact** : un point lumineux unique (e à t=0) où la colonne se termine — tous les filaments convergent vers ce point unique.
+- **Sur les côtés**, à hauteur de chaque strate, suggestion subtile d'un dégradé de saturation : plus on descend, plus c'est concentré.
+
+**Message visuel** : un seul mécanisme, organisé par la profondeur. Plus on s'enfonce, plus c'est serré, plus la force est intense.
 
 ### Prompt prêt-à-coller
 
 ```
 Suivant le STYLE BASE, génère V2-B2.
 
-Sujet : les 4 forces (forte, faible, électromagnétique, gravité) 
-selon le modèle — pas 4 forces séparées mais 4 régimes du même 
-mécanisme de tissage, classés selon la proximité et la cohérence 
-des vecteurs 4df(x) dans t=x. Refonte de B2_quatre_forces.png 
-du catalogue, MAIS en style sombre A7 (le B2 original a un fond 
-clair qu'on n'utilise pas).
+Sujet : les 4 forces (gravité, électromagnétique, faible, forte) 
+NE sont PAS 4 forces séparées. Ce sont 4 régimes du même mécanisme 
+de tissage, organisés selon la PROFONDEUR DE L'ANCRAGE des 
+vecteurs 4df(x) dans t=x. Plus l'ancrage est profond, plus c'est 
+concentré et serré.
 
-Template : HERO. Format : 1600×1200 paysage.
+POINT CRITIQUE : composition VERTICALE, pas horizontale. PAS de 
+4 zones côte à côte. Une SEULE colonne centrale qui traverse 
+4 strates de profondeur.
 
-Composition :
-- Plan horizontal t=x suggéré, divisé en 4 zones espacées de 
-  gauche à droite :
-  Zone 1 (gauche) : 3 sphères ultra-proches collées (régime FORT 
-  — quarks dans un proton)
-  Zone 2 : 3 sphères en train de se reconfigurer, vecteurs orange 
-  qui changent de corridor (régime FAIBLE)
-  Zone 3 : une grosse sphère bleue avec un petit point qui orbite, 
-  un faisceau orange (photon) qui s'échappe (régime EM)
-  Zone 4 (droite) : amas étendu de plusieurs sphères, halo violet 
-  diffus très étendu autour (régime GRAVITÉ)
-- Sous chaque zone : descente lumineuse vers t=0 (en bas), avec 
-  densité de filaments décroissante de gauche à droite
-- En bas exact : un point lumineux unique (e à t=0) vers lequel 
-  TOUS les filaments convergent
-- Gradient visuel cohérent : zone 1 très dense, zone 4 très diffuse
+Template : HERO en orientation portrait. Format : 1200×1800 portrait 
+(plus haut que large).
 
-Aucun texte, aucun label "FORTE", "FAIBLE", "EM", "GRAVITÉ". Pas 
-de hiérarchie écrite. Pas d'équation.
+Composition de haut en bas :
+
+NIVEAU 0 (tout en haut) : un trait horizontal subtil suggérant 
+t=x (l'ancrage le plus superficiel).
+
+STRATE 1 — GRAVITÉ (juste sous t=x) : amas large et dispersé de 
+plusieurs sphères lumineuses bleu-blanc avec un halo violet diffus 
+très étendu qui s'étire sur toute la largeur du cadre. Filaments 
+orange espacés. C'est l'ancrage le plus superficiel donc le plus 
+étalé.
+
+STRATE 2 — ÉLECTROMAGNÉTIQUE (au-dessous) : une sphère bleue 
+centrale moyenne avec un petit point qui orbite + un faisceau 
+orange (photon) qui s'échappe horizontalement. Largeur visible 
+plus restreinte que la strate gravité. Filaments orange/cyan plus 
+serrés.
+
+STRATE 3 — FAIBLE (encore plus bas) : 3 sphères de tailles 
+moyennes en train de se reconfigurer dans une zone plus étroite, 
+vecteurs orange qui changent de direction (transition). Largeur 
+encore réduite.
+
+STRATE 4 — FORTE (juste au-dessus de t=0) : 3 sphères ultra-proches 
+collées en triangle équilatéral très serré (quarks d'un proton). 
+Zone très étroite. Filaments quasi-superposés, très intenses.
+
+CONVERGENCE FINALE (tout en bas) : un point lumineux unique (le e 
+à t=0) où la colonne de filaments se termine. TOUS les filaments 
+de toutes les strates convergent vers ce point.
+
+ÉLÉMENT UNIFIANT : une colonne verticale de filaments orange/cyan 
+qui traverse TOUTES les strates de haut en bas, qui se resserre 
+progressivement en descendant (plus large en haut, ultra-fine en 
+bas). C'est le signe visuel que c'est un seul mécanisme.
+
+Couleurs cohérentes A7 : fond #0a0a0f, filaments orange (#ffb74d), 
+accents cyan (#82b1ff), halo violet pour le sillage gravitationnel.
+
+Aucun texte, aucun label "GRAVITÉ", "EM", "FAIBLE", "FORTE", aucune 
+hiérarchie écrite, aucune équation, aucun "t=x" ni "t=0" écrit. 
+Juste l'illustration verticale du gradient de profondeur.
 ```
 
 ---
