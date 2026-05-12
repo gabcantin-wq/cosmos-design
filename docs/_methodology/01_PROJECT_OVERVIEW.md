@@ -35,13 +35,16 @@ CC BY-NC-ND 4.0. Reading and citation allowed (attribution required). Modificati
 
 ## Key entry points
 
+All site paths below are inside `docs/` (the repo root contains the canonical corpus + the `docs/` folder served by Pages).
+
 | Path | Role |
 |---|---|
-| `index.html` | Landing page → FR/EN selector |
-| `fr/index.html` | French long-form page |
-| `en/index.html` | English long-form page |
-| `css/style.css` | Single stylesheet (dark theme, orange/blue accents, Inter font) |
-| `images/*.png` | 28 conceptual diagrams |
-| `downloads/{fr,en}/*.md` | LLM-targeted corpus |
-| `downloads/corpus_*.zip` | Bundled corpus |
-| `build_standalone.py` | Generates `standalone_{fr,en}.html` (offline single-file versions) |
+| `docs/index.html` | Landing page → FR/EN selector |
+| `docs/fr/index.html` | French long-form page |
+| `docs/en/index.html` | English long-form page |
+| `docs/css/style.css` | Single stylesheet (dark theme, orange/blue accents, Inter font) |
+| `docs/images/*.png` | 28 conceptual diagrams |
+| `docs/downloads/{fr,en}/*.md` | LLM-targeted corpus (mirror of root corpus) |
+| `docs/downloads/corpus_*.zip` | Bundled corpus |
+| `docs/build_standalone.py` | Generates `docs/standalone_{fr,en}.html` (offline single-file versions) |
+| `<root>/0X_*.md`, `EXECUTIVE_SUMMARY_en.md`, etc. | Canonical corpus source — edit here first |
