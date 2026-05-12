@@ -15,7 +15,8 @@ They ARE committed to git so future maintenance work (by Claude or a human) has 
 | `04_IMAGES_AND_BUILD.md` | Image conventions, build_standalone.py role |
 | `05_CUSTOM_DOMAIN_DNS.md` | Current custom domain (parti-orange.com via Squarespace) + qubit.coop plan suspendu |
 | `06_V2_IMAGE_AUDIT.md` | Audit V2 des 28 images existantes — étape A (livrable 2026-05-12) |
-| `07_V2_GPT_PROMPT.md` | Prompt-bloc à coller dans ChatGPT pour démarrer la génération V2 (avec catalogue + règles + plan) |
+| `07_V2_GPT_PROMPT.md` | Prompt-bloc d'entrée pour ChatGPT (vue d'ensemble, à coller au début d'une session) |
+| `08_V2_VISUAL_BRIEF.md` | **Spec opérationnelle** : 19 fiches détaillées (1 par image V2) avec prompt prêt-à-coller |
 | `build_image_catalog.py` + `images_catalog.png` | Script et catalogue des 28 images V1 (référence pour ChatGPT) |
 
 ## Rules for editing the website
