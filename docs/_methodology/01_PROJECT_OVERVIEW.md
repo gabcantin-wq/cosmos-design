@@ -12,7 +12,7 @@ A static, bilingual (FR/EN) presentation site for **Gabriel Cantin's structural 
 ## Author / stakeholder
 
 - **Gabriel Cantin** — author of the model, lives in Lanoraie (Quebec, Canada)
-- **Bénoit** — has admin access to 101domain (registrar of qubit.coop) and the Wix DNS panel
+- **Bénoit** — has admin access to 101domain (registrar of qubit.coop) and the Wix DNS panel (relevant if qubit.coop migration is resumed; currently the production custom domain is parti-orange.com, managed directly by Gab via Squarespace)
 - Site affiliated with **Qubit COOP de Solidarité**
 
 ## License
@@ -31,7 +31,7 @@ CC BY-NC-ND 4.0. Reading and citation allowed (attribution required). Modificati
 
 - **Phase 1** — written exposition stabilized May 1, 2026
 - **Phase 2** — mathematical formalization, not yet started (the corpus targets LLM-assisted Phase 2)
-- Site itself: live on `https://gabcantin-wq.github.io/cosmos-design/`, custom domain `qubit.coop` planned (DNS migration pending — see `05_QUBIT_COOP_DNS.md`)
+- Site itself: live on `http://parti-orange.com` (HTTPS in provisioning) + `https://gabcantin-wq.github.io/cosmos-design/`. `qubit.coop` migration suspended — see `05_CUSTOM_DOMAIN_DNS.md`.
 
 ## Key entry points
 

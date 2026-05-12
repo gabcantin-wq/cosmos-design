@@ -13,7 +13,7 @@ They ARE committed to git so future maintenance work (by Claude or a human) has 
 | `02_REPO_AND_DEPLOYMENT.md` | Repo structure, GitHub Pages, custom domain plan |
 | `03_TRANSLATIONS_WORKFLOW.md` | FR/EN parity, image translation pack |
 | `04_IMAGES_AND_BUILD.md` | Image conventions, build_standalone.py role |
-| `05_QUBIT_COOP_DNS.md` | DNS situation, Office 365 records, migration plan |
+| `05_CUSTOM_DOMAIN_DNS.md` | Current custom domain (parti-orange.com via Squarespace) + qubit.coop plan suspendu |
 
 ## Rules for editing the website
 

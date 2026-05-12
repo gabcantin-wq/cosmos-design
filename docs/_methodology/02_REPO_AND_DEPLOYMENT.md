@@ -54,13 +54,11 @@ git commit -m "description"
 git push
 ```
 
-## Custom domain (planned)
+## Custom domain (active)
 
-`qubit.coop` is to be wired up. Status as of 2026-05-08:
-- DNS still managed by Wix (`ns12/ns13.wixdns.net`).
-- Office 365 emails depend on this DNS — see `05_QUBIT_COOP_DNS.md` for the full picture and migration options.
-- Custom domain field in GitHub Pages settings has been **temporarily removed** to avoid breaking the github.io URL (which gets disabled when a custom domain is configured but DNS doesn't resolve).
-- Re-add the custom domain in Settings → Pages **only after** Bénoit applies the DNS changes.
+**parti-orange.com** is live since 2026-05-11. DNS managed at Squarespace (ex-Google Domains), 4 A records pointing to GitHub Pages + CNAME `www` redirect. `docs/CNAME` in this repo contains `parti-orange.com`. See `05_CUSTOM_DOMAIN_DNS.md` for the full DNS table.
+
+The `qubit.coop` plan is suspended (kept in `05_CUSTOM_DOMAIN_DNS.md` for reference) — Gab opted for parti-orange.com because the Google-based DNS gives him direct admin without needing Bénoit's 101domain/Wix coordination.
 
 ## Files NOT to commit (gitignored at root `.gitignore`)
 

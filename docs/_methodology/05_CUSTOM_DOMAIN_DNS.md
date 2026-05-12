@@ -1,6 +1,34 @@
-# qubit.coop DNS — Migration Plan
+# Custom Domain & DNS
 
-## Status snapshot (2026-05-08)
+## Current production (since 2026-05-11)
+
+| Layer | Value | Notes |
+|---|---|---|
+| Custom domain | **parti-orange.com** | Live, HTTP working ✅. HTTPS via Let's Encrypt (cocher Enforce HTTPS dans Pages settings une fois le cert provisionné) |
+| Registrar | Squarespace (ex-Google Domains) | Accès admin direct par l'utilisateur |
+| Nameservers | `ns-cloud-e1..e4.googledomains.com` | DNS hébergé Google Cloud DNS / pont Squarespace |
+| A records (apex) | `185.199.108.153`, `.109.153`, `.110.153`, `.111.153` | GitHub Pages |
+| CNAME `www` | `gabcantin-wq.github.io.` | Redirige www → apex |
+| MX | `smtp.google.com` (priority 1) | Google Workspace email — NE PAS TOUCHER |
+| TXT (DKIM) | `google._domainkey` | Google Workspace — NE PAS TOUCHER |
+| TXT (SPF) | `v=spf1 include:_spf.google.com ~all` | Google Workspace — NE PAS TOUCHER |
+| CNAME `_domainconnect` | `_domainconnect.domains.squarespace.com` | Inoffensif, laisser tel quel |
+
+Le fichier `docs/CNAME` du repo contient `parti-orange.com` — c'est ce qui dit à GitHub Pages de servir sur ce domaine.
+
+**Éditer les DNS :** Squarespace → Domains → parti-orange.com → DNS Settings → section « Enregistrements personnalisés ». La section « Enregistrements Google » est réservée à l'email Workspace — ne pas y mettre les records GitHub même si le nom est tentant.
+
+## qubit.coop — Plan suspendu
+
+Le domaine `qubit.coop` (registré chez 101domain.com, DNS chez Wix `ns12/ns13.wixdns.net`) était la cible initiale du custom domain. Il n'est **pas en usage actuellement** car l'utilisateur a opté pour `parti-orange.com` à la place (DNS Google déjà en place, accès admin direct, pas besoin de l'intervention de Bénoit).
+
+Le plan de migration `qubit.coop` ci-dessous est conservé en cas de changement de priorité.
+
+---
+
+## Plan original qubit.coop (référence)
+
+### Status snapshot (2026-05-08)
 
 | Layer | Where | Notes |
 |---|---|---|
