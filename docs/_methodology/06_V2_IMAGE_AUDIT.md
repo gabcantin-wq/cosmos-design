@@ -194,11 +194,7 @@ Images déjà fortes, faible redondance, lisibles :
 
 ### Lacunes — images NOUVELLES à créer pour V2
 
-Le chapitre **10 (Conscience / Sillages / Schémas)** existe à la racine du repo mais **n'a aucune image associée**. À couvrir en V2 (à préciser selon contenu du chapitre 10) :
-
-- V2-S1 = Sillages accumulés en t=x-1 (matière noire + énergie noire)
-- V2-S2 = Conscience selon le modèle (TBD selon chapitre 10)
-- V2-S3 = ? (TBD)
+**Décision Gabriel (2026-05-12) : aucune image V2 pour le chapitre 10 (Conscience / Sillages / Schémas).** Le chapitre 10 sera intégré au site comme **texte seulement** lors de la V2. La conscience selon le modèle reste donc une lecture textuelle, sans illustration dédiée — c'est cohérent avec l'épistémologie du chapitre (les images génératives risquent de fixer une représentation prématurée).
 
 ---
 
@@ -253,16 +249,16 @@ Avant la première génération, figer (et l'inscrire dans un fichier `docs/_met
 
 ---
 
-## 6. Récapitulatif décisions étape A (à valider Gabriel)
+## 6. Récapitulatif décisions étape A (validées 2026-05-12)
 
 | Décision | Statut |
 |---|---|
-| Passer de 28 images V1 → ~19 images V2 | À valider |
-| Dissocier visuel généré (GPT) et overlay (HTML/SVG) | À valider |
-| 3 templates max (HERO, SEQUENCE-STRIP, TABLE) | À valider |
-| Style anchor unique (une V1 retravaillée ou ref nouvelle) | À valider, choisir laquelle |
-| Versioning : V1 préservé dans `images/v1/`, V2 dans `images/v2/` | À valider |
-| Ajouter ~3 images chapitre 10 (conscience/sillages) | À valider |
-| Tool de génération : GPT-4 image / Gemini / autre | À choisir |
+| Passer de 28 images V1 → 19 images V2 | ✅ Validé |
+| Dissocier visuel généré (GPT) et overlay (HTML/SVG) | ✅ Validé |
+| 3 templates max (HERO, SEQUENCE-STRIP, TABLE) | ✅ Validé |
+| Style anchor = **A7** (`A7_tx_manifestations_observables.png`) | ✅ Validé |
+| Versioning : V1 préservé dans `images/v1/`, V2 dans `images/v2/` | ✅ Validé (à appliquer au moment des premiers V2) |
+| Images pour le chapitre 10 (conscience) | ❌ Non — chapitre 10 reste textuel uniquement |
+| Tool de génération : ChatGPT (GPT-4 image) | ✅ Validé |
 
-Une fois ces décisions prises, on passe à l'**étape B = visual brief V2 + liste finale des prompts** (un doc `07_V2_VISUAL_BRIEF.md`).
+Décisions prises → on passe à l'opérationnel : le prompt-bloc à coller dans ChatGPT est dans `07_V2_GPT_PROMPT.md`. Le visual brief formel (`08_V2_VISUAL_BRIEF.md`) sera produit *après* validation de la première image V2-A1 (sert de référence figée pour la suite).
