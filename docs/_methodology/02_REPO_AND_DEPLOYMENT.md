@@ -22,19 +22,31 @@ MODEL_master/                     ← repo root (cosmos-design)
     ├── CNAME                     ← parti-orange.com
     ├── index.html                ← landing minimaliste, redirige vers /univers/
     ├── _methodology/             ← excluded from Pages by Jekyll `_` prefix
-    └── univers/                  ← le modèle cosmologique (V1 actuelle)
-        ├── index.html, fr/, en/, css/, images/
-        ├── downloads/{fr,en}/*.md  ← copies of the corpus served to visitors
-        ├── downloads/corpus_*.zip
-        └── build_standalone.py
+    ├── univers/                  ← le modèle cosmologique (V1 actuelle, contenu réel)
+    │   ├── index.html, fr/, en/, css/, images/
+    │   ├── downloads/{fr,en}/*.md  ← copies of the corpus served to visitors
+    │   ├── downloads/corpus_*.zip
+    │   └── build_standalone.py
+    ├── conscience/               ← placeholder « en préparation »
+    │   └── index.html
+    ├── politique/                ← placeholder « en préparation »
+    │   └── index.html
+    ├── projets/                  ← placeholder « en préparation »
+    │   └── index.html
+    └── AI/                       ← placeholder « en préparation » (note : majuscules)
+        └── index.html
 ```
 
-**Sections futures** prévues à côté de `univers/` (chacune autonome, même mécanique) :
-- `docs/conscience/` — contenu sur la conscience (lié au chapitre 10)
-- `docs/politique/` — parti Orange (politique)
-- `docs/projets/` — projets
+**Sections actives** :
+- `univers/` — site cosmologique V1 (déjà en ligne)
 
-Quand au moins une autre section sera ajoutée, `docs/index.html` (actuellement une simple redirection) sera transformée en portail listant les 4 sections.
+**Sections placeholder** (créées le 2026-05-12, contenu réel à venir) :
+- `conscience/` — lié au chapitre 10 (Conscience / Sillages / Schémas)
+- `politique/` — parti Orange (politique)
+- `projets/` — projets
+- `AI/` — IA (note : seule section avec lettres majuscules dans l'URL — `/AI/`, pas `/ai/`)
+
+Quand `docs/index.html` (actuellement une redirection vers `/univers/`) sera transformé en vrai portail, il listera ces 5 sections.
 
 Le corpus à la racine du repo est la **source canonique**. `docs/univers/downloads/{fr,en}/` le mirroir manuellement — garder synchro jusqu'à ce qu'un build step automatise la copie.
 
@@ -96,3 +108,4 @@ The working tree lives inside OneDrive (`C:\Users\gabca\OneDrive\Bureau\MODEL_ma
 - 2026-05-07 — initial commit was force-pushed once to remove `standalone_*.html` (~30 MB) from the very first commit. The amend used `--force-with-lease` and was safe (repo was new, no other clones).
 - 2026-05-11 — repo working tree expanded from `site/` to `MODEL_master/`. `.git` moved up, `site/` renamed to `docs/`, corpus added at the root, personal files gitignored. All ~65 prior tracked files were renamed (not duplicated) so history is preserved.
 - 2026-05-12 — site déplacé dans `docs/univers/` (sous-répertoire), `docs/index.html` devient une page de redirection vers `/univers/`. Ouvre la voie pour `/conscience/`, `/politique/`, `/projets/` à côté.
+- 2026-05-12 — création des placeholders `/conscience/`, `/politique/`, `/projets/`, `/AI/` (4 stub `index.html` « section en préparation »). Le redirect racine liste maintenant ces sections à venir.
