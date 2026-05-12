@@ -1,13 +1,18 @@
-# OS
+# =============================================================================
+# .gitignore — MODEL_master (repo cosmos-design)
+# Racine du dépôt. Le site est servi par GitHub Pages depuis docs/.
+# =============================================================================
+
+# --- OS ---
 .DS_Store
 Thumbs.db
 desktop.ini
 $RECYCLE.BIN/
 
-# OneDrive
+# --- OneDrive ---
 ~$*
 
-# Python
+# --- Python ---
 __pycache__/
 *.py[cod]
 *.pyo
@@ -17,18 +22,33 @@ env/
 .env
 .env.local
 
-# Editors / IDEs
+# --- Editors / IDEs ---
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Logs
+# --- Logs ---
 *.log
 
-# Node (au cas où)
+# --- Node (au cas où) ---
 node_modules/
 
-# Standalone HTML générés par build_standalone.py (trop lourds, non versionnés)
+# --- Artefacts de build (lourds, non versionnés) ---
+docs/standalone_*.html
 standalone_*.html
+
+# =============================================================================
+# Fichiers personnels / internes — ne PAS publier sur le repo public
+# =============================================================================
+
+# Verbatims & sessions de travail
+verbatims_gabriel.md
+verbatims_gabriel_2.md
+SESSION_*.md
+
+# Notes personnelles
+evangiles_selon_gabriel.md
+LIVRAISON.md
+RAPPORT_FINAL_*.md
