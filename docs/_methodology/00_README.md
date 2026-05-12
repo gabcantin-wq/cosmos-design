@@ -14,6 +14,7 @@ They ARE committed to git so future maintenance work (by Claude or a human) has 
 | `03_TRANSLATIONS_WORKFLOW.md` | FR/EN parity, image translation pack |
 | `04_IMAGES_AND_BUILD.md` | Image conventions, build_standalone.py role |
 | `05_CUSTOM_DOMAIN_DNS.md` | Current custom domain (parti-orange.com via Squarespace) + qubit.coop plan suspendu |
+| `06_V2_IMAGE_AUDIT.md` | Audit V2 des 28 images existantes — étape A (livrable 2026-05-12) |
 
 ## Rules for editing the website
 
