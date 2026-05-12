@@ -19,8 +19,8 @@ CSS_IN = ROOT / "css" / "style.css"
 IMG_DIR = ROOT / "images"
 DL_DIR = ROOT / "downloads"
 
-JPEG_QUALITY = 88
-MAX_WIDTH = 1800
+JPEG_QUALITY = 75
+MAX_WIDTH = 1280
 
 LANG_TEXTS = {
     "fr": {
@@ -101,7 +101,8 @@ def build(lang: str):
             mime = "application/octet-stream"
         print(f"  embed download {path.name}")
         uri = file_to_data_uri(path, mime)
-        return f'<a href="{uri}"{attrs}'
+        attrs = re.sub(r'\s+download(?:="[^"]*")?', '', attrs)
+        return f'<a href="{uri}" download="{path.name}"{attrs}'
 
     html = re.sub(
         r'<a href="(\.\./downloads/[^"]+)"([^>]*)',
