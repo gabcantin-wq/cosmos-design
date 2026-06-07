@@ -245,7 +245,7 @@ Avant la première génération, figer (et l'inscrire dans un fichier `docs/_met
 
 - **Génération visuelle** : GPT-4 image generation ou Nano Banana (Gemini image) — choisir un seul et s'y tenir pour la cohérence inter-images. Tester sur 1 image avant de lancer la série.
 - **Overlay** : HTML/CSS avec positionnement absolu par image, ou SVG inline dans le HTML. KaTeX/MathJax pour les équations.
-- **Versioning** : garder les V1 (28 PNG actuels) dans `docs/univers/images/v1/`, mettre les V2 dans `docs/univers/images/v2/` pendant la transition.
+- **Versioning** : structure plate avec préfixe dans `docs/univers/images/`. Les V1 gardent leur nom historique (`A1_…`, `B2_…`, etc.), les V2 retenues prennent le préfixe `V2-<CODE>_<slug>.png`, les itérations rejetées et les explorations hors brief sont conservées localement (`V2-<CODE>-archive-<n>.png`, `EXPLO-<sujet>.png`) et gitignorées. *Révisé 2026-05-13 (initialement prévu sous-dossiers `v1/` `v2/`).*
 
 ---
 
@@ -257,7 +257,7 @@ Avant la première génération, figer (et l'inscrire dans un fichier `docs/_met
 | Dissocier visuel généré (GPT) et overlay (HTML/SVG) | ✅ Validé |
 | 3 templates max (HERO, SEQUENCE-STRIP, TABLE) | ✅ Validé |
 | Style anchor = **A7** (`A7_tx_manifestations_observables.png`) | ✅ Validé |
-| Versioning : V1 préservé dans `images/v1/`, V2 dans `images/v2/` | ✅ Validé (à appliquer au moment des premiers V2) |
+| Versioning : structure plate avec préfixe (`V2-<CODE>_<slug>.png` retenues / `V2-<CODE>-archive-<n>.png` rejetées / `EXPLO-<sujet>.png` hors brief, archives gitignorées) | ✅ Révisé 2026-05-13 (initial : sous-dossiers `v1/` `v2/`) |
 | Images pour le chapitre 10 (conscience) | ❌ Non — chapitre 10 reste textuel uniquement |
 | Tool de génération : ChatGPT (GPT-4 image) | ✅ Validé |
 

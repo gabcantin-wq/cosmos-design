@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>READO | Lecteur rapide multi-source</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <section class="brand panel">
+        <p class="eyebrow">READO</p>
+        <h1>Lecteur rapide plein ecran</h1>
+        <p class="brand-copy">
+          Reprend l'idee RSVP du lecteur de reference, mais avec une bibliotheque de sources
+          pour lancer une lecture immersive, rapide et reglable.
+        </p>
+      </section>
+
+      <section class="panel composer">
+        <div class="panel-heading">
+          <h2>Ajouter une source</h2>
+          <button type="button" class="ghost-button" id="loadSampleButton">Exemple</button>
+        </div>
+
+        <label class="field">
+          <span>Nom</span>
+          <input type="text" id="sourceTitleInput" placeholder="Article, chapitre, notes...">
+        </label>
+
+        <label class="field">
+          <span>Texte colle</span>
+          <textarea id="sourceTextInput" rows="7" placeholder="Colle ici un article, un resume, des notes ou un passage de livre..."></textarea>
+        </label>
+
+        <div class="button-row">
+          <button type="button" class="primary-button" id="addTextButton">Ajouter ce texte</button>
+          <button type="button" class="secondary-button" id="pasteClipboardButton">Presse-papiers</button>
+        </div>
+
+        <label class="file-input">
+          <span>Importer des fichiers texte, markdown, html, json ou csv</span>
+          <input type="file" id="fileInput" multiple accept=".txt,.md,.markdown,.html,.htm,.json,.csv">
+        </label>
+
+        <div class="field compact-field">
+          <span>URL</span>
+          <div class="inline-input">
+            <input type="url" id="urlInput" placeholder="https://exemple.com/article">
+            <button type="button" class="secondary-button" id="addUrlButton">Importer</button>
+          </div>
+        </div>
+
+        <div class="dropzone" id="dropzone">
+          Glisse du texte ou des fichiers ici
+        </div>
+
+        <p class="helper-copy">
+          Les URLs sont tentees en acces direct puis via un proxy texte public pour contourner
+          les blocages CORS les plus courants.
+        </p>
+
+        <div class="status-banner" id="statusBanner" aria-live="polite">
+          Ajoute une premiere source pour preparer la session.
+        </div>
+      </section>
+
+      <section class="panel library">
+        <div class="panel-heading">
+          <h2>Bibliotheque</h2>
+          <button type="button" class="ghost-button" id="selectAllSourcesButton">Tout lire</button>
+        </div>
+        <div class="source-list" id="sourceList"></div>
+      </section>
+
+      <section class="panel bridge">
+        <div class="panel-heading">
+          <h2>Agent bridge</h2>
+          <button type="button" class="ghost-button" id="toggleBridgeButton">Ecouter</button>
+        </div>
+
+        <label class="field">
+          <span>Flux agent</span>
+          <input type="url" id="bridgeUrlInput" value="http://127.0.0.1:8765/api/feed" placeholder="http://127.0.0.1:8765/api/feed">
+        </label>
+
+        <label class="field">
+          <span>Stream / oMINI</span>
+          <input type="text" id="bridgeStreamInput" value="global" placeholder="global, planner, qa-mini...">
+        </label>
+
+        <label class="field">
+          <span>Polling <strong id="bridgeIntervalValue">2.0s</strong></span>
+          <input type="range" id="bridgeIntervalRange" min="1" max="15" step="0.5" value="2">
+        </label>
+
+        <label class="toggle-pill">
+          <input type="checkbox" id="bridgeAutoselectToggle" checked>
+          <span>Activer la source agent recue</span>
+        </label>
+
+        <div class="status-banner" id="bridgeStatusBanner" aria-live="polite">
+          Le bridge attend un flux JSON ou le petit serveur Python fourni.
+        </div>
+
+        <p class="helper-copy">
+          Format attendu: JSON avec <code>items</code> contenant des objets <code>title</code> et
+          <code>text</code>. Les messages peuvent aussi porter un <code>stream</code> pour router
+          l'information vers un oMINI specifique.
+        </p>
+      </section>
+    </aside>
+
+    <main class="reader-area">
+      <header class="reader-header panel">
+        <div>
+          <p class="eyebrow">Session active</p>
+          <h2 id="activeSourceName">Aucune source selectionnee</h2>
+          <p class="session-summary" id="activeSourceStats">0 mot - 0s</p>
+        </div>
+        <div class="header-actions">
+          <button type="button" class="primary-button" id="finalModeButton">Mode final</button>
+        </div>
+      </header>
+
+      <section class="reader-stage panel">
+        <div class="stage-meta">
+          <span id="progressCounter">0 / 0</span>
+          <div class="stage-indicators">
+            <span class="live-indicator" id="liveIndicator" hidden>Flux vivant</span>
+            <span id="etaLabel">Reste 0s</span>
+          </div>
+        </div>
+
+        <div class="reader-frame">
+          <div class="pivot-guide" aria-hidden="true"></div>
+          <div class="reader-scene" id="readerScene">
+            <div class="ghost-lane">
+              <div class="context-column align-right">
+                <span class="ghost-word ghost-far" id="previousFarWord"> </span>
+                <span class="ghost-word ghost-near" id="previousWord"> </span>
+              </div>
+              <div class="reader-word" id="readerWord" aria-live="polite">
+                <span class="word-prefix" id="wordPrefix"></span>
+                <span class="word-pivot" id="wordPivot">Ajoute</span>
+                <span class="word-suffix" id="wordSuffix">une source</span>
+              </div>
+              <div class="context-column align-left">
+                <span class="ghost-word ghost-near" id="nextWord"> </span>
+                <span class="ghost-word ghost-far" id="nextFarWord"> </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="image-scene" id="imageScene" hidden>
+            <img class="scene-image" id="sceneImage" alt="">
+            <div class="scene-caption">
+              <p class="scene-title" id="imageSceneTitle">Image</p>
+              <p class="scene-text" id="imageSceneCaption">Aucune image active.</p>
+            </div>
+          </div>
+
+          <div class="words-scene" id="wordsScene" hidden>
+            <p class="words-kicker" id="wordsSceneKicker">Bloc</p>
+            <div class="words-block" id="wordsSceneText">Le bloc de mots apparaitra ici.</div>
+          </div>
+
+          <div class="emotion-scene" id="emotionScene" hidden>
+            <p class="emotion-kicker" id="emotionSceneKicker">Etat</p>
+            <div class="emotion-core">
+              <div class="emotion-name" id="emotionSceneName">Calme</div>
+              <p class="emotion-subtitle" id="emotionSceneSubtitle">Emotion par defaut du systeme.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-block">
+          <input type="range" id="progressSlider" min="0" max="0" value="0">
+        </div>
+      </section>
+
+      <section class="panel controls">
+        <div class="button-row">
+          <button type="button" class="primary-button" id="playPauseButton">Lire</button>
+          <button type="button" class="secondary-button" id="resetButton">Reset</button>
+          <button type="button" class="secondary-button" id="previousButton">Mot precedent</button>
+          <button type="button" class="secondary-button" id="nextButton">Mot suivant</button>
+        </div>
+
+        <div class="control-grid">
+          <label class="field">
+            <span>Vitesse <strong id="wpmValue">200 WPM</strong></span>
+            <input type="range" id="wpmRange" min="120" max="1000" step="10" value="200">
+          </label>
+
+          <label class="field">
+            <span>Taille <strong id="fontScaleValue">100%</strong></span>
+            <input type="range" id="fontScaleRange" min="80" max="180" step="5" value="100">
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <label class="toggle-pill">
+            <input type="checkbox" id="smartPauseToggle" checked>
+            <span>Pause intelligente</span>
+          </label>
+          <label class="toggle-pill">
+            <input type="checkbox" id="autoAdvanceToggle" checked>
+            <span>Source suivante auto</span>
+          </label>
+        </div>
+
+        <p class="helper-copy">
+          Raccourcis: espace lire/pause, fleches gauche/droite pour naviguer, haut/bas pour la vitesse,
+          F ou M pour le mode final, R pour reset.
+        </p>
+      </section>
+
+      <section class="panel preview">
+        <div class="panel-heading">
+          <h2>Reference</h2>
+          <button type="button" class="ghost-button" id="copyPreviewButton">Copier</button>
+        </div>
+        <pre class="preview-text" id="sourcePreview">Le texte de reference de la source active apparaitra ici.</pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

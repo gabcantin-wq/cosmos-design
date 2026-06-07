@@ -1,0 +1,229 @@
+/* =====================================================
+   Concept — patron de page réutilisable
+   Lecture double (RSVP phrase-par-phrase + texte) à gauche,
+   images en fondu (pause / maximize) à droite.
+   Piloté par js/concept.js + données dans js/concepts.js.
+   ===================================================== */
+
+body.v2-concept { overflow: auto; height: auto; min-height: 100vh; }
+
+.from0-main {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 5.5rem 1.5rem 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+.from0-left { display: flex; flex-direction: column; gap: 1.5rem; min-width: 0; }
+
+/* --- Lecteur RSVP : compact, lent, discret (révélé au survol) --- */
+.from0-reader {
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: rgba(17, 17, 30, 0.4);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.2rem 1.5rem 1rem;
+  opacity: 0.6;
+  transition: opacity 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+.from0-reader:hover,
+.from0-reader:focus-within {
+  opacity: 1;
+  border-color: var(--line);
+  background: var(--bg-soft);
+}
+.from0-reader-tag {
+  position: absolute;
+  top: 0.8rem;
+  left: 1.2rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.from0-reader:hover .from0-reader-tag { opacity: 1; }
+
+.rsvp-word {
+  text-align: center;
+  font-size: clamp(1.3rem, 2.6vw, 2rem);
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  min-height: 1.6em;
+  word-break: break-word;
+}
+/* Phrase grisée + mot courant éclairé (on voit où on en est) */
+.rsvp-tok {
+  color: var(--fg-muted);
+  opacity: 0.32;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+.rsvp-tok.current {
+  color: var(--fg);
+  opacity: 1;
+  font-weight: 600;
+}
+/* Confirmation de fin de phrase : toute la phrase s'éclaire */
+.rsvp-tok.lit {
+  color: var(--fg);
+  opacity: 1;
+}
+
+/* Contrôles : cachés, apparaissent au survol */
+.rsvp-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.from0-reader:hover .rsvp-controls,
+.from0-reader:focus-within .rsvp-controls { opacity: 1; }
+.rsvp-btn {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--accent-2);
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease;
+  white-space: nowrap;
+}
+.rsvp-btn:hover { border-color: var(--accent); color: var(--accent); }
+.rsvp-speed { display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 0; }
+.rsvp-speed input[type="range"] { flex: 1; min-width: 60px; accent-color: var(--accent); }
+.rsvp-speed span {
+  font-size: 0.72rem;
+  color: var(--fg-muted);
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  white-space: nowrap;
+}
+.rsvp-progress {
+  font-size: 0.72rem;
+  color: var(--fg-muted);
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  white-space: nowrap;
+}
+
+/* --- Texte complet, en phrases --- */
+.from0-fulltext {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.6rem 1.8rem 1.8rem;
+  backdrop-filter: blur(8px);
+}
+.from0-fulltext h2 {
+  margin: 0 0 1rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+.from0-text {
+  max-height: 38vh;
+  overflow-y: auto;
+  padding-right: 0.8rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.from0-text::-webkit-scrollbar { width: 8px; }
+.from0-text::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
+.from0-text p {
+  margin: 0 0 0.7rem;
+  font-size: 1.12rem;
+  line-height: 1.65;
+  color: var(--fg);
+}
+.from0-text p:last-child { margin-bottom: 0; }
+.from0-note { margin: 1.2rem 0 0; font-size: 0.82rem; color: var(--fg-muted); }
+
+/* --- Panneau d'images : à droite, en fondu, collant --- */
+.from0-right { position: sticky; top: 5.5rem; }
+.from0-images {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--bg-soft);
+  min-height: 420px;
+  aspect-ratio: 4 / 5;
+}
+.from0-images img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 1.2rem;
+  opacity: 0;
+  transition: opacity 1.3s ease;
+}
+.from0-images img.active { opacity: 1; }
+.from0-images-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+}
+.from0-images-tag {
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+  z-index: 2;
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  pointer-events: none;
+}
+.from0-images-controls {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  z-index: 3;
+  display: flex;
+  gap: 0.4rem;
+}
+.img-btn {
+  appearance: none;
+  background: rgba(10, 10, 20, 0.55);
+  border: 1px solid var(--line);
+  color: var(--fg-muted);
+  font: inherit;
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.35rem 0.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.img-btn:hover { border-color: var(--accent); color: var(--accent); }
+.from0-images:fullscreen { background: var(--bg); border: 0; border-radius: 0; }
+.from0-images:fullscreen img { padding: 4vh; }
+
+@media (max-width: 880px) {
+  .from0-main { grid-template-columns: 1fr; padding: 5rem 1rem 2.5rem; }
+  .from0-right { position: static; }
+  .from0-images { min-height: 320px; aspect-ratio: 16 / 10; }
+  .from0-text p { font-size: 1rem; }
+}

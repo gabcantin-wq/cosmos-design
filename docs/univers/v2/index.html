@@ -3,74 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>planT — V2 — Modèle cosmologique structurel</title>
-  <meta name="description" content="V2 — planT, l'axe temporel circulaire et constant.">
+  <title>V2 — Modèle cosmologique structurel</title>
+  <meta name="description" content="V2 — la structure du modèle cosmologique, rendue manipulable.">
   <link rel="stylesheet" href="css/v2.css">
-
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
-    }
-  }
-  </script>
 </head>
-<body>
-  <canvas id="scene"></canvas>
-
+<body class="v2-home">
   <header class="v2-topbar">
     <a href="../" class="v2-back">← /univers/</a>
     <div class="v2-plan-label">
-      <span class="v2-plan-tag">Plan en cours</span>
-      <strong>planT</strong>
-      <span class="v2-plan-sub">— <em>t=x</em> : fix <em>t</em> moment in fixed <em>T</em></span>
+      <span class="v2-plan-tag" data-fr="Version 2" data-en="Version 2">Version 2</span>
+    </div>
+    <div class="v2-lang">
+      <button class="v2-lang-btn" data-lang="fr">FR</button>
+      <button class="v2-lang-btn" data-lang="en">EN</button>
     </div>
   </header>
 
-  <div class="v2-phase-label dark" id="phase-label">
-    <span class="v2-phase-text">dark energy · e addressing</span>
-  </div>
+  <main class="v2-home-main">
+    <section class="v2-home-card">
+      <h1 data-fr="La structure, rendue manipulable"
+          data-en="Structure, made manipulable">La structure, rendue manipulable</h1>
 
-  <div class="v2-marker-label" id="label-tx" hidden><span>t=x</span></div>
-  <div class="v2-marker-label" id="label-txp1" hidden><span>t=x+1</span></div>
-  <div class="v2-marker-label projected" id="label-txp2" hidden><span>t=x+2</span></div>
+      <p class="v2-home-lede lang-fr">
+        La V2 ne se lit pas, elle se <strong>manipule</strong>. Chaque plan est une
+        scène structurelle unique du modèle. On avance par choix : chaque
+        interaction révèle le plan suivant.
+      </p>
+      <p class="v2-home-lede lang-en" hidden>
+        V2 isn't read, it's <strong>manipulated</strong>. Each plan is a single
+        structural scene of the model. You move forward by choice: each
+        interaction reveals the next plan.
+      </p>
 
-  <aside class="v2-description" id="description">
-    <h2>Photon dans T</h2>
-    <p>
-      <em>T</em> est fixe. <em>t=0</em> en bas, source unique. La membrane orange
-      en haut est <em>t=x</em> (x ≈ 13.7G). <em>e</em> est hors temps — invisible.
-    </p>
-    <p>
-      Pendant l'adressage, le sillon est <strong>grisé</strong> : c'est
-      <em>dark energy · e addressing</em>, non observable depuis <em>t=x</em>.
-      Quand <em>e</em> revient à <em>t=x</em> (au point <em>x+1</em>), le sillon
-      <strong>s'allume</strong>, l'anneau <em>t</em> s'illumine entre A et B,
-      et la corde apparaît : c'est la <em>vitesse c</em> et la
-      <em>manifestation</em> de l'adressage.
-    </p>
-    <p>
-      <strong>Le sillon EST la masse.</strong> Pas une métaphore : ce que tu vois
-      s'étirer et s'allumer dans <em>T</em>, c'est la masse manifestée dans
-      <em>t=x</em>. Même un photon a une masse <em>dans T</em> — c'est son sillon.
-    </p>
-    <p>
-      L'ancrage glisse de <em>A</em> à <em>B</em> à chaque cycle — c'est la
-      fréquence de la lumière, ralentie pour la lisibilité.
-    </p>
-    <p class="v2-hint">
-      Δ entre <em>t=x</em> et <em>t=x+1</em> exagéré (~9°) pour lisibilité — la vraie
-      échelle est infinitésimale dans <em>T</em>.<br>
-      Souris : tourner. Molette : entrer / sortir.
-    </p>
-  </aside>
+      <div class="v2-home-choices">
+        <a href="plant.html" class="v2-home-choice primary">
+          <span class="v2-home-choice-title"
+                data-fr="Parcours linéaire" data-en="Linear path">Parcours linéaire</span>
+          <span class="v2-home-choice-sub"
+                data-fr="Démarrer à planT, dans l'ordre" data-en="Start at planT, in order">Démarrer à planT, dans l'ordre</span>
+        </a>
+        <button type="button" class="v2-home-choice" id="free-access-btn" aria-expanded="false" aria-controls="plan-list-wrap">
+          <span class="v2-home-choice-title"
+                data-fr="Accès libre" data-en="Free access">Accès libre</span>
+          <span class="v2-home-choice-sub"
+                data-fr="Voir tous les plans, entrer où l'on veut" data-en="See all plans, enter anywhere">Voir tous les plans, entrer où l'on veut</span>
+        </button>
+      </div>
+
+      <div class="v2-plan-list-wrap" id="plan-list-wrap" hidden>
+        <ul class="v2-plan-list" id="plan-list"></ul>
+        <p class="v2-home-note lang-fr">
+          La carte complète (<em>planChaîne</em>) remplacera cette liste une fois construite.
+        </p>
+        <p class="v2-home-note lang-en" hidden>
+          The full map (<em>planChaîne</em>) will replace this list once built.
+        </p>
+      </div>
+
+      <!-- Section phrases clés + lecture rapide READO -->
+      <section class="v2-keyphrases">
+        <h2 class="lang-en">Readings</h2>
+        <h2 class="lang-fr" hidden>Lectures</h2>
+
+        <p class="v2-home-lede lang-en">
+          Each idea, read two ways — a slow word-by-word stream and the full text,
+          with images alongside. Pick a category to start.
+        </p>
+        <p class="v2-home-lede lang-fr" hidden>
+          <em>Version française à venir.</em>
+        </p>
+
+        <div class="concept-menu" id="concept-menu"></div>
+
+        <p class="v2-home-note lang-en">
+          A growing sequence — read in order, or jump in.
+        </p>
+      </section>
+    </section>
+  </main>
 
   <footer class="v2-statusbar">
     <span>Three.js · WebGL · prototype</span>
-    <span class="v2-toggle" id="toggle-description">Masquer le texte</span>
+    <span class="lang-fr">FR canonique · EN traduit</span>
+    <span class="lang-en" hidden>FR canonical · EN translated</span>
   </footer>
 
-  <script type="module" src="js/plant.js"></script>
+  <script type="module" src="js/shell.js"></script>
+  <script type="module" src="js/home.js"></script>
+  <script type="module">
+    // Accès libre : déplier la liste des plans.
+    const btn = document.getElementById('free-access-btn');
+    const wrap = document.getElementById('plan-list-wrap');
+    btn.addEventListener('click', () => {
+      const open = wrap.hidden;
+      wrap.hidden = !open;
+      btn.setAttribute('aria-expanded', String(open));
+      btn.classList.toggle('open', open);
+    });
+  </script>
 </body>
 </html>

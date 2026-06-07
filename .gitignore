@@ -39,6 +39,11 @@ node_modules/
 docs/**/standalone_*.html
 standalone_*.html
 
+# --- Module READO (outil de dev avec backend Python local) ---
+# Seul le front-end de lecture est publié, copié dans docs/univers/v2/reado/.
+# Le module complet (bridge, services MQTT, état runtime) reste local.
+docs/READO/
+
 # =============================================================================
 # Fichiers personnels / internes — ne PAS publier sur le repo public
 # =============================================================================
@@ -52,3 +57,12 @@ SESSION_*.md
 evangiles_selon_gabriel.md
 LIVRAISON.md
 RAPPORT_FINAL_*.md
+
+# =============================================================================
+# Images V2 — itérations rejetées et explorations hors brief
+# Gardées localement pour référence, NON publiées (repo public).
+# Les images V2 retenues (sans suffixe -archive) restent versionnées.
+# =============================================================================
+
+docs/univers/images/V2-*-archive-*.png
+docs/univers/images/EXPLO-*.png

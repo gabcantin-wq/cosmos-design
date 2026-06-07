@@ -1,0 +1,155 @@
+/* =====================================================
+   Figure annotée — image plein écran + schémas ancrés
+   Calque SVG (flèche, pente, point, observateur) en
+   coordonnées % de l'image → ancrage persistant.
+   Piloté par js/figure.js + données dans js/figures.js.
+   ===================================================== */
+
+body.v2-figure {
+  overflow: hidden;
+  height: 100vh;
+  background:
+    radial-gradient(1200px 800px at 50% -10%, rgba(179, 157, 219, 0.06), transparent 60%),
+    var(--bg);
+}
+
+.figure-wrap {
+  position: fixed;
+  inset: 4.6rem 1.5rem 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.figure-stage {
+  position: relative;
+  /* taille calculée en JS pour fitter l'écran à ratio constant */
+}
+.figure-stage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill; /* le conteneur a déjà le ratio de l'image */
+  border-radius: 10px;
+}
+
+.figure-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+.figure-step { opacity: 0; transition: opacity 0.45s ease; }
+.figure-step.show { opacity: 0.85; }
+.figure-step.current { opacity: 1; }
+
+.figure-shape {
+  fill: none;
+  stroke: var(--accent);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.figure-dot { fill: var(--accent); stroke: none; }
+.figure-eye-ring { fill: none; stroke: var(--accent-2); }
+.figure-eye-pupil { fill: var(--accent-2); stroke: none; }
+
+/* Textes ancrés (HTML, non déformés) */
+.figure-callouts { position: absolute; inset: 0; pointer-events: none; }
+.figure-callout {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  max-width: 260px;
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--fg);
+  /* transparent : on voit l'image dessous ; ombre pour la lisibilité */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.figure-callout.show { opacity: 1; }
+.figure-callout.current { color: #fff; }
+.figure-callout-n {
+  flex: none;
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.72rem;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 10, 20, 0.55);
+  text-shadow: none;
+}
+
+/* Barre de contrôle */
+.figure-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 10;
+  background: linear-gradient(0deg, rgba(10, 10, 20, 0.8), transparent);
+}
+.fig-btn {
+  appearance: none;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  color: var(--accent-2);
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 0.4rem 0.95rem;
+  border-radius: 999px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.fig-btn:hover { border-color: var(--accent); color: var(--accent); }
+.fig-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.fig-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0.45rem 0.7rem;
+  min-width: 2.2rem;
+  text-align: center;
+}
+.fig-speed {
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  min-width: 2.7rem;
+  text-align: center;
+}
+
+/* Outro : disparition lente et tranquille avant la reprise */
+.figure-outro .figure-step,
+.figure-outro .figure-callout { transition-duration: 1.2s; }
+.figure-tools { margin-left: auto; display: flex; gap: 0.5rem; }
+
+/* Lecteur de coordonnées (mode placement, touche P) */
+.figure-pick {
+  position: fixed;
+  top: 5rem;
+  right: 1.5rem;
+  z-index: 12;
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.8rem;
+  color: var(--accent);
+  background: rgba(14, 14, 26, 0.9);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+}
+.figure-stage.picking { cursor: crosshair; }
+
+@media (prefers-reduced-motion: reduce) {
+  .figure-step, .figure-callout { transition: none; }
+}

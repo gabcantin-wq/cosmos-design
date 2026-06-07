@@ -353,8 +353,37 @@ code, .mono {
   max-width: 500px;
 }
 
+.v2-badge {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid rgba(255, 183, 77, 0.4);
+  border-bottom: 1px solid rgba(255, 183, 77, 0.4);
+  border-radius: 999px;
+  background: rgba(255, 183, 77, 0.08);
+  color: var(--accent);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  z-index: 20;
+  backdrop-filter: blur(6px);
+}
+.v2-badge:hover {
+  background: rgba(255, 183, 77, 0.18);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
 @media (max-width: 720px) {
   header.site-header { padding: 1rem; }
   main { padding: 1.5rem 1rem 4rem; }
   .figure figcaption { padding: 0.8rem 1rem; font-size: 0.88rem; }
+  .v2-badge { bottom: 1rem; right: 1rem; padding: 0.35rem 0.75rem; font-size: 0.75rem; }
 }

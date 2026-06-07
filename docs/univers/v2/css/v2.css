@@ -294,3 +294,321 @@ html, body {
   }
   .v2-statusbar { padding: 0.5rem 1rem; font-size: 0.7rem; }
 }
+
+/* =====================================================
+   COQUILLE DE NAVIGATION — header, switch FR/EN, nav, accueil
+   ===================================================== */
+
+/* Pousse le switch de langue à droite de la topbar */
+.v2-topbar .v2-lang { margin-left: auto; }
+
+/* Switch FR / EN */
+.v2-lang {
+  display: flex;
+  gap: 0.25rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.15rem;
+}
+.v2-lang-btn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: var(--fg-muted);
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.18s ease, background 0.18s ease;
+}
+.v2-lang-btn:hover { color: var(--fg); }
+.v2-lang-btn.active {
+  color: var(--bg);
+  background: var(--accent);
+  font-weight: 600;
+}
+
+/* Bascule de langue : on n'affiche jamais les deux à la fois */
+.lang-fr[hidden], .lang-en[hidden] { display: none; }
+
+/* Nav précédent / suivant */
+.v2-plannav {
+  position: fixed;
+  bottom: 3.2rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 0.6rem;
+  z-index: 9;
+}
+.v2-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--accent-2);
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.45rem 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.18s ease, color 0.18s ease, opacity 0.18s ease;
+}
+.v2-nav-btn:hover { border-color: var(--accent); color: var(--accent); }
+.v2-nav-btn.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: var(--fg-muted);
+}
+.v2-nav-soon {
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.05rem 0.35rem;
+}
+
+/* ----- Écran d'accueil V2 ----- */
+body.v2-home {
+  overflow: auto;
+}
+.v2-home-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 1.5rem 5rem;
+  background:
+    radial-gradient(1200px 700px at 50% -10%, rgba(255, 183, 77, 0.06), transparent 60%),
+    radial-gradient(900px 600px at 80% 110%, rgba(130, 177, 255, 0.06), transparent 60%),
+    var(--bg);
+}
+.v2-home-card {
+  max-width: 640px;
+  width: 100%;
+}
+.v2-home-card h1 {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  line-height: 1.1;
+  margin: 0 0 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.v2-home-lede {
+  font-size: 1.05rem;
+  color: var(--fg-muted);
+  margin: 0 0 2rem;
+}
+.v2-home-lede strong { color: var(--fg); }
+.v2-home-choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.v2-home-choice {
+  appearance: none;
+  text-align: left;
+  font: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.1rem 1.3rem;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--fg);
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.18s ease, transform 0.18s ease, background 0.18s ease;
+}
+.v2-home-choice:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.v2-home-choice.primary {
+  border-color: rgba(255, 183, 77, 0.5);
+  background: linear-gradient(180deg, rgba(255, 183, 77, 0.08), var(--bg-card));
+}
+.v2-home-choice-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+.v2-home-choice-sub { font-size: 0.85rem; color: var(--fg-muted); }
+.v2-home-choice.open { border-color: var(--accent); }
+
+/* Liste des plans (accès libre) */
+.v2-plan-list-wrap {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.2rem;
+}
+.v2-plan-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.v2-plan-item.transverse { margin-top: 0.5rem; }
+.v2-plan-link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--fg);
+  border: 1px solid transparent;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+a.v2-plan-link:hover { border-color: var(--accent); background: rgba(255, 183, 77, 0.05); }
+.v2-plan-link.disabled { opacity: 0.5; cursor: default; }
+.v2-plan-code {
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.82rem;
+  color: var(--accent);
+  min-width: 6.5rem;
+}
+.v2-plan-title { color: var(--fg-muted); font-size: 0.9rem; }
+.v2-home-note { font-size: 0.82rem; color: var(--fg-muted); margin: 1rem 0 0; }
+
+@media (max-width: 560px) {
+  .v2-home-choices { grid-template-columns: 1fr; }
+  .v2-plannav { right: 1rem; left: 1rem; justify-content: space-between; }
+  .v2-plan-code { min-width: 5.5rem; }
+}
+
+/* Fondu d'entrée — CSS pur, aucune dépendance JS */
+@keyframes v2-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}
+.v2-topbar,
+.v2-description,
+.v2-plannav,
+.v2-home-card { animation: v2-fade-in 0.5s ease both; }
+.v2-description { animation-delay: 0.1s; }
+.v2-plannav { animation-delay: 0.15s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-topbar, .v2-description, .v2-plannav, .v2-home-card { animation: none; }
+}
+
+/* =====================================================
+   MENU DES CONCEPTS — galerie de cartes (accueil)
+   Image pleine atténuée + badge + titre ; explication au survol.
+   ===================================================== */
+
+.concept-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.concept-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  text-decoration: none;
+  isolation: isolate;
+  transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1),
+              border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.concept-card:hover,
+.concept-card:focus-visible {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 183, 77, 0.18);
+}
+
+.concept-card-media { position: absolute; inset: 0; z-index: -2; }
+.concept-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  filter: saturate(0.85) contrast(1.05);
+  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+              opacity 0.45s ease, filter 0.45s ease;
+}
+.concept-card:hover .concept-card-media img,
+.concept-card:focus-visible .concept-card-media img {
+  transform: scale(1.07);
+  opacity: 0.82;
+  filter: saturate(1.12) contrast(1.05);
+}
+
+/* Voile dégradé : lisibilité + ambiance surréelle */
+.concept-card-veil {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(179, 157, 219, 0.12), transparent 60%),
+    linear-gradient(180deg, rgba(10, 10, 20, 0.05) 0%, rgba(10, 10, 20, 0.55) 55%, rgba(10, 10, 20, 0.94) 100%);
+}
+
+.concept-card-body {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  padding: 1.1rem;
+}
+.concept-card-tag {
+  align-self: flex-start;
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.15rem 0.5rem;
+  background: rgba(10, 10, 20, 0.5);
+  backdrop-filter: blur(4px);
+}
+.concept-card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--fg);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.concept-card-blurb {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  line-height: 1.45;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease, opacity 0.35s ease;
+}
+.concept-card:hover .concept-card-blurb,
+.concept-card:focus-visible .concept-card-blurb {
+  max-height: 6rem;
+  opacity: 1;
+}
+
+/* Carte catégorie : chevron discret qui suggère un groupe à ouvrir */
+.concept-card.is-category .concept-card-title::after {
+  content: ' ▸';
+  color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .concept-card, .concept-card-media img, .concept-card-blurb { transition: none; }
+}

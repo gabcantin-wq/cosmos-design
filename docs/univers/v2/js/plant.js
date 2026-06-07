@@ -473,7 +473,13 @@ window.addEventListener('resize', onResize);
 
 toggleBtn.addEventListener('click', () => {
   const isHidden = descPanel.classList.toggle('hidden');
-  toggleBtn.textContent = isHidden ? 'Afficher le texte' : 'Masquer le texte';
+  const en = document.documentElement.lang === 'en';
+  if (isHidden) {
+    toggleBtn.textContent = en ? 'Show text' : 'Afficher le texte';
+  } else {
+    // état « visible » : libellés gérés aussi par shell.js (data-fr/data-en)
+    toggleBtn.textContent = en ? 'Hide text' : 'Masquer le texte';
+  }
 });
 
 requestAnimationFrame(animate);

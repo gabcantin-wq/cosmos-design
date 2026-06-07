@@ -15,7 +15,7 @@
 2. **Upload `images_catalog.png`** (le catalogue des 28 V1, comme référence visuelle)
 3. **Colle dans la même requête** : le **PRÉAMBULE COMPACT** ci-dessous + le **« Prompt prêt-à-coller »** de la fiche image (les deux ensemble dans un seul message)
 4. **Récupère l'image**, valide ou corrige (corrections dans la même conversation, c'est l'enchaînement d'IMAGES qui ne marche pas, pas l'itération sur une image)
-5. **Sauve l'image validée** dans `docs/univers/images/v2/<nom>.png`
+5. **Sauve l'image validée** dans `docs/univers/images/V2-<CODE>_<slug>.png` (structure plate avec préfixe ; itérations rejetées : `V2-<CODE>-archive-<n>.png`, gitignorées)
 6. **Ferme la conversation**, passe à la suivante
 
 ### PRÉAMBULE COMPACT (à coller avant chaque prompt d'image)
@@ -1135,7 +1135,7 @@ aucune équation. Pure progression visuelle.
    - V2-SYNTHESIS (SEQUENCE 10 panneaux — le plus risqué, en dernier)
 
 3. **À chaque image validée** :
-   - Sauve dans `docs/univers/images/v2/<nom>.png`
+   - Sauve dans `docs/univers/images/V2-<CODE>_<slug>.png` (structure plate)
    - Note la date + verdict + observations dans un journal `docs/_methodology/09_V2_GENERATION_LOG.md` (à créer)
    - Si plusieurs essais ont été nécessaires, noter ce qui a marché pour reproduire les bons réflexes sur la suivante
 
