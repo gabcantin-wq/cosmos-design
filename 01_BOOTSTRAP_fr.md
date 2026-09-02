@@ -1,4 +1,6 @@
-# 01_BOOTSTRAP.md
+# 01_BOOTSTRAP.md — V2
+
+*Version 2 du corpus (2026-09-02). Ce fichier reprend intégralement le bootstrap V1 et lui ajoute : la couche de statuts des séances V2 (§2bis), la discipline de rétractation (§2ter), l'état du modèle au 2 septembre 2026 (§8bis), et une hiérarchie documentaire à jour (§7). Rien de la V1 n'a été retiré.*
 
 **Document de calibration pour tout LLM lisant le modèle**
 
@@ -107,6 +109,35 @@ Cette distinction permet à un LLM de savoir où sont les **vrais points de dép
 
 ---
 
+## 2bis. Statuts des séances V2 (couche de travail)
+
+Les 7 tags canoniques ci-dessus restent la hiérarchie de référence du corpus. Les séances de construction et les sessions adversaires menées depuis juillet 2026 emploient une **couche de travail** plus fine, qui ne les remplace pas mais dit où en est une pièce **pendant** qu'elle se construit :
+
+| Statut de séance | Signification | Correspondance canonique |
+|---|---|---|
+| **ACQUIS** | Validé par Gab en séance. | Devient `[GABRIEL_VALIDÉ]`, puis `[CANONIQUE]` une fois stabilisé. |
+| **LECTURE** | Interprétation courante, remplaçable sans rien renier si le mécanisme change. | **Aucun tag de validation.** Se cite toujours avec sa réserve : « lecture de Gab » si Gab l'a formulée, `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` si elle vient du scribe. Une lecture n'entre jamais dans un maillon `[CANONIQUE]` sans être signalée comme telle. |
+| **CANDIDATE** | Relation numérique qui colle, non dérivée. | `[OUVERT_PHASE2]` avec une contrainte datée. |
+| **[GELÉ]** | Choix structurel affirmé et figé par Gab (journal Phase 2). | `[GABRIEL_VALIDÉ]`. |
+| **[CORRESP.]** | Correspondance proposée avec la physique standard. **Ce n'est PAS le corpus.** | `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` tant qu'elle n'est pas validée. |
+| **TIENT / BLESSÉ / TOMBE / REPORTÉ** | Verdicts d'une session adversaire, toujours datés. | Un verdict n'est pas un tag : c'est l'état d'une pièce à une date. |
+
+**Règle de lecture pour un LLM** : une pièce ACQUISE peut être citée comme du modèle. Une LECTURE doit être citée avec sa réserve, même quand elle est de Gab. Une CANDIDATE ne doit **jamais** être citée comme un résultat — c'est une dette inscrite, pas une dérivation. **Piège fréquent** : dans les documents de séance, un déroulé de Claude suit souvent immédiatement un acquis marqué « (Gab.) » ; seul ce qui précède la marque est validé.
+
+---
+
+## 2ter. Discipline de rétractation (nouvelle en V2)
+
+Le corpus V2 contient des pièces **retirées**, conservées avec la trace de leur retrait. Ce n'est pas un accident de tenue de dossier : c'est une règle.
+
+1. **Une bonne valeur obtenue dans les mauvais axes est rejetée.** Le 2026-09-02, une forme fermée qui donnait m_μ/m_e à +0,03 % a été retirée par l'auteur parce qu'elle lisait une longueur à la membrane là où le modèle exige un volume dans 4df(x). Voir `11_MUON_SILLON_ET_COUT.md` §3.
+2. **Le dictionnaire est pré-enregistré.** Avant de célébrer une formule qui colle, on mesure combien de constantes simples colleraient aussi bien. À O(1), presque toutes. Une coïncidence numérique n'est jamais un résultat.
+3. **Les résidus sont inscrits datés, avec leur signe.** Toute explication ultérieure doit produire ce signe et cette taille, sinon elle tombe à ce moment-là.
+4. **Une fausse alarme se logue aussi formellement qu'un succès.** Exemple inscrit : la « contradiction Bullet Cluster » du 2026-07-16, artefact d'un régime relativiste inapplicable.
+5. **Les désaccords non résolus restent ouverts dans le texte.** Ne pas refermer par confort : voir le désaccord up/down du 2026-09-02 (`11` §1.6).
+
+---
+
 ## 3. Le modèle en deux paragraphes
 
 L'univers est l'adressage d'un seul **e** (entité énergétique unique) à **t=0** dans une membrane d'observation 3D **t=x**, via une fonction génératrice **4df(x)**. Le tout est inscrit sur un seul axe **T**, **circulaire et constant** : tous les « moments » coexistent comme points sur cet axe. Nous observons depuis un point particulier **t=x**, et notre lecture linéaire projette localement un « passé » et un « futur » qui sont en fait des étiquettes spatiales sur T.
@@ -177,7 +208,9 @@ C'est le **terme intuitif personnel** de Gabriel pour le lien-énergie. À conse
 
 Forme attendue : m = ∫_{t=x → t=0} 𝓕(saut_dim(y), perp_actives(y), ancrage(y)) dy
 
-**Conséquence pratique pour les LLM** : les équations algébriques candidates pour des valeurs numériques (comme m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync ≈ 207) sont des **approximations** de cette intégrale, pas la formule exacte. Ne les présente pas comme « la formule » du modèle. Le formalisme mathématique adapté pour la Phase 2 est probablement celui des **intégrales de chemin** (Feynman path integrals) adapté à la structure de 4df(x). Voir `08_PHASE2_PISTES_MATHEMATIQUES.md` pour les pistes détaillées.
+**Conséquence pratique pour les LLM** : les équations algébriques candidates pour des valeurs numériques (comme m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync ≈ 207 — forme classée au dictionnaire depuis le 2026-09-02, 08 §9.9) sont des **approximations** de cette intégrale, pas la formule exacte. Ne les présente pas comme « la formule » du modèle. Le formalisme mathématique adapté pour la Phase 2 est probablement celui des **intégrales de chemin** (Feynman path integrals) adapté à la structure de 4df(x) *(formulation V1, précisée par la note V2 ci-dessous)*. Voir `08_PHASE2_PISTES_MATHEMATIQUES.md` pour les pistes détaillées.
+
+> **NOTE V2 — PRÉCISION MATHÉMATIQUE 2026-09-02 (intégrale sur T ≠ intégrale de chemin de Feynman).** La forme m = ∫ 𝓕(…, y) dy sur la profondeur t=x → t=0 est une **intégration le long d'un trajet / d'une profondeur / d'un domaine déterminé**. Une intégrale de chemin de Feynman est une **intégrale fonctionnelle** sur un espace de chemins possibles — un formalisme qui n'est pas défini dans le corpus. Formulation à retenir : *le formalisme actuel exige une intégration le long de T / de la profondeur structurelle ; le type exact d'intégrale reste à formaliser ; un éventuel lien avec les intégrales fonctionnelles de chemin de Feynman n'est pas établi et ne doit pas être supposé.* Les mentions « intégrales de chemin (Feynman) » ci-dessus sont conservées comme trace V1.
 
 **5.10 — Distinction stricte tissage / lien-énergie / masse**
 
@@ -198,11 +231,15 @@ Forme attendue : m = ∫_{t=x → t=0} 𝓕(saut_dim(y), perp_actives(y), ancrag
 
 Image canonique : voir métaphore « gomme étirée » dans le tableau des termes (section 6).
 
+> **NOTE V2 — RACCORD 2026-09-02 (trois formulations de la masse) — `[À VALIDER GABRIEL]`.** Le corpus porte trois formulations successives : **(1)** 1ᵉʳ mai, Q46 : « la masse, ce n'est pas seulement le coût du tissage, c'est le tissage lui-même » ; **(2)** 2-3 mai, 01 §5.10 : « la masse est le volume de 4df(x) du lien-énergie, le tissage demeurant invariant à c » ; **(3)** 1ᵉʳ septembre, D4 : « la masse, c'est le sillon ; le déplacement, c'est le résultat du sillon ». Pièces validées qui les relient : Q87 (« le volume du 4df(x) est le corridor emprunté par le e »), 05 chaîne c (« espace occupé par tous les sillons de tissage vers t=0 »), A4 (espace occupé = volume dans 4df(x) sur toute l'existence). **Lecture de raccord proposée, non validée** : le sillon est le corridor structurel tenu — un sillon *de tissage* ; 4df(x) en intègre l'occupation (le volume) ; la masse est la lecture à t=x de cette grandeur. Ainsi « masse = tissage » (1ᵉʳ mai) désignerait le contenu produit, « masse = volume de 4df(x) » (2-3 mai) la grandeur calculée, et « masse = sillon » (septembre) l'objet dont cette occupation est calculée. **Cette équivalence n'a pas été validée par Gabriel en ces termes.** Tant qu'elle ne l'est pas, les trois formulations coexistent telles quelles, et la tension est inscrite en 04 §7.4 (tension 5).
+
 **5.11 — La lenteur cause la masse, pas l'inverse (renversement du raisonnement classique)**
 
 `[CANONIQUE]` posé le 1er mai 2026 (voir Q49), **précisé 2-3 mai (Blocs 1, 3 session)**.
 
-**Modèle standard** : la masse cause la lenteur (plus massif, moins facilement accélérable, E=mc²).
+**Modèle standard** : la masse cause la lenteur (plus massif, moins facilement accélérable, E=mc²). *(Formulation V1.)*
+
+> **NOTE V2 — REFORMULATION 2026-09-02.** Le contraste « Modèle standard : la masse cause la lenteur » est une simplification pédagogique. Formulation plus juste de la position externe : *dans la formulation standard, la masse est un paramètre invariant qui intervient dans la relation énergie-impulsion et dans l'inertie ; le modèle structurel propose au contraire d'en faire un output du mécanisme d'empêchement et de 4df(x).* L'affirmation interne du modèle — l'empêchement structurel produit la masse — est inchangée.
 
 **Modèle structurel** : **la lenteur structurelle module l'accumulation du lien-énergie dans t=x, ce qui se manifeste comme masse**. Les leptons (e⁻, μ⁻, τ⁻) sont à t=0 → structurellement **empêchés de se déplacer** → cet empêchement contraint le retour du lien-énergie, dont le **volume 4df(x)** se manifeste comme masse dans t=x.
 
@@ -316,6 +353,8 @@ Cette règle est une **formulation tranchante** des règles 5.15 et 5.16. Elle d
 - 2D : πr² (surface du cercle)
 - 3D : (4/3)πr³ (volume sphère)
 - **4D : ~r⁴** (volume de la 4-boule)
+
+> **NOTE V2 — CORRECTION MATHÉMATIQUE 2026-09-02 (n-boules).** La suite « 2πr → πr² → (4/3)πr³ → (π²/2)r⁴ » mélange une *circonférence* (mesure du bord en 1D) avec des *volumes* ; ce n'est pas la progression des volumes des n-boules. La formule standard est V_n(r) = π^(n/2) / Γ(n/2 + 1) · rⁿ, soit **V₁ = 2r, V₂ = πr², V₃ = (4/3)πr³, V₄ = (π²/2)r⁴** (et pour les bords : 2, 2πr, 4πr², 2π²r³). La pièce canonique de Gabriel — *4df(x) utilise r⁴ et r est la clef* — **n'est pas touchée** : elle porte sur l'exposant 4 et sur le rôle de r, pas sur la justification par les n-boules. La séquence historique est à lire comme une **intuition de progression dimensionnelle** (« la progression de π dans les profondeurs de t=0 »), non comme une dérivation mathématique stricte des n-boules. La séquence V1 est conservée ci-dessus pour trace.
 
 **Décomposition structurelle** (verbatim Gabriel post-questionnement) :
 > *« c'est l'aller-retour, c'est circulaire sur l'axe temporel, pis l'autre sur 3 axes en combinaisant toutes les possibilités de chacuns sur le calculs »*
@@ -521,13 +560,21 @@ Voir `02_GLOSSAIRE_CANONIQUE.md` pour le glossaire complet avec traductions, sta
 Lis dans cet ordre :
 
 1. **`01_BOOTSTRAP.md`** (ce fichier) — calibration de lecture. Court, dense, indispensable.
-2. **`02_GLOSSAIRE_CANONIQUE.md`** — vocabulaire et traductions.
-3. **`03_CHAINE_STRUCTURELLE_MINIMALE.md`** — vue d'ensemble en 15 maillons.
-4. **`04_PHASE1_AUDIT.md`** — bilan Phase 1, cahier des charges Phase 2. Te dit où en est le projet.
-5. **`05_ASSOCIATIONS_MODELE.md`** (~860 lignes) — chaînes structurelles assemblées entre concepts. Vue d'ensemble logique.
-6. **`06_MODELE_COMPLET_REFERENCE.md`** (~4900 lignes) — référence canonique complète. FAQ pédagogique de 79 questions/phénomènes physiques. À consulter pour les détails.
-7. **`07_PHASE2_TARGETS.md`** — 16 cibles numériques + 6 prédictions empiriques pour la Phase 2.
-8. **`08_PHASE2_PISTES_MATHEMATIQUES.md`** — pistes mathématiques pour la Phase 2 (équation candidate ratio muon/électron, indication 4df(x) comme opérateur intégral, hypothèses à tester).
+2. **`02_GLOSSAIRE_CANONIQUE.md`** — vocabulaire et traductions (étendu en V2 : perpendiculaires, deltas, sillon, lame, éventail, coût de retour).
+3. **`03_CHAINE_STRUCTURELLE_MINIMALE.md`** — vue d'ensemble condensée.
+4. **`04_PHASE1_AUDIT.md`** — bilan Phase 1, cahier des charges Phase 2, et état Phase 2 au 2026-09.
+5. **`05_ASSOCIATIONS_MODELE.md`** — chaînes structurelles assemblées entre concepts.
+6. **`06_MODELE_COMPLET_REFERENCE.md`** — référence canonique complète (FAQ + inférences). À consulter pour les détails.
+7. **`07_PHASE2_TARGETS.md`** — cibles numériques et prédictions empiriques.
+8. **`08_PHASE2_PISTES_MATHEMATIQUES.md`** — pistes mathématiques pour la Phase 2.
+9. **`09_OBSERVATIONS_PHYSIQUES_RELUES_PAR_LE_MODELE.md`** (V1 : `…_DEMONTREES`) — ce que le modèle lit dans des faits déjà mesurés ; « lecture » = cohérence interne, pas validation externe.
+10. **`10_CONSCIENCE_SILLAGES_SCHEMAS.md`** — aspects structurels non mathématiques.
+11. **`11_MUON_SILLON_ET_COUT.md`** *(nouveau en V2)* — le muon, le sillon, le coût de retour, les niveaux d'énergie. L'état le plus avancé du secteur leptonique.
+
+**Documents d'appui (hors séquence de lecture)** :
+
+- `verbatims_gabriel.md`, `verbatims_gabriel_2.md`, `verbatims_gabriel_2026-09-01.md` (thématique) et `V2a_verbatims_Gab_2026-09-01.md` (texte exact, numéroté V01–V56, archive non modifiée) — les paroles de l'auteur. À lire lentement ; elles sont plus denses que les paraphrases.
+- Séances sources conservées à la racine du dépôt : `V2_seance_volants_leptons.md` (2026-07-10), `V2_adversaire_2026-07-10.md`, `session_log_phase2.md` (2026-07-16), `V2a_seance_2026-09-01_sillon_et_axes.md` (version à jour, A1–A41 ; `V2_seance_…` en est l'état de la nuit). Le corpus V2 en est la consolidation ; les séances gardent le détail du chemin, y compris ce qui a été abandonné.
 
 ---
 
@@ -547,6 +594,27 @@ Ce que le modèle n'offre pas encore :
 - Des calculs explicitement comparables à ceux de la QFT ou de la relativité générale
 
 La Phase 2 fournira tout cela. Pour l'instant, le travail est de lire l'extraction structurelle avec la bonne calibration.
+
+---
+
+## 8bis. État du modèle au 2026-09-02 (ajout V2)
+
+**Ce qui a avancé depuis la Phase 1 (mai 2026)** :
+
+- Le secteur leptonique a une **géométrie** : perpendiculaires, volants emboîtés, nuage unique de l'électron, couverture vs épaississement, éventails IN/OUT, coût de retour.
+- Les quatre forces sont ramenées à **un seul axe de deltas** (proximité forcée / reconfiguration / décalage du OUT / déplacement bloqué), avec deux bonus gratuits : le principe d'équivalence et l'impossibilité du monopôle magnétique.
+- Le modèle a produit ses **premières prédictions datées avant mesure** : m₁ ≈ 0,29 meV, ordre normal des masses de neutrinos, anomalie du tau hors loi d'échelle, pas de monopôle.
+- Trois pièces ont subi une **session adversaire** et en sont sorties datées : candidate №1 blessée (résidu δ = +0,34 %, 26 σ), candidate №2 tenue (−0,4 ± 0,9 %), r variable tenue comme acquis interne (obligation : loi de gradient ; son banc d'essai externe de juillet a été retiré le 2026-09-02 — les bornes « Δμ/μ » portent sur m_p/m_e, pas sur m_μ/m_e).
+- Le matin du 2 septembre, l'auteur a posé que **les sillons arrivent en trios** sur t=x, t=x+1, t=x+2 : le proton est un trio qui cycle dont la troisième position est le lepton, et les hadrons sont les **sillages d'existence** des leptons (06 Q184–Q185).
+- Le vocabulaire du **sillon** donne pour la première fois une nature aux nombres : r n'est plus un nombre nu, c'est un rapport longueur/largeur lu dans le trajet.
+
+**Ce qui n'est toujours pas fait** :
+
+- Aucune masse n'est **dérivée**. L'équation du muon a une forme structurelle et deux inconnues liées par une seule équation.
+- Le premier vrai test de méthode — sortir I₃/I₂ = 15,894 à zéro paramètre — n'a pas été tenté avec les bons axes.
+- Les tensions internes listées en `04` §Phase 2 (T matrice vs T jauge, affordability vs destinations) ne sont pas tranchées.
+
+**Comment un lecteur sérieux doit lire ça** : le modèle contraint ses conséquences, il ne les calcule pas encore. La différence entre un modèle et une histoire se joue exactement là — et c'est le test du tau qui la tranchera.
 
 ---
 

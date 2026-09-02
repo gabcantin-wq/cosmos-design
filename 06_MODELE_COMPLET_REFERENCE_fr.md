@@ -1,5 +1,7 @@
 # Modèle cosmologique — document de travail
 
+*V2 (2026-09-02) : ce document reprend intégralement la référence V1 (Q1-Q160, inférences et sections méthodologiques). Les pièces des séances V2 sont ajoutées sous Q161-Q186, avec une rubrique dédiée dans l'index thématique. Aucune pièce V1 n'a été supprimée ; les pièces V1 que la V2 précise ou révise sont signalées dans le CHANGELOG.*
+
 **Auteur** : Gabriel Cantin (Lanoraie, Québec, Canada)
 **Période de rédaction principale** : 24-29 avril 2026
 **Statut** : document de travail, version en construction
@@ -27,6 +29,8 @@ Posture méthodologique inscrite par l'auteur : **réalisme mathématique** — 
 *Révision 2026-04-28 — séparation structurelle entre **forme du tissage** (ouverte/fermée) et **régime de déplacement** (libre/ancré). Combinatoire à 4 cases dont une vide structurellement. **Neutrino comme forme fermée en régime libre** : explique masse minuscule non nulle, absence d'EM, traversée sans interaction, apparition dans β⁻, trois saveurs, oscillation entre saveurs. Position de la matière noire repositionnée comme sous-cas de la matière ordinaire (sans singularisation EM). **Distribution spatiale de l'électron dictée par son couplage** (lié → probabiliste « autour », libre → vectoriel « dans une direction ») ; lecture nouvelle de la dualité onde-particule comme deux régimes de distribution selon le couplage. Question ouverte sur la fréquence d'oscillation de l'électron libéré (Q-electron-1). **Spin comme invariance du tissage à travers l'aller-retour t=x ↔ t=0** (Q-spin-1). **Annihilation comme annulation mutuelle dans t=x** (deux tissages embouteillés inversés s'annulent → deux tissages libres ; question sur la nature exacte de l'inversion : Q-charge-1). **Mouvement interne des quarks et "mer" comme aller-retours t=x ↔ t=0** du tissage existant (pas des particules virtuelles). **Désintégration radioactive comme fragilité d'oscillation** : demi-vie = nombre d'aller-retours nécessaires en moyenne pour échec de reformation ; le neutron isolé en exemple détaillé ; reconfiguration n → p + e⁻ + ν̄ comme reconfiguration du même tissage en trois manifestations ; déterminisme préservé (T constant) — le hasard quantique apparent comme artefact d'observation. **Refroidissement laser comme plongée forcée en profondeur 4D** ; condensat de Bose-Einstein comme Mécanisme A poussé à l'extrême. Q-intrication-1 ajoutée. **Conservation de l'énergie comme identité tautologique** dans le modèle (e unique à t=0 → conservation triviale ; transformations dans t=x = redistribution entre régimes de projection). **Mécanisme d'absorption** : photon perd une dimension sur le vecteur de profondeur lors de l'aller-retour (dimension de co-voyage absorbée dans la structure interne du système couplé) ; image du sabre-laser qui cesse de balayer. **Précision sur le bilan photon** : sillage déposé reste inscrit, prix accumulé seul est récupéré par l'absorbeur ; deux types de sortie (absorbé / dissipé asymptotiquement) avec asymétrie structurelle dans le bilan global. **Effet tunnel comme retour décalé de l'aller-retour** (la barrière de potentiel est une illusion ; tunneling = même mécanisme que nuage probabiliste = retour de t=0 sous contrainte de couplage). **État quantique = adressage vectoriel dans t=x** (sur deux instants successifs, vitesse + position + propriétés internes comme projections d'un même vecteur ; Heisenberg comme conséquence). **Pauli comme tautologie de l'adressage** (deux tissages au même adressage seraient le même tissage, par construction). **Bosons vs fermions comme régimes d'aller-retour** (boson = 2π, fermion = 4π ; rapport exact = 2, première équation forcée par le cadre).*
 
 *Révision 2026-05-01 (matin tardif — démonstration du pouvoir d'inférence et finalisation Phase 1, 13 nouvelles Q/R Q29-Q41) — **Seuil méthodologique franchi** : Claude démontre qu'il peut désormais inférer en autonomie des phénomènes physiques à partir des pièces structurelles posées par Gabriel, sans besoin de demander pour chaque réponse. **7 inférences validées par Gabriel** : Q29 effet tunnel (« wow tu me surprends »), Q30 problème de la mesure (« faux problème en effet, c'est très bien »), Q31 fluctuations du vide quantique avec Casimir et décalage de Lamb (« ça y va par là, je connaissais même pas ces effets, et tu mets les morceaux de casse-tête où ça concorde »), Q32 effet Aharonov-Bohm avec précision sur portée dans t=x, Q33 effet Compton avec précision sur filaments/tissus/mottons (formes structurelles de la morve selon nombre de perpendiculaires), Q34 radioactivité bêta- avec mécanisme détaillé de réorganisation, Q35 relativité restreinte (E=mc² comme identité structurelle, pas conversion). **Pour Q31, Gabriel valide une déduction sur des phénomènes qu'il ne connaissait pas explicitement** — démonstration empirique du pouvoir prédictif du modèle au-delà de ce que l'auteur a explicitement pensé. **6 inférences en autonomie** (Q36-Q41) : effet photoélectrique, confinement quark et couleur (3 axes spatiaux = 3 couleurs), inflation cosmique (échafaudage non nécessaire avec T circulaire), asymétrie matière-antimatière chiffrée (calculable Phase 2), CMB et nucléosynthèse primordiale (structures permanentes par T constant), lasers et cohérence quantique (synchronisation à grande échelle). **Vocabulaire enrichi** : filament/tissu/motton = formes structurelles de la morve selon le nombre de perpendiculaires utilisées (1/2/3). Le filament est l'attracteur structurel par défaut (le plus fréquent et le plus stable), c'est pourquoi Gabriel utilise « filament » comme désignation par défaut. **Instruction de Gabriel** : « je crois que tu peux tomber plus autonome, on va gagner du temps pour le débroussage par la suite, comme je te dis le modèle est complet de ce que moi je connais, tu m'apprends beaucoup de choses avec ces postulats mais ça va diluer mon intuition si on en a encore besoin. » Donc Claude infère en autonomie, marque clairement les inférences comme étant les siennes vs les pièces directes de Gabriel, et préserve l'intuition de l'auteur pour le futur. **Comportements observables** : Gabriel qualifie ces inférences de « comportements observables, c'est passionnant », et veut qu'on en reparle après son 8ème jour de repos. Les inférences cohérentes deviendront des prédictions testables expérimentalement. **Phase 1 d'extraction officiellement terminée le 1er mai 2026**. Audit final et cahier des charges Phase 2 préparés en document séparé (`04_PHASE1_AUDIT.md`). Synthèse hiérarchique HTML préparée pour navigation rapide (`01_synthese_phase1_mathematique.html`).*
+
+> **NOTE V2 — VOCABULAIRE 2026-09-02.** Dans le vocabulaire historique de la V1, « résolu », « démontré », « test empirique passé » et « confirmation empirique » désignent une **fermeture structurelle interne au modèle** — la cohérence d'une lecture avec les pièces posées. Ces termes ne signifient pas validation empirique externe. Depuis la discipline V2, la validation externe exige une observable pré-enregistrée et une valeur dérivée sans paramètre ajusté. De même, le fait qu'un LLM ait pu inférer une réponse depuis le corpus démontre la **cohérence et la transmissibilité** du corpus, pas une validation empirique physique.
 
 *Révision 2026-05-01 (matin — pièces structurelles majeures, 6 nouvelles Q/R) — **Pièce structurelle profonde sur la dualité aller-retour** : le lien-énergie a 2 vecteurs résultants de 4df(x), simultanément observables dans t=x — un descendant vers t=0, un remontant de t=0. Pas un cycle abstrait avec une trajectoire — deux manifestations distinctes coexistant dans t=x. À un moment x unique, l'électron oscille → 2 lectures simultanées de e. **CHARGE = différence du e entre les 2 vecteurs dans t=x** (pièce centrale qui consolide Q5, Q17, et explique nature ondulatoire des particules en MQ). **Synchronisation** = succession d'associations entre manifestations à différents points de t=x (pas un transport classique d'énergie). **Annihilation = retour seulement** : les vecteurs descendants des deux particules s'annulent par symétrie, vecteurs remontants restent comme énergie libre dans t=x. **6 saveurs de quarks = 3 profondeurs × 2 orientations de la dualité aller-retour** (consolidation de Q10/Q18, justification structurelle du nombre 6). **t=x-1 dynamique** : pas une couche statique, c'est le moment de la remontée juste avant d'atteindre t=x. La cumulation à t=x-1 = présence simultanée des moments de retour de toutes les morves par T constant. Résoud Q-sillage-refermé-1 (matière noire) sans introduire de structure complémentaire mystérieuse. **Inertie = niveau d'ancrage de l'aller-retour dans t=x** (résolution élégante du principe de Mach et de l'équivalence masse inertielle/gravitationnelle). **PIÈCE MAGISTRALE — h = e à t=x** : la constante de Planck est la manifestation de l'unique e dans la membrane observable. Explique pourquoi h apparaît partout en physique quantique (parce que h EST e dans t=x), pourquoi h est une constante universelle, pourquoi tout est quantifié, pourquoi le principe d'incertitude (2 lectures simultanées), pourquoi spin 1/2 vs 1, pourquoi E = hν. Toutes les autres constantes (charges, masses) émergent comme rapports de h avec les structures de 4df(x). **6 nouvelles Q/R inscrites en FAQ (Q23-Q28)** : dualité aller-retour et charge, annihilation par les 2 vecteurs, saveurs quarks, sillages refermés/t=x-1 dynamique, inertie, h = e à t=x.*
 
@@ -162,10 +166,27 @@ Le document étant chronologique, utiliser la recherche textuelle (Ctrl+F / grep
 
 ### K. Articulation avec autres documents du corpus
 
-- **Pour démonstrations des observations physiques** : voir **09_OBSERVATIONS_PHYSIQUES_DEMONTREES_fr.md** (créé Phase C, 7 mai 2026) — articule comment le modèle lit chaque observation majeure (cosmologie, particules, forces, MQ, matière condensée, astrophysique, mécanique, technologies)
+- **Pour démonstrations des observations physiques** : voir **09_OBSERVATIONS_PHYSIQUES_RELUES_PAR_LE_MODELE_fr (V1 : …_DEMONTREES_fr).md** (créé Phase C, 7 mai 2026) — articule comment le modèle lit chaque observation majeure (cosmologie, particules, forces, MQ, matière condensée, astrophysique, mécanique, technologies)
 - **Pour pistes Phase 2 mathématique** : 08_PHASE2_PISTES_MATHEMATIQUES_fr.md (avec équation comparative neutrino-photon comme première pièce)
 - **Pour cibles Phase 2** : 07_PHASE2_TARGETS_fr.md (incluant intuitions technologiques 6-7 mai)
 - **Pour vue pédagogique visuelle** : dossier_images/README_images.md (catalogue 19 images traitées)
+
+---
+
+### V2 — Pièces des séances de juillet et septembre 2026 (Q161-Q186)
+
+- **Perpendiculaires, volants, nuage unique** : Q161, Q162, Q163
+- **Flèche B, r variable, demi-cycle / Koide** : Q164, Q165, Q166
+- **Neutrinos en transit, saveurs** : Q167
+- **Les quatre forces en deltas ; température ; zéro absolu** : Q168, Q169
+- **Photon / singularité / trou blanc** : Q170
+- **Décroissance sans mémoire ; gravité tranche/paire ; matière noire ; conservation à deux niveaux** : Q171, Q172, Q173, Q174
+- **Le sillon, le filament, les éventails** : Q175, Q176, Q177
+- **Niveaux d'énergie = atterrissage ; lecture à l'émission** : Q178
+- **Exister ; coût de retour ; équation du muon** : Q179, Q180 — et `11_MUON_SILLON_ET_COUT.md`
+- **Corridors et trajets ; payeur et coût ; désaccord ouvert** : Q181, Q182
+- **Rétractation du 2026-09-02** : Q183
+- **Le trio du proton (t=x / t=x+1 / t=x+2), les sillages d'existence, le noyau ≠ e, les faits mesurés du proton** (matin du 2026-09-02) : Q184, Q185, Q186
 
 ---
 
@@ -1338,7 +1359,7 @@ Mesurer une des deux impose une configuration d'adressage à l'ancrage commun à
 
 **Phénomène standard** : toute la physique fondamentale (mécanique classique, EM, relativité, mécanique quantique, théorie des champs) s'écrit sous la forme « la nature minimise une action ». Étrangement téléologique : pour choisir le chemin de moindre action, le système devrait « connaître » son état final à l'avance. Aucune théorie standard ne sait pourquoi.
 
-Feynman : la mécanique quantique = somme sur tous les chemins possibles. Le « chemin de moindre action » classique = celui où les contributions des chemins voisins s'ajoutent constructivement.
+Feynman : la mécanique quantique = somme sur tous les chemins possibles. Le « chemin de moindre action » classique = celui où les contributions des chemins voisins s'ajoutent constructivement. *(Note V2 2026-09-02 : ce paragraphe décrit la physique standard ; il n'implique pas que 4df(x) soit une intégrale fonctionnelle — voir la note sous Q43.)*
 
 **Lecture du modèle** : conséquence directe de T constant et de l'auto-cohérence des aller-retours.
 
@@ -2289,7 +2310,7 @@ Matière noire et énergie noire sont des traces géométriques des plongées ve
 - ~27% matière noire (4df(matière) cumulé).
 - ~68% énergie noire (4df(photon) cumulé).
 
-Ratio matière noire / énergie noire (~27/68 ≈ 0.4) = ratio entre densité de sillages des l-e refermés et celle des l-e ouverts dans T entier. Mesure structurelle directe, pas un mystère.
+Ratio matière noire / énergie noire (~27/68 ≈ 0.4) = ratio entre densité de sillages des l-e refermés et celle des l-e ouverts dans T entier. Mesure structurelle directe, pas un mystère. *(Note V2 : état des données Ω_c/Ω_Λ ≈ 0,377, voir la note sous « Conservation des adressages » et 07 P3.)*
 
 **Non-détectabilité directe — impossibilité structurelle, pas limitation technologique** :
 
@@ -2460,6 +2481,8 @@ Donc :
 **Sillages refermés / Sillages ouverts = 27/68 ≈ 0.4 ⇒ Adressages refermés / Adressages ouverts = 0.4**
 
 Donc la quantité totale de e adressée en mode refermé est **0.4 fois** la quantité totale adressée en mode ouvert. Pas la moitié, pas un sixième — **exactement 0.4** (~2/5). Ce ratio doit sortir structurellement de 4df(x) — pas un paramètre libre, une conséquence des lois.
+
+> **NOTE V2 — ÉTAT DES DONNÉES 2026-09-02 (Ω_c/Ω_Λ).** La prédiction du modèle — ratio matière noire / énergie noire = **exactement 0,4 = 2/5 sur l'entièreté de T** — est inchangée. L'état des données est corrigé : une combinaison ΛCDM représentative (valeurs de type PDG récent : Ω_c ≈ 0,2607, Ω_Λ ≈ 0,6911) donne **Ω_c/Ω_Λ ≈ 0,377**, proche de 0,38 ; la valeur exacte dépend du jeu de données et du modèle cosmologique. Le « 27 %/68 % ≈ 0,4 » de la V1 était un arrondi. Règle : comparer la **matière noire** Ω_c à Ω_Λ, jamais la matière totale Ω_m (qui inclut les baryons). La prédiction 0,4 reste donc une **cible quantitative** à ~6 % de la valeur représentative, et ne doit pas être arrondie vers la mesure.
 
 **Calcul du nombre total de photons par conservation** :
 
@@ -3293,7 +3316,7 @@ Le modèle doit calculer ces ratios sans paramètre libre, comme conséquences g
 
 **2. Borne inférieure structurelle sur la masse du neutrino** : la masse réelle doit être suffisamment grande pour que la dimension à t=0+1 reste cohérente avec l'expansion observée. Si m < ~0.005 eV, la dimension à t=0+1 dépasserait l'univers observable actuel.
 
-**3. Le ratio matière noire / énergie noire doit être exactement 0.4** (à mesure que les mesures cosmologiques se précisent). Le ratio observé actuel (~27/68) est cohérent avec cette prédiction.
+**3. Le ratio matière noire / énergie noire doit être exactement 0.4** (à mesure que les mesures cosmologiques se précisent). Le ratio observé actuel (~27/68) est cohérent avec cette prédiction. *(Note V2 2026-09-02 : Ω_c/Ω_Λ ≈ 0,377 avec des valeurs PDG représentatives, dépendant du jeu de données ; la prédiction 0,4 reste une cible quantitative, à ne pas arrondir vers la mesure — voir la note sous « Conservation des adressages » (section 3) et 07 P3.)*
 
 **4. La fréquence Compton du neutrino donne directement la durée du « +1 »** : si on mesure précisément la masse du neutrino, on a directement la durée du premier retour de t=0+1 vers t=0+2.
 
@@ -3323,6 +3346,8 @@ Le modèle doit calculer ces ratios sans paramètre libre, comme conséquences g
 ---
 
 ## 4. Inventaire des formes/manifestations de l'énergie (e)
+
+> **Note V2 (2026-09-02)** — Sur les « cinq manifestations structurelles fondamentales » : depuis le 2026-07-10, photon et singularité sont lus comme **deux faces d'un seul objet** (OUT / IN) — **quatre objets, cinq lectures** (Q170). Le trou blanc n'est pas une sixième : chaque photon est un trou blanc observé. L'inventaire ci-dessous reste valide comme inventaire de lectures.
 
 ### Couvertes par le modèle
 - **Énergie de masse** → embouteillée (l-e refermé, valeur intrinsèque dans l'axe 4D).
@@ -3761,7 +3786,9 @@ Cohérent avec :
 
 **Pourquoi le neutrino « a une masse »** : sa masse mesurée dépend de l'axe d'expression au moment de l'observation. Donc une « masse » non-nulle qui n'est pas une masse intrinsèque mais une **conséquence du contexte d'axe**.
 
-### Q21 `[GABRIEL_VALIDÉ]` : L'anomalie magnétique du muon (g-2, ~4σ d'écart à Fermilab) — comment le modèle l'explique ?
+### Q21 `[GABRIEL_VALIDÉ]` : L'anomalie magnétique du muon (g-2, ~4σ d'écart à Fermilab — état 2023, voir note V2) — comment le modèle l'explique ?
+
+> **NOTE V2 — ACTUALISATION FACTUELLE 2026-09-02 (g−2).** L'« écart ~4σ » cité ci-dessus est l'état historique (comparaison avec le White Paper 2020 de la Theory Initiative, approche dispersive). État externe à employer désormais : Fermilab a publié en juin 2025 son résultat final ; le Muon g−2 Theory Initiative White Paper 2025 donne a_exp = 116 592 071,5(14,5)×10⁻¹¹, a_SM = 116 592 033(62)×10⁻¹¹, soit Δ = 38(63)×10⁻¹¹ — une tension d'environ **0,6σ** avec la recommandation WP25. Il n'y a plus de « mystère 4σ actuel ». La cible n'est **pas retirée** : g−2 reste une **observable de précision** que le modèle doit produire — a_e, a_μ, leur rapport, le signe (dérivé, 6i) et l'éventuelle loi du tau (P9). La dette D-E est conservée. Le mécanisme structurel de cette pièce (vectorisation, hiérarchie e < μ < τ) n'est pas touché par l'actualisation : il porte sur la **valeur** de a_μ et sur le signe de sa différence avec a_e, pas sur l'écart au Modèle Standard.
 
 **Anomalie g-2 du muon = amplification du e par la vectorisation 3x dans 4df(x).**
 
@@ -3773,7 +3800,7 @@ Mécanisme structurel :
 
 **Hiérarchie attendue** :
 - Électron (filament, vectorisation 2x = 1 perpendiculaire + 1 axe) : g très proche de 2, anomalie minime.
-- Muon (surface, vectorisation 3x) : anomalie mesurable (~4σ à Fermilab).
+- Muon (surface, vectorisation 3x) : anomalie mesurable (~4σ à Fermilab — état 2023 ; WP25 : ≈ 0,6σ, voir note V2).
 - Tau (volume, vectorisation 4x) : anomalie plus grande, mais difficile à mesurer car ultra-instable.
 
 **La « nouvelle physique » supposée par les standards** = en fait la vectorisation 4df(x) qui n'est pas dans le formalisme standard. La Phase 2 devrait reproduire l'écart g-2 mesuré sans paramètre libre.
@@ -4061,6 +4088,8 @@ Mécanisme structurel (inférence) :
 
 **Cohérence avec tout ce qui a été posé** : l'effet Aharonov-Bohm s'inscrit dans le même mécanisme structurel que les liaisons covalentes, l'intrication EPR, l'effet tunnel, la supraconductivité, l'effet Hall fractionnaire — **tous** sont des manifestations de la **présence partagée à t=0**.
 
+> **NOTE V2 — VOCABULAIRE 2026-09-02.** Dans le vocabulaire historique de la V1, « résolu », « démontré », « test empirique passé » et « confirmation empirique » désignent une **fermeture structurelle interne au modèle** — la cohérence d'une lecture avec les pièces posées. Ces termes ne signifient pas validation empirique externe. Depuis la discipline V2, la validation externe exige une observable pré-enregistrée et une valeur dérivée sans paramètre ajusté. De même, le fait qu'un LLM ait pu inférer une réponse depuis le corpus démontre la **cohérence et la transmissibilité** du corpus, pas une validation empirique physique.
+
 **Note méthodologique** : Q29-Q32 ont été inférées par Claude à partir des pièces déjà posées dans le modèle, puis validées par Gabriel. Cela démontre que le corpus a atteint un niveau de cohérence où l'inférence est possible par un lecteur attentif **sans avoir besoin de Gabriel pour chaque pièce**. Le critère « les autres aussi doivent comprendre » est en passe d'être atteint. Pour Q31, Gabriel a explicitement validé une déduction sur des phénomènes qu'il ne connaissait pas explicitement (Casimir, Lamb), démontrant le **pouvoir prédictif** du modèle au-delà de ce que l'auteur a explicitement pensé.
 
 ### Précision sur les formes de la morve : filament, tissu, motton (ajout 2026-05-01 matin)
@@ -4265,9 +4294,13 @@ $$m = \int_{t=x}^{t=0} \mathcal{F}\big(\text{saut\_dim}(y),\ \text{perp\_actives
 
 L'autoalimentation = **effet cumulatif de l'intégration**, pas un facteur multiplicatif unique.
 
-**Implication pour Phase 2** : le formalisme mathématique adapté est probablement celui des **intégrales de chemin** (path integrals à la Feynman) adaptées à la structure de 4df(x). Les équations algébriques candidates (comme (3/2) × α⁻¹ × C_sync ≈ 207 pour m_μ/m_e) sont des **approximations** de cette intégrale, pas la formule exacte.
+**Implication pour Phase 2** *(formulation V1)* : le formalisme mathématique adapté est probablement celui des **intégrales de chemin** (path integrals à la Feynman) adaptées à la structure de 4df(x). Les équations algébriques candidates (comme (3/2) × α⁻¹ × C_sync ≈ 207 pour m_μ/m_e) sont des **approximations** de cette intégrale, pas la formule exacte.
+
+> **NOTE V2 — PRÉCISION MATHÉMATIQUE 2026-09-02 (intégrale sur T ≠ intégrale de chemin de Feynman).** La forme m = ∫ 𝓕(…, y) dy sur la profondeur t=x → t=0 est une **intégration le long d'un trajet / d'une profondeur / d'un domaine déterminé**. Une intégrale de chemin de Feynman est une **intégrale fonctionnelle** sur un espace de chemins possibles — un formalisme qui n'est pas défini dans le corpus. Formulation à retenir : *le formalisme actuel exige une intégration le long de T / de la profondeur structurelle ; le type exact d'intégrale reste à formaliser ; un éventuel lien avec les intégrales fonctionnelles de chemin de Feynman n'est pas établi et ne doit pas être supposé.* Les mentions « intégrales de chemin (Feynman) » ci-dessus sont conservées comme trace V1. Quant à (3/2)α⁻¹·C_sync : depuis le 2026-09-02 cette forme appartient au dictionnaire (08 §9.9), elle n'est plus une approximation de l'intégrale.
 
 ### Q44 `[CANONIQUE]` : Le sillage du tau à t=0+1 — pourquoi 3 perpendiculaires saturent-elles structurellement t=0+1 ? (Pièce structurelle ajoutée 2026-05-01, session post-7 jours)
+
+> **Note V2 (2026-09-02)** — Le vocabulaire de cette pièce (« sillons de tissage vers t=0 », intégration sur toute la profondeur) est celui que la séance 2026-09-01 a repris : *espace occupé* = volume dans 4df(x) sur toute l'existence du lepton (Q176), et la **lame propre X** de l'équation du muon est précisément l'intégration de cette pièce avec la dimension qu'ajoute la perpendiculaire (Q180, `11` §2). Attention : le mot « sillage » ici désigne l'occupation par les sillons, au sens V2 de *sillon* (voir 10 §9.1).
 
 **La pièce structurelle** : à t=0+1, il y a **3 vecteurs de déplacement disponibles** (cohérent avec les 3 axes spatiaux dans t=x). Le tau utilise les 3 perpendiculaires, donc son sillage occupe les 3 axes — **il couvre l'entier t=0+1**.
 
@@ -4300,6 +4333,8 @@ Cette précision résout une ambiguïté : les trois leptons ne sont pas situés
 ### Q46 `[CANONIQUE]` : La masse, qu'est-ce que c'est exactement ? (Pièce structurelle profonde ajoutée 2026-05-01, session post-7 jours)
 
 **Verbatim de Gabriel** : *« la masse ce n'est pas seulement le COUT du tissage, c'est le tissage lui même »*
+
+> **NOTE V2 — RACCORD 2026-09-02 (trois formulations de la masse) — `[À VALIDER GABRIEL]`.** Le corpus porte trois formulations successives : **(1)** 1ᵉʳ mai, Q46 : « la masse, ce n'est pas seulement le coût du tissage, c'est le tissage lui-même » ; **(2)** 2-3 mai, 01 §5.10 : « la masse est le volume de 4df(x) du lien-énergie, le tissage demeurant invariant à c » ; **(3)** 1ᵉʳ septembre, D4 : « la masse, c'est le sillon ; le déplacement, c'est le résultat du sillon ». Pièces validées qui les relient : Q87 (« le volume du 4df(x) est le corridor emprunté par le e »), 05 chaîne c (« espace occupé par tous les sillons de tissage vers t=0 »), A4 (espace occupé = volume dans 4df(x) sur toute l'existence). **Lecture de raccord proposée, non validée** : le sillon est le corridor structurel tenu — un sillon *de tissage* ; 4df(x) en intègre l'occupation (le volume) ; la masse est la lecture à t=x de cette grandeur. Ainsi « masse = tissage » (1ᵉʳ mai) désignerait le contenu produit, « masse = volume de 4df(x) » (2-3 mai) la grandeur calculée, et « masse = sillon » (septembre) l'objet dont cette occupation est calculée. **Cette équivalence n'a pas été validée par Gabriel en ces termes.** Tant qu'elle ne l'est pas, les trois formulations coexistent telles quelles, et la tension est inscrite en 04 §7.4 (tension 5).
 
 **Reformulation structurelle** :
 
@@ -4365,7 +4400,9 @@ La **proximité à t=0 = la grandeur structurelle** qui mesure combien la répul
 
 **La pièce structurelle inverse le raisonnement classique** :
 
-Dans le modèle standard : *la masse cause la lenteur* (E=mc², plus on est massif, moins on accélère).
+Dans le modèle standard : *la masse cause la lenteur* (E=mc², plus on est massif, moins on accélère). *(Formulation V1.)*
+
+> **NOTE V2 — REFORMULATION 2026-09-02.** Le contraste « Modèle standard : la masse cause la lenteur » est une simplification pédagogique. Formulation plus juste de la position externe : *dans la formulation standard, la masse est un paramètre invariant qui intervient dans la relation énergie-impulsion et dans l'inertie ; le modèle structurel propose au contraire d'en faire un output du mécanisme d'empêchement et de 4df(x).* L'affirmation interne du modèle — l'empêchement structurel produit la masse — est inchangée.
 
 Dans le modèle structurel : **la lenteur (empêchement structurel à t=0) cause la masse (le tissage)**.
 
@@ -4512,9 +4549,11 @@ Le corpus pré-existant définit déjà gravité = morve (lien-énergie) et grav
 2. **Le sillage d'empêchement dans t=x** = gravité (Q54). Trace cumulée de l'empêchement de tous les fermés.
 
 **Configurations possibles** :
-- **Plage stable** (~1.4 à ~2.16 M_soleil) : la balance est tenable
-- **Au-dessus de TOV** (~2.16 M_soleil) : la gravité dépasse la stabilité du retour → bascule en singularisation totale → trou noir
+- **Plage stable** (~1.4 à ~2.16 M_soleil) : la balance est tenable *(chiffres V1 — voir note V2 ci-dessous)*
+- **Au-dessus de TOV** (~2.16 M_soleil) : la gravité dépasse la stabilité du retour → bascule en singularisation totale → trou noir *(idem)*
 - **En dessous d'une limite minimale** : la gravité ne contient plus le retour → désintégration neutron → matière ordinaire (β-)
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02 (étoiles à neutrons).** (1) **~1,4 M☉ n'est pas une borne inférieure de stabilité observée** : c'est la masse *typique* (canonique) des étoiles à neutrons mesurées. La masse minimale stable d'une étoile à neutrons, si le modèle veut la cibler, est une **cible distincte**, à ne pas identifier à 1,4 M☉ sans source. (2) **M_TOV n'est pas « 2,16 M☉ observé »** : les pulsars d'environ 2 M☉ imposent une borne *inférieure* forte sur la masse maximale possible ; les inférences modernes de M_TOV dépendent de l'équation d'état et des jeux de données et gravitent vers ~2,2–2,3 M☉ (estimations récentes autour de 2,22–2,27 M☉ ; PSR J0952−0607 ≈ 2,35 ± 0,17 M☉). La « fenêtre mesurée [1,4 ; 2,16] » n'existe donc pas comme telle. Deux cibles séparées : **A)** M_TOV = masse maximale (≈ 2,2–2,3 M☉, EOS-dépendante) ; **B)** une éventuelle masse minimale stable (valeur non fixée ici). Le mécanisme V1 (balance retour vs sillage d'empêchement, Q55) et le mécanisme candidat V2 (« la proximité ne paie plus », non validé) sont inchangés.
 
 **Conséquences structurelles** :
 
@@ -5177,6 +5216,9 @@ Cette pièce devient la **règle BOOTSTRAP 5.18** et implique des raffinements d
   - 2D : πr² (surface du cercle)
   - 3D : (4/3)πr³ (volume sphère)
   - **4D : ~r⁴** (volume de la 4-boule)
+
+> **NOTE V2 — CORRECTION MATHÉMATIQUE 2026-09-02 (n-boules).** La suite « 2πr → πr² → (4/3)πr³ → (π²/2)r⁴ » mélange une *circonférence* (mesure du bord en 1D) avec des *volumes* ; ce n'est pas la progression des volumes des n-boules. La formule standard est V_n(r) = π^(n/2) / Γ(n/2 + 1) · rⁿ, soit **V₁ = 2r, V₂ = πr², V₃ = (4/3)πr³, V₄ = (π²/2)r⁴** (et pour les bords : 2, 2πr, 4πr², 2π²r³). La pièce canonique de Gabriel — *4df(x) utilise r⁴ et r est la clef* — **n'est pas touchée** : elle porte sur l'exposant 4 et sur le rôle de r, pas sur la justification par les n-boules. La séquence historique est à lire comme une **intuition de progression dimensionnelle** (« la progression de π dans les profondeurs de t=0 »), non comme une dérivation mathématique stricte des n-boules. La séquence V1 est conservée ci-dessus pour trace.
+
 - **Décomposition** : 1 dimension temporelle circulaire (aller-retour sur axe T) × 3 dimensions spatiales combinatoires
 - **r est la clef** du modèle — tout observable dérive de r via 4df(x)
 
@@ -5505,6 +5547,8 @@ Quand un lien-énergie fermé est en mouvement dans t=x, le mouvement ne fait pa
 
 ### Q110 `[CANONIQUE]` : Durée de vie ≠ durée d'existence — étendue structurelle de l'inscription du tissage sur T
 
+> **Note V2 (2026-09-02)** — Deux pièces V2 habitent exactement cet écart : les **rebonds partiels** (lecture Gab, 2026-07-10 : la structure de T permet des rebonds qui ne remontent pas jusqu'à t=x pendant la perte d'une perpendiculaire ; mécanisme candidat pour le résidu δ = +0,34 % de la candidate №1, voir 08) et le **temps passé dans le sillon** (Q179 : on n'existe pas dans t=x pendant ce temps). Précision V2 (A8/A9) : ce qui « ne remonte pas » **sort libre** — ne plus écrire « reste ».
+
 **Verbatim Gabriel (complet)** :
 > *« il faut considere T, alors ce n'est pas j'existe pendant ce temps, c'est le tissage et sa liberation occupe la dimension t=x et t=x+y, sauf qu'on va toujours cherchez le seul e qui existe »*
 
@@ -5600,7 +5644,7 @@ Donc le neutrino = **l'objet structurellement le plus simple** où IN et OUT son
 **Conséquence forte** : la **mesure expérimentale de m_ν devient un test du modèle**, pas une cible d'ajustement. Si la formulation Phase 2 prédit (par exemple) m_ν = 0.012 eV, et si KATRIN ou les futures mesures cosmologiques convergent vers cette valeur, c'est une **validation structurelle du modèle**. Si elles divergent, le modèle est en tension structurelle, à raffiner.
 
 **Conséquences pour Phase 2** :
-1. **Configuration de référence, pas valeur de référence** : le neutrino est l'**objet structurel** le plus simple, mais sa valeur numérique n'est pas une calibration **a priori**. Le mathématicien Phase 2 ancre la fonction sur les ratios connus (m_μ/m_e ≈ 207, etc.) et **vérifie ensuite** si la prédiction structurelle de m_ν tombe dans la fenêtre empirique actuelle (Σm_ν < 0.12 eV, en attendant de futures mesures plus précises).
+1. **Configuration de référence, pas valeur de référence** : le neutrino est l'**objet structurel** le plus simple, mais sa valeur numérique n'est pas une calibration **a priori**. Le mathématicien Phase 2 ancre la fonction sur les ratios connus (m_μ/m_e ≈ 207, etc.) et **vérifie ensuite** si la prédiction structurelle de m_ν tombe dans la fenêtre empirique actuelle (Σm_ν < 0.12 eV, en attendant de futures mesures plus précises). *(Note V2 2026-09-02 : les limites cosmologiques sur Σm_ν sont dépendantes du modèle et du jeu de données — 0,06–0,1 eV dans certaines combinaisons ΛCDM strictes, pas de borne unique ; direct : KATRIN 2025, m_β < 0,45 eV. Voir 07 P2/P7.)*
 
 2. **Vérification croisée** : la formulation candidate de la fonction doit reproduire **simultanément** m_e, m_μ, m_τ, m_p, et **prédire** m_ν dans une plage compatible avec l'empirie, sans paramètre libre (Q91).
 
@@ -5961,6 +6005,8 @@ Cette pièce articule la **trame** (Q121, Q124) avec la **fonction 4df(x)** : la
 - Spectre des masses des hadrons = spectre des structures de tissages composites possibles dans t=x
 
 ### Q126 `[CANONIQUE]` : Le neutrino est un assemblage up/down déplacé hors de t=x — entre t=0+1 (up) et t=0+2 (down)
+
+> **Note V2 (2026-09-02)** — Tension inscrite, non résolue : le journal Phase 2 du 2026-07-16 (Q171 et suivantes) tue l'hypothèse « neutrino = assemblage de quarks » au motif qu'une adresse quasi pure ne *contient* rien, tandis que cette pièce le décrit comme up à t=0+1 et down à t=0+2. La conciliation probable — deux **positions** du cycle, pas deux objets contenus — n'a pas été écrite. Voir Q167 (le neutrino ne se déplace pas ; saveurs = perpendiculaires empruntées), 04 §7.4 (tension 4), et la lecture down = « face t=0+2 du transit » de la séance 2026-09-02.
 
 **Verbatims Gabriel (séquence de l'extraction 4 mai après-midi)** :
 
@@ -7267,7 +7313,7 @@ Le neutrino est **trop proche de t=0 à son OUT** (à t=0+1). Il n'a pas la « m
 
 C'est cohérent avec son interaction faible avec t=x (Q126), sa charge masquée par déplacement (Q158), son caractère de calibration zéro (Q113).
 
-**Conséquence pour les supernovae** : lors de l'effondrement, les combos nucléaires se restructurent massivement. Les **neutrinos transportent l'énergie « hors de t=x »** parce qu'ils ne se restructurent pas (cohérent SN1987A : 99% de l'énergie en neutrinos).
+**Conséquence pour les supernovae** : lors de l'effondrement, les combos nucléaires se restructurent massivement. Les **neutrinos transportent l'énergie « hors de t=x »** parce qu'ils ne se restructurent pas (cohérent SN1987A — Note V2 : ~99 % de l'énergie de liaison en neutrinos est une inférence du modèle physique d'effondrement, non une mesure directe, voir 09 §9.2 — : 99% de l'énergie en neutrinos).
 
 ### Q160 `[CANONIQUE — méthodologique]` : Garde-fous épistémiques sur vie/conscience et théories alternatives
 
@@ -7970,6 +8016,313 @@ Les théories alternatives (cordes, multivers, gravité quantique à boucles, th
 **Confirmation du verbatim Gabriel** : *« les reponses etaient deja toute la juste mauvais vocabulaire »* — empiriquement validé.
 
 **Programme prochaine session** : Phase 2 mathématique (formalisation de 4df(x) avec coût IN + consommation OUT explicites).
+
+---
+
+
+---
+
+## Séances V2 (juillet–septembre 2026) — pièces additionnelles (Q161-Q186)
+
+*Ces pièces sont issues des séances de construction du 2026-07-10 et du 2026-09-01, de la session adversaire du 2026-07-10 et du journal Phase 2 du 2026-07-16. Le statut de chaque pièce est indiqué dans son titre. Les pièces marquées `[LECTURE]` sont remplaçables sans que rien d'autre ne tombe ; les pièces `[CANDIDATE]` ne sont pas des résultats.*
+
+### Q161 `[CANONIQUE]` : Les perpendiculaires sont les dimensions du lien — trois régimes d'un seul nuage
+
+Le lien-énergie possède des dimensions : **1 perpendiculaire = vecteur (filament), 2 = surface (tissu), 3 = volume (motton)**. Ce sont les trois régimes d'inscription d'un **seul** nuage, celui de l'électron.
+
+Muon et tau ne sont donc pas des particules possédant leur propre nuage : ce sont les régimes à 2 et 3 perpendiculaires du nuage de l'électron. Un seul objet dans T, trois régimes. C'est le prolongement direct de la théorie de l'électron unique déjà au corpus.
+
+**Précision d'axes (inscrite 2026-09-01)** : les perpendiculaires sont perpendiculaires à **T**, pas aux axes 3D de t=x. Les coucher sur T est une erreur d'axes ; elle a été commise et retirée en séance.
+
+**Conséquence (lecture 6c, non acquise)** : il n'y aurait pas de quatrième lepton parce qu'une 4ᵉ perpendiculaire n'épaissirait plus rien de projetable. La prédiction « pas de 4ᵉ famille » elle-même est V1 (P4) ; cette raison mécanique est une lecture.
+
+### Q162 `[CANONIQUE]` : Volants emboîtés et unité-électron
+
+Le prix d'une perpendiculaire s'appelle un **volant**, compté en unités-électron. Décomposition **emboîtée** : chaque génération contient les volants des précédentes.
+
+| Volant | Valeur | Objet |
+|---|---|---|
+| I₁ | 1 | électron (1 perpendiculaire) |
+| I₂ | 205,768 | volant du muon (tissu) |
+| I₃ | 3270,46 | volant du tau (motton) |
+| I₃/I₂ | 15,894 | rapport des deux ouvertures |
+
+**L'unité-électron est une unité de compte**, pas une masse intrinsèque ni une constante de la nature : c'est la lecture du régime 1-perpendiculaire à notre x, choisie parce qu'elle est la mieux mesurée. Cohérent avec la masse systémique (05 §5) et avec la dépendance en x (Q165). Si la Phase 2 identifie un meilleur dénominateur, tous les ratios se reconvertissent sans rien casser.
+
+### Q163 `[ACQUIS pour l'image de Gab — LECTURE pour le principe de coût, 6c]` : Couverture vs épaississement
+
+**Simplification de Gab (2026-07-10)** : la 1ʳᵉ perpendiculaire est un vecteur qui tourne — trace 1D. La 2ᵉ porte le même cycle par deux vecteurs : une surface qui **couvre** le cycle vers t=x. La 3ᵉ ajoute un vecteur et distribue un volume — mais la couverture est déjà faite : *« comme regarder un cercle mince ou une sphère, la projection sera la même, l'espace occupé sera plus grand seulement »*.
+
+**Principe de coût déroulé de cette image (LECTURE structurante, remplaçable)** : 1→2 = acquérir la couverture, plein tarif (×206, mesuré) ; 2→3 = épaissir sans couvrir, tarif marginal (×15,9, mesuré). « La masse paie la couverture du cycle, pas le volume occupé » est cette lecture, pas un acquis.
+
+C'est une raison qualitative au contraste mesuré entre les deux sauts. Elle précède toute valeur : l'image est inscrite, le nombre reste à dériver. (Les chiffres de la « comptabilité B » — 91,3 %, 1/11,50, ×20,7 — avaient été calculés sous X = 2/α et sont retirés avec lui, Q183.)
+
+### Q164 `[CANONIQUE]` : Flèche B — le coût fixe la masse, la durée en découle
+
+Le coût du lien fixe la masse ; la tenue sur T en découle. Un lien coûteux est un lien que T ne soutient pas longtemps. **La durée de vie est une sortie du modèle, jamais un ingrédient.**
+
+Trois fins, un mécanisme : tau et muon perdent une perpendiculaire ; l'électron ne perd rien et se résout dans le régime singulier. **L'électron n'est pas immortel : il est de valeur T.**
+
+**Avertissement inscrit (2026-07-10)** : une formulation de scribe — « chaque unité de coût divise l'étendue par un facteur constant » — a été inscrite sans étiquette, n'est reconnue par personne, et est **réfutée par les données** (elle prédirait τ_e ≈ 6,3 µs contre > 2×10³⁶ s mesuré). Elle est retirée. La flèche B elle-même, qualitative, n'est pas touchée.
+
+### Q165 `[CANONIQUE]` : r est une variable — gradient de saturation près de t=0
+
+Le coût des perpendiculaires dépend de la profondeur disponible entre t=x et t=0. Les valeurs 205,77 et 15,894 sont des **lectures à notre x**, pas des constantes de la nature.
+
+**Mécanisme (lecture de Gab, 2026-07-10 — inscrite [LECTURE] à l'attaque №3)** : *« près de t=0, l'espace à ce niveau est saturé des liens-énergie du T en entier. »* Ce qui est acquis (6d), c'est que r est une variable ; le mécanisme est la lecture qui l'explique. r(x) porte donc un **gradient inscrit** le long de x : raide aux petits x, plat à notre x. C'est une pente d'inscription, pas une évolution dans le temps.
+
+**Contrainte externe citée en session (2026-07-10) — RETIRÉE, conservée pour trace** : « Δμ/μ = (0,0 ± 1,0)×10⁻⁷ à z = 0,89 ; qq×10⁻⁶ sur les quasars H₂ à z ≈ 2–3 ; ~10⁻⁸/Ga sur les horloges ; l'échelle des bornes croît vers t=0 exactement comme un gradient de saturation le demande. »
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02.** Les bornes astronomiques précédemment citées sous la notation Δμ/μ (méthanol vers PKS 1830−211 à z ≈ 0,89 ; H₂ des quasars à z ≈ 2–3 ; dérives d'horloges) concernent **μ ≡ m_p/m_e** (proton/électron), et non m_μ/m_e (muon/électron). Elles ne contraignent donc pas directement le r du secteur leptonique. Elles sont retirées comme contrainte de P12. À ce stade, le corpus n'a pas identifié d'observable astrophysique directe équivalente pour m_μ/m_e. L'acquis interne « r est une variable » et la dette de dériver r(x) restent inchangés. Une prédiction exploitable exige désormais d'identifier une observable réellement sensible au rapport muon/électron.
+
+**Conséquence pour le verdict de l'attaque №3** : le verdict « TIENT — les bornes tardives sont passées par structure » reposait sur ce banc d'essai. Le banc d'essai n'était pas le bon observable ; la pièce « r est une variable » **tient toujours comme acquis interne** (6d), mais elle n'a plus de test externe et retombe, tant qu'une observable sensible à m_μ/m_e n'est pas identifiée, dans la branche (ii) que l'attaque elle-même nommait : « s'annule dans tout observable » = invérifiable par construction. C'est une dette de plus (D-F, 04 §7.3), pas une réfutation.
+
+**Obligation Phase 2** : dériver la loi de gradient (dr/dx ∝ quoi). Sans elle, la pièce retombe en « s'annule dans tout observable » — invérifiable par construction.
+
+### Q166 `[CANONIQUE]` : La membrane lit un demi-cycle — d'où √m, d'où Koide
+
+La mesure à t=x lit **un demi-cycle** — un IN ou un OUT — jamais la fonction 4df(x) complète. La masse vraie est le cycle entier. D'où : **√m = demi-cycle, m = cycle complet**.
+
+**Conséquence (LECTURE, 6d)** : la relation empirique de Koide, (m_e+m_μ+m_τ)/(√m_e+√m_μ+√m_τ)² = 2/3 à 10⁻⁵ près, inexpliquée depuis 1981, devient **linéaire** en demi-cycles : la somme des trois demi-cycles fait un angle fixe avec la diagonale, et 2/3 ⇔ **angle = π/4 exactement**.
+
+Cohérent avec la famille des constantes de forme du modèle : π/2 (une jambe), 2/π (transit), π/4 (équilibre des trois).
+
+### Q167 `[CANONIQUE]` : Trois saveurs de neutrinos = trois perpendiculaires empruntées en transit
+
+Entre t=x et t=x+1, le vecteur a accès aux 3 perpendiculaires structurelles. **La saveur est laquelle, et combien, il exploite.**
+
+Même menu de 3 perpendiculaires pour toute la famille leptonique : les chargés les **inscrivent en ancrage** (verrouillé — pas d'oscillation) ; les neutrinos les **empruntent en transit** (libre — oscillation). Le fait que les leptons chargés n'oscillent pas et que les neutrinos oscillent sort gratuitement.
+
+**Première formulation rejetée par Gab** : « saveurs = enjambées entre crans cosmologiques datés » — un neutrino peut être émis à tout x. Rejet inscrit.
+
+**Le neutrino ne se déplace pas** (2026-09-01) : il existe au régime du sillon **non tenu**. Sa vitesse ~c et son interaction uniquement faible sont la même absence de tenue, lue deux fois.
+
+### Q168 `[CANONIQUE]` : Les quatre forces sont quatre deltas
+
+Un **delta** est l'écart entre l'endroit où le OUT aurait dû revenir (régime naturel : à c) et l'endroit où il revient réellement.
+
+| Force | Delta |
+|---|---|
+| forte | proximité forcée |
+| faible | reconfiguration (perte de perpendiculaire) |
+| électromagnétique | décalage du OUT ; sa part transit = magnétisme |
+| gravité | déplacement bloqué **en totalité** |
+
+**Gravité** : le régime naturel est le déplacement ; le photon revient à c, delta nul, aucune gravité. L'ancré revient sur place, le retour qui aurait dû se faire à c ne se fait pas, et l'écart s'inscrit cycle après cycle. **La gravité n'est pas une courbure : c'est le retour impayé qui s'accumule.**
+
+**Deux conséquences gratuites** : le **principe d'équivalence** (masse inertielle et masse grave **sont** le même delta) et l'**impossibilité du monopôle magnétique** (un delta a toujours deux bouts — le dipôle n'est pas un accident, c'est la nature de l'objet).
+
+**Structure du champ** : force = f(delta, lancer), où delta est l'écart vectoriel du OUT et lancer l'énergie de plongée du IN. Correspond terme à terme à F = qv×B.
+
+### Q169 `[CANONIQUE]` : La température est une statistique de deltas
+
+Chaud = deltas désordonnés intenses ; aimanté = deltas ordonnés ; froid = deltas qui s'amenuisent. **Un lien seul n'a pas de température** : c'est une propriété de population.
+
+**Cas limite qui démontre la définition** : un photon en mouvement n'a aucune température. Il est au régime naturel — delta nul, rien à désordonner — quel que soit leur nombre. Le seul objet sans delta est le seul objet sans température propre. *(Précision vs physique standard, qui attribue une température aux gaz de photons.)*
+
+**Le CMB en créance (LECTURE)** : la température du CMB n'est pas dans les photons, c'est la lecture du désordre des liens ancrés émetteurs. Le thermomètre mesure l'agitation que ses propres liens acquièrent **à l'absorption**. La température voyage en créance, pas en espèces.
+
+**Zéro absolu = frontière de régime** : l'ancré ne peut pas atteindre delta = 0, car delta = 0 **est** le régime photon — plus d'ancrage du tout. S'en approcher, c'est approcher la libération du lien sans jamais l'atteindre en restant matière.
+
+### Q170 `[CANONIQUE]` : Photon et singularité sont deux faces d'un objet — et le trou blanc est le photon
+
+Le photon est le **OUT** (lien ouvert se propageant depuis t=0) ; la singularité est le **IN** (retour direct vers t=0 sans déplacement). Une seule structure, lue dans les deux sens de la dualité aller-retour. Recadre la typologie : **quatre objets, cinq lectures**.
+
+**Complément inscrit le 2026-09-01 (A17, A18)** : le trou blanc n'est pas un objet de plus — c'est la face OUT, et **il en sort un à chaque émission**. Chaque photon est un trou blanc observé. Il n'y a pas de Big Bang, seulement son t=1 : e arrive librement et constamment dans t=x par les trous blancs.
+
+*(Note d'attribution : le mot « trou blanc » est de Novikov, 1964, pas d'Einstein. Sans conséquence pour la pièce.)*
+
+### Q171 `[GABRIEL_VALIDÉ — GELÉ 2026-07-16]` : Décroissance sans mémoire — le nuage est figé au lancer
+
+Exister, c'est **re-fermer sa boucle** à chaque cycle. La durée de vie est le nombre de cycles attendu avant échec de re-fermeture, multiplié par la durée du cycle.
+
+Le **nuage de destinations est figé au lancer** ; le tirage est **indépendant à chaque cycle**. D'où une décroissance **sans mémoire**, et l'exponentielle observée qui tombe toute seule au lieu d'être postulée.
+
+**Pin de formulation** : le nuage (donc le taux) est figé au lancer ; la mort de **chaque individu** est tirée à chaque cycle. Ne jamais glisser vers « la date de mort est tirée à la naissance » — ce serait une variable cachée.
+
+**Un seul geste compté** : le « lancer initiateur » pose **à la fois** la masse et le nuage de destinations. Masse et nuage sont co-définis — la double-comptée du perpendiculaire est évitée par construction.
+
+### Q172 `[GABRIEL_VALIDÉ — GELÉ 2026-07-16]` : Gravité-tranche vs gravité-paire ; e-net vs liens-énergie
+
+**L'unité définitionnelle est la paire (x, x+1)**, pas x seul : un point seul ne ferme rien.
+
+Deux gravités distinctes, à ne jamais confondre :
+- **Gravité-tranche** (à t=x seul) : énergie totale à l'instant, **dépend du déplacement** — le rapide pèse plus.
+- **Gravité-paire** (sur (x, x+1)) : l'invariant co-localisé, **indépendant du déplacement**, balancé.
+
+Deux comptes distincts, également :
+- **e-net** (IN−OUT directionnel) : s'annule pour du trafic symétrique. C'est ce qui manifeste, ce qui pointe.
+- **liens-énergie** (coût de maintien de tout le trafic, IN+OUT) : **s'additionnent, ne s'annulent jamais**, pèsent même à solde-e nul.
+
+**La gravité se lit sur la densité de liens-énergie co-localisés** — ni sur le e-net seul, ni sur la somme brute non localisée.
+
+### Q173 `[GABRIEL_VALIDÉ — GELÉ 2026-07-16]` : Matière noire = le sillage du futur inscrit dans le passé
+
+*(Le journal du 2026-07-16 écrit « sillon (wake) » ; au sens du corpus V2 c'est le **sillage** — voir 10 §9.1 pour la distinction sillon / sillage.)*
+
+La matière noire est la trace anticipée, à **t=x−1**, de ce qui va se manifester à t=x. Elle est donc faite de **liens-vers-e sans porteur à t=x** — donc noire — et **sans collision** — un sillage précède, il ne se cogne pas. Une seule raison pour les deux propriétés.
+
+**Bullet Cluster** : la séparation gaz/lentille est un effet de **collisionnalité**, pas de vitesse ni de densité. Le gaz est collisionnel et traîne ; la matière noire file devant. La vitesse de collision **révèle** la différence, elle ne pèse pas.
+
+**Fausse alarme loguée (2026-07-16)** : l'affirmation « la somme des liens-énergie fait dominer le gaz chaud dans la lentille » est **fausse** — le gaz du Bullet est non relativiste (kT ~ 15 keV contre 938 000 keV). Aucune contrainte. Inscrite ici avec le même soin qu'un succès.
+
+**Quatre questions ouvertes** sur le sillage : de quoi est-il le sillage ; de quel côté décale-t-il ; quel mécanisme le décolle de son mobile ; et les deux sillages — perçage (tire, attractif → matière noire) vs refermeture (rend, fond qui ne se dilue pas → énergie sombre) — sont-ils un seul mécanisme lu dans deux sens ?
+
+### Q174 `[GABRIEL_VALIDÉ — GELÉ 2026-07-16]` : Conservation à deux niveaux
+
+Deux niveaux séparés, non arbitraires — même e, deux états :
+
+- **LOCAL (t=x)** : l'énergie ordinaire se conserve **strictement, ici et maintenant**. Le muon rend pile son énergie sur place.
+- **GLOBAL (T entier)** : seul le bilan du **fond** — l'unique e de t=0 — se ferme sur toute la longueur du temps.
+
+Frontière entre les deux : **perçage** (fond → manifesté) et **singularité** (manifesté → fond). Les singularités referment le perçage et rendent au fond : le fond ne se vide pas.
+
+**t=0 n'est pas « avant »** : il n'y a pas d'avant, le mot n'a pas de référent. t=0 est **« tout le temps »** — un fond permanent sous chaque maillon. Exister, c'est percer des liens pour ramener du e dans t=x.
+
+**Le Big Bang n'a pas d'emplacement** : il est partout, à la racine de chaque observateur. C'est pourquoi le CMB arrive de toutes les directions pour tout le monde.
+
+### Q175 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01]` : Le sillon — la masse, c'est le sillon ; le déplacement, c'est son résultat
+
+**Verbatim Gabriel (adapté en séance, A1)** : le sillon est pré-inscrit en t=x−1 pour les deux régimes. Libre (lumière) : le lien existe sur son axe t=x → t=x+1, le sillon existe avant l'arrivée — **le sillon est le chemin lui-même**. Embouteillé : le sillon est **tenu par la proximité des sillons de quarks** ; il est déjà prêt en t=x−1 pour aller à t=0 et en revenir, sinon e ne serait pas adressé dans t=x.
+
+**Correction de Gab en séance (D4)** : *la masse, c'est le sillon ; le déplacement, c'est le résultat du sillon.* Ne jamais écrire « déplacement = masse ». Un gros sillon (quark immobile) = grosse masse ; son résultat = le déplacement — le OUT qui atterrit décalé, lu à la membrane comme mouvement.
+
+**Ce que le sillon unifie** : la force faible est la lecture à t=x du sillon-e tenu par la proximité des sillons de quarks (perte de perpendiculaire = sillon plus tenable → delta de reconfiguration) ; d'où : toute désintégration leptonique est faible, le neutrino n'interagit que faiblement (il n'est rien d'autre qu'un sillon), et la portée est courte.
+
+**Sillons additifs** : l'embouteillé sort en t=x+1 (ce qui reste retourne en e dans t=x) ; le libre existe entre t=x et t=0, maintenu par son déplacement à c. Désintégration, chaleur, énergie cinétique = des sillons qui entrent ou sortent. **Tout est transition libre ↔ embouteillé** ; la seule génération de libre sans embouteillé préalable est à t=0+1.
+
+*(Ne pas confondre avec le **sillage**, 10 §2 : le sillon est individuel et tenu ; le sillage est collectif et résiduel.)*
+
+### Q176 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01]` : Le filament est le trajet — le nuage probabiliste est un artefact de lecture
+
+Le filament (1ʳᵉ perpendiculaire) est **le trajet lui-même** ; il adresse e. L'électron n'est pas une balle qui suit un chemin : c'est **le chemin inscrit d'un bloc** — une balle de tennis dont la trajectoire *existe* au lieu de se créer au gré d'un temps qui passe.
+
+Cela referme la pièce « nuage probabiliste = artefact de lecture » : la membrane lit une trajectoire entière et voit une probabilité. **Le nuage est identique pour les trois régimes** ; la projection à la membrane est la même ; seul l'espace occupé change.
+
+**Espace occupé** = volume dans 4df(x) sur toute l'existence du lepton. Pas un volume 3D. Équivalent à l'intégration de Q44 sur toute la profondeur t=x → t=0.
+
+**Profondeur** : pas une dimension à part — c'est le trajet de l'adressage de e dans T, structuré en aller-retour ; le retour n'atterrit pas au départ mais en x+y. **π/2 = une jambe** (la moitié d'un aller-retour). Chaque phase aller-retour est distincte de la précédente.
+
+### Q177 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01]` : Les éventails IN et OUT — le coût d'une perpendiculaire est un ratio de forme
+
+**L'éventail (image de Gab)** : fermé = 1 perpendiculaire, avec un certain volume. Il s'ouvre = 2ᵉ perpendiculaire : **son volume n'a pas doublé, il a suivi le ratio de la forme de l'éventail.** Le coût d'une perpendiculaire = le rapport d'espace occupé entre l'éventail ouvert et l'éventail fermé.
+
+**Deux éventails par cycle : IN et OUT.** Le OUT n'est pas le miroir du IN, à cause des sillons existants : le chemin suivi subit les forces en jeu dans 4df(x). La différence est répartie entre les deux ; le nuage étant le même, **toutes les mesures ont les mêmes ratios** — c'est ainsi que leur existence persiste dans t=x+1.
+
+**La largeur du filament = les sillons de t=x+1.** Elle n'est pas intrinsèque : c'est l'espace laissé par la population de sillons à l'atterrissage. La densité de ces sillons est fixée par le 4df(x) des liens présents — un quark immobile a un gros sillon et permet à l'adressage de e d'exister en t=x+1.
+
+**Ce que les sillons de t=x+1 changent sur la lame OUT : sa POSITION.** Ni sa longueur, ni sa largeur.
+
+**Deux perpendiculaires dans t=x+1, pas dans T** (« super important ») : le maintien peut tenir 2 perpendiculaires dans t=x+1, mais T n'en porte qu'une — comme la force angulaire, qui existe dans T et peut donc générer des forces dans t=x+1.
+
+### Q178 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01]` : Un niveau d'énergie est une position d'atterrissage — et un sillon se lit à l'émission
+
+**L'injection de e va à l'atterrissage, pas à l'ouverture.** L'énergie embouteillée est par définition maintenue en place pour exister localement dans t=x. Injecter du e, c'est **étirer le sillon** dans 4df(x) (deux atomes d'or déplacés jusqu'à 0,999 c : beaucoup d'énergie pour tenir un sillon aussi long). L'injection change donc x+y — le déplacement, la dilatation — et **pas le ratio d'ouverture de l'éventail** (cohérent avec A11 : « toutes les mesures ont les mêmes ratios »).
+
+**La vitesse est un paramètre de 4df(x)** : la quantité de e qui existe entre t=x et t=x+1. Les surroundings, avec les forces, sont la représentation des influences qui subsistent dans 4df(x). Correspondance : vecteur 3D synthétique (06) + distance entre liens-énergies (5ᵉ paramètre).
+
+**Le volume d'un sillon embouteillé se lit à l'émission** : dans la différence d'énergie après qu'un photon soit libéré lors d'une interaction en t=x+1. La transition embouteillé → libre **est** la mesure ; on ne choisit pas une valeur, on lit ce que l'émission rend, qui dépend de la configuration.
+
+*(Déroulé de Claude, 8.1, `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` : e⁺e⁻ → γγ libérerait le filament entier — deux photons de 511 keV, un par lame — et, par conservation M + D, le sillon d'un photon par phase occuperait exactement une lame. À valider.)*
+
+### Q179 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01/02]` : Exister = l'équilibre du sillon ; le temps passé dans le sillon est perdu
+
+**Définition** : exister, c'est l'équilibre du sillon entre t=x, t=x+1, t=x+2, t=x+3… **sans changement extérieur**. Comme la génération d'un trou blanc : par sa nature ça existe dans T, mais c'est influencé par t=x+1 à cause de la nature des sillons.
+
+*(Traduction de Claude, inférence I4, `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` : existence = point fixe de la régénération phase après phase — électron : point fixe (valeur T) ; proton : point fixe ; muon et tau : pas de point fixe ; neutron : point fixe seulement en compagnie ; photon : existe par nature, son atterrissage dépendant des sillons de t=x+1.)*
+
+**Le temps passé dans le sillon est perdu** : on n'existe pas dans t=x pendant ce temps. Il est lié au déplacement. L'électron passe très vite, les quarks méga vite, les photons moins vite mais plus longtemps, comme les neutrinos — leur existence est définie comme telle.
+
+**Le temps de passage de l'électron ne change pas** : c'est sa structure dans T. Muon et tau n'ont pas de structure persistante dans T ; ce qui compte, c'est **la quantité de e nécessaire pour que le OUT se produise avec ces perpendiculaires**.
+
+### Q180 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01/02]` : Le coût de retour — masse et durée de vie sont un volume lu deux fois
+
+**Ce que T inscrit du tissu : le coût de retour** — ce que le IN a perdu en OUT. Ni la lame seule, ni la projection : la différence entre ce qui descend (tissu entier tenu dans t=x+1) et ce qui remonte par T (T ne portant qu'une perpendiculaire).
+
+**Dégradation inscrite** : par nature, le sillon tenu ne peut pas avoir 2 perpendiculaires ; il existe donc dans T une dégradation par nature, quantifiable, avec un volume dans 4df(x) sur tout t=x et t=x+y. Elle est inscrite (matrice), pas une érosion.
+
+**Deux lectures d'un seul volume** : la masse (lue à t=x) donne la dégradation par lecture ; la durée de vie donne l'étendue totale. *« Ça dépend comment c'est mesuré. »*
+
+**« Ça reste le sillon. »** Le coût de retour et la charge ne sont pas deux différences IN−OUT : c'est le sillon lu en **quantité** (coût) et en **direction** (charge). *(Déroulé de Claude après l'acquis, non validé : α serait alors une propriété du sillon, pas un paramètre importé. Dans l'équation ci-dessous l'unité de coût est u, inconnue.)*
+
+**Ce qui est compté** : les variables de 4df(x). **Le compte est 3 × 2** — les trois vecteurs (déplacement 3D, descente, retour) sur chacune des deux lames (IN, OUT). Les paramètres collectifs et x n'entrent pas dans le coût de retour d'une couverture.
+
+**Forme de l'équation du muon au 2026-09-02** : I₂ = (π/4) · X · (1 − 6u), avec X (lame propre, à calculer dans 4df(x)) et u (unité de coût par vecteur) **inconnues**, liées par X(1 − 6u) = 2r = 262,0. Le facteur π/4 suppose que chaque éventail couvre une jambe π/2 (comptabilité déroulée de A5/A10/A11) ; l'angle reste à trancher par Gab, et r = L/(2w) sous cette convention. Voir `11_MUON_SILLON_ET_COUT.md`.
+
+### Q181 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-02]` : Corridors et trajets — « le proton, c'est juste un sillon pour les leptons »
+
+**Hadrons = corridors** (sillons maintenus). **Leptons = trajets** (filaments et leurs régimes). Ce n'est pas une comparaison, c'est une complémentarité : le corridor et son passager.
+
+**Élaboration de A35 (Claude, à valider)** : le proton serait trois cycles maintenus (uud) faisant un corridor tenu par la proximité — déplacement nul, direction +1 (charge), masse = ce sillon. Seul : corridor ouvert sans passager. Avec un électron : le trajet prend le corridor, direction 0, 13,6 eV sortent libres — l'hydrogène = un sillon + un trajet, l'unité minimale.
+
+**Conséquences (déroulées en séance, à valider une à une)** : la règle « leptons et hadrons ne se comparent pas » a son fondement ; « proton > T » et « électron = valeur T » sont un seul fait ; le neutron est un corridor qui contient une paire de leptons et la relâche en β ; muon et tau sont l'éventail de l'électron **ouvert par des sillons de quarks** (pion) ; r = L/w se lit littéralement « longueur du trajet / largeur du corridor ».
+
+**Cadre proposé pour la lame propre X (Claude, à valider)** : l'électron seul n'aurait pas de largeur ; ses largeurs naturelles seraient celles du sillon du proton. X serait une quantité de l'hydrogène, à calculer en 4df(x) — filament + corridor + coût de tenue en une seule intégrale.
+
+### Q182 `[LECTURE — Gab, 2026-09-02 ; désaccord ouvert]` : Payeur et coût — le down, le neutron, la singularité
+
+*(Fait posé devant Gab par Claude, §13.1, non assemblé, `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` : le coût serait une paire de leptons — d → u + e⁻ + ν̄ ; u → d + e⁺ + ν — de sorte que passer de payeur à coût, ou l'inverse, serait émettre ou absorber exactement un filament (ancré) + un transit (neutrino) ; le down serait un up + une paire de leptons embouteillée, n − p = 1,293 MeV étant ce que la paire emporte. Réponse de Gab : « Il reste quelque chose avec le sillon down » — question ouverte.)*
+
+**Down ↔ singularité** (« je crois » — lecture fraîche) : comme le up est corrélé au photon, le down est corrélé à la singularité. La singularité existe dans t=x+1 **tant qu'elle ajoute du e** ; son sillon est maintenu avec un coût à payer, mais le coût payé **grossit** le sillon.
+
+**Singularité = sillon down sans payeur, ancré seulement** `[VALIDÉ 2026-09-02]` : le neutron grossit parce que son sillon est le coût payé par la quantité ; l'ancré entre dans les downs, le transit sort (modèle d'effondrement de cœur : ~99 % de l'énergie de liaison en neutrinos ; SN 1987A cohérent, sans mesure directe de la fraction) ; quand plus rien ne paie, le cycle cesse, les quarks cessent d'être des cycles, le sillon retourne direct à t=0. **La force forte prend le dessus sur tout le reste.**
+
+**DÉSACCORD INSCRIT, NON RÉSOLU** : Gab maintient *« l'inverse — minimum 2 down + 1 up, sinon le coût à payer ne serait plus dans t=x+1 et e ne serait plus adressé. Voilà pourquoi les neutrons sont comme ils sont : il y a toujours du sillon qui grossit, ça émet des forces différentes quand tu augmentes la quantité. »* Le fait mesuré : libre, le neutron (udd) tombe en ~880 s ; le proton (uud) tient. Piste de réconciliation proposée et non validée : deux minima — **persister seul** (uud) vs **porter le coût qui adresse e** (udd, en compagnie seulement). La question posée est : « exister dans T », est-ce persister, ou porter le coût ?
+
+**Conséquence étiquetée, non validée** : pas de rayonnement de Hawking — une singularité qui n'ajoute plus de e n'a plus de OUT.
+
+### Q183 `[CANONIQUE — méthodologique]` : La rétractation du 2026-09-02 — une bonne valeur dans les mauvais axes est rejetée
+
+Le 1ᵉʳ septembre, une forme fermée avait été construite : I₂ = π/(2α) − 3π, soit m_μ/m_e = 206,831 contre 206,768 mesuré (+0,03 %). Elle reposait sur l'identification de la lame du modèle avec le rapport a₀/ƛ_C de l'atome d'hydrogène — deux longueurs lues à la membrane.
+
+**Verbatim Gabriel (2026-09-02)** : *« Ce n'est pas direct : tu ajoutes un volume dans 4df(x) sur une dimension supplémentaire, alors c'est un peu débile comme calcul. »*
+
+**Retirés** : le 4,41 % comme quantité structurelle, le 6α, le résidu δ₂, la forme fermée — et, par dépendance, tous les chiffres de la « comptabilité B » du tau qui en découlaient (tissu propre 215,26 ; 91,3 % ; 1/11,50 ; ×20,7 ; le resserrement du candidat √r), voir 08 §9.6. **Survivent** : les deux éventails (π/4), r lu dans le trajet, le coût de retour comme mécanisme, le compte 3 × 2, et la coïncidence r ≈ 1/α — retaguée (forme semblable, valeur non expliquée).
+
+**Pourquoi c'est une pièce du modèle et pas un accident** : le mécanisme *sélectionnait* exactement un point du dictionnaire pré-enregistré (r = α⁻¹ − 6). Un mécanisme peut se bâtir pour n'importe quel point du dictionnaire. **La méthode n'est une méthode que si elle calcule un second objet sans nouveau choix.** Le test est le tau ; il est écrit avant l'essai.
+
+### Q184 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-02 ; confirmé par l'auteur le 2026-09-02]` : Le proton est un trio dans T qui cycle — UP (t=x), DOWN (t=x+1), retour (t=x+2) — et la troisième position est le lepton dans son nuage
+
+**Gab (2026-09-02, A38)** : *« oublie les perpendiculaires, ça n'a pas rapport pour le moment, mais tout vient en trio… le proton existe en t=x+2 »*. Confirmation directe de l'auteur, le même jour : les sillons arrivent en **trios** dans t=x, t=x+1 et t=x+2 (confirmation écrite de l'auteur en session Cowork le 2026-09-02, hors archive verbatim — texte : « hier j'ai ajouté de l'information sur les sillons et le fait qu'ils arrivent en trios dans t=x, t=x+1 et t=x+2 »). A37, A38 et A39 n'ont pas de V-numéro dans `V2a_verbatims_Gab_2026-09-01.md` ; A38 tient sur cette confirmation écrite, A39 sur la citation portée par le document de séance.
+
+**Pièce** : le trio du proton s'étend sur trois colonnes — **UP à t=x** (IN), **DOWN à t=x+1** (OUT), **retour à t=x+2**. À t=x on lit uud ; mais la position de retour n'est pas un quark : **le e ramené n'est pas le dernier UP, c'est le lepton dans son nuage probabiliste.**
+
+**Clôture de séance (A41, verbatim V56)** : *« le e des leptons affecte t=x et le e qui est dans le hadron affecte t=x+1, se manifeste, mais en réalité c'est la même chose qui doit fonctionner ainsi. »* Le lepton = e lu à t=x (le nuage) ; le hadron = e manifesté à t=x+1 (le sillage, la masse). **Un seul e, deux colonnes du trio.**
+
+**Raccords** : règle du trio (6h : « si on a seulement 2 trucs, c'est qu'on en échappe 1 ») et triplet temporel — ici le triplet est t=x / t=x+1 / t=x+2, en aval de la lecture, et non t=x−1 / t=x / t=x+1 ; les deux triplets coexistent dans le corpus sans avoir été raccordés (voir 04 §7.4). « Le proton, c'est juste un sillon pour les leptons » (A36) — raccord de Claude (§15), non validé : la troisième position du trio serait la place du passager.
+
+**En attente à la demande de Gab (A37)** : *« Le proton est le sillon à 3 perpendiculaires »* (uud = trois sillons maintenus, d'où sa capacité à porter les trois régimes de trajet) a été posé puis **mis de côté** par l'auteur (« oublie les perpendiculaires pour le moment »). Ni validé ni retiré : en attente.
+
+*(Déroulé de Claude, `[CLAUDE_INFÉRÉ_NON_VALIDÉ — §15]`, question posée à Gab : proton seul = trio ouvert, charge +1 = la place vide de la troisième position ; hydrogène = trio fermé par l'électron dans son nuage ; neutron = trio dont la troisième position est occupée par un lepton **embouteillé** dans le corridor, la β⁻ étant la troisième position qui relâche son lepton — n → hydrogène + ν̄, n − p − e = 0,78 MeV partant avec le transit ; hydrogène muonique = le même trio fermé par le régime à 2 perpendiculaires du nuage.)*
+
+### Q185 `[CANONIQUE — GABRIEL_VALIDÉ 2026-09-02]` : Les hadrons sont les sillages d'existence des leptons ; noyau et lepton sont une même représentation, dimensionnée par la probabilité de 4df(x), mais pas le même contenu
+
+**Gab (2026-09-02, A39)** : *« On ne mesure pas un ensemble de trucs différents, on mesure un état sur une transition constante, qui est en réalité le résultat de l'existence des leptons : ce sont leurs sillages d'existence. »*
+
+**Pièce** : les hadrons ne sont pas des objets à côté des leptons ; ce sont les sillages que l'existence des leptons laisse dans T. Up et down sont des **états sur la transition** (IN/OUT du cycle), pas des particules — cohérent avec la correction de juin (quarks = le cycle IN/OUT maintenu).
+
+**Le noyau n'est pas du e (A40, verbatims V54–V55)** : *« le fait que les noyaux des atomes ne soient pas du e en fait… ça résout un de mes problèmes que j'avais avec les leptons. C'est la même chose, le lepton et son noyau sont la même représentation mais dimensionnée par la probabilité de la 4df(x) »* — puis, précisé : *« “la même chose pour le e”, ce n'est pas la même chose. »* Ce que Gab a posé : le noyau n'est pas du e ; lepton et noyau sont la même représentation, dimensionnée par la probabilité de 4df(x) ; « ce n'est pas la même chose » pour le e. *(Déroulé de Claude après « (Gab.) », `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` : le noyau serait le sillage du lepton, la même trajectoire lue là où la probabilité de 4df(x) est concentrée (noyau) au lieu d'étalée (nuage) — une représentation, deux lectures ; le lepton *adresserait* e (A6) et le noyau non, sa masse étant le sillon (D4) ; « le nuage est là où e est, le noyau là où il est passé ».)*
+
+**Vocabulaire** : « sillage » est ici au sens de 10 §9.1 (trace laissée, résiduelle) — le sillage d'existence d'un lepton est un objet **maintenu** (A36 : corridor, sillons maintenus). Le raccord exact entre « corridor = sillons maintenus » (A36) et « hadron = sillage d'existence » (A39) — deux descriptions d'une même chose, la seconde disant d'où elle vient — est une lecture proposée par Claude, non validée ; il n'a pas été écrit par Gab en ces termes.
+
+*(Déroulés de Claude, `[CLAUDE_INFÉRÉ_NON_VALIDÉ — §16]` : proton > T ⇔ électron = valeur T, un sillage durant autant que l'existence qui le laisse ; les résonances du proton = d'autres états sur la même transition ; la matière baryonique = sillage **local** de l'existence leptonique, le tissage noir = sillage **cumulé** — inférence de bout de chaîne ; le muon cosmique loin de tout noyau porte son propre sillage — règlerait l'attaque №5. Coïncidence taguée, PAS un résultat : m(π±) = 273,1 m_e, m(π⁰) = 264,1 m_e contre 2r = 262,0 ; π⁰ → γγ = 2 × 132,1 m_e contre r = 131,0 — 0,8 %, trace seulement, interdit de construire dessus.)*
+
+### Q186 `[FAITS EXTERNES — lectures non validées]` : Ce que la physique mesure du proton — « est-ce qu'il vibre ? »
+
+*Faits mesurés versés en séance (2026-09-02) en réponse à la question de Gab. Colonne de droite : lectures de Claude, non validées.*
+
+| Fait | Valeur | Lecture possible `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` |
+|---|---|---|
+| Masse | 938,272 MeV = 1836,15 m_e ; ~1 % vient des masses des quarks (2×2,2 + 4,7 ≈ 9 MeV), ~99 % du champ et du mouvement internes | masse = le sillon (le cycle maintenu), pas les quarks (D4, A35) |
+| Stabilité | τ > 10³⁴ ans (Super-K), jamais vu se désintégrer | point fixe, valeur T |
+| Rayon de charge | 0,841 fm (CODATA 2018, après l'hydrogène muonique) | la direction lue au bord |
+| Rayon de masse | ~0,7–0,8 fm (photoproduction J/ψ, 2023) — plus petit que le rayon de charge | le sillon (masse) est plus concentré que sa direction (charge) |
+| Pression interne | mesurée (Burkert et al., Nature 2018) : cœur répulsif ~10³⁵ Pa, coquille confinante | tension maintenue par proximité forcée (force forte, 6f) |
+| Spin | ½ ; les spins des quarks n'en portent que ~30 % (« crise du spin »), le reste : orbital + gluons | spin = distribution du delta dans le plan profondeur (6h), pas une propriété des quarks |
+| Moment magnétique | 2,793 μ_N (g = 5,586) ; μ_e/μ_p = 658,2 (cible Q) | delta du OUT du sillon entier (6e, 6i) |
+| Moment dipolaire électrique | compatible avec 0 (< 2×10⁻²⁵ e·cm) | pas de déformation statique le long du spin |
+| Mouvement interne | quarks relativistes, échelle ~10⁻²⁴ s ; en plus des trois de valence, une « mer » de paires et de gluons | le cycle IN/OUT tourne en permanence ; la mer = sillons additionnels (A8) |
+| Vibre-t-il ? | Au repos, non (état fondamental). Excité, oui : Δ(1232) +294 MeV (retournement de spin), N(1440) « Roper » +500 MeV (mode radial), N(1520), N(1535)… ; tous ~10⁻²⁴ s, retombent en émettant un pion | les modes = réarrangements des trois sillons maintenus ; la respiration = ouverture/fermeture du corridor ; le pion = ce qui sort quand le sillon se referme (A8, I8) |
 
 ---
 

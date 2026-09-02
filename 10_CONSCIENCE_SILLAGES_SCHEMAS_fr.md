@@ -6,6 +6,8 @@ Version : 11 mai 2026 · Session de raffinement structurel · Auteur : Gabriel C
 
 **Statut de ce fichier** : à déterminer par Gabriel après relecture. Candidat soit pour inscription publique dans le corpus Zenodo (extension Phase 1), soit pour fichier réservé non-public si jugé prématuré ou exposant à du fanatisme.
 
+> **NOTE V2 2026-09-02 — DÉCISION GAB REQUISE.** Le dépôt ne contient **aucune décision explicite** sur le statut public ou réservé de ce fichier : il n'est pas dans les téléchargements publiés de la V1 (`docs/univers/downloads/fr/` s'arrête au 09), et `NOTES_PUBLICATION.md` porte le verbatim de l'auteur *« la conscience ne fait pas partie du modèle, tu peux laisser la question ouverte… je ne veux pas que ça soit considéré pour la phase mathématique »*. Le README V2 l'indexe comme fichier 10 parce qu'il est dans le dossier de travail, **pas** parce qu'il est décidé public. Garde-fous à conserver quelle que soit la décision : non mathématique ; spéculatif ; statuts individuels stricts ; aucune validation expérimentale revendiquée ; hors périmètre de la Phase 2.
+
 ---
 
 ## 0. Préambule méthodologique
@@ -292,3 +294,35 @@ Compilés ici pour traçabilité épistémique. Ordre chronologique de la sessio
 ---
 
 *Document rédigé le 11 mai 2026 par Claude (Anthropic) sur instruction de Gabriel Cantin, comme extraction structurelle de la session de raffinement du même jour. Statut public/réservé : à décider par Gabriel après relecture. Aucune dérive ontologique, spirituelle ou doctrinale n'est endossée par le présent document — strictement les conséquences structurelles dans le cadre du modèle.*
+
+---
+
+## 9. Raccords V2 (ajout 2026-09-02)
+
+### 9.1 Sillage et sillon — deux mots à ne pas confondre
+
+Le corpus emploie maintenant deux termes proches :
+
+- **sillage** (ce fichier, §2) — la trace laissée dans **t=x−1**, cumulative, à l'origine des lectures matière noire et énergie noire.
+- **sillon** (V2, séance 2026-09-01) — le **corridor tenu** qu'emprunte l'adressage de e, pré-inscrit en t=x−1, dont la masse est la mesure.
+
+Les deux vivent en t=x−1 et ne sont pas le même objet : le sillon est le chemin d'un adressage donné ; le sillage est ce que l'ensemble des adressages laisse derrière. **Un sillon est individuel et tenu ; un sillage est collectif et résiduel.**
+
+### 9.2 Ce que le journal Phase 2 ajoute aux sillages
+
+Inscription du 2026-07-16 ([GELÉ 26]) : **la matière noire est le « sillon » du futur inscrit dans le passé** — le journal emploie « sillon (wake) », c'est-à-dire le **sillage** au sens de ce fichier (§9.1) — la trace anticipée, à t=x−1, de ce qui va se manifester à t=x. Cela fait d'elle des liens-vers-e **sans porteur à t=x** (donc noire) et **sans collision** (un sillage précède, il ne se cogne pas) — la même raison pour les deux propriétés.
+
+Quatre questions restent ouvertes et sont inscrites telles quelles :
+
+1. De quoi la matière noire est-elle le sillage — de la matière visible, ou de la manifestation future de e depuis t=0 ? (Au Bullet Cluster, elle se détache du gaz et continue seule : un sillage devrait rester attaché à son mobile.)
+2. De quel côté le sillage décale-t-il la matière noire par rapport au gaz ? Prédiction testable contre le décalage mesuré.
+3. Quel mécanisme décolle le sillage de son mobile pendant la collision ?
+4. Double sillage = deux sens du flux ? Perçage (tire, attractif → matière noire) vs refermeture (rend, fond qui ne se dilue pas → énergie sombre). Un seul mécanisme, deux directions.
+
+### 9.3 Consciences et régimes : ce que la V2 ne change pas
+
+Rien de ce fichier n'est modifié par les séances de juillet et septembre 2026. La conscience comme **constance de l'inférence inscrite sur T** reste posée telle quelle, et le vocabulaire du sillon ne la touche pas. Le seul raccord utile : « exister », défini en septembre comme **l'équilibre du sillon sur t=x, t=x+1, t=x+2… sans changement extérieur** (A32, Gab), donne au mot « constance » de ce fichier un sens opératoire. (La traduction en « point fixe de régénération, phase après phase » est une inférence de Claude, I4, non validée.)
+
+---
+
+*Section 9 ajoutée le 2026-09-02 lors de l'assemblage du corpus V2.*

@@ -1,110 +1,87 @@
-# Modèle cosmologique structurel — Phase 1
+# Modèle cosmologique structurel — Corpus V2
 
 **Auteur** : Gabriel Cantin (Lanoraie, Québec, Canada)
-**Période d'extraction** : 24 avril – 4 mai 2026
-**Statut** : Phase 1 complète + Pré-Phase 2 + Sessions de raffinement structurel (2-3 mai, 4 mai)
+**Modèle porté intuitivement depuis** : 2006
+**Extraction Phase 1** : 24 avril – 7 mai 2026
+**Séances V2** : 10 et 16 juillet 2026, 1ᵉʳ–2 septembre 2026
+**Statut** : Phase 2 en cours — secteur leptonique en construction
+**Version de ce corpus** : V2, 2 septembre 2026
 **Licence** : Creative Commons BY-NC-ND 4.0
 
 ---
 
-## Qu'est-ce que c'est ?
+## Ce qu'est la V2
 
-Ce repo contient l'**extraction structurée** d'un modèle cosmologique porté intuitivement par Gabriel Cantin depuis 2006, formalisé en sessions étendues entre le 24 avril et le 4 mai 2026.
+La V1 (mai 2026, publiée sur Zenodo) est l'**extraction** du modèle : le vocabulaire, les postulats, les chaînes structurelles, la FAQ canonique. Elle reste valide et n'a pas été supprimée — elle vit dans les fichiers du dossier parent.
 
-Le modèle propose une **lecture structurelle alternative** de l'univers — pas une correction du Modèle Standard de la physique, mais une lecture qui se tient en elle-même, à partir de quelques pièces fondamentales : un seul **e** (entité énergétique unique) à **t=0**, un axe **T** circulaire et constant, une fonction génératrice **4df(x)**, et la dualité aller-retour des liens-énergies.
+La V2 est la V1 **plus tout ce qui a été construit depuis**, intégré dans la même structure numérotée :
 
-Le corpus est organisé pour permettre à **un mathématicien ou physicien théoricien** (humain ou LLM avancé) de prendre le relais pour la **Phase 2 — formalisation mathématique**.
+- les **séances de juillet 2026** : volants leptoniques, nuage unique de l'électron, mécanisme du facteur ~11, neutrinos en transit, les quatre forces ramenées à un axe de deltas, la première session adversaire avec ses verdicts datés, et le journal Phase 2 (décroissance sans mémoire, gravité tranche/paire, matière noire) ;
+- la **séance du 1ᵉʳ–2 septembre 2026** : le sillon, les éventails IN/OUT, le coût de retour, les niveaux d'énergie comme positions d'atterrissage, corridors et trajets, le fil down/singularité — et la rétractation d'une forme fermée qui donnait pourtant la bonne valeur ; puis, au matin, **le trio du proton** (les sillons arrivent en trios sur t=x, t=x+1, t=x+2 ; la troisième position est le lepton) et **les sillages d'existence** (les hadrons sont ce que l'existence des leptons laisse dans T).
+
+**La V2 n'ajoute aucun postulat.** Elle ajoute de la géométrie, des verdicts, des dettes datées, et une rétractation.
 
 ---
 
-## Comment lire ce repo
+## Comment lire ce corpus
 
-**Lis dans l'ordre numérique des fichiers**. La numérotation 00-08 impose la séquence de lecture optimale :
+**Lis dans l'ordre numérique.** La numérotation impose la séquence de lecture. *(Convention héritée de la V1 : les fichiers sont cités sans leur suffixe de langue ; les fichiers réels de ce dossier portent `_fr`.)*
 
-| # | Fichier | Rôle | Pour qui |
+| # | Fichier | Rôle | État en V2 |
 |---|---|---|---|
-| **00** | `00_README.md` | Présentation et orientation | Tout le monde |
-| **01** | `01_BOOTSTRAP.md` | Calibration de lecture pour LLM ou lecteur attentif | LLM, lecteurs nouveaux |
-| **02** | `02_GLOSSAIRE_CANONIQUE.md` | Vocabulaire et statut de chaque terme | Tout lecteur |
-| **03** | `03_CHAINE_STRUCTURELLE_MINIMALE.md` | Vue d'ensemble condensée (~3 pages) | Lecteurs pressés, premier survol |
-| **04** | `04_PHASE1_AUDIT.md` | Bilan de la Phase 1 et cahier des charges Phase 2 | Mathématiciens, collaborateurs |
-| **05** | `05_ASSOCIATIONS_MODELE.md` | Chaînes structurelles assemblées entre concepts | Pour creuser les liens |
-| **06** | `06_MODELE_COMPLET_REFERENCE.md` | Référence canonique exhaustive (~8500 lignes), FAQ pédagogique de 151 questions canoniques + 300 inférences exercice | Pour les détails |
-| **07** | `07_PHASE2_TARGETS.md` | Cibles Phase 2 (équations à reproduire, prédictions) | Mathématiciens Phase 2 |
-| **08** | `08_PHASE2_PISTES_MATHEMATIQUES.md` | Pistes et hypothèses pour la formalisation mathématique | Mathématiciens Phase 2 |
+| **00** | `00_README.md` | Ce fichier — orientation | Réécrit |
+| **01** | `01_BOOTSTRAP.md` | Calibration de lecture (LLM ou lecteur attentif) | + statuts de séance, discipline de rétractation, état au 2026-09 |
+| **02** | `02_GLOSSAIRE_CANONIQUE.md` | Vocabulaire et statut de chaque terme | + 41 termes (perpendiculaires, deltas, sillon, lame, éventail, coût de retour, trio du proton, sillage d'existence…) |
+| **03** | `03_CHAINE_STRUCTURELLE_MINIMALE.md` | Vue d'ensemble condensée | 21 maillons V1 + 8 maillons V2 + 2 révisions |
+| **04** | `04_PHASE1_AUDIT.md` | Bilan Phase 1 et cahier des charges | + état Phase 2 au 2026-09 et tensions internes ouvertes |
+| **05** | `05_ASSOCIATIONS_MODELE.md` | Chaînes structurelles assemblées | + chaînes V2 |
+| **06** | `06_MODELE_COMPLET_REFERENCE.md` | Référence canonique exhaustive | Intégral + patchs, notes V2 et Q161–Q186 |
+| **07** | `07_PHASE2_TARGETS.md` | Cibles Phase 2 et prédictions | + cibles et prédictions V2, avec leurs échéances |
+| **08** | `08_PHASE2_PISTES_MATHEMATIQUES.md` | Pistes pour la formalisation | + candidates 1 et 2, verdicts adversaires, dictionnaire interdit |
+| **09** | `09_OBSERVATIONS_PHYSIQUES_RELUES_PAR_LE_MODELE.md` | Faits mesurés que le modèle relit (V1 : `…_DEMONTREES`, renommé le 2026-09-02) | + 11 observations V2 ; titre et posture corrigés |
+| **10** | `10_CONSCIENCE_SILLAGES_SCHEMAS.md` | Aspects structurels non mathématiques | Inchangé (raccords notés) — **statut public / réservé non tranché : DÉCISION GAB REQUISE** (absent des téléchargements publiés V1 ; hors périmètre Phase 2) |
+| **11** | `11_MUON_SILLON_ET_COUT.md` | Le muon, le sillon, le coût de retour | **Nouveau en V2** |
 
-**Si tu es un LLM** : commence absolument par `01_BOOTSTRAP.md`. Il explique comment lire le corpus sans le réduire au vocabulaire de la physique standard.
+**Si tu es un LLM** : commence par `01_BOOTSTRAP.md`, sans exception. Il explique comment lire le corpus sans le réduire au vocabulaire de la physique standard, et il porte maintenant la couche de statuts des séances (ACQUIS / LECTURE / CANDIDATE) qui dit ce qui peut être cité et ce qui ne peut pas.
 
-**Si tu es un lecteur humain pressé** : `03_CHAINE_STRUCTURELLE_MINIMALE.md` te donne le modèle en condensé.
+**Si tu es un lecteur pressé** : `03_CHAINE_STRUCTURELLE_MINIMALE.md`, puis `11` pour voir où en est la pièce la plus avancée.
 
-**Si tu es un mathématicien candidat à la Phase 2** : commence par `00 → 01 → 04 → 07 → 08`, puis approfondis avec `05` et `06`.
-
----
-
-## Le modèle en une phrase
-
-**L'univers entier est l'adressage d'un seul e (à t=0) dans une membrane d'observation t=x via une fonction génératrice 4df(x), inscrit dans un axe T circulaire et constant.**
-
-Tout ce qu'on observe — particules, forces, masses, charges, énergie noire, expansion — est une **manifestation structurelle** de ce mécanisme unique.
+**Si tu es mathématicien ou physicien théoricien** : `01 → 04 → 07 → 08 → 11`, puis `05` et `06` pour le détail. La question qui vaut votre temps est en `11` §6 : sortir I₃/I₂ = 15,894 à zéro paramètre.
 
 ---
 
-## Cinq pièces structurelles fondamentales (vue ultra-condensée)
+## Documents d'appui
 
-1. **L'unique e** réside à **t=0**, omniprésent, hors séquence.
-2. **T est circulaire et constant** — tous les « moments » coexistent comme points sur cet axe.
-3. **4df(x) est un opérateur intégral** sur le chemin entre **t=x** (notre membrane d'observation) et **t=0**.
-4. **Les liens-énergies** sont les corridors structurels (« corridors en glue ») qui adressent e dans t=x — image canonique : « gomme étirée ».
-5. **La répulsion noire est le mécanisme structurel unificateur**. Concentrée à t=0+1, diluée à t=x, elle agit sur la dualité aller-retour des liens-énergies et détermine la partition entre **masse** et **déplacement** (deux représentations du même output 4df(x)). c (limite de vitesse) émerge de cette répulsion comme équilibre extrémal à t=0. La masse n'est pas la cause de la lenteur — **la lenteur (empêchement structurel) cause la masse**.
-
-Pour comprendre pourquoi ces 5 phrases ne sont pas absurdes mais structurellement cohérentes, lis le `01_BOOTSTRAP.md` et le `03_CHAINE_STRUCTURELLE_MINIMALE.md`.
+- **Verbatims** : `verbatims_gabriel.md`, `verbatims_gabriel_2.md` (avril–mai 2026), `verbatims_gabriel_2026-09-01.md` (V2, thématique) et `V2a_verbatims_Gab_2026-09-01.md` (V2, texte exact numéroté V01–V56, archive non modifiée). Les paroles de l'auteur, à lire lentement — elles sont plus denses que les paraphrases qu'on en fait.
+- **Séances sources** (dossier parent) : `V2_seance_volants_leptons.md`, `V2_adversaire_2026-07-10.md`, `session_log_phase2.md`, `V2a_seance_2026-09-01_sillon_et_axes.md` (version à jour, A1–A41). Le corpus V2 en est la consolidation ; les séances gardent le chemin complet, y compris ce qui a été abandonné.
+- **Journal des changements** : `CHANGELOG_V1_V2.md` — ce qui a été ajouté, corrigé et retiré, avec la source de chaque inscription.
 
 ---
 
-## Statut épistémique
+## Ce que le modèle offre, et ce qu'il n'offre pas
 
-Le corpus utilise un système de **7 tags** pour distinguer les niveaux de vérité :
+**Il offre** : une lecture structurelle qui se tient en elle-même ; un vocabulaire explicite avec statuts ; des prédictions datées avant mesure (m₁ ≈ 0,29 meV, ordre normal des neutrinos, anomalie du tau hors loi d'échelle, pas de monopôle magnétique, pas de rayonnement de Hawking sous réserve de validation) ; un cahier des charges pour la Phase 2.
 
-- `[POSTULAT]` : axiome fondamental (les 9 postulats + l'unicité de e)
-- `[CANONIQUE]` : pièce structurelle posée par Gabriel et inscrite comme stable
-- `[GABRIEL_VALIDÉ]` : affirmation validée par Gabriel pendant l'extraction pédagogique (FAQ Q1-Q22a)
-- `[CLAUDE_INFÉRÉ_VALIDÉ]` : inférence par l'assistant Claude, vérifiée par Gabriel (Q29-Q35)
-- `[CLAUDE_INFÉRÉ_NON_VALIDÉ]` : inférence en autonomie de l'assistant, à valider (Q36-Q41)
-- `[OUVERT_PHASE2]` : question ouverte pour la Phase 2 mathématique
-- `[MÉTAPHORE]` : image descriptive, pas une description physique stricte
+**Il n'offre pas** : une masse dérivée. Aucune. L'équation du muon a une forme structurelle validée pièce par pièce et **deux inconnues liées par une seule équation**. Le modèle contraint ses conséquences ; il ne les calcule pas encore.
 
-Voir `01_BOOTSTRAP.md` section 2 pour la définition complète.
+**Le test qui tranchera** : écrire le coût de retour d'une épaisseur avec les mêmes ingrédients que le muon et voir si le rapport du tau sort **sans nouveau paramètre**. S'il sort, c'est une méthode. S'il ne sort pas, le muon reste une décomposition élégante d'un seul nombre. C'est écrit ici avant l'essai, exprès.
 
 ---
 
-## Méthode et collaboration
+## Discipline du corpus
 
-Ce corpus est le résultat d'une **collaboration multi-agents** :
-- **Gabriel Cantin** (auteur) pose les structures conceptuelles, le vocabulaire, les pièces canoniques.
-- **Claude** (Anthropic) organise, documente, infère, et fait office de scribe attentif.
-- **GPT-5.5** a servi de **lecteur externe critique** pour évaluer la transmissibilité du corpus.
-
-L'auteur a explicitement déclaré : *« il n'y a vraiment rien de nouveau, je vois ça comme ça depuis plus de 20 ans »*. Le travail des sessions de fin avril 2026 est l'**extraction méthodique** de structures portées intuitivement, pas une découverte progressive.
-
----
-
-## Prochaine étape
-
-**Phase 2 — Formalisation mathématique**.
-
-Le corpus est maintenant prêt à être confié à un mathématicien ou physicien théoricien (humain ou LLM avancé) qui pourra :
-1. Formaliser **4df(x)** comme opérateur intégral
-2. Formaliser **T** comme variété 1D fermée
-3. Reproduire les valeurs numériques observées (ratio muon/électron, α, ratios de masses des quarks, etc.) **sans paramètre libre ad hoc**
-4. Vérifier les prédictions empiriques (pas de matière noire détectable, pas de 4ème famille de leptons, etc.)
-
-Voir `07_PHASE2_TARGETS.md` pour les cibles précises et `08_PHASE2_PISTES_MATHEMATIQUES.md` pour les pistes structurelles.
+1. Sept tags canoniques (`[POSTULAT]` → `[MÉTAPHORE]`), plus une couche de statuts de séance (ACQUIS / LECTURE / CANDIDATE / GELÉ / CORRESP.).
+2. Les résidus sont **inscrits datés avec leur signe**, avant explication.
+3. Les coïncidences numériques sont mesurées contre un **dictionnaire pré-enregistré** avant d'être appelées résultats.
+4. Les **fausses alarmes se loguent** aussi formellement que les succès.
+5. Les **désaccords non résolus restent ouverts** dans le texte.
+6. Une bonne valeur obtenue dans les mauvais axes est **retirée** — c'est arrivé le 2026-09-02, et la trace est conservée.
 
 ---
 
 ## Contact
 
-L'auteur reste le **point de contact unique** pour ce travail. Pas d'intermédiaires, pas de community managers. Toute question, critique, ou proposition de collaboration doit lui être adressée directement.
+L'auteur reste le **point de contact unique** pour ce travail. Toute question, critique ou proposition de collaboration lui est adressée directement. Les collaborateurs Phase 2 proposent leurs contributions à l'auteur, qui décide de leur intégration au corpus canonique.
 
 **Gabriel Cantin** — affilié à **Qubit COOP de Solidarité**, Québec, Canada.
 
@@ -112,21 +89,10 @@ L'auteur reste le **point de contact unique** pour ce travail. Pas d'intermédia
 
 ## Licence
 
-**Creative Commons BY-NC-ND 4.0** :
-- ✅ **Lecture et citation autorisées** (attribution requise à Gabriel Cantin)
-- ❌ **Modification interdite** sans permission écrite
-- ❌ **Usage commercial interdit** sans permission écrite
+**Creative Commons BY-NC-ND 4.0** : lecture et citation autorisées (attribution requise à Gabriel Cantin) ; modification et usage commercial interdits sans permission écrite. *Note V2 2026-09-02 : la clause ND protège l'intégrité du corpus canonique, mais interdit aux tiers de distribuer publiquement une adaptation sans autorisation séparée — voir la décision demandée à l'auteur dans le CHANGELOG (audit externe, point 18).*
 
-Le DOI Zenodo associé à cette version sera ajouté ici lors du dépôt.
+Le DOI Zenodo de la V2 sera ajouté ici lors du dépôt.
 
 ---
 
-## Note pour les LLM lisant ce repo
-
-Tu as accès à un système de calibration spécifique dans `01_BOOTSTRAP.md`. **Lis-le en premier**. Il t'évite les pièges classiques de réduction du modèle au vocabulaire standard, te donne la hiérarchie de vérité des énoncés, et te précise comment opérer en mode interne (cohérence) puis en mode externe (validation expérimentale).
-
-Le critère de réussite explicite de l'auteur : *« les autres aussi doivent comprendre »*. Démontre par ta lecture que ce critère est atteint.
-
----
-
-*Corpus stabilisé le 1er mai 2026, étendu le 2-3 mai 2026 (session de raffinement structurel Q82-Q105), étendu le 4 mai 2026 (session LHC + neutrino calibration zéro Q106-Q117, raffinements post-challenge Q118-Q121, consolidation finale Q122-Q124, correction Q86 et Q125 structure du tissage, restructuration neutrino Q126-Q127 et corrections Q114-Q116, audit de cohérence interne avec corrections Q17/Q126/Q6 et Q128 sommation des combos, après pause Q129-Q133 pièces structurelles fondatrices, exploration approfondie Q134-Q148 sur la lumière/forces/théorie unificatrice par proximité de tissage, exercice 25 questions tests démontrant la complétude phase 1 et inscription Q149-Q151, exercice de masse 100 questions avec regroupements R1-R4 + A-D produisant Q152-Q160 sur la mesure quantique récursive/l'espace disponible/la proximité dans la dimension/la charge comme différence IN-OUT/les restructurations, exercice étendu 200 questions supplémentaires Q-inf-101 à 300 confirmant la complétude empirique sans nouvelle pièce structurelle nécessaire) — Phase 1 accomplie. Phase 2 mathématique (formalisation de 4df(x) avec coût IN + consommation OUT) à entreprendre. Prêt pour transmission, dépôt Zenodo, et ouverture publique sur Git.*
+*Corpus V2 assemblé le 2 septembre 2026 à partir du corpus V1 (7 mai 2026) et des séances de juillet et septembre 2026, puis corrigé le même jour après audit externe (voir CHANGELOG). Aucun contenu V1 supprimé.*

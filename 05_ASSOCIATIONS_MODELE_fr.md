@@ -1,5 +1,7 @@
 # Associations du modèle — chaînes structurelles assemblées
 
+*V2 (2026-09-02) : sections 1 à 16 conservées intégralement. La section 17 ajoute les chaînes assemblées lors des séances de juillet et septembre 2026.*
+
 *Ce document assemble les pièces dispersées dans le MD principal en chaînes d'associations explicites. Le MD principal contient toutes les pièces individuelles ; ce document fournit les **liens entre elles** qui ne sont pas toujours explicites dans le MD.*
 
 *Référence : modèle cosmologique de Gabriel Cantin (avril 2026). Lire avec le MD principal (`06_MODELE_COMPLET_REFERENCE.md`) et les verbatims (`verbatims_reserve_interne.md`).*
@@ -917,6 +919,8 @@ Manifestations selon échelles :
 
 ### 10.3 Liens entre mystères résolus
 
+*Note V2 2026-09-02 : « résolu » au sens V1 = fermeture structurelle interne au modèle, pas validation empirique externe (voir 04 §1.4, note V2).*
+
 ```
 Big Bang à t=0+1 (résolu)
     ↓
@@ -974,7 +978,7 @@ Vitesse maximum imposée structurellement aux liens-énergie fermés dans t=x
     ↓
 c universel parce que cumul à t=x-1 est sur T constant (pas de dépendance locale)
     ↓
-La même dimension(t=0+1) gouverne C_sync dans m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync
+La même dimension(t=0+1) gouverne C_sync dans m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync *(forme V1, au dictionnaire depuis le 2026-09-02 — 08 §9.9)*
     ↓
 Une seule pièce structurelle unifie : c, matière noire, énergie noire,
 postulat IX, 3 perpendiculaires, dimension(t=0+1), C_sync (Q42 dans 06_MODELE_COMPLET_REFERENCE.md)
@@ -1385,6 +1389,9 @@ Le challenge externe a **renforcé** la cohérence du modèle plutôt que de la 
 
 ---
 
+
+---
+
 ## 16. Notes méthodologiques pour utiliser ce document
 
 1. **Ce document n'est pas exhaustif** — c'est un instantané au 4 mai 2026 des associations que l'assistant peut produire avec rigueur. À mesure que de nouvelles pièces sont posées, ce document doit être enrichi.
@@ -1400,3 +1407,117 @@ Le challenge externe a **renforcé** la cohérence du modèle plutôt que de la 
 6. **Pour Phase 2** : ce document, combiné au MD principal et aux verbatims, devrait suffire à un mathématicien pour commencer la formalisation. Si une pièce manque, elle peut être ajoutée plus tard.
 
 7. **Humilité méthodologique (verbatim Gabriel, 4 mai 2026)** : *« on a pas la reponse a tout, il faut reste humble »*. Les pièces marquées `[CANONIQUE / À VALIDER]` (notamment Q116 sur le quark down à t=x+1) ne doivent pas être figées prématurément. Préférer la précision épistémique honnête à la fermeture pédagogique.
+
+---
+
+## 17. Chaînes structurelles V2 (séances de juillet et septembre 2026)
+
+*Chaque chaîne ci-dessous est assemblée à partir de pièces validées. Le statut de la chaîne est celui de son maillon le plus faible ; il est indiqué à la fin.*
+
+### 17.1 Du nombre de perpendiculaires à la masse
+
+Le lien-énergie a des dimensions (1 = filament, 2 = tissu, 3 = motton)
+→ ces trois régimes appartiennent à **un seul nuage**, celui de l'électron
+→ ouvrir une perpendiculaire, c'est ouvrir un éventail : le volume ne double pas, il suit **le ratio de la forme**
+→ le coût de l'ouverture est le rapport d'espace occupé entre l'éventail ouvert et l'éventail fermé
+→ ce **coût d'ouverture**, lu à t=x, **est** la masse du régime (à distinguer du **coût de retour**, 17.7 : ce que T n'en ramène pas)
+→ le même volume de dégradation, lu en étendue sur T, **est** la durée de vie
+→ masse et durée de vie ne sont pas deux propriétés : c'est un volume lu deux fois.
+
+`[GABRIEL_VALIDÉ — A10, A22, A23]`
+
+### 17.2 De la couverture au facteur ~11
+
+1 perpendiculaire : un vecteur qui tourne — trace 1D
+→ 2 perpendiculaires : le même cycle porté par deux vecteurs, une surface qui **couvre** le cycle vers t=x
+→ 3 perpendiculaires : un vecteur de plus, un volume — mais la couverture est déjà faite
+→ « comme regarder un cercle mince ou une sphère : la projection sera la même, l'espace occupé sera plus grand seulement »
+→ **lecture** déroulée de l'image (6c, remplaçable) : 1→2 paierait plein tarif (acquérir la couverture) et 2→3 un tarif marginal (épaissir sans couvrir)
+→ même lecture : il n'y aurait pas de 4ᵉ lepton, une 4ᵉ perpendiculaire n'épaississant plus rien de projetable.
+
+`[GABRIEL_VALIDÉ pour l'image cercle/sphère ; LECTURE pour le principe de coût ; la valeur du facteur reste OUVERT_PHASE2]`
+
+### 17.3 Du delta aux quatre forces
+
+Le régime naturel du lien est le déplacement, à c
+→ tout ce qui n'est pas libre revient **ailleurs** que là où il aurait dû : c'est un delta
+→ delta de proximité forcée = force forte
+→ delta de reconfiguration (perte de perpendiculaire) = force faible
+→ delta de décalage du OUT = électromagnétisme, et sa part transit = magnétisme
+→ delta **total** du déplacement bloqué = gravité, qui n'est donc pas une courbure mais un retour impayé qui s'accumule
+→ le principe d'équivalence tombe gratuitement : masse inertielle et masse grave **sont** le même delta
+→ le monopôle magnétique est impossible : un delta a deux bouts
+→ et en population, la statistique des deltas désordonnés **est** la température — d'où le seul objet sans delta (le photon) est le seul objet sans température propre.
+
+`[GABRIEL_VALIDÉ — 6e, 6f, 6g]`
+
+### 17.4 Du sillon à la masse et au déplacement
+
+Le sillon est le corridor tenu qu'emprunte l'adressage de e, pré-inscrit en t=x−1
+→ pour le libre, le sillon **est** le chemin ; pour l'embouteillé, il est tenu par la proximité des sillons de quarks
+→ **la masse, c'est le sillon**
+→ **le déplacement, c'est le résultat du sillon** : le OUT qui atterrit décalé, lu à la membrane comme mouvement
+→ un quark immobile a un gros sillon, donc une grosse masse
+→ un photon n'a pas de déplacement au sens du modèle : il existe sur c, son sillon est le chemin lui-même
+→ et le temps passé dans le sillon est perdu : on n'existe pas dans t=x pendant ce temps.
+
+`[GABRIEL_VALIDÉ — A1, A5, A6, A20, D4]`
+
+*Raccord avec « masse = tissage » (Q46) et « masse = volume de 4df(x) » (01 §5.10) : lecture proposée, non validée — voir la note V2 sous Q46 et la tension 5 de 04 §7.4.*
+
+### 17.5 Du corridor au trajet (pourquoi hadrons et leptons ne se comparent pas)
+
+Un hadron est un cycle IN/OUT **maintenu** à t=x : un corridor
+→ un lepton est un trajet : un filament et ses régimes d'ouverture
+→ le proton seul est un corridor ouvert sans passager ; avec un électron, le trajet prend le corridor et 13,6 eV sortent libres
+→ l'hydrogène est donc l'unité minimale : un corridor, un trajet
+→ « leptons et hadrons ne se comparent pas » cesse d'être une règle de prudence : on ne compare pas une voie à ce qui la parcourt
+→ « proton > T » et « électron = valeur T » deviennent un seul fait : un corridor dure autant que le trajet qu'il porte
+→ et muon et tau sont l'éventail de l'électron **ouvert par des sillons de quarks** : le corridor ouvre le trajet.
+
+`[GABRIEL_VALIDÉ — A35, A36 ; les conséquences déroulées restent à valider]`
+
+### 17.6 Du niveau d'énergie à l'atterrissage
+
+L'énergie embouteillée est maintenue en place pour exister localement dans t=x
+→ injecter du e dans un objet, c'est étirer son sillon dans 4df(x)
+→ l'injection va donc à **l'atterrissage** (x+y : déplacement, dilatation), pas à l'ouverture de l'éventail (le ratio)
+→ cohérent avec « toutes les mesures ont les mêmes ratios » (A11) : l'énergie déplace l'atterrissage, pas le ratio
+→ la vitesse est un paramètre de 4df(x) : la quantité de e qui existe entre t=x et t=x+1
+→ poussée à l'extrême (ions d'or à 0,999 c), l'injection submerge la force forte : il en sort un paquet de sillons qui ne peuvent pas exister sans surroundings adéquats.
+
+`[GABRIEL_VALIDÉ — A13, A15 ; consonance externe : plasma quarks-gluons au RHIC]`
+
+### 17.7 Du coût de retour à la charge
+
+Dans t=x+1, toutes les perpendiculaires sont tenues entières ; T ne porte qu'une perpendiculaire
+→ ce que T inscrit d'un régime ouvert est donc **le retour** : ce que le IN a perdu en OUT
+→ ce coût se compte sur les variables de 4df(x) : trois vecteurs × deux lames
+→ la même différence IN−OUT, lue en **direction**, est la charge
+→ « ça reste le sillon » : ce ne sont pas deux différences, c'est un seul objet lu deux fois — en quantité et en direction
+→ (déroulé de Claude, non validé : α serait alors une propriété du sillon, pas un paramètre importé ; dans l'équation du muon l'unité de coût est u, inconnue).
+
+`[GABRIEL_VALIDÉ — A24 à A28 ; dernière flèche non validée ; la valeur reste OUVERT_PHASE2]`
+
+### 17.8 Du payeur au coût (fil down / singularité — LECTURE, désaccord ouvert)
+
+Lecture de Gab (A29–A33) : le up paie, le down est le coût payé, et le coût payé **grossit** le sillon
+→ (fait posé par Claude, §13.1, non assemblé ni validé : passer de up à down serait émettre ou absorber exactement un filament + un transit, d → u + e⁻ + ν̄ ; le down serait un up plus une paire de leptons embouteillée, n − p = 1,293 MeV étant ce que la paire emporte)
+→ dans une étoile à neutrons, l'ancré entre dans les downs (p + e⁻ → n + ν) et le transit sort — dans le modèle physique de l'effondrement de cœur, ~99 % de l'énergie de liaison part en neutrinos (SN 1987A en est cohérent, sans mesure directe de cette fraction)
+→ quand plus rien ne paie, il n'y a plus de cycle à maintenir : les quarks cessent d'être des cycles et le sillon retourne direct à t=0
+→ la singularité est alors un sillon down sans payeur, fait d'ancré seulement, qui existe dans t=x+1 tant qu'elle ajoute du e
+→ conséquence étiquetée, non validée : pas de rayonnement de Hawking.
+
+`[LECTURE de Gab — A29 à A33 ; première parenthèse et dernière flèche : Claude, non validées ; désaccord non résolu sur le minimum de quarks, voir 04 §7.4]`
+
+### 17.9 Du trio du proton au sillage d'existence (matin du 2026-09-02)
+
+Les sillons arrivent en trios : t=x, t=x+1, t=x+2
+→ le proton est un trio dans T qui cycle : UP à t=x (IN), DOWN à t=x+1 (OUT), retour à t=x+2
+→ à t=x on lit uud, mais la troisième position n'est pas un quark : **c'est le lepton dans son nuage**
+→ (raccord de Claude, §15, non validé : « le proton est un sillon pour les leptons » (A36) prendrait sa place structurelle — la troisième position serait celle du passager)
+→ les hadrons ne sont pas des objets à côté des leptons : ce sont **les sillages que l'existence des leptons laisse dans T** — on mesure un état sur une transition constante
+→ le noyau n'est pas du e ; lepton et noyau sont la même représentation, dimensionnée par la probabilité de 4df(x), mais pas le même contenu (A40) — (déroulé de Claude, non validé : concentrée = noyau, étalée = nuage ; le lepton adresserait e, le noyau non)
+→ « le e des leptons affecte t=x, le e qui est dans le hadron affecte t=x+1 — la même chose » : un seul e, deux colonnes du trio.
+
+`[GABRIEL_VALIDÉ — A38 à A41 ; A37 en attente ; les déroulés (proton seul = trio ouvert, neutron = lepton embouteillé en 3ᵉ position, hadrons = sorties du cycle du lepton) restent CLAUDE_INFÉRÉ_NON_VALIDÉ, 06 Q184–Q185]`

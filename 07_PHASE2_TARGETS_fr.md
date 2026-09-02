@@ -1,5 +1,7 @@
 # Phase 2 — Cibles à atteindre
 
+*V2 (2026-09-02) : les 16 cibles et 6 prédictions V1 sont conservées ; les cibles 1, 6, 11, 13 et les prédictions P4, P6 portent une note d'état V2. Les cibles et prédictions ajoutées depuis juillet 2026 sont en fin de fichier.*
+
 **Document court et focalisé** pour les mathématiciens et physiciens théoriciens candidats à la Phase 2 du modèle.
 
 Ce fichier liste **ce que la Phase 2 mathématique doit produire** — les valeurs numériques mesurées en physique standard que le formalisme du modèle doit reproduire **sans paramètre libre ad hoc**, et les prédictions empiriques à vérifier (ou réfuter).
@@ -27,6 +29,8 @@ Test minimal : **un seul paramètre d'échelle** acceptable pour fixer l'unité 
 | Mécanisme structurel | Empêchement de vitesse à t=0 + autoalimentation des perpendiculaires sur la profondeur |
 
 **Test minimal du modèle** : reproduire 206.77 sans paramètre libre.
+
+**État V2 (2026-09-02)** : la cible a maintenant une **forme structurelle** validée pièce par pièce — I₂ = m_μ/m_e − 1 = (π/4) · X · (1 − 6u), avec X (lame propre) et u (coût de retour par vecteur) **inconnues**, liées par X(1 − 6u) = 2r = 262,0. La « première approximation algébrique » (3/2)α⁻¹ ci-dessus et la forme fermée du 1ᵉʳ septembre (π/(2α) − 3π, +0,03 %) sont toutes deux du **dictionnaire**, pas des dérivations : la seconde a été retirée par l'auteur le 2026-09-02 (Q183). La pièce à calculer est X — voir Q-lame-propre-X ci-dessous et `11_MUON_SILLON_ET_COUT.md`.
 
 ---
 
@@ -86,12 +90,16 @@ Test minimal : **un seul paramètre d'échelle** acceptable pour fixer l'unité 
 
 | Paramètre | Valeur |
 |---|---|
-| **Valeur cible mesurée** | **a_μ = (g-2)/2 ≈ 0.00116592061** — écart ~4σ vs prédiction Modèle Standard |
+| **Valeur cible mesurée** | **a_μ = (g-2)/2 ≈ 0.00116592061** — écart ~4σ vs prédiction Modèle Standard *(état 2023, dépassé — voir note V2 ci-dessous)* |
 | Statut | `[OUVERT_PHASE2]` |
 | Variables structurelles d'entrée | Vectorisation 3x dans 4df(x) (2 perpendiculaires + axe principal), surface 2D du tissu (vs filament 1D pour électron), symétrie synchrone amplifiée |
 | Mécanisme structurel | La surface 2D favorise davantage de symétrie synchrone que le filament 1D. L'écart par rapport à g=2 vient de cette symétrie. |
 
-**Cible Phase 2** : reproduire l'écart mesuré sans paramètre libre — résoudrait le mystère 4σ persistant.
+**Cible Phase 2** : reproduire l'écart mesuré sans paramètre libre — résoudrait le mystère 4σ persistant. *(Formulation V1 ; voir note V2.)*
+
+> **NOTE V2 — ACTUALISATION FACTUELLE 2026-09-02 (g−2).** L'« écart ~4σ » cité ci-dessus est l'état historique (comparaison avec le White Paper 2020 de la Theory Initiative, approche dispersive). État externe à employer désormais : Fermilab a publié en juin 2025 son résultat final ; le Muon g−2 Theory Initiative White Paper 2025 donne a_exp = 116 592 071,5(14,5)×10⁻¹¹, a_SM = 116 592 033(62)×10⁻¹¹, soit Δ = 38(63)×10⁻¹¹ — une tension d'environ **0,6σ** avec la recommandation WP25. Il n'y a plus de « mystère 4σ actuel ». La cible n'est **pas retirée** : g−2 reste une **observable de précision** que le modèle doit produire — a_e, a_μ, leur rapport, le signe (dérivé, 6i) et l'éventuelle loi du tau (P9). La dette D-E est conservée.
+
+**État V2 (2026-07-10)** : le **signe** est dérivé (6i) — le magnétisme est le delta de déplacement de l'objet 4df(x) entier, sommé sur une ligne pour l'électron, sur une surface pour le muon : anomalie plus grande, conforme à la mesure. La valeur reste à produire ; dette E du journal Phase 2 : l'interdiction de sortie doit redonner signe **et** ordre de grandeur. Pari inscrit sur le tau : P9.
 
 ---
 
@@ -99,7 +107,7 @@ Test minimal : **un seul paramètre d'échelle** acceptable pour fixer l'unité 
 
 | Paramètre | Valeur |
 |---|---|
-| **Valeur cible mesurée** | **Ω_dm / Ω_de ≈ 0.4** (= 2/5) — observation cosmologique |
+| **Valeur cible mesurée** | **Ω_dm / Ω_de ≈ 0.4** (= 2/5) — observation cosmologique *(V1 ; état 2026 : Ω_c/Ω_Λ ≈ 0,377 avec des valeurs PDG représentatives, dépendant du jeu de données — voir note V2 sous P3)* |
 | Statut | `[OUVERT_PHASE2]` |
 | Variables structurelles d'entrée | Ratio adressages refermés / ouverts **sur l'entièreté de T** (cumul des sillages à t=x-1) |
 | Mécanisme structurel | Matière noire = cumul des sillages des liens-énergies fermés. Énergie noire = cumul des sillages des photons (libres). Ratio sur T entier. |
@@ -158,6 +166,8 @@ Test minimal : **un seul paramètre d'échelle** acceptable pour fixer l'unité 
 
 **Cible Phase 2** : reproduire 16.82 — test de cohérence avec Cible 1.
 
+**État V2 (2026-09-02)** : reformulée en volants — I₃/I₂ = 15,8939 ± 0,0011 (rapport des deux ouvertures). L'image est acquise (couverture vs épaississement, Q163) ; le principe de coût qui en découle est une lecture ; la valeur n'est ni l'un ni l'autre. Deux candidates numériques existent, toutes deux **non dérivées** : ln(τ₂/τ₃) + δ (blessée, δ daté) et c·r^(3−D) (dégénérée). **C'est la cible qui vaut le plus** : la sortir à zéro paramètre avec les seuls ingrédients du muon est le test de méthode — voir Q-tau-zero-parametre.
+
 ---
 
 ## Cible 12 — Ratio masse électron / masse proton
@@ -171,18 +181,25 @@ Test minimal : **un seul paramètre d'échelle** acceptable pour fixer l'unité 
 
 **Cible Phase 2** : reproduire 1/1836.15.
 
+
+**État V2 (2026-09-02)** : deux pièces validées le matin du 2 septembre changent le cadre de cette cible sans la chiffrer — le proton est un trio qui cycle sur t=x / t=x+1 / t=x+2 dont la troisième position est le lepton (Q184), et les hadrons sont les sillages d'existence des leptons (Q185). Lecture de Claude, non validée : le rapport m_p/m_e deviendrait le rapport entre un sillage d'existence et l'existence qui le laisse. Aucune valeur n'en découle encore ; la coïncidence 1836,15 = 7,008 × 262,0 reste taguée et interdite (08 §9.9).
+
 ---
 
 ## Cible 13 — Limite TOV (étoile à neutrons → trou noir)
 
 | Paramètre | Valeur |
 |---|---|
-| **Valeur cible mesurée** | **M_TOV ≈ 2.16 M_soleil** (borne supérieure) ; **~1.4 M_soleil** (borne inférieure d'instabilité) |
+| **Valeur cible mesurée** | **M_TOV ≈ 2.16 M_soleil** (borne supérieure) ; **~1.4 M_soleil** (borne inférieure d'instabilité) *(formulation V1, corrigée par la note V2 ci-dessous : M_TOV ≈ 2,2–2,3 M☉ EOS-dépendante ; 1,4 M☉ = masse typique, pas une borne)* |
 | Statut | `[OUVERT_PHASE2]` |
 | Variables structurelles d'entrée | Retour cumulé des neutrons (incrément 1.293 MeV), sillage d'empêchement cumulé (gravité) |
 | Mécanisme structurel | Balance retour vs sillage d'empêchement (Q55). TOV = bascule où la gravité dépasse la stabilité du retour → singularisation totale |
 
-**Cible Phase 2** : reproduire la fenêtre [1.4 ; 2.16] M_soleil à partir de l'équation de balance, sans paramètre libre. Résoudrait le problème de l'équation d'état neutronique, encore débattu en astrophysique standard.
+**Cible Phase 2 (formulation V1)** : reproduire la fenêtre [1.4 ; 2.16] M_soleil à partir de l'équation de balance, sans paramètre libre. *(Reformulée par la note V2 : cible A = M_TOV ; cible B = masse minimale stable, distincte, non chiffrée.)* Résoudrait le problème de l'équation d'état neutronique, encore débattu en astrophysique standard.
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02 (étoiles à neutrons).** (1) **~1,4 M☉ n'est pas une borne inférieure de stabilité observée** : c'est la masse *typique* (canonique) des étoiles à neutrons mesurées. La masse minimale stable d'une étoile à neutrons, si le modèle veut la cibler, est une **cible distincte**, à ne pas identifier à 1,4 M☉ sans source. (2) **M_TOV n'est pas « 2,16 M☉ observé »** : les pulsars d'environ 2 M☉ imposent une borne *inférieure* forte sur la masse maximale possible ; les inférences modernes de M_TOV dépendent de l'équation d'état et des jeux de données et gravitent vers ~2,2–2,3 M☉ (estimations récentes autour de 2,22–2,27 M☉ ; PSR J0952−0607 ≈ 2,35 ± 0,17 M☉). La « fenêtre mesurée [1,4 ; 2,16] » n'existe donc pas comme telle. Deux cibles séparées : **A)** M_TOV = masse maximale (≈ 2,2–2,3 M☉, EOS-dépendante) ; **B)** une éventuelle masse minimale stable (valeur non fixée ici). Le mécanisme V1 (balance retour vs sillage d'empêchement, Q55) et le mécanisme candidat V2 (« la proximité ne paie plus », non validé) sont inchangés.
+
+**État V2 (2026-09-02)** : mécanisme candidat proposé — la limite serait le point où **la proximité ne paie plus** le coût du sillon down (Q182, Q-TOV-proximite). Proposition de Claude à partir de la lecture payeur/coût de Gab ; non validée.
 
 ---
 
@@ -244,13 +261,15 @@ Aucune particule de matière noire ne sera jamais détectée comme lien-énergie
 
 Borne inférieure structurelle de la masse du neutrino ≈ **0.005 eV**. Déductible de la structure de la déchirure 3 (adressage initial à t=0+1).
 
-**Vérification** : mesures KATRIN, Project 8, oscillations cosmologiques. Si la masse mesurée est significativement plus basse que 0.005 eV, le modèle doit être révisé.
+**Vérification** : mesures KATRIN, Project 8, oscillations cosmologiques. Si la masse mesurée est significativement plus basse que 0.005 eV, le modèle doit être révisé. *(Note V2 2026-09-02 : distinguer mesure directe et cosmologie. Directe : KATRIN 2025, m_β < 0,45 eV à 90 % CL. Cosmologie : les limites sur Σm_ν sont dépendantes du modèle et du jeu de données — elles atteignent l'ordre de 0,06–0,1 eV dans certaines combinaisons ΛCDM strictes (le PDG répertorie < 0,064, < 0,08, < 0,13, < 0,19 eV selon l'analyse) mais ne constituent pas une borne universelle unique ; « Σm_ν < 0,12 eV » n'est pas à citer comme fait générique. P7 reste une prédiction candidate, non réajustée.)* *(Cohérence interne à noter, non tranchée : P7 (V2) prédit m₁ ≈ 0,29 meV, sous la borne P2 (V1) de 5 meV — les deux ne portent pas nécessairement sur la même masse (P2 : « la » masse du neutrino, P7 : la plus légère des trois) ; à préciser par Gab.)*
 
 ### Prédiction P3 — Ratio matière noire / énergie noire = exactement 0.4
 
 Ratio matière noire / énergie noire = **exactement 0.4 (= 2/5) sur l'entièreté de T**.
 
-**Vérification** : observations cosmologiques (Planck, DES). Mesure actuelle Ω_dm / Ω_de ≈ 0.41-0.43 — proche du 2/5 prédit. À affiner avec les futures missions.
+**Vérification** : observations cosmologiques (Planck, DES). Mesure actuelle Ω_dm / Ω_de ≈ 0.41-0.43 — proche du 2/5 prédit. À affiner avec les futures missions. *(Formulation V1, corrigée ci-dessous.)*
+
+> **NOTE V2 — ÉTAT DES DONNÉES 2026-09-02 (Ω_c/Ω_Λ).** La prédiction du modèle — ratio matière noire / énergie noire = **exactement 0,4 = 2/5 sur l'entièreté de T** — est inchangée. L'état des données est corrigé : une combinaison ΛCDM représentative (valeurs de type PDG récent : Ω_c ≈ 0,2607, Ω_Λ ≈ 0,6911) donne **Ω_c/Ω_Λ ≈ 0,377**, proche de 0,38 ; la valeur exacte dépend du jeu de données et du modèle cosmologique. Le « 27 %/68 % ≈ 0,4 » de la V1 était un arrondi. Règle : comparer la **matière noire** Ω_c à Ω_Λ, jamais la matière totale Ω_m (qui inclut les baryons). La prédiction 0,4 reste donc une **cible quantitative** à ~6 % de la valeur représentative, et ne doit pas être arrondie vers la mesure.
 
 ### Prédiction P4 — Pas de quatrième famille de leptons
 
@@ -262,13 +281,20 @@ Aucune quatrième famille de leptons. Impossibilité géométrique en espace 3D 
 
 Aucun graviton détectable comme particule. La gravité = le lien-énergie, **pas un médiateur**.
 
-**Vérification** : recherches LIGO, futurs interféromètres. Détection d'un graviton ponctuel réfuterait le modèle.
+**Vérification** : recherches LIGO, futurs interféromètres. Détection d'un graviton ponctuel réfuterait le modèle. *(Formulation V1.)*
+
+> **NOTE V2 — PRÉCISION 2026-09-02 (graviton).** La prédiction « aucun graviton comme particule médiatrice » est inchangée. La « vérification » V1 est reformulée : LIGO/Virgo/KAGRA détectent des **ondes gravitationnelles classiques**, pas des gravitons ; la détection directe d'un graviton individuel n'est pas une voie expérimentale actuelle réaliste. Les observations d'ondes gravitationnelles fournissent plutôt des **contraintes indirectes** sur certaines descriptions de graviton massif ou sur des dispersions non-RG (bornes GWTC récentes de l'ordre de 10⁻²³ eV/c² sur une éventuelle masse du graviton). La prédiction se teste donc par l'absence de toute signature de médiateur quantifié, pas par « détection d'un graviton ponctuel ».
 
 ### Prédiction P6 — Pas de variation cosmologique de α
 
 Pas de variation cosmologique mesurable de α. **α est une constante structurelle universelle**.
 
+> **Note V2 (2026-09-02)** — Cette prédiction porte sur **α** et la V2 **n'y touche pas**. Attention à ne pas la confondre avec P12 (nouvelle), qui porte sur **m_μ/m_e** : depuis 6d, r = 131 est une variable (gradient de saturation près de t=0, attaque №3), donc le rapport muon/électron dérive de manière minuscule mais non nulle. Le lien entre r et α est une **coïncidence taguée** (A34), pas un résultat : rien dans les séances V2 ne dit que α varie. Voir P12 et Q-gradient-saturation.
+
 **Vérification** : observations de quasars distants, mesures de précision atomique. Mesure actuelle : pas de variation détectée significative — cohérent avec la prédiction.
+
+
+> **Renfort V2 (2026-07-10)** — Une raison mécanique candidate, issue du principe de coût 6c (**lecture**, non acquise) : une 4ᵉ perpendiculaire n'épaissirait plus rien de projetable (Q163). Saturation à 3, le « motton ».
 
 ---
 
@@ -279,7 +305,7 @@ Pas de variation cosmologique mesurable de α. **α est une constante structurel
 - Topologie algébrique (variétés 1D fermées, structures 4D non-triviales)
 - Théorie des groupes (Lie)
 - Analyse fonctionnelle
-- **Familiarité avec les intégrales de chemin** (formalisme Feynman) — critique
+- **Familiarité avec les intégrales de chemin** (formalisme Feynman) — critique *(Note V2 2026-09-02 : reformulé — géométrie différentielle, intégration sur variétés/courbes/surfaces, opérateurs intégraux ; les intégrales fonctionnelles ne deviennent pertinentes que si la formalisation mène réellement à un espace de chemins, ce qui n'est pas établi)*
 - Familiarité QFT pour interfaces avec la physique standard
 
 **Posture** :
@@ -303,9 +329,11 @@ Pas de variation cosmologique mesurable de α. **α est une constante structurel
 
 *Cette section ajoute les cibles Phase 2 dégagées pendant la session de raffinement structurel du 2-3 mai 2026.*
 
-### Q-LHCb-penguin-1 — Anomalie B → K μμ (4σ Nature 2026)
+### Q-LHCb-penguin-1 — Observables de B⁰ → K*⁰ μ⁺μ⁻ (titre V1 : « Anomalie B → K μμ (4σ Nature 2026) »)
 
-**Source empirique vérifiée** : Nature 2026, DOI 10.1038/d41586-026-01387-x. Anomalie de 4σ dans la transition b → s μμ via boucle pingouin.
+**Source empirique vérifiée** *(V1)* : Nature 2026, DOI 10.1038/d41586-026-01387-x. Anomalie de 4σ dans la transition b → s μμ via boucle pingouin.
+
+> **NOTE V2 — CORRECTION DE SOURCE 2026-09-02 (LHCb).** La référence Nature ci-dessus (DOI 10.1038/d41586-026-01387-x) est une **actualité / article d'explication**, pas la publication primaire. La publication primaire pertinente est : LHCb Collaboration, « Comprehensive Analysis of the B⁰ → K*⁰ μ⁺μ⁻ Decay », *Physical Review Letters* 2026, DOI 10.1103/24g9-yn9d. Le canal exact est **B⁰ → K*⁰ μ⁺μ⁻** (et non « B → K μμ » au sens générique). Le chiffre « 4σ » simplifie abusivement une tension qui dépend des observables retenues, des facteurs de forme et des inputs théoriques ; il n'est pas à citer comme un fait unique. **La cible est reformulée** : *reproduire les observables angulaires et les amplitudes mesurées de B⁰ → K*⁰ μ⁺μ⁻* — une cible meilleure qu'un seul chiffre. Le mécanisme structurel visé (combo vectoriel des quarks, Q102 ; classification par π, Q100) est inchangé.
 
 **Cible** : reproduire structurellement l'asymétrie observée à partir du mécanisme de combo vectoriel des quarks dans 4df(x) (Q102) et de la classification par π des oppositions (Q100). La transition b → s implique une réorganisation du combo vectoriel composite avec changement de saveur — structurellement calculable depuis profondeurs d'ancrage différentes.
 
@@ -320,7 +348,9 @@ Pas de variation cosmologique mesurable de α. **α est une constante structurel
 - **S_thermal** = désordre des déplacements thermiques dans t=x
 - Critère : **S_sync > S_thermal** pour stabilité supraconductrice
 
-**Test** : reproduire pourquoi les cuprates ont Tc élevé, prédire les structures qui pousseraient Tc vers 300 K. Le pressure-quench protocol est exactement la stratégie « figer une géométrie favorable » prédite structurellement par le modèle.
+**Test** : reproduire pourquoi les cuprates ont Tc élevé, prédire les structures qui pousseraient Tc vers 300 K. Le pressure-quench protocol est exactement la stratégie « figer une géométrie favorable » prédite structurellement par le modèle. *(Formulation V1, corrigée ci-dessous.)*
+
+> **NOTE V2 — FORMULATION 2026-09-02 (supraconductivité 151 K).** Le résultat est réel : Deng et al., « Ambient-pressure 151-K superconductivity in HgBa₂Ca₂Cu₃O₈₊δ via pressure quench », *PNAS* 2026, DOI 10.1073/pnas.2536178123. Mais l'article et son préprint **précèdent** les sessions de mai 2026 : le modèle n'a pas *prédit* ce protocole. La phrase « exactement la stratégie prédite structurellement par le modèle » (V1) est à lire comme : le protocole de pressure-quench est **compatible avec la lecture structurelle** (figer une géométrie favorable), il **fournit une cible empirique récente** et il **motive le critère S_sync > S_thermal à formaliser**. Aucune inscription datée antérieure à la publication n'existe dans le corpus ; il n'y a donc pas de « prédiction confirmée ».
 
 **Priorité** : haute. Appui empirique récent et précis.
 
@@ -436,7 +466,7 @@ La diminution de l'angle avec la masse de X devrait dériver structurellement de
 - Q-dilation-1 (SR + GR)
 - Q-mass-1 (m_μ/m_e = 206.77)
 - Q-supra-2 (supraconductivité ambiante via pressure-quench)
-- Q-LHCb-penguin-1 (anomalie B → K μμ 4σ)
+- Q-LHCb-penguin-1 (observables de B⁰ → K*⁰ μ⁺μ⁻ ; V1 : « anomalie B → K μμ 4σ », source et canal corrigés)
 
 **Priorité moyenne (testabilité empirique large mais moins précise)** :
 - Q-conduct-1 et Q-resist-T-1 (spectre complet conductivité)
@@ -479,7 +509,7 @@ Cette cible est la **configuration zéro structurelle** de 4df(x) — pas une **
 
 **Conséquences pour Phase 2** :
 1. **Configuration de référence, pas valeur de référence** : le neutrino est l'**objet structurel** le plus simple. Sa valeur numérique émerge du calcul.
-2. **Vérification croisée** : la formulation candidate doit reproduire **simultanément** m_e, m_μ, m_τ, m_p, et **prédire** m_ν dans une plage compatible avec l'empirie (Σm_ν < 0.12 eV actuellement).
+2. **Vérification croisée** : la formulation candidate doit reproduire **simultanément** m_e, m_μ, m_τ, m_p, et **prédire** m_ν dans une plage compatible avec l'empirie (Σm_ν < 0.12 eV actuellement). *(Note V2 2026-09-02 : distinguer mesure directe et cosmologie. Directe : KATRIN 2025, m_β < 0,45 eV à 90 % CL. Cosmologie : les limites sur Σm_ν sont dépendantes du modèle et du jeu de données — elles atteignent l'ordre de 0,06–0,1 eV dans certaines combinaisons ΛCDM strictes (le PDG répertorie < 0,064, < 0,08, < 0,13, < 0,19 eV selon l'analyse) mais ne constituent pas une borne universelle unique ; « Σm_ν < 0,12 eV » n'est pas à citer comme fait générique. P7 reste une prédiction candidate, non réajustée.)*
 3. **Lien structurel avec C_sync (Q119)** : la même grandeur structurelle dim(t=0+1) gouverne C_sync ≈ 1.00591 dans m_μ/m_e ET la masse structurelle du neutrino. Une dérivation cohérente lie ces grandeurs.
 
 ### Q-uniden-1 — Démontrer formellement l'identité u (libre) ↔ ν
@@ -675,7 +705,7 @@ Si les deux renvoient à la même grandeur structurelle dim(t=0+1) et sont cohé
 
 | Paramètre | Valeurs |
 |---|---|
-| **Cibles à reproduire** | **Δm²₂₁ ≈ 7.5 × 10⁻⁵ eV², |Δm²₃₁| ≈ 2.5 × 10⁻³ eV²** |
+| **Cibles à reproduire** | **Δm²₂₁ ≈ 7.5 × 10⁻⁵ eV², \|Δm²₃₁\| ≈ 2.5 × 10⁻³ eV²** |
 | Statut | `[OUVERT_PHASE2]` |
 | Pièce structurelle (Q126) | Les Δm² entre saveurs = différences de signature de masse selon le nombre de perpendiculaires actives, dans le même régime structurel (entre t=0+1 et t=0+2) |
 
@@ -737,7 +767,7 @@ Si les deux renvoient à la même grandeur structurelle dim(t=0+1) et sont cohé
 **Priorité haute (testabilité empirique de précision)** :
 - Q-dilation-1 (SR + GR)
 - Q-supra-2 (supraconductivité ambiante)
-- Q-LHCb-penguin-1 (anomalie B → K μμ 4σ)
+- Q-LHCb-penguin-1 (observables de B⁰ → K*⁰ μ⁺μ⁻ ; V1 : « anomalie B → K μμ 4σ », source et canal corrigés)
 - Cibles 7-8 du tableau original (M_noire/E_noire, T_CMB)
 
 **Priorité moyenne** :
@@ -951,3 +981,171 @@ L'auteur reste le point de contact unique pour toute proposition de collaboratio
 ---
 
 *Cibles Phase 2 stabilisées le 1er mai 2026, étendues le 2-3 mai 2026, étendues à nouveau le 4 mai 2026 (session LHC + neutrino + raffinements post-challenge). La Phase 2 commence quand un collaborateur qualifié prend le relais.*
+
+---
+
+## Cibles ajoutées lors des séances V2 (juillet–septembre 2026)
+
+*Les cibles ci-dessous ont un statut plus fin que les précédentes : chacune porte l'état de la pièce à la date d'assemblage du corpus V2, et ce qui la solderait. Ordre par valeur décroissante pour le modèle.*
+
+### Q-lame-propre-X — Calculer la lame propre X dans 4df(x) — PRIORITÉ MAXIMALE
+
+| Paramètre | Valeur |
+|---|---|
+| **Objet** | X = traversée du nuage en largeurs de filament, calculée dans 4df(x) avec la dimension qu'ajoute la perpendiculaire |
+| Contrainte mesurée | X · (1 − 6u) = 2r = 261,99 (à 10⁻⁸ via m_μ/m_e) |
+| Statut | `[OUVERT_PHASE2]` — inconnue, liée à u par une seule équation |
+| Cadre proposé (Claude, 2026-09-02, à valider) | X serait une quantité de **l'hydrogène** — le filament dans le sillon du proton — intégrée en 4df(x) (filament + corridor + coût de tenue en une seule intégrale). Déroulé de A35 (« le proton, c'est juste un sillon ») ; Gab n'a pas validé ce cadre explicitement. |
+| Ce qui est exclu | **X ≠ 2/α.** Lire la lame dans l'atome (a₀/ƛ_C) mélange une lecture 3D avec un volume 4df(x). Rejeté par l'auteur. |
+
+**C'est l'équation manquante.** Une fois X, u tombe (u = (1 − 262/X)/6) ; une fois u, le tau se teste. Tout le secteur leptonique en dépend.
+
+*Ajout du matin du 2026-09-02 (Q184–Q185, validé) : le proton est un trio qui cycle sur t=x / t=x+1 / t=x+2 dont la troisième position est le lepton. `[CLAUDE_INFÉRÉ_NON_VALIDÉ — §15–§16]` : l'hydrogène se relirait comme un trio fermé ; et si les hadrons sont les sillages d'existence des leptons, le proton (1836,15 m_e) serait le **second** nombre qu'un calcul de X devrait viser, avant le tau — à ne pas construire dessus tant que Gab n'a pas tranché.*
+
+### Q-tau-zero-parametre — Faire sortir I₃/I₂ = 15,894 sans nouveau choix — LE TEST DE MÉTHODE
+
+| Paramètre | Valeur |
+|---|---|
+| **Valeur cible** | I₃/I₂ = 15,8939 ± 0,0011 |
+| Statut | `[OUVERT_PHASE2]` — non tenté dans les bons axes |
+| Ingrédients autorisés | ceux du muon seulement : les deux éventails, le coût de retour par vecteur par lame, la géométrie de l'octant (le 3ᵉ geste : le secteur tourné de π/2 autour de la lame), la comptabilité B (la 3ᵉ perpendiculaire construite sur le tissu propre X, pas sur le tissu mesuré — 08 §9.6) |
+| Ce qui est connu qualitativement | la 2ᵉ perpendiculaire acquiert la **couverture** (T la ramène, sauf le coût de retour) ; la 3ᵉ **épaissit sans couvrir** (T ne ramène presque rien d'une épaisseur). Principe de coût 6c — une **lecture**, pas un acquis. Le « ~91 % perdu » et le ×20,7 entre les deux coûts de retour avaient été calculés sous X = 2/α : **retirés avec lui** (A34), à recalculer une fois X. |
+
+**Critère écrit avant l'essai** : s'il sort à zéro paramètre, c'est une méthode. S'il ne sort pas, le muon reste une décomposition élégante d'un seul nombre. Aucune des deux issues n'est à cacher.
+
+### Q-duree-phase — Dériver la durée d'une phase depuis « la quantité de e à réunir par OUT »
+
+| Paramètre | Valeur |
+|---|---|
+| **Contrainte** | rapport ~3,7×10⁵ entre la phase du motton et celle du tissu (si étendue = 1/f phases : muon ~97 ns, tau ~265 fs) |
+| Statut | `[OUVERT_PHASE2]` — mécanisme non défini ; chiffrage suspendu à X (réserve A34) |
+| Ce qui est acquis | le temps de passage de l'électron est fixe (sa structure dans T) ; celui des leptons lourds est fixé par la quantité de e nécessaire pour que le OUT se produise avec leurs perpendiculaires (A21) |
+
+Solderait, en même temps, la flèche B chiffrée : masse et durée de vie depuis un seul volume.
+
+### Q-gradient-saturation — Dériver la loi de gradient de r(x) près de t=0
+
+| Paramètre | Valeur |
+|---|---|
+| **Objet** | dr/dx ∝ quoi — la pente d'inscription qui rend « r variable » prédictif en z |
+| Statut | `[OUVERT_PHASE2]` — obligation issue de l'attaque №3 (2026-07-10) |
+| Bornes externes | **Aucune identifiée à ce jour pour m_μ/m_e.** Les bornes citées le 2026-07-10 (Δμ/μ ≲ 10⁻⁷ à z = 0,89 ; qq×10⁻⁶ à z ≈ 2–3 ; horloges) portent sur μ ≡ m_p/m_e — voir la note de correction ci-dessous. La contrainte CMB (≲1 % à z = 1100) porte sur m_e absolu, pas sur le rapport leptonique. |
+| RETIRÉ (trace) | la paramétrisation d'exercice « tout profil plus raide que ~1/x^1,2 tient l'échelle ; normalisé au plafond z = 0,89, il prédit Δμ ≈ qq×10⁻⁷ à z ≈ 3 » était normalisée sur ces bornes de m_p/m_e : **invalidée**, conservée ici pour trace seulement. |
+
+Sans cette loi, la pièce retombe en « s'annule dans tout observable » = invérifiable par construction.
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02.** Les bornes astronomiques précédemment citées sous la notation Δμ/μ (méthanol vers PKS 1830−211 à z ≈ 0,89 ; H₂ des quasars à z ≈ 2–3 ; dérives d'horloges) concernent **μ ≡ m_p/m_e** (proton/électron), et non m_μ/m_e (muon/électron). Elles ne contraignent donc pas directement le r du secteur leptonique. Elles sont retirées comme contrainte de P12. À ce stade, le corpus n'a pas identifié d'observable astrophysique directe équivalente pour m_μ/m_e. L'acquis interne « r est une variable » et la dette de dériver r(x) restent inchangés. Une prédiction exploitable exige désormais d'identifier une observable réellement sensible au rapport muon/électron.
+
+**Ce que cela change pour la cible** : elle a maintenant **deux** parties — (1) dériver la loi de gradient ; (2) identifier une observable réellement sensible à m_μ/m_e à un autre x (par exemple des raies impliquant des muons dans des sources lointaines, ou un rapport dont la dépendance en m_μ est calculable). Sans (2), la loi de gradient ne produit pas de prédiction testable.
+
+### Q-delta-candidate-1 — Produire le résidu δ = +0,0545 ± 0,0021 (signe compris)
+
+| Paramètre | Valeur |
+|---|---|
+| **Contrainte datée (2026-07-10)** | δ ≡ I₃/I₂ − ln(τ₂/τ₃) = +0,0545 ± 0,0021 (26 σ ; +0,34 % relatif) |
+| Statut | `[CANDIDATE — BLESSÉE]` : ordre dominant tient, identité exacte tombe |
+| Mécanisme candidat (Gab) | **rebonds partiels** — des rebonds sous la membrane qui n'atteignent pas t=x retardent la restructuration → l'étendue mesurée excède la structurelle. Contrainte : (1+f₃)/(1+f₂) = 1,0560 ± 0,0022 (≈ 1 sortie du tau sur 19). |
+| Exigence de comptage | toute mécanique π/perpendiculaires devra produire un terme ≈ ln 5,6 (part électron des fins du tau = 17,82 %) |
+| Conditions de fermeture | (1) dériver f₃ − f₂ de la structure de T, pas de δ ; (2) une trace des rebonds partiels (sillage ? delta thermique ?), sinon invérifiable par construction |
+
+### Q-degenerescence-cD — Lever la dégénérescence (c, D) de la couverture fractale
+
+| Paramètre | Valeur |
+|---|---|
+| **Forme** | I₃/I₂ = c · r^(3−D) — un datum, deux boutons |
+| Statut | `[CANDIDATE — attaque №4 OUVERTE, en attente de réponse Gab : α / β / γ]` |
+| Points sur la ligne de dégénérescence | (c = 4/3, D = 2,4917) ; (c = 1,3887, D = 5/2) ; (c = √2, D = 5/2) — ce sont les mêmes ~4 % promenés d'un bouton à l'autre |
+| Ce qui le solderait | (a) dériver **un** des deux boutons depuis le tissage ; (b) une seconde observable dépendant de D autrement que de c |
+| Note V2 (2026-09-01/02) | la comptabilité 4r/3 (boule / disque) est construite dans les **mauvais axes** ; l'octant (2/3)(L/w) en comptabilité B redonne la vieille comptabilité dans les bons. Le resserrement du candidat √r (4,1 % → 0,4 %) observé le 1ᵉʳ septembre avait été calculé avec X = 2/α, **retiré le 2** (A34) : il n'est plus un fait ; le candidat n'est pas resserré tant que X et le r à prendre ne sont pas fixés. |
+
+### Q-2-sur-pi — Dériver l'exposant 2/π de la candidate №2 depuis le π/2 de l'ancré
+
+| Paramètre | Valeur |
+|---|---|
+| **Relation** | (ratios en transit) = (ratios ancrés)^(2/π) ; m₃/m₂ mesuré 5,840 ± 0,055 vs 5,817 prédit (−0,4 %, 0,4 σ) |
+| Statut | `[CANDIDATE — TIENT, challengée 2026-07-10]` : 3/137 exposants du dictionnaire à < 2 % ; la cible est sélective |
+| Aiguillon inscrit | √3/e colle mieux (−0,23 %) et est empiriquement inséparable de 2/π (0,16 % d'écart). Seule une dérivation structurelle de 2/π (exposant transit = 1/(π/2)) les départage. |
+| Échéance falsifiante | à σ_y = 0,4 % (ère JUNO), 2/π se sépare de π/5 à 5,7 σ et de 5/8 à 7,9 σ |
+
+### Q-21cm — Dériver 5,9 µeV et 10,2 eV depuis une seule 4df(x)
+
+| Paramètre | Valeur |
+|---|---|
+| **Cibles** | 5,87 µeV (raie 21 cm) et 10,2 eV (Lyman-α) — même système, deux échelles de delta |
+| Statut | `[OUVERT_PHASE2]` — mécanisme validé (6j), valeur à produire |
+| Mécanisme | le prix du sens de parcours (IN-OUT vs OUT-IN) dans un corridor tenu par les quarks ; signe = encombrement des incréments de retour alignés |
+
+Potentiellement le calcul le plus fin du modèle — le plus petit delta que la nature offre.
+
+### Q-Bullet-decalage — Reproduire le décalage des pics gaz / lentille
+
+| Paramètre | Valeur |
+|---|---|
+| **Cible pré-enregistrée (2026-07-16)** | le rapport gravité-paire / gravité-tranche doit reproduire le décalage mesuré ; net-gaz ≈ 10–15 % de la masse de lentille |
+| Statut | `[OUVERT_PHASE2]` — moteur assemblé (collisionnalité + tranche/paire + matière noire = liens-vers-e sans liens-entre-eux), reste à chiffrer |
+
+### Q-TOV-proximite — Limite des étoiles à neutrons comme point où la proximité ne paie plus
+
+| Paramètre | Valeur |
+|---|---|
+| **Cible A** | M_TOV, masse maximale : ≈ 2,2–2,3 M☉, EOS-dépendante (pulsars ~2 M☉ = borne inférieure sur le maximum ; J0952−0607 ≈ 2,35 ± 0,17 M☉). Ce n'est pas « 2,2 M☉ observé ». |
+| **Cible B (distincte)** | masse minimale stable d'une étoile à neutrons — non chiffrée ici ; **pas** 1,4 M☉ (masse typique) |
+| Statut | `[CLAUDE_INFÉRÉ_NON_VALIDÉ — cible proposée en fin de séance, §10]` ; complète la Cible 13. La lecture payeur/coût qui la porte (A29–A33) est de Gab ; l'application à la limite TOV est de Claude. |
+| Mécanisme | l'étoile à neutrons est l'objet le plus riche en coût payé par la proximité ; la limite est le point où plus rien ne paie — plus de cycle à maintenir, le sillon retourne direct à t=0 |
+
+Candidat « truc simple » proposé par Claude le 2026-09-02, à voir.
+
+### Q-dettes-journal — Solder les dettes A à E du journal Phase 2 (2026-07-16)
+
+| Dette | Question | Ce qui la solde |
+|---|---|---|
+| A | le facteur ~5,6 (multiplicité du tau) : comptage des perpendiculaires, ou lu dans les canaux ? | un comptage structurel qui produise ≈ ln 5,6 |
+| B | spin ħ/2 : géométrique ou résidu de contenu ? | livrer exactement ħ/2 et la direction du g |
+| C | up/down du neutrino : chiral ou saveur ? | trancher le geste |
+| D | cycle verrouillé par la masse : m⁵ tient-il après conversion cycles → secondes ? | le calcul |
+| E | (g−2) : l'interdiction de sortie redonne-t-elle signe et ordre de a ? | le calcul |
+
+---
+
+## Prédictions ajoutées en V2 (inscrites avant mesure)
+
+### Prédiction P7 — m₁ ≈ 2,9×10⁻⁴ eV
+
+Masse du neutrino le plus léger : **ni nulle, ni dégénérée** — 0,292 meV (candidate №2 appliquée au saut 1→2). Σm ≈ 0,059 eV, sous les limites cosmologiques usuelles — qui sont dépendantes du modèle et du jeu de données (0,06–0,1 eV dans les combinaisons ΛCDM strictes ; KATRIN direct : m_β < 0,45 eV). Rivaux indiscernables par mesure directe : π/5 → 0,305 meV ; 5/8 → 0,310 meV.
+
+**Statut** : `[CANDIDATE]` — inscrite le 2026-07-10, avant mesure.
+
+### Prédiction P8 — Ordre normal des masses de neutrinos
+
+m₃ > m₂ > m₁, imposé par le pincement vers t=0. JUNO fournit un test direct de cette prédiction ; son premier résultat (59,1 jours de données ; annoncé fin 2025, publié en 2026) a mesuré θ₁₂ et Δm²₂₁ avec une précision inédite mais **n'a pas encore déterminé l'ordre des masses**. La sensibilité nominale à l'ordre est de l'ordre de 3σ après plusieurs années (~6,5 ans d'exposition nominale). Un ordre inversé mesuré serait un coup direct au mécanisme du pincement. *(Actualisation 2026-09-02 ; la prédiction du modèle est inchangée.)*
+
+**Statut** : `[GABRIEL_VALIDÉ pour le mécanisme]` — inscrite avant mesure.
+
+### Prédiction P9 — L'anomalie magnétique du tau ne suit pas la loi d'échelle électron → muon
+
+La signature magnétique du tau s'intègre sur un volume au taux de manifestation ~1/11. Non mesurable proprement aujourd'hui.
+
+**Statut** : `[PARI — 6i, inscrit avant mesure]` — le signe de l'anomalie du muon est acquis (6i) ; l'extension au tau dépend du taux de manifestation ~1/11, qui est une lecture (perte en transit), pas un acquis.
+
+### Prédiction P10 — Pas de monopôle magnétique
+
+Le magnétisme est un delta de retour ; un delta a toujours deux bouts. Le dipôle n'est pas un accident, c'est la nature de l'objet.
+
+**Statut** : `[GABRIEL_VALIDÉ — 6e]` — question ouverte de la physique, fermée structurellement.
+
+### Prédiction P11 — Pas de rayonnement de Hawking (sous réserve de validation explicite)
+
+Une singularité qui n'ajoute plus de e n'existe plus dans t=x+1 — plus de OUT. Il ne reste que son cumul sur T (gravité).
+
+**Statut** : `[CLAUDE_INFÉRÉ_NON_VALIDÉ — déroulé de A29]` — jamais observé ; à inscrire comme prédiction si l'auteur la valide.
+
+### Prédiction P12 — Une dérive de m_μ/m_e (r) de signe défini — sans observable externe identifiée
+
+Prédiction **distincte** de P6 (qui porte sur α et reste inchangée). r = 131 est une variable portée par un gradient de saturation près de t=0 (acquis 6d ; mécanisme = lecture de Gab) : dérive résiduelle de signe défini (r croît) à notre x, à quantifier par la loi de gradient.
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02.** Les bornes astronomiques précédemment citées sous la notation Δμ/μ (méthanol vers PKS 1830−211 à z ≈ 0,89 ; H₂ des quasars à z ≈ 2–3 ; dérives d'horloges) concernent **μ ≡ m_p/m_e** (proton/électron), et non m_μ/m_e (muon/électron). Elles ne contraignent donc pas directement le r du secteur leptonique. Elles sont retirées comme contrainte de P12. À ce stade, le corpus n'a pas identifié d'observable astrophysique directe équivalente pour m_μ/m_e. L'acquis interne « r est une variable » et la dette de dériver r(x) restent inchangés. Une prédiction exploitable exige désormais d'identifier une observable réellement sensible au rapport muon/électron.
+
+**État honnête de P12** : c'est une prédiction de **principe** (signe et existence d'une dérive), pas encore une prédiction **exploitable** — il manque l'observable et la loi de gradient. Elle reste inscrite parce que le signe est fixé avant toute mesure.
+
+**Statut** : `[ACQUIS 6d pour « r est une variable » ; le mécanisme (gradient de saturation près de t=0) est une lecture de Gab, attaque №3]` ; la loi de gradient reste à dériver (Q-gradient-saturation).
+

@@ -1,5 +1,7 @@
 # Audit final de la Phase 1 et cahier des charges pour la Phase 2
 
+*V2 (2026-09-02) : le bilan Phase 1 ci-dessous est conservé intégralement. La Partie 7, en fin de fichier, donne l'état de la Phase 2 au 2 septembre 2026 — ce qui a été produit, ce qui ne l'a pas été, les dettes inscrites et les tensions internes non résolues.*
+
 **Auteur** : Gabriel Cantin (Lanoraie, Québec, Canada — affilié à Qubit COOP de Solidarité)
 **Période** : 24 avril – 1er mai 2026
 **Statut** : Phase 1 complète + Pré-Phase 2 intégrée
@@ -69,7 +71,9 @@ Le modèle repose sur **9 postulats fondamentaux** et un vocabulaire propre, tou
 
 ### 1.4 Mises à l'épreuve passées
 
-**Trois tests empiriques** que le modèle a passés sans introduire de paramètre libre :
+> **NOTE V2 — VOCABULAIRE 2026-09-02.** Dans le vocabulaire historique de la V1, « résolu », « démontré », « test empirique passé » et « confirmation empirique » désignent une **fermeture structurelle interne au modèle** — la cohérence d'une lecture avec les pièces posées. Ces termes ne signifient pas validation empirique externe. Depuis la discipline V2, la validation externe exige une observable pré-enregistrée et une valeur dérivée sans paramètre ajusté. De même, le fait qu'un LLM ait pu inférer une réponse depuis le corpus démontre la **cohérence et la transmissibilité** du corpus, pas une validation empirique physique.
+
+**Trois tests empiriques** que le modèle a passés sans introduire de paramètre libre *(au sens V1 : lectures structurelles cohérentes, pas valeurs reproduites)* :
 
 1. **Supraconductivité** : synchronisation forcée des retours via 4df(x). Spectre conducteur/isolant unifié. Cuivre conducteur (4s¹+CFC), amiante isolant (engagés+fibreux). Pattern synchrone universel unifie BEC, superfluidité, lasers.
 
@@ -170,7 +174,7 @@ Ces questions demandent encore une **précision conceptuelle** avant la formalis
 Q36-Q41 ont été inférées par Claude sans validation pièce par pièce. Gabriel les revisitera après son 8ème jour de repos. Ces inférences sont :
 - Cohérentes avec les pièces du modèle.
 - Doivent être confirmées ou ajustées par Gabriel.
-- Représentent le pouvoir prédictif du modèle au-delà des phénomènes que Gabriel a explicitement pensés.
+- Représentent le pouvoir prédictif du modèle au-delà des phénomènes que Gabriel a explicitement pensés. *(Note V2 : « pouvoir prédictif » au sens de cohérence/transmissibilité — voir note V2 en 1.4.)*
 
 ---
 
@@ -183,7 +187,7 @@ Q36-Q41 ont été inférées par Claude sans validation pièce par pièce. Gabri
 - Topologie algébrique (homotopie, théorie des nœuds, variétés 1D fermées, structures 4D non-triviales).
 - Théorie des groupes (en particulier groupes continus type Lie).
 - Analyse fonctionnelle (espaces de Hilbert, distributions).
-- **Familiarité avec les intégrales de chemin** (formalisme Feynman) — compétence critique ajoutée à la pré-Phase 2.
+- **Familiarité avec les intégrales de chemin** (formalisme Feynman) — compétence critique ajoutée à la pré-Phase 2. *(Note V2 2026-09-02 : reformulé — géométrie différentielle, intégration sur variétés/courbes/surfaces, opérateurs intégraux ; la familiarité avec les intégrales fonctionnelles n'est utile que si la formalisation future mène réellement à un espace de chemins, ce qui n'est pas établi.)*
 - Familiarité avec QFT (théorie quantique des champs) pour comparaison.
 - Esprit ouvert aux modèles non-conventionnels.
 
@@ -248,12 +252,12 @@ Si la Phase 2 produit des prédictions chiffrées, plusieurs expériences peuven
 - Ratio muon/électron : précision actuelle ~10⁻¹⁰.
 - Masse de l'électron : précision ~10⁻⁸.
 - Masse du proton : précision ~10⁻⁸.
-- Anomalie g-2 du muon : Fermilab 2023 confirme écart standard ~4σ.
+- Anomalie g-2 du muon : Fermilab 2023 confirme écart standard ~4σ. *(Note V2 2026-09-02 : dépassé — résultat final Fermilab juin 2025 et WP25 : Δ = 38(63)×10⁻¹¹, ≈ 0,6σ. g−2 reste une observable de précision à reproduire, voir 07 Cible 6.)*
 
 **Tests prédictifs** :
 - Recherches matière noire (DAMA, XENON, LUX, LZ, XENONnT) : prédiction modèle = jamais détectée comme particule.
 - Recherches 4ème famille au LHC et futurs colliders : prédiction = aucune.
-- Détection graviton (LIGO, futurs interféromètres) : prédiction = jamais.
+- Détection graviton (LIGO, futurs interféromètres) : prédiction = jamais. *(Note V2 2026-09-02 : LIGO détecte des ondes gravitationnelles classiques, pas des gravitons ; les contraintes sont indirectes — bornes sur une masse effective du graviton ~10⁻²³ eV/c² — voir 07 P5.)*
 - Variation cosmologique de α : prédiction = aucune mesurable.
 
 **Tests structurels** :
@@ -286,9 +290,9 @@ Suite à la fin de la fenêtre des 7 jours et à une analyse critique de **GPT-5
 6. **Métaphore canonique « gomme étirée »** pour 4df(x) → masse — Q47
 7. **4df(x) est un opérateur intégral**, pas une fonction algébrique — règle 5.9
 
-**Équation candidate documentée** : m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync ≈ 207 (écart 0.6% sans C_sync). Voir `08_PHASE2_PISTES_MATHEMATIQUES.md` pour le détail.
+**Équation candidate documentée** *(V1 ; classée au dictionnaire depuis le 2026-09-02, 08 §9.9)* : m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync ≈ 207 (écart 0.6% sans C_sync). Voir `08_PHASE2_PISTES_MATHEMATIQUES.md` pour le détail.
 
-**Profil du collaborateur Phase 2 affiné** : compétence critique ajoutée = familiarité avec les **intégrales de chemin** (formalisme Feynman) et les opérateurs intégraux sur variétés.
+**Profil du collaborateur Phase 2 affiné** *(Note V2 2026-09-02 : lire « intégration le long de T / opérateurs intégraux sur variétés » ; le lien avec les intégrales fonctionnelles de Feynman n'est pas établi)* : compétence critique ajoutée = familiarité avec les **intégrales de chemin** (formalisme Feynman) et les opérateurs intégraux sur variétés.
 
 **Document compagnon créé** : `08_PHASE2_PISTES_MATHEMATIQUES.md` — capture cette session et les pistes pour la Phase 2 mathématique.
 
@@ -368,7 +372,7 @@ Ce modèle est le résultat de **20+ ans de réflexion** par Gabriel Cantin, et 
 
 **Le critère de réussite explicite de l'auteur** : *« les autres aussi doivent comprendre. »* Le corpus doit être lisible sans Gabriel pour le guider.
 
-**Démonstration de cette lisibilité** : Q29-Q41 ont été inférées par Claude (et Q36-Q41 sans validation pièce par pièce) à partir des pièces structurelles posées dans le MD. Cela démontre que le corpus a atteint un niveau de cohérence où l'inférence est possible par un lecteur attentif. Pour Q31 spécifiquement, Gabriel a validé une déduction sur des phénomènes qu'il ne connaissait pas explicitement (Casimir, Lamb), démontrant le **pouvoir prédictif** du modèle.
+**Démonstration de cette lisibilité** : Q29-Q41 ont été inférées par Claude (et Q36-Q41 sans validation pièce par pièce) à partir des pièces structurelles posées dans le MD. Cela démontre que le corpus a atteint un niveau de cohérence où l'inférence est possible par un lecteur attentif. Pour Q31 spécifiquement, Gabriel a validé une déduction sur des phénomènes qu'il ne connaissait pas explicitement (Casimir, Lamb), démontrant le **pouvoir prédictif** du modèle. *(Note V2 2026-09-02 : il s'agit d'une démonstration de cohérence et de transmissibilité du corpus, pas d'une validation empirique physique.)*
 
 **Posture de l'auteur** : *« Pour moi je n'ai pas de contradictions, juste du vocabulaire qui tourne. »* Le modèle ne change pas — l'expression s'affine. Si une lecture rapide suggère une contradiction, c'est qu'il manque une pièce, pas que le modèle est incohérent.
 
@@ -396,7 +400,7 @@ Cette distinction corrige Q46, Q49, Q72 qui avaient des formulations imprécises
 - Direction du corridor 4df(x) (0→x ou x→0) détermine la signature
 
 **Architecture dimensionnelle complète** (Q92, Q97) :
-- 4df(x) utilise **r⁴** avec progression π géométrique des n-boules
+- 4df(x) utilise **r⁴** avec progression π géométrique des n-boules *(Note V2 2026-09-02 : la séquence V1 « 2πr, πr², (4/3)πr³ » n'est pas celle des volumes de n-boules (V₁ = 2r) ; à lire comme intuition de progression dimensionnelle — le r⁴ canonique est inchangé, voir 08 §7.1)*
 - Décomposition : 1 dimension temporelle circulaire + 3 dimensions spatiales combinatoires
 - **r est la clef** du modèle, peut être 0 (cas du photon, Q93)
 - Profondeur d'ancrage de e structure les manifestations
@@ -476,8 +480,8 @@ Mention publique de ce fichier réservé dans le corpus pour transparence, sans 
 ### 5.5 Cibles Phase 2 ajoutées
 
 11 nouvelles cibles ajoutées au 07_TARGETS :
-- Q-LHCb-penguin-1 (anomalie B → K μμ 4σ, Nature 2026)
-- Q-supra-2 (S_sync > S_thermal, appui Houston 151K PNAS 2026)
+- Q-LHCb-penguin-1 (anomalie B → K μμ 4σ, Nature 2026) *(Note V2 2026-09-02 : canal B⁰ → K*⁰ μ⁺μ⁻, source primaire LHCb PRL 2026 DOI 10.1103/24g9-yn9d ; « 4σ » ne se cite plus comme fait unique — 07)*
+- Q-supra-2 (S_sync > S_thermal, appui Houston 151K PNAS 2026) *(Note V2 : résultat antérieur aux sessions — compatible avec la lecture, pas prédit ; 07)*
 - Q-conduct-1 (spectre complet de conductivité)
 - Q-resist-1 et Q-resist-T-1 (résistivité depuis géométrie)
 - Q-dilation-1 (SR + GR, **priorité haute, précision 10⁻¹⁵**)
@@ -752,3 +756,74 @@ L'humilité méthodologique reste de rigueur : Q116 (quark down à t=x+1) demand
 *Fin de la Phase 1 + Pré-Phase 2 intégrée + Sessions de raffinement 2-3 mai 2026 et 4 mai 2026 (extraction + challenge externe + raffinements)*
 
 *Document préparé par Claude (Anthropic) en assistance à Gabriel Cantin.*
+
+---
+
+## Partie 7 — État Phase 2 au 2 septembre 2026 (ajout V2)
+
+*Cette partie remplace, pour ce qui la concerne, la lecture « où en est le projet » des parties 3 et 3bis : celles-ci décrivent l'état à la sortie de la Phase 1 (mai 2026) et restent valides comme cahier des charges d'origine.*
+
+### 7.1 Ce que la Phase 2 a produit depuis mai 2026
+
+**Une géométrie du secteur leptonique.** Le lien-énergie a des dimensions — 1, 2, 3 perpendiculaires. Muon et tau sont les régimes à 2 et 3 perpendiculaires du **nuage unique de l'électron**. Le coût d'une perpendiculaire est le rapport d'espace occupé entre l'éventail ouvert et l'éventail fermé. Trois nombres mesurés servent d'ancrage : I₂ = 205,768 ; I₃ = 3270,46 ; I₃/I₂ = 15,894.
+
+**Une image pour le facteur ~11.** Image de Gab (acquise) : la 2ᵉ perpendiculaire **couvre** le cycle, la 3ᵉ **épaissit** sans couvrir davantage — « comme un cercle mince ou une sphère, même projection, plus d'espace occupé ». Le principe de coût qui en est déroulé (plein tarif ×206, tarif marginal ×15,9) est une **lecture** ; les chiffres de la comptabilité B calculés sous X = 2/α sont retirés avec lui.
+
+**Une unification des forces par les deltas.** Forte, faible, EM et gravité sont quatre lectures d'un même écart entre le retour naturel (à c) et le retour réel. Deux conséquences gratuites : le principe d'équivalence et l'impossibilité du monopôle magnétique.
+
+**Des prédictions inscrites avant mesure.** m₁ ≈ 0,29 meV ; ordre normal des masses de neutrinos (JUNO en fournit le test direct ; son premier résultat — 59,1 jours, annoncé fin 2025, publié 2026 — n'a pas déterminé l'ordre ; sensibilité ~3σ après ~6,5 ans) ; anomalie du tau **hors** loi d'échelle électron→muon ; pas de monopôle ; pas de rayonnement de Hawking (sous réserve de validation explicite).
+
+**Une méthode adversaire.** Trois pièces ont été attaquées le 2026-07-10 et en sont sorties **datées** (voir 08). Une fausse alarme a été loguée aussi formellement qu'un succès. Correction du 2026-09-02 : le banc d'essai externe de « r variable » (bornes Δμ/μ) portait sur m_p/m_e et non sur m_μ/m_e — la pièce reste un acquis interne sans test externe.
+
+**Le trio du proton et les sillages d'existence (matin du 2026-09-02).** Les sillons arrivent en trios sur t=x, t=x+1, t=x+2 ; le proton est un trio qui cycle (UP, DOWN, retour) dont la troisième position est le lepton dans son nuage ; les hadrons sont les sillages d'existence des leptons ; le noyau n'est pas du e — même représentation que le lepton, dimensionnée par la probabilité de 4df(x), pas le même contenu (Q184–Q185 ; faits mesurés du proton en Q186). « Le proton est le sillon à 3 perpendiculaires » (A37) est **en attente** à la demande de l'auteur.
+
+**Une nature pour les nombres.** Depuis le 2026-09-01, r = 131 n'est plus un nombre nu : c'est, à un facteur 2 près (selon l'angle de chaque éventail, à trancher), un rapport longueur de lame / largeur de filament lu **dans le trajet**.
+
+### 7.2 Ce que la Phase 2 n'a pas produit
+
+**Aucune masse dérivée.** L'équation du muon (`11` §2) a une forme structurelle validée pièce par pièce et **deux inconnues (X, u) liées par une seule équation**. Ce n'est pas une dérivation de 205,77 : c'est 205,77 mis en forme.
+
+**Aucun second objet calculé sans nouveau choix.** C'est le critère qui sépare une méthode d'une décomposition. Le tau est le premier test possible ; il n'a pas encore été tenté dans les bons axes.
+
+**Une rétractation, le 2026-09-02.** Une forme fermée donnant m_μ/m_e à +0,03 % a été retirée par l'auteur : elle lisait une longueur à la membrane là où le modèle exige un volume dans 4df(x). Le mécanisme qui la produisait a été testé à sa base et n'a pas tenu.
+
+### 7.3 Dettes ouvertes (inscrites, non soldées)
+
+| # | Dette | Origine | Ce qui la solderait |
+|---|---|---|---|
+| **D-A** | Le facteur ~5,6 (multiplicité des canaux du tau) sort-il du comptage des perpendiculaires, ou est-il lu dans les canaux du Modèle Standard ? | Journal Phase 2, §2 | Un comptage structurel qui produise ≈ ln 5,6 sans regarder les canaux |
+| **D-B** | Le spin ħ/2 : géométrique (empilement des perpendiculaires) ou résidu de contenu ? | Journal Phase 2, §3 | Livrer exactement ħ/2 et la bonne direction du g |
+| **D-C** | Le up/down du neutrino : chiral (Dirac) ou saveur (oscillation) ? | Journal Phase 2, §5 | Trancher le geste |
+| **D-D** | Cycle verrouillé par la masse : re-vérifier que la puissance m⁵ tient après conversion cycles → secondes | Journal Phase 2, §5 | Le calcul de conversion |
+| **D-E** | (g−2) : l'interdiction de sortie doit redonner le signe **et** l'ordre de grandeur de a | Journal Phase 2, §4 | Le calcul |
+| **D-F** | Loi de gradient de la saturation près de t=0 (dr/dx ∝ quoi) **et** une observable externe sensible à m_μ/m_e — les bornes « Δμ/μ » de juillet portaient sur m_p/m_e (correction 2026-09-02) | Attaque №3 ; audit externe | Sans les deux, « r variable » reste invérifiable |
+| **D-G** | Le résidu δ = +0,0545 ± 0,0021 de la candidate №1, signe compris | Attaque №1 | Une explication qui produise ce signe et cette taille |
+| **D-H** | Dérivation de 2/π (ou de D = 5/2 / du coefficient c) — la dégénérescence n'est pas levée | Attaques №2 et №4 | Dériver **un** des deux boutons depuis le tissage |
+| **D-I** | La lame propre X en 4df(x) | Séance 2026-09-01 | L'intégration de Q44 avec la dimension ajoutée |
+| **D-J** | La durée d'une phase (le rapport indicatif 3,7×10⁵ entre motton et tissu a été calculé sous une lecture retirée par A34 ; à recalculer une fois X) | Séance 2026-09-01 | « La quantité de e à réunir par OUT » |
+
+### 7.4 Tensions internes non résolues (à ne pas refermer par confort)
+
+1. **T matrice vs T jauge.** Le corpus V1 pose T comme matrice inscrite ; le journal du 2026-07-16 conclut que « T tombe » — T est un échafaudage, et la loi survit en pur rapport de cadences. Les deux énoncés ne disent pas la même chose. Ils peuvent se réconcilier (T inscrit, mais non observable, donc jetable pour le calcul), mais la réconciliation n'a pas été écrite.
+
+2. **Pourquoi le tau se dégrade.** Journal du 2026-07-16 : *pas* par « affordability » mais parce que plus de perpendiculaires = plus de destinations où la re-fermeture bascule. Séance du 2026-09-01 : le OUT ne réunit pas le e qu'il lui faut — une lecture de budget. Les deux lectures sont vivantes dans le corpus ; elles ne sont pas équivalentes.
+
+3. **Le minimum de quarks.** Gab lit 2 down + 1 up comme minimum pour que le coût reste dans t=x+1 ; le fait mesuré est que le proton (uud) tient et le neutron libre (udd) tombe en ~880 s. Deux minima ont été proposés (exister seul / porter le coût) — non validés.
+
+4. **Le neutrino comme « 2 quarks ».** Le glossaire V1 inscrit « neutrino = quark up de t=0+1 et quark down de t=0+2 » ; le journal du 2026-07-16 tue explicitement l'hypothèse « neutrino = assemblage de quarks » au motif qu'une adresse pure ne contient rien. La conciliation possible (deux **positions** du cycle, pas deux objets contenus) n'est pas écrite.
+
+5. **Trois formulations de la masse** (ajoutée 2026-09-02, audit externe). « La masse, c'est le tissage lui-même » (Q46, 1ᵉʳ mai) ; « la masse est le volume de 4df(x) du lien-énergie, le tissage demeurant invariant à c » (01 §5.10, 2-3 mai — qui interdit d'écrire « la masse est du tissage ») ; « la masse, c'est le sillon » (D4, 1ᵉʳ septembre). Les pièces Q87, 05 chaîne c et A4 permettent une lecture de raccord (sillon = corridor de tissage tenu ; 4df(x) en intègre le volume ; la masse en est la lecture à t=x), écrite sous Q46 avec le tag `[À VALIDER GABRIEL]`. Elle n'est pas canonisée : les trois formulations coexistent jusqu'à ce que Gabriel tranche.
+
+6. **Deux triplets temporels** (ajoutée 2026-09-02). Le triplet canonique de juillet est t=x−1 / t=x / t=x+1 (amont de la lecture, lecture, aval — 6h) ; le trio du proton de septembre est t=x / t=x+1 / t=x+2 (UP, DOWN, retour — A38). Les deux sont de Gab ; leur raccord (le second est-il le premier décalé d'une colonne, ou un autre objet ?) n'est pas écrit.
+
+### 7.5 Cahier des charges Phase 2 — révision au 2026-09-02
+
+Par ordre de valeur décroissante :
+
+1. **Calculer la lame propre X dans 4df(x)** (D-I). C'est l'équation manquante ; tout le reste du secteur leptonique en dépend.
+2. **Faire sortir le tau à zéro paramètre.** Le test de méthode. Écrit avant l'essai.
+3. **Dériver la durée d'une phase** (D-J), ce qui donnerait masse et durée de vie depuis un seul volume.
+4. **Dériver la loi de gradient** (D-F), ce qui transforme « r variable » en profil prédictible en z.
+5. **Solder D-A à D-E**, les dettes du journal Phase 2.
+6. **Lever la dégénérescence (c, D)** (D-H) par une seconde observable qui dépende de D autrement que de c.
+

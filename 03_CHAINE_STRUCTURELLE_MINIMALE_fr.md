@@ -1,4 +1,6 @@
-# Chaîne structurelle minimale du modèle
+# Chaîne structurelle minimale du modèle — V2
+
+*Version 2 (2026-09-02) : 21 maillons V1 conservés intégralement + 8 maillons V2 (22 à 29) + les révisions V2 de deux énoncés V1.*
 
 **Vue d'ensemble condensée** (~3 pages) du modèle. Pour le lecteur qui veut **la chaîne logique complète sans les détails**.
 
@@ -6,7 +8,7 @@
 
 ---
 
-## La chaîne en 15 maillons
+## La chaîne en 29 maillons
 
 ### 1. L'unique e à t=0
 
@@ -87,10 +89,14 @@ La grandeur structurelle **proximité à t=0** = la relation entre force de rép
 
 ### 11. La masse = le tissage lui-même (inversion du raisonnement classique)
 
-**Modèle standard** : la masse cause la lenteur (E=mc²).
+**Modèle standard** : la masse cause la lenteur (E=mc²). *(Formulation V1.)*
 **Modèle structurel** : **la lenteur cause la masse**.
 
+> **NOTE V2 — REFORMULATION 2026-09-02.** Le contraste « Modèle standard : la masse cause la lenteur » est une simplification pédagogique. Formulation plus juste de la position externe : *dans la formulation standard, la masse est un paramètre invariant qui intervient dans la relation énergie-impulsion et dans l'inertie ; le modèle structurel propose au contraire d'en faire un output du mécanisme d'empêchement et de 4df(x).* L'affirmation interne du modèle — l'empêchement structurel produit la masse — est inchangée.
+
 Les leptons (e⁻, μ⁻, τ⁻) résident à t=0 → structurellement **empêchés de se déplacer**. Cet empêchement de vitesse devient le **tissage** sur toute la profondeur de 4df(x) (de t=0+1 jusqu'à t=x). Le tissage = la masse.
+
+> **NOTE V2 — RACCORD 2026-09-02 (trois formulations de la masse) — `[À VALIDER GABRIEL]`.** Le corpus porte trois formulations successives : **(1)** 1ᵉʳ mai, Q46 : « la masse, ce n'est pas seulement le coût du tissage, c'est le tissage lui-même » ; **(2)** 2-3 mai, 01 §5.10 : « la masse est le volume de 4df(x) du lien-énergie, le tissage demeurant invariant à c » ; **(3)** 1ᵉʳ septembre, D4 : « la masse, c'est le sillon ; le déplacement, c'est le résultat du sillon ». Pièces validées qui les relient : Q87 (« le volume du 4df(x) est le corridor emprunté par le e »), 05 chaîne c (« espace occupé par tous les sillons de tissage vers t=0 »), A4 (espace occupé = volume dans 4df(x) sur toute l'existence). **Lecture de raccord proposée, non validée** : le sillon est le corridor structurel tenu — un sillon *de tissage* ; 4df(x) en intègre l'occupation (le volume) ; la masse est la lecture à t=x de cette grandeur. Ainsi « masse = tissage » (1ᵉʳ mai) désignerait le contenu produit, « masse = volume de 4df(x) » (2-3 mai) la grandeur calculée, et « masse = sillon » (septembre) l'objet dont cette occupation est calculée. **Cette équivalence n'a pas été validée par Gabriel en ces termes.** Tant qu'elle ne l'est pas, les trois formulations coexistent telles quelles, et la tension est inscrite en 04 §7.4 (tension 5).
 
 À l'inverse, le neutrino (à t=0+1, où la répulsion est concentrée) **existe en déplacement primordial** — pas de tissage qui s'accumule, d'où sa masse minuscule (~0.005 eV).
 
@@ -166,13 +172,112 @@ La charge = **différence aller-retour** lue à travers cette enjambée. Les pai
 
 → La **proximité des vecteurs dans t=x** au moment du calcul 4df(x) module fortement l'autoalimentation des perpendiculaires (Q43). Pour les quarks confinés, proximité extrême → masses non-linéairement amplifiées (facteur 10⁵ entre m_u et m_t). Pour les leptons, proximité modérée (orbitales étalées) → masses modérément amplifiées (facteur ~10² entre générations e/μ/τ).
 
-→ C_sync ≈ 1.00591 dans m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync **n'est pas un paramètre libre** : c'est **dim(t=0+1)** = temps d'un retour à t=0+1, dérivable structurellement.
+→ C_sync ≈ 1.00591 dans m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync **n'est pas un paramètre libre** : c'est **dim(t=0+1)** = temps d'un retour à t=0+1, dérivable structurellement. *(Note V2 2026-09-02 : la forme (3/2)α⁻¹·C_sync est depuis classée au dictionnaire, 08 §9.9 ; la pièce dim(t=0+1) reste, la forme algébrique n'est plus une approximation de l'intégrale.)*
 
 → Falsifiabilité empirique précise du modèle : **création par le LHC d'un objet stable maintenu dans t=x** réfuterait la règle 5.25. Tant qu'on n'observe que des particules à durées courtes (10⁻²⁵ s à 10⁻²² s), la pièce « ouvre une fenêtre » tient.
 
 → **La structure du tissage** dans t=x (la trame préalable) détermine la géométrie du vecteur 4df(x). Tissages serrés → distance courte vers t=0 → rebond sans déplacement (confinement quark, magnétisme atténué du proton, masse amplifiée). Tissages étalés → distance longue → rebond avec déplacement (cycle observable, magnétisme caractéristique). Pièce d'unification structurelle articulant confinement, masse, magnétisme.
 
 → **Magnétisme = propre aux liens-énergies fermés** (matière, pas strictement aux fermions). Magnitude fonction de la distance IN/OUT déterminée par la structure du tissage. Ratio μ_e/μ_p ≈ 658 = signature de la différence de structure de tissage entre électron seul et proton uud.
+
+---
+
+### 22. Les perpendiculaires — trois régimes d'un seul nuage
+
+Le lien-énergie a des **dimensions** : 1 perpendiculaire = vecteur (filament), 2 = surface (tissu), 3 = volume (motton). Muon et tau ne sont pas des particules avec leur propre nuage : ce sont les régimes à 2 et 3 perpendiculaires **du nuage de l'électron**. Un seul objet dans T, trois régimes d'inscription.
+
+(Lecture 6c, non acquise : il n'y aurait pas de 4ᵉ lepton parce qu'une 4ᵉ perpendiculaire n'épaissirait plus rien de projetable.)
+
+`[CANONIQUE — ACQUIS V2 2026-07-10, sauf la parenthèse]`
+
+---
+
+### 23. La couverture se paie ; l'épaisseur, presque pas
+
+Image de Gab (acquise) : « comme regarder un cercle mince ou une sphère, la projection sera la même, l'espace occupé sera plus grand seulement ». La 2ᵉ perpendiculaire **couvre** le cycle ; la 3ᵉ **épaissit** sans couvrir davantage.
+
+Principe de coût qui en est déroulé (**lecture**, remplaçable) : 1→2 = acquérir la couverture, plein tarif (×206, mesuré) ; 2→3 = épaissir sans couvrir, tarif marginal (×15,9, mesuré). « La masse paie la couverture, pas le volume occupé » est cette lecture.
+
+`[ACQUIS pour l'image — LECTURE pour le principe de coût, 6c]`
+
+---
+
+### 24. Le coût fixe la masse ; la durée en découle
+
+Flèche B : le coût du lien fixe la masse ; la tenue sur T en découle. Un lien coûteux est un lien que T ne soutient pas longtemps. **La durée de vie est une sortie du modèle, jamais un ingrédient.**
+
+Trois fins, un mécanisme : le tau perd une perpendiculaire (court), le muon perd une perpendiculaire (moyen), l'électron ne perd rien et se résout dans le régime singulier (valeur T).
+
+`[CANONIQUE — ACQUIS V2]`
+
+---
+
+### 25. Les quatre forces sont quatre deltas
+
+Un **delta** est l'écart entre l'endroit où le OUT aurait dû revenir (régime naturel : à c) et l'endroit où il revient réellement. Les quatre forces sont quatre lectures de cet écart :
+
+| Force | Delta |
+|---|---|
+| forte | proximité forcée |
+| faible | reconfiguration (perte de perpendiculaire) |
+| électromagnétique | décalage du OUT |
+| gravité | déplacement bloqué **en totalité** |
+
+Deux bonus gratuits : le **principe d'équivalence** (masse inertielle ≡ masse grave : les deux SONT le même delta) et l'**impossibilité du monopôle magnétique** (un delta a toujours deux bouts).
+
+La température est la même chose lue en population : une statistique de deltas désordonnés. Le seul objet sans delta — le photon — est le seul objet sans température propre.
+
+`[CANONIQUE — ACQUIS V2 2026-07-10]`
+
+---
+
+### 26. La masse, c'est le sillon ; le déplacement, c'est son résultat
+
+Le **sillon** est le corridor tenu qu'emprunte l'adressage de e. Il est pré-inscrit en t=x−1. Un gros sillon (quark immobile) = grosse masse ; ce que le sillon produit, c'est le déplacement.
+
+Le filament n'est pas une balle qui suit un chemin : c'est le chemin, inscrit d'un bloc. C'est pourquoi la membrane, qui lit une trajectoire entière, voit une probabilité.
+
+`[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01, A1/A5/A6]`
+
+---
+
+### 27. Corridors et trajets
+
+« Donc le proton, c'est juste un sillon. » — « Le proton, c'est juste un sillon POUR LES LEPTONS. » Les hadrons sont des **corridors** (sillons maintenus). Les leptons sont des **trajets** (filaments et leurs régimes). Ce n'est pas une comparaison, c'est une complémentarité : le corridor et son passager.
+
+Déroulé de Claude, à valider : ce serait le fondement de la règle « leptons et hadrons ne se comparent pas » (on ne compare pas une voie à ce qui la parcourt), et l'hydrogène serait l'unité minimale — un corridor, un trajet.
+
+`[CANONIQUE — GABRIEL_VALIDÉ 2026-09-02, A35/A36 ; conséquences à valider]`
+
+---
+
+### 28. Ce que T inscrit d'un régime ouvert : le coût de retour
+
+Dans t=x+1, toutes les perpendiculaires sont tenues entières. T, lui, ne porte qu'une perpendiculaire : il ne ramène que le **retour**. Ce que T inscrit du tissu est donc **ce que le IN a perdu en OUT** — le coût de retour. Il se compte sur les variables de 4df(x) : trois vecteurs sur deux lames.
+
+Deux coûts, à distinguer : le **coût d'ouverture** (maillon 22-23 ; le rapport d'espace occupé, ≈ le volant I₂) et le **coût de retour** (ce que T n'en ramène pas ; le déficit). Masse et durée de vie lisent un seul volume de dégradation deux fois : la masse par lecture à t=x, la durée par étendue sur T. « Ça dépend comment c'est mesuré. »
+
+`[CANONIQUE — GABRIEL_VALIDÉ 2026-09-01, A22 à A28]`
+
+---
+
+### 29. Le proton est un trio qui cycle : UP (t=x) – DOWN (t=x+1) – lepton (t=x+2)
+
+Les sillons arrivent en **trios** sur t=x, t=x+1, t=x+2. Le proton est un trio dans T qui cycle : UP à t=x (IN), DOWN à t=x+1 (OUT), retour à t=x+2 — et la troisième position n'est pas un quark, c'est **le lepton dans son nuage**. V56 : « le e des leptons affecte t=x et le e qui est dans le hadron affecte t=x+1, se manifeste, mais en réalité c'est la même chose qui doit fonctionner ainsi. » Un seul e, deux colonnes.
+
+Les hadrons sont les **sillages d'existence** des leptons : « on ne mesure pas un ensemble de trucs différents, on mesure un état sur une transition constante ». Le noyau n'est pas du e ; lepton et noyau sont la même représentation, dimensionnée par la probabilité de 4df(x), mais pas le même contenu.
+
+`[CANONIQUE — GABRIEL_VALIDÉ 2026-09-02, A38 à A41 ; A37 (proton = sillon à 3 perpendiculaires) mis en attente par l'auteur]`
+
+---
+
+## Révisions V2 de la chaîne V1
+
+Deux énoncés de la chaîne V1 sont modifiés par les séances de juillet et septembre 2026. Ils sont conservés dans leur formulation d'origine (le maillon 6 ci-dessus, la section « Conséquences immédiates » ci-dessous) ; voici ce qui change :
+
+1. **« Pas de variation cosmologique mesurable de α »** (section « Conséquences immédiates », point 3, sixième prédiction) — **inchangée pour α**, mais à compléter. Depuis 6d (2026-07-10), **r = 131 — donc m_μ/m_e — est une variable** portée par un gradient de saturation près de t=0 : le rapport muon/électron a varié violemment aux premiers instants et sa dérive résiduelle est minuscule mais jamais nulle. Le lien entre r et α reste une **coïncidence taguée** (A34) : rien dans les sources ne dit que α varie. Formulation V2 : *α : prédiction V1 maintenue ; m_μ/m_e : dérive de signe défini prédite (r croît), à quantifier par la loi de gradient — **sans observable externe identifiée à ce jour**.* Correction factuelle du 2026-09-02 : les bornes « Δμ/μ » des quasars citées en juillet portent sur μ ≡ m_p/m_e, pas sur m_μ/m_e ; elles ne contraignent pas r (07 P12, note). Voir 07 P6 (inchangée) et P12 (nouvelle), et l'obligation Phase 2 attachée (attaque №3).
+
+2. **« Cinq manifestations structurelles fondamentales »** (maillon 6) — précision. Photon et singularité sont **deux faces d'un seul objet** : le photon est le OUT (lien ouvert se propageant depuis t=0), la singularité est le IN (retour direct vers t=0 sans déplacement). Formulation V2 : **quatre objets, cinq lectures**. Corollaire inscrit le 2026-09-01 (A17, A18) : le trou blanc n'est pas un objet de plus — chaque photon est un trou blanc observé.
 
 ---
 
@@ -185,10 +290,10 @@ La charge = **différence aller-retour** lue à travers cette enjambée. Les pai
 3. **Six prédictions empiriques vérifiables** :
  - Aucune particule de matière noire détectable comme particule individuelle
  - Masse du neutrino dérivée structurellement (valeur émerge de la formulation Phase 2 calée sur d'autres ratios connus, à confronter aux mesures cosmologiques et KATRIN — cohérent avec règle 5.19 et Q113 : pas de paramètre posé, dérivation requise)
- - Ratio matière noire / énergie noire = exactement 0.4 (= 2/5) sur l'entièreté de T
+ - Ratio matière noire / énergie noire = exactement 0.4 (= 2/5) sur l'entièreté de T *(état des données 2026 : Ω_c/Ω_Λ ≈ 0,38, dépendant du jeu de données — cible quantitative, 07 P3)*
  - Aucune quatrième famille de leptons (impossibilité géométrique en 3D)
  - Aucun graviton détectable comme particule (la gravité = le lien-énergie)
- - Pas de variation cosmologique mesurable de α
+ - Pas de variation cosmologique mesurable de α *(maintenue en V2 ; complétée par une prédiction distincte sur m_μ/m_e — voir « Révisions V2 de la chaîne V1 » ci-dessus, et 07 P6/P12)*
 
 4. **Implication philosophique** : le « futur » fait structurellement partie du « présent » (T inscrit en bloc).
 
@@ -201,7 +306,7 @@ La charge = **différence aller-retour** lue à travers cette enjambée. Les pai
 > *« Les autres aussi doivent comprendre. »*
 > — Gabriel Cantin, 30 avril 2026
 
-Le corpus doit être lisible sans Gabriel pour le guider. **Démonstration empirique** : l'assistant Claude a inféré sept réponses physiques (Q29-Q35) à partir des seules pièces structurelles du corpus, dont une (Q31, fluctuations du vide quantique) sur des phénomènes que Gabriel ne connaissait pas explicitement — démontrant le pouvoir prédictif du modèle au-delà de ce que l'auteur a explicitement formulé.
+Le corpus doit être lisible sans Gabriel pour le guider. **Démonstration empirique** : l'assistant Claude a inféré sept réponses physiques (Q29-Q35) à partir des seules pièces structurelles du corpus, dont une (Q31, fluctuations du vide quantique) sur des phénomènes que Gabriel ne connaissait pas explicitement — démontrant le pouvoir prédictif du modèle au-delà de ce que l'auteur a explicitement formulé. *(Note V2 2026-09-02 : « démonstration empirique » et « pouvoir prédictif » sont ici à lire comme cohérence et transmissibilité du corpus — un LLM a pu inférer depuis les pièces — et non comme validation empirique physique, qui exige une observable pré-enregistrée et une valeur dérivée sans ajustement.)*
 
 ---
 
@@ -216,3 +321,5 @@ Le corpus doit être lisible sans Gabriel pour le guider. **Démonstration empir
 ---
 
 *Chaîne minimale stabilisée le 1er mai 2026. Étendue le 4 mai 2026 avec les maillons 16-21 (déplacement = observation du retour, rebond invariant à t=0, LHC = même phénomène, neutrino = calibration zéro, enjambée t=x↔t=x+1, tissage émerge des postulats). Si tu retiens 21 choses du modèle, retiens celles-ci.*
+
+*Étendue le 2026-09-02 (V2) avec les maillons 22-29 : perpendiculaires et nuage unique, couverture vs épaississement, flèche B, les quatre forces en deltas, le sillon, corridors et trajets, le coût de retour.*

@@ -1,5 +1,7 @@
 # 08_PHASE2_PISTES_MATHEMATIQUES.md
 
+*V2 (2026-09-02) : sections 1 à 8 conservées intégralement (la §1 porte une note V2). La section 9 consolide les pistes des séances de juillet et septembre 2026.*
+
 **Pistes mathématiques pour la Phase 2 — captures de la session du 1er mai 2026 (après-midi)**
 
 Ce fichier rassemble les pièces structurelles posées par Gabriel Cantin lors d'une session de pré-Phase 2 (1er mai 2026, après-midi) en réponse à une analyse critique de GPT-5.5. Cette session a produit 7 pièces structurelles nouvelles et une première équation candidate pour le ratio masse muon / masse électron.
@@ -30,6 +32,8 @@ Avec :
 `[CLAUDE_INFÉRÉ_NON_VALIDÉ_NUMÉRIQUEMENT]` `[OUVERT_PHASE2]`
 
 L'équation algébrique est une **première approximation** d'une intégrale à formaliser (voir section 3). Les facteurs 3/2 et α⁻¹ ont une interprétation structurelle solide. C_sync est interprétée structurellement (voir section 2.4) mais sa dérivation exacte reste à formaliser.
+
+> **Note V2 (2026-09-02)** — Cette forme (3/2)α⁻¹ appartient à la même famille que r ≈ 1/α, taguée coïncidence : un rapport de deux longueurs, de forme semblable, de valeur non expliquée. La séance du 2026-09-01 a donné à r une **nature** (longueur de lame / largeur de filament, lue dans le trajet) et a retiré, le lendemain, l'identification de la lame avec 2/α. Le facteur 3/2 « changement de vectorisation » est remplacé par la comptabilité à deux éventails (§9.1) ; C_sync n'a plus d'objet dans cette forme. La forme actuelle de l'équation est en §9.7. Cette section est conservée pour trace.
 
 ---
 
@@ -194,7 +198,9 @@ Cette relation force répulsion → déplacement définit la proximité à t=0. 
 
 **Inversion du raisonnement classique** :
 
-**Modèle standard** : la masse cause la lenteur (E=mc², équivalence masse-énergie, plus on est massif moins on accélère).
+**Modèle standard** : la masse cause la lenteur (E=mc², équivalence masse-énergie, plus on est massif moins on accélère). *(Formulation V1.)*
+
+> **NOTE V2 — REFORMULATION 2026-09-02.** Le contraste « Modèle standard : la masse cause la lenteur » est une simplification pédagogique. Formulation plus juste de la position externe : *dans la formulation standard, la masse est un paramètre invariant qui intervient dans la relation énergie-impulsion et dans l'inertie ; le modèle structurel propose au contraire d'en faire un output du mécanisme d'empêchement et de 4df(x).* L'affirmation interne du modèle — l'empêchement structurel produit la masse — est inchangée.
 
 **Modèle structurel** : **la lenteur structurelle (empêchement à t=0) cause la masse (le tissage)**.
 
@@ -230,7 +236,11 @@ L'empêchement de vitesse est la **fonction source** qui produit le tissage à c
 
 ### 3.1 4df(x) comme opérateur intégral
 
-Le formalisme mathématique le plus proche est probablement celui des **intégrales de chemin** (path integrals à la Feynman), adapté à la structure spécifique de 4df(x). Le mathématicien Phase 2 doit :
+Le formalisme mathématique le plus proche est probablement celui des **intégrales de chemin** (path integrals à la Feynman), adapté à la structure spécifique de 4df(x). *(Formulation V1.)*
+
+> **NOTE V2 — PRÉCISION MATHÉMATIQUE 2026-09-02 (intégrale sur T ≠ intégrale de chemin de Feynman).** La forme m = ∫ 𝓕(…, y) dy sur la profondeur t=x → t=0 est une **intégration le long d'un trajet / d'une profondeur / d'un domaine déterminé**. Une intégrale de chemin de Feynman est une **intégrale fonctionnelle** sur un espace de chemins possibles — un formalisme qui n'est pas défini dans le corpus. Formulation à retenir : *le formalisme actuel exige une intégration le long de T / de la profondeur structurelle ; le type exact d'intégrale reste à formaliser ; un éventuel lien avec les intégrales fonctionnelles de chemin de Feynman n'est pas établi et ne doit pas être supposé.* Les mentions « intégrales de chemin (Feynman) » ci-dessus sont conservées comme trace V1.
+
+Le mathématicien Phase 2 doit :
 
 1. Définir le chemin entre t=x et t=0 dans la variété 4D appropriée
 2. Définir le noyau 𝓕 (à partir des contraintes structurelles : saut dimensionnel, perpendiculaires actives, ancrage)
@@ -274,12 +284,12 @@ Vérifier que m_τ/m_e = 3477.15 émerge également (devrait être automatique s
 Suite à cette session, le profil du mathématicien Phase 2 s'affine :
 
 - **Compétences déjà identifiées** : géométrie différentielle, topologie algébrique, théorie des groupes (Lie), analyse fonctionnelle
-- **Compétence ajoutée critique** : familiarité avec les **intégrales de chemin** (formalisme Feynman) et les opérateurs intégraux sur variétés
+- **Compétence ajoutée critique** : familiarité avec les **intégrales de chemin** (formalisme Feynman) et les opérateurs intégraux sur variétés *(Note V2 2026-09-02 : lire « intégration sur variétés/courbes/surfaces, opérateurs intégraux » ; intégrales fonctionnelles seulement si un espace de chemins apparaît réellement)*
 - **Posture** : capacité à traduire des intuitions structurelles (« saut dimensionnel », « ancrage », « tissage ») en formalisme mathématique rigoureux
 
 Il est probable que le formalisme adapté combine :
 - Géométrie différentielle (pour la structure de 4df(x))
-- Intégrales de chemin (pour la propagation t=x → t=0)
+- Intégrales de chemin (pour la propagation t=x → t=0) *(Note V2 : intégration le long du trajet, pas intégrale fonctionnelle — voir la note en §3.1)*
 - Théorie des groupes (pour la structure des perpendiculaires comme symétries)
 - Analyse asymptotique (pour les approximations algébriques comme (3/2) × α⁻¹ × C_sync)
 
@@ -342,7 +352,7 @@ Le facteur ~10⁹ (photons/baryons) vient principalement de la production contin
 
 **Pièce structurelle** : Q55 (étoile à neutrons = balance retour vs sillage d'empêchement).
 
-**Cible Phase 2** : reproduire la limite TOV (~2.16 M_soleil) à partir de la structure :
+**Cible Phase 2** : reproduire la limite TOV (~2.16 M_soleil *— chiffre V1 ; état 2026 : ≈ 2,2–2,3 M☉, EOS-dépendant, voir note V2 en 6.3*) à partir de la structure :
 
 $$M_{\text{TOV}} = M\left(\text{retour}_{\text{neutron}} = \text{sillage\_empêchement}_{\text{cumulé}}\right)$$
 
@@ -355,9 +365,11 @@ Forme attendue :
 
 ### 6.3 Limite TOV minimum (désintégration neutronique)
 
-Symétriquement, sous une certaine masse minimale, le retour s'échappe (désintégration β-). C'est la limite inférieure de stabilité d'étoile à neutrons (~1.4 M_soleil observée).
+Symétriquement, sous une certaine masse minimale, le retour s'échappe (désintégration β-). C'est la limite inférieure de stabilité d'étoile à neutrons (~1.4 M_soleil observée). *(Formulation V1.)*
 
-**Cible Phase 2** : reproduire les deux limites (1.4 et 2.16 M_soleil) comme bornes de la balance retour vs sillage d'empêchement.
+**Cible Phase 2** : reproduire les deux limites (1.4 et 2.16 M_soleil) comme bornes de la balance retour vs sillage d'empêchement. *(Formulation V1.)*
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02 (étoiles à neutrons).** (1) **~1,4 M☉ n'est pas une borne inférieure de stabilité observée** : c'est la masse *typique* (canonique) des étoiles à neutrons mesurées. La masse minimale stable d'une étoile à neutrons, si le modèle veut la cibler, est une **cible distincte**, à ne pas identifier à 1,4 M☉ sans source. (2) **M_TOV n'est pas « 2,16 M☉ observé »** : les pulsars d'environ 2 M☉ imposent une borne *inférieure* forte sur la masse maximale possible ; les inférences modernes de M_TOV dépendent de l'équation d'état et des jeux de données et gravitent vers ~2,2–2,3 M☉ (estimations récentes autour de 2,22–2,27 M☉ ; PSR J0952−0607 ≈ 2,35 ± 0,17 M☉). La « fenêtre mesurée [1,4 ; 2,16] » n'existe donc pas comme telle. Deux cibles séparées : **A)** M_TOV = masse maximale (≈ 2,2–2,3 M☉, EOS-dépendante) ; **B)** une éventuelle masse minimale stable (valeur non fixée ici). Le mécanisme V1 (balance retour vs sillage d'empêchement, Q55) et le mécanisme candidat V2 (« la proximité ne paie plus », non validé) sont inchangés.
 
 ### 6.4 Universalité fractale de la formation des structures
 
@@ -392,6 +404,15 @@ Le formalisme doit produire les **relations d'échelle** observées (relation M-
 | 2D | surface du cercle | πr² |
 | 3D | volume sphère | (4/3)πr³ |
 | **4D** | **volume de la 4-boule** | **(π²/2)r⁴** |
+
+> **NOTE V2 — CORRECTION MATHÉMATIQUE 2026-09-02 (n-boules).** La suite « 2πr → πr² → (4/3)πr³ → (π²/2)r⁴ » mélange une *circonférence* (mesure du bord en 1D) avec des *volumes* ; ce n'est pas la progression des volumes des n-boules. La formule standard est V_n(r) = π^(n/2) / Γ(n/2 + 1) · rⁿ, soit **V₁ = 2r, V₂ = πr², V₃ = (4/3)πr³, V₄ = (π²/2)r⁴** (et pour les bords : 2, 2πr, 4πr², 2π²r³). La pièce canonique de Gabriel — *4df(x) utilise r⁴ et r est la clef* — **n'est pas touchée** : elle porte sur l'exposant 4 et sur le rôle de r, pas sur la justification par les n-boules. La séquence historique est à lire comme une **intuition de progression dimensionnelle** (« la progression de π dans les profondeurs de t=0 »), non comme une dérivation mathématique stricte des n-boules. La séquence V1 est conservée ci-dessus pour trace.
+
+| n | Volume V_n(r) de la n-boule | Bord (aire de la (n−1)-sphère) |
+|---|---|---|
+| 1 | 2r | 2 (deux points) |
+| 2 | πr² | 2πr |
+| 3 | (4/3)πr³ | 4πr² |
+| 4 | (π²/2)r⁴ | 2π²r³ |
 
 **Décomposition structurelle** des 4 facteurs r :
 - **1 facteur** = dimension temporelle circulaire (aller-retour sur axe T)
@@ -508,7 +529,7 @@ Pour donner 206.77, il faut r_μ/r_e ≈ 3.79 si la correction structurelle est 
 
 Le mathématicien Phase 2 doit considérer :
 - **Géométrie fractale** (Mandelbrot, Hausdorff, dimensions non entières)
-- **Intégrales de chemin** sur variétés (formalisme Feynman adapté à T fermée)
+- **Intégrales de chemin** sur variétés (formalisme Feynman adapté à T fermée) *(Note V2 : intégration le long de T / sur variétés ; le formalisme fonctionnel de Feynman n'est pas établi comme pertinent)*
 - **Théorie de la mesure** sur structures auto-similaires
 - **Topologie sur variétés fermées** (T comme variété 1D fermée)
 - **Tenseurs sur produits cartésiens** (r₁ ⊗ r₂ ⊗ r₃ ⊗ r₄ = structure d'ordre 4)
@@ -776,7 +797,7 @@ Avec contraintes :
 
 **Pièce épistémologique** : la masse du neutrino est une **valeur dérivée**, pas un paramètre du modèle.
 
-**Implication mathématique** : la formulation Phase 2 doit **prédire** m_ν à partir de la formulation calée sur d'autres ratios (m_μ/m_e, m_τ/m_e, α, m_n−m_p, E_H), puis **comparer** à l'empirie (Σm_ν < 0.12 eV, KATRIN, futures mesures cosmologiques).
+**Implication mathématique** : la formulation Phase 2 doit **prédire** m_ν à partir de la formulation calée sur d'autres ratios (m_μ/m_e, m_τ/m_e, α, m_n−m_p, E_H), puis **comparer** à l'empirie (Σm_ν < 0.12 eV, KATRIN, futures mesures cosmologiques). *(Note V2 2026-09-02 : distinguer mesure directe et cosmologie. Directe : KATRIN 2025, m_β < 0,45 eV à 90 % CL. Cosmologie : les limites sur Σm_ν sont dépendantes du modèle et du jeu de données — elles atteignent l'ordre de 0,06–0,1 eV dans certaines combinaisons ΛCDM strictes (le PDG répertorie < 0,064, < 0,08, < 0,13, < 0,19 eV selon l'analyse) mais ne constituent pas une borne universelle unique ; « Σm_ν < 0,12 eV » n'est pas à citer comme fait générique. P7 reste une prédiction candidate, non réajustée.)*
 
 **Inversion par rapport à la lecture initiale** : ne pas poser m_ν comme calibration numérique. Utiliser le neutrino comme **configuration de référence** (la plus simple structurellement), et faire émerger sa masse du calcul.
 
@@ -802,7 +823,7 @@ C'est un cahier des charges précis, dense, et structurellement cohérent. La Ph
 
 ## Direction Phase 2 articulée — session du 4 mai 2026 (deuxième vague + exercice 300 questions)
 
-La session du 4 mai 2026 a permis d'**articuler concrètement** la direction Phase 2 mathématique grâce aux pièces Q149-Q160 et à la confirmation empirique sur 300 questions tests.
+La session du 4 mai 2026 a permis d'**articuler concrètement** la direction Phase 2 mathématique grâce aux pièces Q149-Q160 et à la confirmation empirique sur 300 questions tests *(Note V2 2026-09-02 : « confirmation empirique » = exercice de cohérence interne par inférence, pas validation empirique physique)*.
 
 ### Programme central : formaliser 4df(x) avec coût IN + consommation OUT
 
@@ -1013,4 +1034,112 @@ L'équation comparative neutrino-photon est inscrite ici comme **modèle méthod
 *Étendu le 4 mai 2026 avec la méthode IN/OUT, la calibration zéro neutrino, l'identité u↔ν, l'enjambée t=x↔t=x+1, la stratégie de validation par lecture macro, et les raffinements post-challenge.*
 *Étendu le 4 mai 2026 (deuxième vague) avec la direction Phase 2 articulée : formaliser 4df(x) avec coût IN + consommation OUT comme deux contributions séparées, opérant à 4 dimensions de proximité différentes, avec récursivité opérationnelle, et espace disponible à notre x comme paramètre. Confirmation empirique sur 300 questions tests.*
 *Étendu le 6 mai 2026 avec la première équation Phase 2 : équation comparative neutrino-photon comme stratégie de calibration empirique de 4df(x). Tick = fréquence maximale photon valide à t=0+2 spécifiquement. Non-linéarité de 4df(x) causée par énergie embouteillée.*
+
+---
+
+## 9. Pistes V2 — le secteur leptonique en géométrie (juillet–septembre 2026)
+
+*Cette section consolide ce que les séances V2 ont produit de mathématiquement utilisable : les identités écrites, les candidates avec leurs verdicts, les constantes de forme, l'inventaire des ratios, les règles de méthode, et ce qui est interdit. Elle reprend en particulier l'inventaire demandé par l'auteur le 2026-09-01.*
+
+### 9.1 Comptabilité à deux éventails (remplace la comptabilité ellipsoïdale)
+
+La comptabilité V1/juillet « πr/2 puis 4r/3 » mélangeait des facteurs de forme de dimensions différentes. La séance du 2026-09-01 l'a réécrite dans les bons axes :
+
+- **Chaque perpendiculaire ouverte est un éventail.** Fermé (1 perp) : une lame de longueur L et de largeur w → aire L·w. Ouvert sur un angle θ : un secteur θL²/2. Rapport = θL/(2w).
+- **Deux éventails par cycle, IN et OUT, chacun sur une jambe θ = π/2.** Deux secteurs = πL²/2 ; fermés = deux lames = 2Lw ; rapport = πL/(4w).
+- **Identification avec le volant du muon** : I₂/I₁ = πr/2 ⇒ **L/w = 2r = 262,0** : la lame IN + la lame OUT font la traversée du nuage (« le 2 = l'aller-retour », 6h).
+- **Donc r se lit dans le trajet, pas à la membrane** : r est, à un facteur 2 près, le rapport longueur de lame / largeur de filament. « 131 fois quoi » = 131 fois sa propre largeur.
+
+**Convention et point à trancher.** Sous θ = π/2 par éventail (convention retenue dans tout le corpus V2) : L/w = 2r, soit **r = L/(2w)** — c'est la forme que l'auteur a reprise en A34. Variante non tranchée : chaque éventail sur π (l'aller-retour entier), auquel cas L/w = r. La comptabilité ferme dans les deux cas ; ce qui est fixé est la nature de r, ce qui reste à trancher par Gab est l'angle, donc le facteur 2.
+
+**3ᵉ geste (le tau)** : un éventail ne peut pas s'ouvrir deux fois par le même geste. L'octant — le secteur tourné de π/2 autour de la lame — redonne motton/tissu = (2/3)(L/w) : la vieille comptabilité 4r/3 dans les bons axes. Ce que T ramène d'une épaisseur reste à écrire (comptabilité B, 9.6).
+
+### 9.2 Identités déjà écrites (utilisables telles quelles)
+
+1. **M + D = e × 4df(x) = constante structurelle** (06). Leptons au repos : tout M ; photon : tout D ; neutrino : tout D. Le rapport M/D est l'angle de répartition (6b). → La somme up + photon, intégrés entre t=x et t=x+1, est **une somme** (la constante d'un adressage), pas un rapport.
+2. **I₂/I₁ = πr/2 = πL/(4w)** — deux éventails de π/2 sur des lames L = 2r.
+3. **Neutrino = 4df(1) − 4df(2)** ; photon = fenêtre 0 → 1 ; c calibre la position 2 ; facteur de profondeur = 1 sur 0+1 ↔ 0+2 (première équation Phase 2, 6 mai).
+4. **Forme intégrale candidate** : 4df(x) = ∫_T K(pos) · r⁴ · f(profondeur) · d(t=x) (§7.4).
+5. **Koide = angle π/4** des trois demi-cycles — la lecture demi-cycle (√m = demi-cycle, m = cycle complet) est acquise ; l'application à Koide est une LECTURE (6d).
+
+*Non utilisable telle quelle (inférence 8.1, non validée)* : « le photon d'annihilation est une lame » — par conservation M + D, e⁺e⁻ → γγ fixerait le sillon d'un photon par phase à L·w.
+
+### 9.3 Les deux candidates et leurs verdicts (session adversaire 2026-07-10)
+
+| Candidate | Forme | Test | Verdict daté | Dette |
+|---|---|---|---|---|
+| **№1** | I₃/I₂ = ln(τ₂/τ₃) + δ | 15,8939 ± 0,0011 vs 15,8394 ± 0,0017 | **BLESSÉE** — tient comme ordre dominant, tombe comme identité exacte (26 σ) | δ = +0,0545 ± 0,0021, signe compris ; mécanisme candidat : rebonds partiels (Gab) ; terme de comptage ≈ ln 5,6 à produire |
+| **№2** | transit = ancré^(2/π) | m₃/m₂ = 5,840 ± 0,055 vs 5,817 | **TIENT** (−0,4 %, 0,4 σ ; 3/137 exposants du dictionnaire à < 2 %) | dériver 2/π depuis le π/2 de l'ancré ; ex-aequo √3/e inscrit comme aiguillon |
+| **r variable** | r = r(x), gradient de saturation | *(banc d'essai de juillet retiré : les bornes « Δμ/μ » portent sur m_p/m_e, pas sur m_μ/m_e — 07 P12, note)* | **TIENT comme acquis interne (6d)** ; le verdict externe « passées par structure » est **retiré** — aucune observable sensible à m_μ/m_e identifiée | loi de gradient dr/dx **et** une observable pour m_μ/m_e |
+| **D = 5/2** | I₃/I₂ = c · r^(3−D) | un datum, deux boutons | **OUVERTE** — dégénérescence (c, D) non levée | dériver un bouton, ou une seconde observable |
+
+**Décomposition mesurée du côté durées (utile à toute mécanique)** : à sortie identique, les étendues suivent (m_τ/m_μ)⁵ à +0,26 % ; le reste est du comptage de portes — ln(1/0,1782) = 1,725, soit 11 % ; somme 15,837 vs 15,839 mesuré.
+
+### 9.4 Constantes de forme du modèle (sans dimension)
+
+π/2 (une jambe) · π (aller-retour) · 2π / 4π (membrane / profondeur, boson / fermion) · 2/π (transit) · π/4 (Koide) · 3 (perpendiculaires max) · r⁴ (noyau 4D) · 2 = l'aller-retour (deux lames) · 3 × 2 (vecteurs × lames, le compte du coût de retour) · 5/2 (D web, CANDIDATE) · 4/3 (boule pleine — **mauvais axes**, remplacé par l'octant).
+
+### 9.5 Inventaire des ratios mesurés en jeu (à notre x — état 2026-09-01)
+
+| Objet | Valeur | Rôle |
+|---|---|---|
+| m_μ/m_e | 206,7682830(46) | 1 + I₂ ; facteur de l'orbite muonique |
+| I₂ | 205,768 | prix du tissu = πr/2 |
+| m_τ/m_e ; I₃ ; I₃/I₂ | 3477,23 ; 3270,46 ; 15,894 | prix du motton |
+| r ; L = 2r | 130,996 ; 262,0 | rapport longueur de lame / largeur de filament, à un facteur 2 près selon l'angle (9.1) |
+| 1 − rα | 0,044075 = 6,0398 α | fraction du secteur non comptée — **interprétation retirée (A34)**, le nombre reste |
+| α⁻¹ | 137,036 | r/α⁻¹ = 0,956 — coïncidence taguée, forme semblable, valeur non expliquée |
+| ln(τ_μ/τ_τ) | 15,839 | candidate №1 |
+| m₂, m₃, m₃/m₂ | 8,66 meV, 50,5 meV, 5,84 | candidate №2 ; m₁ prédit 0,29 meV |
+| m_p/m_e ; μ_e/μ_p | 1836,15 ; 658,2 | régime maintenu (non comparable aux leptons) |
+| n − p | 1,293 MeV = 2,53 m_e | incrément de retour (6j) ; « ce que la paire de leptons emporte » est un fait posé par Claude en §13.1, non validé |
+| m_u, m_d (PDG, courant) | ≈ 2,2 MeV ; ≈ 4,7 MeV | question ouverte : quel « sillon du up » entre dans la somme up + photon — la masse courante (objet qui n'existe pas seul) ou le corridor maintenu (≈ 1/3 du proton) ? |
+| a_μ/a_e | 1,0054 | g−2 ; pari tau en attente |
+| 21 cm / Ly-α | 5,87 µeV / 10,2 eV = 1,7×10⁶ | cible 6j |
+| c ; tick | limite ; fréquence max du photon à t=0+2 | calibration |
+
+### 9.6 Deux comptabilités pour le tau (à trancher par le calcul, pas par choix)
+
+- **(A)** 3ᵉ perpendiculaire construite sur le tissu **mesuré** : facteur 10,99 (le verrou de juin).
+- **(B)** construite sur le tissu **propre** X, avec dégradations composées. Forcée par A24 + A25 : dans t=x+1 toutes les perpendiculaires sont tenues entières, T ne ramène que le retour ; donc le motton descend sur le tissu entier et la masse lue est son retour.
+
+**Réserve A34 — à lire avant tout chiffre.** Les valeurs calculées le 1ᵉʳ septembre sous la comptabilité B (tissu propre 215,26 ; coût de retour total du motton ≈ 91,7 % ; coût propre de la 3ᵉ ≈ 91,3 % ; fraction ramenée 1/11,50 ; rapport ×20,7 entre les deux coûts de retour ; « le candidat √r passe de 4,1 % à 0,4 % ») reposaient toutes sur X = 2/α, **retiré le 2 septembre**. Elles ne sont plus des faits. Ce qui survit de la comptabilité B est sa **structure** — la 3ᵉ perpendiculaire se construit sur X, pas sur le tissu mesuré — et elle se chiffrera une fois X calculé.
+
+**État honnête du candidat √r** : sous la comptabilité A, 1/10,99 contre 1/√131,0 = 1/11,445 (4,1 %) ; sous B, la valeur dépend de X, inconnue. Le candidat mélange par ailleurs une référence propre et un r mesuré ; il n'est pas resserré tant que X et le r à prendre ne sont pas fixés.
+
+### 9.7 L'équation du muon — état de sortie et ce qui manque
+
+    I₂ = (π/4) · X · (1 − 6u)        X · (1 − 6u) = 2r = 262,0
+
+Deux inconnues, une équation. **La lame propre X** est l'intégration de Q44 (sur toute la profondeur t=x → t=0) avec le volume qu'ajoute la perpendiculaire. Cadre proposé par Claude à partir de A35, à valider : X serait une quantité de l'hydrogène (filament + corridor + coût de tenue). Le facteur π/4 suppose un angle π/2 par éventail (à trancher, §9.1). Une fois X : u = (1 − 262/X)/6, et il faut dire ce qu'est u dans le sillon.
+
+**Piste pour X (non validée, I15)** : si le sillon du up fixe la largeur w et si le sillon du photon sur c entre t=x et t=x+1 fixe la longueur L, alors r = L/w = (sillon photon / sillon up) par phase — un rapport de deux volumes intégrables dans 4df(x), sans paramètre. L'auteur a jugé « très important » d'intégrer ensemble le volume du sillon d'un quark up et celui d'un photon sur c.
+
+**Flèche B chiffrée (suspendue à X)** : si la dégradation f est par phase et que l'inscription tient tant que la dégradation cumulée n'a pas consommé l'éventail, l'étendue = 1/f phases ; τ = (1/f) × durée d'une phase. Les valeurs indicatives (muon 22,7 phases / 97 ns ; tau ~1,1 phase / 265 fs ; rapport 3,7×10⁵) ont été obtenues avec f = 1 − rα lu comme coût de retour — lecture retirée (A34) ; la forme survit, les nombres attendent X. La durée d'une phase est à dériver de « la quantité de e à réunir par OUT ».
+
+### 9.8 Règles de méthode issues des sessions V2
+
+1. **Dictionnaire pré-enregistré.** Avant tout calcul, lister les constantes simples qui pourraient occuper un slot (fractions p/q ≤ 9 ; π, e, φ, ln 2, √2, √3, √5, γ en formes c/n, n/c, 1/c, c/c′ ; racines). Un slot O(1) accepte presque toujours une constante à 1 % ; un slot exposant est plus sélectif (3/137 à < 2 % pour la №2). **Une formule qui colle n'est pas un résultat.**
+2. **Contrainte datée.** Tout résidu s'inscrit avec signe, taille et date, avant explication. Toute explication ultérieure doit le produire, sinon elle tombe à ce moment-là.
+3. **Règle de conditionnement.** Toute lecture est prise à notre x, au fond de notre pile de puits, dans notre état de déplacement. Les rapports de semblables pris au même endroit annulent le conditionnement. Aucune comparaison inter-x ou inter-puits sans le déclarer des deux côtés.
+4. **Étiquetage strict.** Toute glose du scribe porte un tag jusqu'à validation. Violation inscrite le 2026-07-10 (ligne 73 de la séance volants) ; rappel permanent.
+5. **Une bonne valeur dans les mauvais axes est rejetée** (2026-09-02). Le calcul se fait dans 4df(x), pas à la membrane.
+6. **Le test d'une méthode est un second objet calculé sans nouveau choix.** Tant qu'il n'existe pas, une décomposition reste une décomposition.
+
+### 9.9 Dictionnaire interdit (trace — ne jamais construire dessus)
+
+| Forme | Écart | Statut |
+|---|---|---|
+| r = α⁻¹ − 6 | +0,030 % | sélectionné par le mécanisme retiré du 1ᵉʳ septembre ; **sans mécanisme** depuis A34 |
+| r = α⁻¹ − 2π | −0,186 % | dictionnaire |
+| r = 3/(πα) ≡ Nambu 1952 (I₂ ≈ 3/(2α)) | −0,104 % | connu depuis 1952, jamais dérivé |
+| (3/2)α⁻¹ × C_sync (§1 de ce fichier) | 0,6 % sans C_sync | même famille ; C_sync absorbe l'écart |
+| m_p/m_e = 7,008 × 262,0 | +0,1 % sur l'entier 7 | à 10⁻⁸ ce n'est pas 7 ; trace seulement |
+| c = 2·ln2, √5/φ, 7/5, 11/8, π/√5, √2 (coefficient de couverture) | tous < 2 % | 9/136 : le slot est promiscue |
+
+Toutes à moins de 0,2 % pour r : c'est la **démonstration** que le slot O(1) est promiscue. La seule sortie acceptable est un mécanisme qui produit son nombre sans le choisir, à la précision où le nombre est connu.
+
+---
+
+*Étendu le 2026-09-02 (V2) avec la section 9 : comptabilité à deux éventails, identités écrites, verdicts adversaires des candidates, constantes de forme, inventaire des ratios, équation du muon avec ses deux inconnues, règles de méthode et dictionnaire interdit.*
 *Mises à jour à venir à mesure que la Phase 2 mathématique avance.*
