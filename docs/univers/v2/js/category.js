@@ -6,6 +6,7 @@
 
 import { categoryByKey } from './categories.js';
 import { renderConcepts } from './menu.js';
+import { pick, currentLang } from './i18n.js';
 
 const key = document.body.dataset.category;
 const cat = categoryByKey(key);
@@ -14,7 +15,10 @@ if (!cat) {
   document.body.innerHTML =
     '<p style="padding:6rem 2rem;color:#a8acbf">Unknown category: ' + (key || '(none)') + '</p>';
 } else {
-  document.title = `${cat.title} — V2 — Structural cosmological model`;
+  const title = pick(cat.title);
+  const suffix =
+    currentLang() === 'fr' ? 'V2 — Modèle cosmologique structurel' : 'V2 — Structural cosmological model';
+  document.title = `${title} — ${suffix}`;
   document.body.innerHTML = `
     <header class="v2-topbar">
       <a href="index.html" class="v2-back">← V2</a>
@@ -31,10 +35,10 @@ if (!cat) {
       </section>
     </main>
   `;
-  document.getElementById('cat-tag').textContent = cat.tag || '';
-  document.getElementById('cat-title').textContent = cat.title || '';
-  document.getElementById('cat-h1').textContent = cat.title || '';
-  document.getElementById('cat-blurb').textContent = cat.blurb || '';
+  document.getElementById('cat-tag').textContent = pick(cat.tag) || '';
+  document.getElementById('cat-title').textContent = title;
+  document.getElementById('cat-h1').textContent = title;
+  document.getElementById('cat-blurb').textContent = pick(cat.blurb) || '';
   renderConcepts(document.getElementById('concept-menu'), cat.subs || []);
   requestAnimationFrame(() => document.body.classList.add('v2-ready'));
 }

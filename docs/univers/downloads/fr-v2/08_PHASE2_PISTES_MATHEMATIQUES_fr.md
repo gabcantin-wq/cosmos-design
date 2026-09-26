@@ -1,0 +1,1217 @@
+# 08_PHASE2_PISTES_MATHEMATIQUES.md
+
+*V2 (2026-09-02) : sections 1 à 8 conservées intégralement (la §1 porte une note V2). La section 9 consolide les pistes des séances de juillet et septembre 2026 ; la section 10 est une piste externe (Sinclair 2026), taguée comme telle.*
+
+**Pistes mathématiques pour la Phase 2 — captures de la session du 1er mai 2026 (après-midi)**
+
+Ce fichier rassemble les pièces structurelles posées par Gabriel Cantin lors d'une session de pré-Phase 2 (1er mai 2026, après-midi) en réponse à une analyse critique de GPT-5.5. Cette session a produit 7 pièces structurelles nouvelles et une première équation candidate pour le ratio masse muon / masse électron.
+
+**Statut épistémique** : pièces posées par Gabriel pendant la session, transcrites par Claude. Statuts individuels indiqués pour chaque pièce.
+
+---
+
+## 1. Première équation candidate — ratio muon / électron
+
+### 1.1 Forme algébrique candidate
+
+$$\frac{m_\mu}{m_e} \approx \frac{3}{2} \times \alpha^{-1} \times C_{\text{sync}}$$
+
+Avec :
+- 3/2 = facteur de changement de vectorisation (passage filament 1D → tissu 2D)
+- α⁻¹ ≈ 137.036 = coût d'ouverture / libération d'une 2ème perpendicularité
+- C_sync ≈ 1.00591 = correction d'inscription dans la géométrie de t=0+1
+
+### 1.2 Vérification numérique
+
+- (3/2) × 137.036 = 205.554
+- 206.7682830 (mesuré) / 205.554 = 1.005909
+- Donc C_sync = 1.00591 (correspond à l'écart de 0.6%)
+
+### 1.3 Statut
+
+`[CLAUDE_INFÉRÉ_NON_VALIDÉ_NUMÉRIQUEMENT]` `[OUVERT_PHASE2]`
+
+L'équation algébrique est une **première approximation** d'une intégrale à formaliser (voir section 3). Les facteurs 3/2 et α⁻¹ ont une interprétation structurelle solide. C_sync est interprétée structurellement (voir section 2.4) mais sa dérivation exacte reste à formaliser.
+
+> **Note V2 (2026-09-02)** — Cette forme (3/2)α⁻¹ appartient à la même famille que r ≈ 1/α, taguée coïncidence : un rapport de deux longueurs, de forme semblable, de valeur non expliquée. La séance du 2026-09-01 a donné à r une **nature** (longueur de lame / largeur de filament, lue dans le trajet) et a retiré, le lendemain, l'identification de la lame avec 2/α. Le facteur 3/2 « changement de vectorisation » est remplacé par la comptabilité à deux éventails (§9.1) ; C_sync n'a plus d'objet dans cette forme. La forme actuelle de l'équation est en §9.7. Cette section est conservée pour trace.
+
+---
+
+## 2. Pièces structurelles nouvelles posées dans cette session
+
+### 2.1 c (vitesse limite) émerge de la répulsion noire cumulée sur T
+
+`[CANONIQUE]` — pièce posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« ce tissage occupe un espace sinon tout serait singularisé, et la répulsion méga forte du noir sur l'ensemble de T impose de la vitesse maximum dans t=x pour liens-énergie fermés »*
+
+**Reformulation structurelle** :
+- À t=0+1, trois types de tissages cohabitent : tissages neutrinos, tissages libres (photons), tissages noirs (matière noire qui va vers t=x-1)
+- Ces tissages, en s'accumulant, produisent une **pression répulsive structurelle** sur l'ensemble de T
+- Cette pression répulsive **impose une vitesse maximum** aux liens-énergies fermés dans t=x
+- Cette vitesse maximum = c (vitesse de la lumière, vitesse limite structurelle)
+
+**Conséquence** : c **n'est pas une constante arbitraire**. C'est la résultante structurelle de l'équilibre entre :
+- l'attraction vers t=0 (Postulat IX)
+- la pression répulsive du tissage noir cumulé à t=x-1
+
+Sans cette répulsion, tout convergerait à infinité vers t=0 (singularisation totale).
+
+**Implication Phase 2** : c devrait être dérivable à partir de la densité du tissage noir cumulé sur T entier.
+
+### 2.2 Autoalimentation des perpendiculaires = saut dimensionnel le long de la propagation
+
+`[CANONIQUE]` — pièce posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« le multiplicateur des perpendiculaires s'autoalimente dans sa progression vers t=0 »* puis *« c'est le saut dimensionnel dans la 4df(x) tout le long de la propagation sur t=x vers t=0, il faut que ça se recalcule à chaque iteration de x-1, d'où le besoin d'intégrales »*
+
+**Reformulation structurelle** :
+- L'ajout d'une perpendiculaire ne multiplie pas linéairement la masse
+- L'effet est un **saut dimensionnel** dans 4df(x) **tout le long de la propagation** entre t=x et t=0
+- À chaque pas dans la profondeur, **le saut dimensionnel se recalcule** en fonction de la position structurelle
+- L'autoalimentation = effet cumulatif de ces recalculs en cascade
+
+**Implication mathématique majeure** : 4df(x) **n'est pas une fonction algébrique**. C'est un **opérateur intégral** sur le chemin entre t=x et t=0. Voir section 3 pour la formulation.
+
+### 2.3 Le sillage du tau à t=0+1 couvre l'entier t=0+1
+
+`[CANONIQUE]` — pièce posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« à t=0+1, le sillage de TAU couvre les 3 axes, ainsi l'entier t=0+1 »*
+
+**Reformulation structurelle** :
+- À t=0+1, il y a **3 vecteurs de déplacement disponibles** (cohérent avec les 3 axes spatiaux dans t=x)
+- Le tau utilise les 3 perpendiculaires → son sillage occupe les 3 axes → **il couvre l'entier t=0+1**
+- Le tau **est** la saturation structurelle de la dimension d'adressage initial
+- Il n'y a pas de 4ème lepton possible (cohérent avec la prédiction empirique pré-existante : pas de 4ème famille)
+
+**Conséquence** : `dim(t=0+1) = signature complète du tau à ce point structurel`. Le muon (2 axes) et l'électron (1 axe) occupent des fractions de cette dimension, mais avec une **forte non-linéarité** due à l'autoalimentation.
+
+### 2.4 Position structurelle des leptons : tous à t=0, liens via t=0+1
+
+`[CANONIQUE]` — clarification posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« le TAU le MUON et l'ELECTRON résident à t=0, pas à t=0+1, mais leurs liens passent tous par là, dans t=x ils ont accès au 3 dimensions »*
+
+**Reformulation structurelle** :
+- e⁻, μ⁻, τ⁻ **résident tous à t=0** (cohérent avec la typologie : ils sont tous des variantes de la manifestation 02 « électron »)
+- Leurs liens-énergies **passent tous par t=0+1** (point d'adressage initial)
+- Dans t=x, ils ont **accès aux 3 dimensions** (3 axes spatiaux)
+- Ce qui les distingue : **combien d'axes sont effectivement utilisés** par leurs perpendiculaires (1 / 2 / 3)
+
+**Conséquence** : les trois leptons sont **structurellement identiques à t=0**. Leur différence n'apparaît qu'au niveau de l'utilisation des perpendiculaires depuis t=0+1.
+
+### 2.5 La masse = le tissage lui-même (pas son coût)
+
+`[CANONIQUE]` — pièce posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« la masse ce n'est pas seulement le COUT du tissage, c'est le tissage lui même »*
+
+**Reformulation structurelle** :
+- La masse n'est PAS l'effort énergétique nécessaire pour produire un tissage
+- La masse **EST** le tissage lui-même — la matière structurelle qui résulte de l'étirement de la base d'ancrage à t=0+1 vers t=x
+- C'est un output systémique de 4df(x), produit par l'étirement
+- Plus la base d'ancrage est large, plus il y a de tissage à étirer, plus la masse est grande
+
+**Cohérence avec le corpus existant** : confirme et précise « masse = output systémique, jamais input ». Maintenant on sait CE qu'elle mesure : la quantité de tissage matériel produit par l'étirement.
+
+### 2.6 Métaphore de la gomme étirée
+
+`[MÉTAPHORE]` — image canonique posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« figure, tu colle une gomme sur une pièce de 25cents (t=0+1 sur 3 axes et la gomme c'est le tissage) tu écrase ton pousse sur la gomme et tu remonte vers t=x (cela est filamenteux et créer un volume de gomme) ce volume de gomme est la masse. Maintenant tu refait l'exercice mais avec un crayon, la gomme le long du crayon, (t=0+1 sur 2 axes) tu écrase et tu tires la gomme vers t=x, alors le tissue filament resultat est la masse. finalement, tu mets la gomme sur la pointe du crayon, tu écrase et tu tires vers t=x, ça fait 1 filament »*
+
+**Image canonique pour 4df(x) → masse** :
+
+| Particule | Géométrie à t=0+1 | Action | Résultat (= masse) |
+|---|---|---|---|
+| **Électron** | gomme sur la **pointe** d'un crayon (1 axe occupé) | écraser, tirer vers t=x | **1 filament** fin |
+| **Muon** | gomme **le long du crayon** (2 axes occupés) | écraser, tirer vers t=x | **tissu filamenteux** (ruban étiré) |
+| **Tau** | gomme sur une **pièce de 25¢** (3 axes occupés, surface 2D pleine) | écraser, tirer vers t=x | **volume** de gomme étiré (motton 3D) |
+
+**Saut de dimension géométrique** entre les générations :
+- 0D (point) → 1D (filament) — électron
+- 1D (ligne) → 2D (tissu) — muon
+- 2D (surface) → 3D (motton) — tau
+
+C'est ce saut dimensionnel qui produit la non-linéarité massive entre les ratios de masse (×207, ×16.8) — pas un coefficient ad hoc.
+
+### 2.7 4df(x) est un opérateur intégral sur le chemin t=x → t=0
+
+`[CANONIQUE]` `[OUVERT_PHASE2]` — pièce posée par Gabriel le 1er mai 2026, après-midi.
+
+**Verbatim de Gabriel** : *« il faut que ça se recalculs à chaque iteration de x-1, d'où le besoin d'intégrales »*
+
+**Reformulation structurelle** :
+- 4df(x) **n'est pas une fonction algébrique** (produit de facteurs)
+- C'est un **opérateur intégral** qui calcule l'effet cumulatif d'un chemin entre t=x et t=0
+- À chaque pas dans la profondeur, le calcul intègre une nouvelle contribution dépendant du saut dimensionnel local
+- L'autoalimentation = effet cumulatif de l'intégration
+
+**Forme attendue** (révisée par Q49 — voir 2.10) :
+
+$$m = \int_{y=t=0+1}^{y=t=x} \mathcal{F}\big(\text{tissage}(y),\ \text{perp\_actives}(y),\ \text{empêchement\_vitesse}(\text{position\_t=0})\big)\, dy$$
+
+L'intégration est sur la **profondeur** (t=0+1 jusqu'à t=x) ET sur les axes spatiaux (perpendiculaires).
+
+### 2.8 La proximité à t=0 = la relation force répulsion noire / déplacement reçu
+
+`[CANONIQUE]` — pièce posée par Gabriel le 1er mai 2026, après-midi tardive.
+
+**Verbatim de Gabriel** : *« On le sait. la force de répulsion donne son déplacement au neutrino c'est ça la proximité à t=0 »*
+
+**Reformulation structurelle** :
+
+La **proximité à t=0** est la grandeur structurelle qui mesure combien la répulsion noire est reçue par une structure :
+- Plus la structure est proche de t=0, plus elle reçoit la répulsion **concentrée** (singularisée à t=0)
+- Plus elle est distante (vers t=x), plus elle reçoit la répulsion **distribuée** dans t=x
+
+Cette relation force répulsion → déplacement définit la proximité à t=0. Elle explique structurellement :
+- Pourquoi le neutrino (à t=0+1) a un déplacement maximal (manifestation 03)
+- Pourquoi le photon (distribué dans t=x) est limité à c
+- Pourquoi l'électron (à t=0) rebondit sans pouvoir se déplacer à c
+
+### 2.9 c réside à t=0 ; la répulsion noire arrive sans dimension à t=0
+
+`[CANONIQUE]` — pièce posée par Gabriel le 1er mai 2026, après-midi tardive.
+
+**Verbatim de Gabriel** : *« regarde a t=0 ou réside C et rebondissent les électrons (fermions je crois le mot...) énergie-fermé dans t=x existant à t=0 ... anyway tous les répulsif noir arrive à t=0 sans dimension, c'est la différence entre le déplacement des neutrino et des photons »*
+
+**Reformulation structurelle** :
+- **C (la vitesse de la lumière) réside à t=0** — pas une propriété de la lumière, une grandeur structurelle de t=0
+- Toute la répulsion noire qui converge vers t=0 (Postulat IX) y arrive **sans dimension** (singularisée structurellement)
+- C'est cette concentration sans dimension qui produit c
+
+**Différence neutrino vs photon dans le passage t=0+1 → t=0+2** :
+
+| | Position | Régime de répulsion reçue | Résultat |
+|---|---|---|---|
+| Neutrino | t=0+1 | Concentrée vers t=0 | Déplacement maximal (porté par la concentration) |
+| Photon | distribué t=0 → t=x | Distribuée dans t=x | Limite c |
+| Électron | t=0 (rebondit) | Concentrée à t=0 où c réside | Oscillation dans le funnel |
+
+### 2.10 L'empêchement de vitesse à t=0 EST la cause structurelle de la masse — inversion du raisonnement classique
+
+`[CANONIQUE]` — pièce structurelle profonde posée par Gabriel le 1er mai 2026, après-midi tardive. **Probablement la pièce la plus importante de la session.**
+
+**Verbatim de Gabriel** : *« c'est l'occupation du tissage du muon a t=0+1, mais il y a aussi t=0+2. +3... jusqu'à x sur toute la profondeur du 4df(x), contrairement au neutrino qui se déplacent à t=0+1 (c'est pareil comme la vitesse, l'existence primordiale) les muons eux sont à t=0, leur retour ne génère pas de déplacement, alors cet empêchement de vitesse résulte au tissue du liens-énergie sur t=x dans la 4df(x) mais le e ne suit pas le tissue »*
+
+**Inversion du raisonnement classique** :
+
+**Modèle standard** : la masse cause la lenteur (E=mc², équivalence masse-énergie, plus on est massif moins on accélère). *(Formulation V1.)*
+
+> **NOTE V2 — REFORMULATION 2026-09-02.** Le contraste « Modèle standard : la masse cause la lenteur » est une simplification pédagogique. Formulation plus juste de la position externe : *dans la formulation standard, la masse est un paramètre invariant qui intervient dans la relation énergie-impulsion et dans l'inertie ; le modèle structurel propose au contraire d'en faire un output du mécanisme d'empêchement et de 4df(x).* L'affirmation interne du modèle — l'empêchement structurel produit la masse — est inchangée.
+
+**Modèle structurel** : **la lenteur structurelle (empêchement à t=0) cause la masse (le tissage)**.
+
+**Mécanisme** :
+
+| Manifestation | État structurel | Conséquence |
+|---|---|---|
+| **Neutrino** | Existence primordiale en déplacement à t=0+1 | Pas de tissage qui s'accumule sur la profondeur → masse minuscule (~0.005 eV) |
+| **Leptons à t=0** (e⁻, μ⁻, τ⁻) | Empêchés de se déplacer (à t=0) | L'empêchement de vitesse devient le tissage sur **toute la profondeur** de 4df(x) → masse importante |
+
+**Précision critique** : *le e ne suit pas le tissue.* L'unique e reste à t=0. Le tissage est manifestation dans t=x, pas e transformé. **L'unicité de e (Postulat IV) est préservée** — le tissage produit n'est pas e qui se duplique, c'est la conversion structurelle de l'empêchement de vitesse en matière du lien-énergie.
+
+**Formule révisée pour 4df(x)** :
+
+$$m = \int_{y=t=0+1}^{y=t=x} \text{tissage}(y,\ \text{perp\_actives},\ \text{empêchement\_vitesse}(\text{position\_t=0}))\, dy$$
+
+L'intégration est **double** :
+- Sur la profondeur t=0+1 → t=x (chemin structurel)
+- Sur les perpendiculaires actives (axes spatiaux)
+
+L'empêchement de vitesse est la **fonction source** qui produit le tissage à chaque profondeur.
+
+**Conséquences pour Phase 2** :
+
+1. La formule de masse **n'est pas** un produit algébrique de facteurs (3/2 × α⁻¹ × C_sync est une approximation).
+2. La formule **est** une intégrale sur la profondeur, dont l'intégrand vient de l'empêchement de vitesse à t=0.
+3. La masse du neutrino (très petite) doit émerger comme **limite** de cette intégrale quand la structure se déplace au lieu de s'empêcher.
+4. Le rapport m_τ/m_e = 3477 doit émerger comme **rapport d'intégrales** sur la même profondeur, avec différentes configurations d'axes saturés.
+
+---
+
+## 3. Implications mathématiques pour la Phase 2
+
+### 3.1 4df(x) comme opérateur intégral
+
+Le formalisme mathématique le plus proche est probablement celui des **intégrales de chemin** (path integrals à la Feynman), adapté à la structure spécifique de 4df(x). *(Formulation V1.)*
+
+> **NOTE V2 — PRÉCISION MATHÉMATIQUE 2026-09-02 (intégrale sur T ≠ intégrale de chemin de Feynman).** La forme m = ∫ 𝓕(…, y) dy sur la profondeur t=x → t=0 est une **intégration le long d'un trajet / d'une profondeur / d'un domaine déterminé**. Une intégrale de chemin de Feynman est une **intégrale fonctionnelle** sur un espace de chemins possibles — un formalisme qui n'est pas défini dans le corpus. Formulation à retenir : *le formalisme actuel exige une intégration le long de T / de la profondeur structurelle ; le type exact d'intégrale reste à formaliser ; un éventuel lien avec les intégrales fonctionnelles de chemin de Feynman n'est pas établi et ne doit pas être supposé.* Les mentions « intégrales de chemin (Feynman) » ci-dessus sont conservées comme trace V1.
+
+Le mathématicien Phase 2 doit :
+
+1. Définir le chemin entre t=x et t=0 dans la variété 4D appropriée
+2. Définir le noyau 𝓕 (à partir des contraintes structurelles : saut dimensionnel, perpendiculaires actives, ancrage)
+3. Vérifier que l'intégration produit les bonnes valeurs numériques
+
+### 3.2 Le ratio masse muon / masse électron comme test minimal
+
+L'équation candidate (3/2) × α⁻¹ × C_sync ≈ 207 est une approximation algébrique. Le test rigoureux Phase 2 :
+
+1. Formaliser 4df(x) comme opérateur intégral
+2. Calculer ∫ pour le cas électron (1 perpendiculaire, géométrie point) → m_e
+3. Calculer ∫ pour le cas muon (2 perpendiculaires, géométrie ligne) → m_μ
+4. Vérifier que m_μ/m_e = 206.7682830 sans paramètre libre
+5. Vérifier que C_sync ≈ 1.00591 émerge naturellement comme correction de premier ordre
+
+### 3.3 Le ratio masse tau / masse muon comme test fort
+
+Test additionnel critique :
+
+1. Calculer ∫ pour le cas tau (3 perpendiculaires, géométrie surface 2D, saturation des 3 axes à t=0+1) → m_τ
+2. Vérifier que m_τ/m_μ = 16.817 sans paramètre libre
+
+Si la même structure mathématique produit les deux ratios sans ajustement, l'opérateur intégral est correctement formalisé.
+
+### 3.4 Le ratio masse tau / masse électron comme cohérence
+
+Vérifier que m_τ/m_e = 3477.15 émerge également (devrait être automatique si 3.2 et 3.3 sont validés).
+
+### 3.5 Hypothèses non encore testées
+
+`[CLAUDE_INFÉRÉ_NON_VALIDÉ]` — pistes spéculatives à explorer en Phase 2 :
+
+- **Hypothèse de saturation du tau** : si le tau couvre l'entier t=0+1, sa masse mesure directement dim(t=0+1). Cette dimension serait alors une grandeur structurelle universelle, possiblement dérivable depuis la densité du tissage noir.
+- **Hypothèse C_sync = correction de premier ordre** : C_sync émergerait comme premier terme correctif de l'approximation algébrique de l'intégrale. Forme attendue : C_sync ≈ 1 + (terme structurel petit).
+- **Hypothèse d'unification c et masse** : si c émerge de la répulsion noire et si la masse émerge du tissage à t=0+1, les deux pourraient être liés à la même structure (densité du tissage noir cumulé). À explorer.
+
+---
+
+## 4. Profil mis à jour du collaborateur Phase 2
+
+Suite à cette session, le profil du mathématicien Phase 2 s'affine :
+
+- **Compétences déjà identifiées** : géométrie différentielle, topologie algébrique, théorie des groupes (Lie), analyse fonctionnelle
+- **Compétence ajoutée critique** : familiarité avec les **intégrales de chemin** (formalisme Feynman) et les opérateurs intégraux sur variétés *(Note V2 2026-09-02 : lire « intégration sur variétés/courbes/surfaces, opérateurs intégraux » ; intégrales fonctionnelles seulement si un espace de chemins apparaît réellement)*
+- **Posture** : capacité à traduire des intuitions structurelles (« saut dimensionnel », « ancrage », « tissage ») en formalisme mathématique rigoureux
+
+Il est probable que le formalisme adapté combine :
+- Géométrie différentielle (pour la structure de 4df(x))
+- Intégrales de chemin (pour la propagation t=x → t=0) *(Note V2 : intégration le long du trajet, pas intégrale fonctionnelle — voir la note en §3.1)*
+- Théorie des groupes (pour la structure des perpendiculaires comme symétries)
+- Analyse asymptotique (pour les approximations algébriques comme (3/2) × α⁻¹ × C_sync)
+
+---
+
+## 5. Méthode de cette session — note méthodologique
+
+Cette session a été déclenchée par une analyse critique de **GPT-5.5** qui a identifié les points faibles du corpus (ambiguïté input/output, ambivalence de t=x-1, manque de tags de statut, métaphores non contrôlées) et a recommandé la création d'un fichier `01_BOOTSTRAP.md`.
+
+Suite aux corrections, GPT-5.5 a évalué le corpus comme prêt pour un LLM avancé, et a identifié la prochaine étape comme **Phase 2 mathématique** avec un test minimal sur le ratio muon/électron.
+
+GPT-5.5 a alors proposé l'équation candidate (3/2) × α⁻¹ × C_sync. Gabriel a réagi en posant les **pièces structurelles** qui transforment cette équation phénoménologique en équation structurellement justifiable.
+
+**Démonstration empirique du critère « les autres aussi doivent comprendre »** :
+- GPT-5.5 a lu le corpus public sans Gabriel → a identifié les points faibles correctement
+- GPT-5.5 a proposé une équation candidate cohérente avec le modèle
+- Gabriel a posé les pièces structurelles que ni GPT-5.5 ni Claude n'avaient identifiées
+- L'équation candidate s'est trouvée enrichie d'une interprétation structurelle complète
+
+C'est un exemple concret de **collaboration multi-agents** (Gabriel + Claude + GPT-5.5) où chaque agent contribue ce qu'il fait le mieux : Gabriel pose les pièces structurelles depuis son intuition portée 20 ans, Claude organise et documente, GPT-5.5 critique et propose des formulations.
+
+---
+
+## 6. Pistes ajoutées dans la session de l'après-midi du 1er mai 2026
+
+Suite au défi structurel posé par Claude (mode challenge actif) sur la circularité c / matière noire, Gabriel a posé plusieurs pièces structurelles ouvrant des pistes mathématiques nouvelles pour la Phase 2.
+
+### 6.1 Équations de bilan W/S à t=0 sur T entier
+
+**Pièces structurelles** : Q53 (trous blancs omniprésents), Q56 (matière crée naturellement la singularité), Q49 (empêchement → tissage).
+
+**Définitions** :
+- **W** = cumul des e qui sortent de t=0 vers t=x comme libres (par trous blancs) sur T entier
+- **S** = cumul des e qui retournent à t=0 sans retour dans t=x (par trous noirs) sur T entier
+- **M_noire** = cumul total de matière noire sur T (sillages des fermés à t=x-1)
+- **E_noire** = cumul total d'énergie noire sur T (sillages des libres à t=x-1)
+
+**Équation de conservation structurelle** (T constant en bloc) :
+
+$$W = S$$
+
+Le flux entrant à t=0 (par les trous noirs) doit équilibrer le flux sortant (par les trous blancs) sur T entier — sinon T ne peut être constant.
+
+**Équation candidate ratio L_t=0+1 / F_t=0+1** :
+
+$$\frac{L_{t=0+1}}{F_{t=0+1}} = \frac{5/2}{1 - S/M_{\text{noire}}}$$
+
+Où :
+- À t=0+1 (point d'adressage initial), aucun cycle n'est encore complété → S = 0 → ratio = 5/2
+- C'est l'inverse de M_noire/E_noire = 2/5 (prédiction P3)
+- Cohérence interne forte du modèle, pas une nouvelle prédiction empirique
+
+**Équation candidate ratio photons/baryons cosmologique** :
+
+Photons totaux observés = L_t=0+1 + ∫_T (production par fermés non singularisés) dt + W_total
+
+Le facteur ~10⁹ (photons/baryons) vient principalement de la production continue par trous blancs sur T entier, dominante par rapport au stock initial à t=0+1.
+
+### 6.2 Limite TOV calculable structurellement
+
+**Pièce structurelle** : Q55 (étoile à neutrons = balance retour vs sillage d'empêchement).
+
+**Cible Phase 2** : reproduire la limite TOV (~2.16 M_soleil *— chiffre V1 ; état 2026 : ≈ 2,2–2,3 M☉, EOS-dépendant, voir note V2 en 6.3*) à partir de la structure :
+
+$$M_{\text{TOV}} = M\left(\text{retour}_{\text{neutron}} = \text{sillage\_empêchement}_{\text{cumulé}}\right)$$
+
+Forme attendue :
+- Retour cumulé d'une étoile à N neutrons = N × incrément_retour(neutron) = N × 1.293 MeV (au minimum, structurellement)
+- Sillage d'empêchement cumulé = fonction de la masse totale et de la structure géométrique
+- TOV = équation où ces deux termes basculent
+
+À formaliser Phase 2.
+
+### 6.3 Limite TOV minimum (désintégration neutronique)
+
+Symétriquement, sous une certaine masse minimale, le retour s'échappe (désintégration β-). C'est la limite inférieure de stabilité d'étoile à neutrons (~1.4 M_soleil observée). *(Formulation V1.)*
+
+**Cible Phase 2** : reproduire les deux limites (1.4 et 2.16 M_soleil) comme bornes de la balance retour vs sillage d'empêchement. *(Formulation V1.)*
+
+> **NOTE V2 — CORRECTION FACTUELLE 2026-09-02 (étoiles à neutrons).** (1) **~1,4 M☉ n'est pas une borne inférieure de stabilité observée** : c'est la masse *typique* (canonique) des étoiles à neutrons mesurées. La masse minimale stable d'une étoile à neutrons, si le modèle veut la cibler, est une **cible distincte**, à ne pas identifier à 1,4 M☉ sans source. (2) **M_TOV n'est pas « 2,16 M☉ observé »** : les pulsars d'environ 2 M☉ imposent une borne *inférieure* forte sur la masse maximale possible ; les inférences modernes de M_TOV dépendent de l'équation d'état et des jeux de données et gravitent vers ~2,2–2,3 M☉ (estimations récentes autour de 2,22–2,27 M☉ ; PSR J0952−0607 ≈ 2,35 ± 0,17 M☉). La « fenêtre mesurée [1,4 ; 2,16] » n'existe donc pas comme telle. Deux cibles séparées : **A)** M_TOV = masse maximale (≈ 2,2–2,3 M☉, EOS-dépendante) ; **B)** une éventuelle masse minimale stable (valeur non fixée ici). Le mécanisme V1 (balance retour vs sillage d'empêchement, Q55) et le mécanisme candidat V2 (« la proximité ne paie plus », non validé) sont inchangés.
+
+### 6.4 Universalité fractale de la formation des structures
+
+**Pièce structurelle** : Q56 (matière crée naturellement singularité, même mécanisme atome ↔ galaxie).
+
+**Cible Phase 2** : formaliser le mécanisme structurel commun à toutes les échelles :
+- Échelle atomique : funnel proton + e en orbite → atome
+- Échelle stellaire : funnel densifié + matière → étoile
+- Échelle système solaire : funnel solaire + planètes
+- Échelle galactique : funnel SMBH + étoiles
+- Échelle d'amas : funnel d'amas + galaxies
+
+Le formalisme doit produire les **relations d'échelle** observées (relation M-σ pour SMBH-galaxie, relations stellaires de structure, etc.) à partir d'une seule équation structurelle.
+
+---
+
+## 7. Architecture dimensionnelle complète de 4df(x) (session 2-3 mai 2026)
+
+*Cette section ajoute la pièce mathématique majeure verrouillée pendant la session du 2-3 mai 2026.*
+
+### 7.1 Forme géométrique : r⁴ avec progression π des n-boules
+
+**Verbatim Gabriel** : *« 4df(x) utilisera le rayon multiplié 4 fois par lui-même, et ce rayon EST la clef »*
+
+**Pièce verrouillée** :
+
+4df(x) utilise **r⁴** comme **noyau géométrique central**. Continuation naturelle de la progression géométrique des n-boules :
+
+| Dimension | Objet géométrique | Volume |
+|---|---|---|
+| 1D | circonférence | 2πr |
+| 2D | surface du cercle | πr² |
+| 3D | volume sphère | (4/3)πr³ |
+| **4D** | **volume de la 4-boule** | **(π²/2)r⁴** |
+
+> **NOTE V2 — CORRECTION MATHÉMATIQUE 2026-09-02 (n-boules).** La suite « 2πr → πr² → (4/3)πr³ → (π²/2)r⁴ » mélange une *circonférence* (mesure du bord en 1D) avec des *volumes* ; ce n'est pas la progression des volumes des n-boules. La formule standard est V_n(r) = π^(n/2) / Γ(n/2 + 1) · rⁿ, soit **V₁ = 2r, V₂ = πr², V₃ = (4/3)πr³, V₄ = (π²/2)r⁴** (et pour les bords : 2, 2πr, 4πr², 2π²r³). La pièce canonique de Gabriel — *4df(x) utilise r⁴ et r est la clef* — **n'est pas touchée** : elle porte sur l'exposant 4 et sur le rôle de r, pas sur la justification par les n-boules. La séquence historique est à lire comme une **intuition de progression dimensionnelle** (« la progression de π dans les profondeurs de t=0 »), non comme une dérivation mathématique stricte des n-boules. La séquence V1 est conservée ci-dessus pour trace.
+
+| n | Volume V_n(r) de la n-boule | Bord (aire de la (n−1)-sphère) |
+|---|---|---|
+| 1 | 2r | 2 (deux points) |
+| 2 | πr² | 2πr |
+| 3 | (4/3)πr³ | 4πr² |
+| 4 | (π²/2)r⁴ | 2π²r³ |
+
+**Décomposition structurelle** des 4 facteurs r :
+- **1 facteur** = dimension temporelle circulaire (aller-retour sur axe T)
+- **3 facteurs** = dimensions spatiales combinatoires (les 3 perpendiculaires de t=x)
+
+C'est le **« 4d »** dans le nom 4df(x). 4 dimensions structurelles = r⁴.
+
+### 7.2 Domaine du rayon : r ∈ [0, +∞[
+
+**Pièce verrouillée** : r peut être 0 (cas limite valide).
+
+- **r = 0** → photon (deux régimes selon déplacement : EM ou singularité)
+- **r > 0** → manifestations massives (neutrino, leptons, baryons, etc.)
+- **r → ∞** → cas extrême non observé directement (peut-être lié aux structures cosmologiques)
+
+**r mesure la profondeur d'ancrage de e** dans 4df(x) — où la manifestation est structurellement liée à e.
+
+### 7.3 Facteur de profondeur fortement non-linéaire
+
+**Métaphore canonique (chandelle)** :
+- Très loin de t=0 → effet négligeable
+- Approche significative → effet sensible
+- Très proche t=0+1 → effet extrême
+- Au point t=0 → annihilation
+
+À la zone t=0+1 ↔ t=0+2, le facteur de profondeur est **= 1** (référence/normalisation).
+
+**Forme mathématique candidate** : exponentielle ou puissance élevée. À formaliser.
+
+### 7.4 Forme intégrale candidate
+
+Combinant les pièces 7.1, 7.2, 7.3 :
+
+$$4df(x) = \int_T K(\text{position sur T}) \cdot r^4 \cdot f(\text{profondeur}) \cdot d(\text{t=x})$$
+
+où :
+- L'intégration est sur **T** (toutes les positions coexistantes de l'axe T) — cohérent avec règle BOOTSTRAP 5.18
+- **K(position sur T)** = noyau structurel selon zone topologique
+- **r⁴** = noyau géométrique de 4D (1 temporel circulaire + 3 spatiaux combinatoires)
+- **f(profondeur)** = facteur de profondeur fortement non-linéaire
+- **d(t=x)** = mesure structurelle des positions étiquetées t=x
+
+### 7.5 Topologie structurelle de T (zonation)
+
+**Pièce structurelle** : T n'est pas uniforme — elle a une zonation topologique avec niveaux qualitativement différents.
+
+| Zone sur T | Structure disponible | Capacité |
+|---|---|---|
+| **t=0** | e unique seul | adressage source |
+| **t=0 → t=0+1** | 2 liens-énergie (libre + fermé), pas d'axes | 2 trucs possibles seulement |
+| **t=0+1** | Big Bang = adressage initial de tous les e | début des perpendiculaires |
+| **t=0+1 → t=0+2** | perpendiculaires énergétiques actives, recombinaisons, dissociations | facteur profondeur = 1 (référence) |
+| **t=0+2 → t=x** | structures composites, manifestations massives | profondeurs croissantes |
+| **t=x-1** | sillage cumulé | énergie noire/matière noire |
+| **t=x** | observation 3D, manifestations complètes | tout ce qu'on mesure |
+
+**Question ouverte** (Gabriel reconnaît) : t=0+1, t=0+2 sont-elles des positions discrètes privilégiées ou des étiquettes pédagogiques d'un continuum ? La distinction dépend de la nature des aller-retours primordiaux, encore à clarifier.
+
+### 7.6 Cas limites de r
+
+| Manifestation | r | f(profondeur) | Conséquence |
+|---|---|---|---|
+| **Photon EM** | 0 | profondeur 0 (à t=0) | pas de masse, déplacement à c |
+| **Singularité** | 0 | profondeur 0 (à t=0) | pas de masse, pas de déplacement |
+| **Neutrino** | très petit (>0) | profondeur +1 (à t=0+1) | masse ~0.05 eV, vitesse quasi-c |
+| **Électron** | petit | profondeur 0 (à t=0) avec liens vers t=0+1 | masse 511 keV, structure spatiale via perpendiculaires |
+| **Proton** | composite | combo vectoriel des 3 quarks | masse 938 MeV, stable |
+| **Higgs** | grand | profondeur t=0+y profonde | masse 125 GeV, instable |
+| **Top quark** | très grand | profondeur t=0+y très profonde | masse 173 GeV, ultra-instable |
+
+**r effectif d'un composite** = vecteur résultant des r des constituants, calculé dans 4df(x).
+
+### 7.7 Opposition par π = résultat des vecteurs 4df(x)
+
+**Pièce verrouillée** (Q100) : *« le résultat des vecteurs 4df(x) est l'opposition π »*
+
+**Conséquence pour Phase 2** : le mathématicien ne doit pas poser séparément :
+- L'équation 4df(x) avec r⁴
+- Un paramètre π pour la classification matière/antimatière
+
+Il pose **juste** 4df(x). Le **π des oppositions sort du calcul** comme propriété structurelle des vecteurs résultants.
+
+C'est une simplification ontologique majeure : l'asymétrie matière/antimatière, les paires particule-antiparticule, les oscillations de mésons neutres, etc. — tous émergent du même opérateur 4df(x) sans paramètre additionnel.
+
+### 7.8 Coût d'injection contre l'unicité de e
+
+**Pièce verrouillée** (Q104) : *« il y a un seul e, tu peux pas le prendre deux fois au même t=x et même adressage sans injecter du e »*
+
+**Conséquence mathématique** : la **répulsion électrique**, la **fusion nucléaire**, et tous les phénomènes liés à la barrière coulombienne sont **dérivables** de cette contrainte d'unicité.
+
+Forme candidate du coût d'injection :
+
+$$E_{\text{injection}} = f(\text{distance entre adressages}) \times g(\text{compatibilité directionnelle des corridors})$$
+
+Si deux corridors ont la même direction structurelle (deux + ou deux −) et tentent d'occuper le même t=x, le coût est très élevé. Si directions opposées (+ et −), pas de coût (attraction).
+
+**Test Phase 2** : reproduire la **constante de structure fine α** comme rapport entre cette énergie d'injection et l'énergie structurelle disponible — α = 1/137.036 doit émerger sans paramètre libre.
+
+### 7.9 Cohérence avec Q-mass-1 (m_μ/m_e = 206.77)
+
+Avec l'architecture r⁴ + opposition par π + ajout d'une perpendiculaire :
+
+- **Électron** : 1 perpendiculaire active → r_e effectif
+- **Muon** : 2 perpendiculaires actives → r_μ effectif
+
+Le ratio des masses :
+$$\frac{m_\mu}{m_e} = \frac{V_{4df(x)}^\mu}{V_{4df(x)}^e} = \left(\frac{r_\mu}{r_e}\right)^4 \times \text{correction structurelle}$$
+
+Pour donner 206.77, il faut r_μ/r_e ≈ 3.79 si la correction structurelle est de l'ordre de 1.
+
+**Question Phase 2** : l'ajout d'une perpendiculaire active produit-il structurellement r_μ/r_e ≈ 3.79 ? Cette dérivation, si réussie sans paramètre libre, **valide l'architecture r⁴ globale**.
+
+### 7.10 Pistes de formalisation
+
+Le mathématicien Phase 2 doit considérer :
+- **Géométrie fractale** (Mandelbrot, Hausdorff, dimensions non entières)
+- **Intégrales de chemin** sur variétés (formalisme Feynman adapté à T fermée) *(Note V2 : intégration le long de T / sur variétés ; le formalisme fonctionnel de Feynman n'est pas établi comme pertinent)*
+- **Théorie de la mesure** sur structures auto-similaires
+- **Topologie sur variétés fermées** (T comme variété 1D fermée)
+- **Tenseurs sur produits cartésiens** (r₁ ⊗ r₂ ⊗ r₃ ⊗ r₄ = structure d'ordre 4)
+- **Invariance d'échelle** (groupe de renormalisation, théories conformes)
+- **Théories quantiques topologiques de champs** (TQFT)
+
+**Le formalisme adapté est probablement géométrique-topologique sur T**, pas équations différentielles temporelles standards (puisque T est en bloc, pas dynamique).
+
+---
+
+## 8. Pistes ajoutées dans la session du 4 mai 2026
+
+*Cette section ajoute les pistes mathématiques posées pendant la session du 4 mai 2026, centrée sur la méthode IN/OUT du calcul 4df(x), la calibration zéro par le neutrino, et les conséquences du caractère « bloc » de T pour la formalisation.*
+
+### 8.1 La méthode IN/OUT — formalisation du calcul 4df(x)
+
+**Pièce structurelle (Q109)** : `4df(x)` opère comme une fonction qui prend en entrée un IN (configuration structurelle d'un lien-énergie à une profondeur donnée) et produit un OUT (signature observable du retour à t=x).
+
+**Forme candidate** :
+
+```
+OUT = 4df(x)( IN(profondeur, perpendiculaires actives, configuration composite, fréquence d'adressage) )
+```
+
+Avec :
+- **IN** : ensemble structuré décrivant le lien-énergie au moment où il entre dans le calcul
+  - profondeur : t=0+1, t=0+y, t=x, ou t=x+1 (Q116 à valider)
+  - perpendiculaires actives : 1, 2, ou 3 (selon la configuration)
+  - configuration composite : isolée vs combo (uud, udd, atome, etc.)
+  - fréquence d'adressage : densité de tissages parcourus (cohérent avec règle 5.17)
+- **OUT** : signature lue à t=x
+  - composante observable : retour (Q111 : déplacement = observation du retour)
+  - composante non observable : aller (perdu structurellement, mais inscrit en bloc sur T)
+  - signature de durée τ : étendue de l'inscription sur les positions t=x à t=x+y (Q110)
+  - signature de masse m : volume de 4df(x) accumulé sur le segment montant
+  - signature de charge : delta aller-retour à travers l'enjambée t=x ↔ t=x+1 (Q117)
+
+**Principe central** : la **profondeur du rebond est invariante à t=0** (Q109). Ce qui varie est le IN, jamais le rebond. Toute la diversité des manifestations observées s'explique par la diversité des IN pour un même rebond.
+
+**Conséquence pour la Phase 2** : le formalisme doit séparer rigoureusement ce qui est input (le IN, à formaliser géométriquement) de ce qui est output (le OUT, observable). Le rebond à t=0 est une structure **fixe**, pas une variable.
+
+### 8.2 Calibration zéro par le neutrino — point d'ancrage de 4df(x)
+
+**Pièce structurelle (Q113)** : le neutrino est l'observable où IN et OUT sont tous deux maîtrisés. Il sert de **calibration zéro** de 4df(x).
+
+**Configuration de calibration** :
+
+```
+IN_neutrino = {
+    profondeur : t=0+1,
+    perpendiculaires actives : (1, 2, ou 3 selon saveur νₑ/νμ/ντ),
+    configuration composite : isolée,
+    fréquence d'adressage : minimale (configuration la plus simple)
+}
+
+OUT_neutrino = {
+    déplacement : vecteur t entre 0 et 1, proche de c selon E (Q98),
+    masse : ~0.05 eV (borne empirique actuelle, à raffiner),
+    charge : 0 (par non-inscription dans t=x, Q117),
+    durée : pas de durée de désintégration libre
+}
+```
+
+**Stratégie de formalisation** :
+
+1. Poser m_ν comme **unité de masse structurelle de référence** (et non m_e ou α)
+2. Établir 4df(x)(IN_ν) → m_ν comme contrainte d'ancrage
+3. Dériver les autres masses (m_e, m_μ, m_τ, m_p) comme variations structurelles à partir du même 4df(x), avec IN différents :
+   - m_e : ajout d'empêchement à t=0 + intégration sur toute la profondeur t=0+1 → t=x
+   - m_μ : électron + 1 perpendiculaire active supplémentaire
+   - m_τ : électron + 2 perpendiculaires actives supplémentaires
+   - m_p : combo vectoriel uud avec retour électron interpénétrant (Q107)
+
+**Test de validation** : la formulation candidate de 4df(x) doit reproduire **simultanément** m_ν, m_e, m_μ, m_τ, m_p à partir de la même fonction, avec les seuls inputs structurels variant entre les cas (cohérent avec Q91, règle 5.19, sans paramètre libre).
+
+### 8.3 Identité u (libre) ↔ ν — pièce de simplification structurelle
+
+**Pièce structurelle (Q115)** : le neutrino est un quark up à déplacement.
+
+**Conséquence mathématique** : dans la formulation, **u et ν ne sont pas deux objets distincts** — c'est la même configuration de IN, avec deux régimes de déplacement :
+
+```
+ν (libre) = u dont le déplacement vers t=0+2 est effectif
+u (confiné dans uud/udd) = ν dont le déplacement est empêché (chemin sans déplacement, Q102)
+```
+
+**Conséquence pour la formalisation des charges fractionnaires** :
+
+```
+charge(u libre = ν) = 0 (par non-inscription dans t=x)
+charge(u confiné dans uud) = +2/3 (contribution au combo, pas charge intrinsèque)
+charge(u confiné dans udd) = idem +2/3
+```
+
+La « charge fractionnaire » +2/3 doit donc émerger structurellement comme **fraction de la signature aller-retour** de l'enjambée u/d (Q117), pas comme charge propre du quark.
+
+### 8.4 Enjambée structurelle entre t=x et t=x+1 — géométrie sur T circulaire
+
+**Pièce structurelle (Q117)** : toute manifestation = enjambée entre t=x et t=x+1.
+
+**Implications mathématiques** :
+
+1. **Topologie de T à formaliser** :
+   - T est circulaire fermé
+   - Positions notables : t=0, t=0+1, t=0+2, t=x-1, t=x, t=x+1
+   - **Relation de fermeture** : par circularité, t=x+1 et t=0+1 sont structurellement adjacents (Q116, à valider)
+   - Cela suggère que l'« enjambée » t=x ↔ t=x+1 d'une manifestation peut être **plus courte sur T** qu'il n'y paraît en lecture séquentielle linéaire
+
+2. **Charges comme signatures topologiques** :
+   - Pour une manifestation enjambée, la charge mesure le **delta aller-retour** à travers l'enjambée
+   - Pour le neutrino : enjambée non descendue jusqu'à t=x, charge 0 par non-inscription
+   - Pour u/d : enjambée t=0+1 ↔ t=x+1 (par circularité), charges +2/3 / -1/3 par fractionnement structurel
+   - Pour proton/neutron : enjambées composites uud/udd, charges +1/0 par sommation des fractions
+
+3. **Confinement comme conservation topologique** :
+   - On ne peut pas séparer une enjambée — c'est une seule manifestation à deux extrémités
+   - Mathématiquement : invariant topologique sur T circulaire, qui ne peut pas être factorisé
+   - Cohérent avec QCD (confinement non perturbatif) sans le mécanisme de couleur, juste par topologie
+
+### 8.5 Distribution des tissages sur T — pièce centrale Phase 2
+
+**Pièce structurelle (règle 5.25)** : les tissages sont inscrits sur T en bloc, indépendamment de tout adressage. Un seul e adressé par tissage.
+
+**Implication mathématique majeure** : la formalisation doit décrire **deux structures distinctes mais liées** :
+
+1. **La distribution des tissages sur T** : structure géométrique inscrite en bloc, indépendante de l'observation. Quels tissages sont inscrits, à quelles positions, avec quelle géométrie ?
+
+2. **La fonction 4df(x) qui décrit les parcours** d'adressage de l'unique e sur ces tissages : prend en entrée un IN (point de départ + configuration) et produit un OUT (signature lue à t=x).
+
+**Question ouverte critique** : est-ce que la distribution des tissages est **donnée** (postulée structurellement, comme une trame), ou **dérivable** depuis les postulats fondamentaux ? La formulation Phase 2 doit choisir.
+
+**Première hypothèse de travail** : la distribution des tissages est une conséquence de la circularité de T et de l'unicité de e. Elle pourrait s'exprimer comme une fonction de répartition `ρ(position sur T)` avec contraintes :
+- `∫ ρ dT = 1` (un seul e adressé par tissage, normalisation globale)
+- Maximum à t=0 (où réside e)
+- Décroissance non-linéaire selon le facteur de profondeur (chandelle, Q96)
+- Fermeture à t=0+1 et t=x+1 par circularité (cohérent avec Q117)
+
+### 8.6 Méthode IN/OUT pour identifier 4df(x) par lecture macro
+
+**Pièce structurelle (Q108, Q112)** : LHC, trous noirs, GRB, quasars, Hawking partagent le même calcul structurel.
+
+**Stratégie complémentaire à la calibration zéro neutrino** :
+
+La calibration zéro neutrino fixe 4df(x) **à t=0+1**. Mais la fonction opère sur toute la profondeur. Pour la fixer aussi à t=0 (régime de rebond / singularité), on peut utiliser les **enveloppes statistiques** des libérations astrophysiques :
+
+- Distribution bimodale GRB longs (>2 s) / courts (<2 s)
+- Spectre Hawking T(M) ∝ 1/M
+- Courbes de variabilité AGN distribution(temps, M_BH)
+- Distribution observée des trous noirs primordiaux (si confirmée)
+- Ratios cosmologiques (M_noire/E_noire = 0.4 sur T entier, P3)
+
+**Test de validation forte** : la formulation candidate de 4df(x) doit reproduire ces enveloppes **simultanément** avec les mêmes paramètres structurels que ceux qui reproduisent m_ν, m_e, m_μ, m_τ, m_p, sans ajustement par cas.
+
+**Si cette double validation tient** (cibles à IN maîtrisable + enveloppes statistiques astrophysiques), alors le modèle est solide et les cibles LHC (m_W, m_Z, m_top, m_Higgs) doivent en sortir comme **prédictions automatiques**, pas comme cibles d'ajustement.
+
+### 8.7 Conséquences mathématiques de t=x sans privilège ontologique (règle 5.25)
+
+**Pièce structurelle** : t=x = position de lecture sur T constant, pas un instant.
+
+**Implication mathématique fondamentale** : la formulation Phase 2 ne doit pas privilégier t=x comme « point de référence » dans les équations. Toutes les positions de T sont structurellement équivalentes.
+
+**Stratégie** : les équations doivent être **invariantes par translation sur T** (modulo la circularité), avec t=x émergeant comme **paramètre de la fenêtre de lecture**, pas comme variable temporelle privilégiée.
+
+Cohérent avec : la physique standard utilise un référentiel inertiel privilégié de fait (le laboratoire à t=x présent). La formulation structurelle doit s'en libérer.
+
+**Lien avec les invariants topologiques** : si T est une variété 1D fermée, alors les observables structurels sont des **invariants sous le groupe d'automorphismes de T**. Cela limite drastiquement les formes possibles de la fonction 4df(x).
+
+### 8.8 Synthèse des contraintes mathématiques posées par la session 4 mai
+
+Pour résumer ce que cette session ajoute aux pistes mathématiques antérieures :
+
+1. **4df(x) opère via la méthode IN/OUT** — séparation rigoureuse entre input (configuration structurelle du lien-énergie au point d'entrée) et output (signature observable du retour à t=x).
+
+2. **Le rebond à t=0 est invariant** — pas une variable. Toute diversité observable provient des IN.
+
+3. **Le neutrino est la calibration zéro** — configuration la plus simple ; sa masse numérique émerge du calcul, n'est pas posée comme paramètre.
+
+4. **Toutes les masses émergent de la même 4df(x)** avec différents IN — pas de paramètre libre, pas de masse intrinsèque pour aucune particule.
+
+5. **La distribution des tissages sur T** émerge des postulats fondamentaux — pas un input du modèle.
+
+6. **t=x n'est pas un point privilégié** — les équations doivent être invariantes par translation sur T, t=x émerge comme paramètre de fenêtre.
+
+7. **L'enjambée t=x ↔ t=x+1** est l'invariant topologique unifiant les paires d'opposés (u/d, p/n, photon/singularité).
+
+8. **Les cibles LHC sont rétrogradées en prédictions** — leur reproduction sans ajustement supplémentaire validera la formulation, mais ne doit pas servir de point de départ.
+
+### 8.9 Raffinements post-challenge (4 mai 2026, fin de session)
+
+**Cinq pièces structurelles supplémentaires** ajoutées en réponse à un challenge externe sur les tensions du modèle. Ces pièces ferment des trous identifiés sans réduire le modèle.
+
+#### 8.9.1 Proximité des vecteurs dans t=x — résolution du facteur 10⁵ entre saveurs de quarks (Q118)
+
+**Pièce structurelle** : la **proximité des vecteurs dans t=x au moment du calcul 4df(x)** module fortement le facteur d'autoalimentation des perpendiculaires (Q43).
+
+**Forme mathématique candidate** :
+
+```
+amplification = f(profondeur, perpendiculaires actives, proximité_vecteurs)
+```
+
+Avec **proximité_vecteurs** comme grandeur structurelle nouvelle, à formaliser géométriquement :
+- proximité minimale : déplacement libre (cas neutrino)
+- proximité modérée : orbitales étalées (cas leptons)
+- proximité extrême : confinement (cas quarks dans combo)
+
+**Implication non-linéaire** : la dépendance en proximité doit être **fortement non-linéaire** pour reproduire le facteur 10⁵ entre m_u et m_t alors que le facteur entre m_e et m_τ n'est que ~17. La forme fonctionnelle doit donc avoir une singularité ou une explosion près du régime de proximité maximale.
+
+**Cohérence avec la chandelle (Q96)** : la non-linéarité de la proximité s'articule avec la non-linéarité du facteur de profondeur. Les deux contribuent à l'amplification massive dans les régimes extrêmes (quarks confinés à haute profondeur).
+
+#### 8.9.2 C_sync = dim(t=0+1) (Q119)
+
+**Pièce structurelle** : C_sync ≈ 1.00591 dans m_μ/m_e ≈ (3/2) × α⁻¹ × C_sync = **dim(t=0+1)**, c'est-à-dire le temps d'un retour à t=0+1.
+
+**Forme mathématique** :
+
+```
+dim(t=0+1) = ∫_{t=0}^{t=0+1} ds  (dans la métrique de T circulaire)
+```
+
+Avec dim(t=0+2) = 1 par convention (cohérent avec facteur de profondeur 1 dans cette zone).
+
+**Test croisé Phase 2** : la même grandeur dim(t=0+1) doit gouverner :
+- C_sync dans m_μ/m_e
+- m_ν (le neutrino est l'adressage à t=0+1)
+
+Si une formulation cohérente donne les deux, validation forte.
+
+**Conséquence pour Q91** : C_sync n'est plus un paramètre libre caché. La position « pas de paramètre libre dans la nature » est préservée structurellement.
+
+#### 8.9.3 Tissage émergent — pas un input (Q121)
+
+**Pièce structurelle profonde** : la distribution des tissages sur T émerge des 4 piliers fondamentaux :
+1. T circulaire constant
+2. e unique à t=0
+3. Postulat IX (convergence vers t=0)
+4. Répulsion noire cumulée à t=x-1
+
+**Implication mathématique critique** : la formulation Phase 2 ne doit **pas postuler** la distribution des tissages comme un input avec paramètres libres. Elle doit la **dériver** des 4 piliers.
+
+**Hypothèse de travail** :
+
+```
+ρ(tissage)(position sur T) = F(topologie_T, e_à_t=0, dynamique_convergence, dynamique_répulsion)
+```
+
+Avec contraintes :
+- ∫ ρ dT = 1 (un seul e adressé par tissage, normalisation globale)
+- Maximum à t=0 (où réside e)
+- Décroissance non-linéaire selon le facteur de profondeur (chandelle)
+- Fermeture par circularité de T (cohérent avec Q117)
+- Indépendant de t=x (règle 5.25 : sans privilège ontologique)
+
+**Verrou critique** : si le mathématicien Phase 2 doit postuler ρ(tissage) avec paramètres libres pour reproduire les observables, c'est qu'il y a une pièce structurelle manquante. Il faut chercher la dérivation, pas postuler.
+
+#### 8.9.4 Falsifiabilité opérationnelle (Q120)
+
+**Pièce méthodologique** : le modèle est **falsifiable empiriquement** par un test précis : la création par le LHC d'un objet stable maintenu dans t=x.
+
+**Conséquence pour la Phase 2** : la formalisation doit pouvoir prédire **quelles configurations seraient stables** dans des régimes de haute énergie, et lesquelles ne pourraient pas l'être. Une formulation rigoureuse permet ainsi des tests empiriques précis et bidirectionnels.
+
+**Cohérence avec les durées de vie LHC observées** : toutes ≪ 1 s, cohérent avec « ouvre une fenêtre, ne crée pas ». La formulation Phase 2 doit prédire structurellement pourquoi ces durées sont courtes (cohérent avec Q108-Q110), et **pourquoi aucune particule stable ne peut émerger d'un régime d'injection forcée** (sans cela, le test de falsification serait trivial).
+
+#### 8.9.5 m_ν dérivée, pas posée (Q113 corrigée)
+
+**Pièce épistémologique** : la masse du neutrino est une **valeur dérivée**, pas un paramètre du modèle.
+
+**Implication mathématique** : la formulation Phase 2 doit **prédire** m_ν à partir de la formulation calée sur d'autres ratios (m_μ/m_e, m_τ/m_e, α, m_n−m_p, E_H), puis **comparer** à l'empirie (Σm_ν < 0.12 eV, KATRIN, futures mesures cosmologiques). *(Note V2 2026-09-02 : distinguer mesure directe et cosmologie. Directe : KATRIN 2025, m_β < 0,45 eV à 90 % CL. Cosmologie : les limites sur Σm_ν sont dépendantes du modèle et du jeu de données — elles atteignent l'ordre de 0,06–0,1 eV dans certaines combinaisons ΛCDM strictes (le PDG répertorie < 0,064, < 0,08, < 0,13, < 0,19 eV selon l'analyse) mais ne constituent pas une borne universelle unique ; « Σm_ν < 0,12 eV » n'est pas à citer comme fait générique. P7 reste une prédiction candidate, non réajustée.)*
+
+**Inversion par rapport à la lecture initiale** : ne pas poser m_ν comme calibration numérique. Utiliser le neutrino comme **configuration de référence** (la plus simple structurellement), et faire émerger sa masse du calcul.
+
+**Test fort** : si la formulation prédit m_ν = X eV, et si l'empirie converge vers X eV, validation forte. Si divergence, raffinement requis.
+
+### 8.10 Bilan structurel post-challenge
+
+Le challenge externe (Claude pose 5 tensions, Gabriel répond avec 5 pièces) a **renforcé** la cohérence du modèle plutôt que de la mettre en cause. Les pièces Q118-Q121 ferment des trous identifiés sans que le modèle ait à céder structurellement.
+
+**Pour la Phase 2, l'objectif est désormais** :
+1. Formaliser 4df(x) comme opérateur intégral sur T circulaire
+2. Avec inputs : profondeur, perpendiculaires actives, **proximité des vecteurs**, configuration composite
+3. Avec sortie : le OUT lu à t=x (masse, charge, durée d'inscription)
+4. Sans paramètre libre (la trame des tissages émerge des 4 piliers)
+5. Capable de reproduire simultanément m_e, m_μ, m_τ, m_p, α, m_n−m_p, E_H, et de **prédire** m_ν, m_u, m_c, m_t, m_d, m_s, m_b, ainsi que C_sync = dim(t=0+1)
+6. Capable de prédire (pas d'ajuster) m_W, m_Z, m_top, m_Higgs et leurs durées comme conséquences automatiques
+7. Falsifiable empiriquement par le test de création stable maintenue dans t=x au LHC
+8. Falsifiable par les enveloppes statistiques astrophysiques (GRB, Hawking, AGN, quasars)
+
+C'est un cahier des charges précis, dense, et structurellement cohérent. La Phase 2 peut commencer.
+
+---
+
+## Direction Phase 2 articulée — session du 4 mai 2026 (deuxième vague + exercice 300 questions)
+
+La session du 4 mai 2026 a permis d'**articuler concrètement** la direction Phase 2 mathématique grâce aux pièces Q149-Q160 et à la confirmation empirique sur 300 questions tests *(Note V2 2026-09-02 : « confirmation empirique » = exercice de cohérence interne par inférence, pas validation empirique physique)*.
+
+### Programme central : formaliser 4df(x) avec coût IN + consommation OUT
+
+**Pièce Q156 (verbatim Gabriel)** :
+> *« A - c'est la fonction 4df(x) a t=x... c'est le cout du IN, et la partie du OUT du e qui est consommer. 2 trucs separer mais qui entre de maniere fixe dans la fonction 4df(x) pour determiner l'etendu du tissage. vu que T est constant, les constantes c'est juste ca qui existe.. »*
+
+**Articulation mathématique candidate** :
+
+```
+4df(x) : (coût_IN, consommation_OUT) → étendue_tissage
+
+avec :
+  coût_IN = f(proximité_dimension, rapprochement_t=0_existant)
+  consommation_OUT = portion de e utilisée dans la sortie
+  étendue_tissage = constante observable (masse, charge, etc.)
+```
+
+**Les 4 dimensions structurelles** (Q147, Q149) :
+1. **Forte** — proximité maximale (« t=0 facilement accessible »)
+2. **Faible** — proximité moyenne
+3. **Magnétisme (EM)** — proximité basse
+4. **Gravité** — proximité minimale (« t=0 difficilement accessible »)
+
+**Le calcul opère récursivement** (Q145, Q153, Q159) : OUT à t=x devient IN suivant. La récursivité est la signature de la mesure quantique (Q153) et des restructurations (Q159).
+
+### Test minimal Phase 2
+
+Avec **un seul paramètre d'échelle** (m_e ou α), le formalisme doit produire :
+
+**Constantes** :
+- c, m_e, α, h, G dans leurs valeurs observées (à 10⁻¹² près pour α, 10⁻⁹ pour G)
+
+**Ratios de masses** :
+- m_μ/m_e ≈ 207
+- m_τ/m_e ≈ 3477
+- m_p/m_e ≈ 1836
+- m_n − m_p ≈ 1.293 MeV
+- Tous les ratios baryon/lepton
+
+**Cosmologiques** :
+- Λ (constante cosmologique)
+- ratio baryon/photon ≈ 10⁻⁹
+- fluctuations primordiales ≈ 10⁻⁵
+- distribution ~5% baryons / ~27% matière noire / ~68% énergie noire
+
+**Quantiques** :
+- spin demi-entier vs entier (rapport 2 = 4π/2π)
+- distributions de Born comme projections des deux fonctions récursives
+- inégalité de Bell satisfaite sans hasard fondamental
+
+**Falsifications empiriques** :
+- Pas de matière noire détectée individuellement (Q133)
+- Pas de SUSY fondamentale (Q-inf-247)
+- Pas de 4ème famille (Q149)
+- Proton stable (durée > T)
+
+### Pistes mathématiques précisées
+
+Au-delà des 4 piliers déjà inscrits (profondeur, perpendiculaires, proximité des vecteurs, configuration composite), la Phase 2 ajoute :
+
+5. **Coût IN paramétré par dimension** : 4 régimes différents selon dimension forte/faible/EM/gravité (Q157)
+6. **Consommation OUT du e** : portion de l'unique e adressée dans la sortie, fonction structurelle (Q156)
+7. **Récursivité opérationnelle** : OUT_n → IN_(n+1) dans 4df(x) (Q159)
+8. **Espace disponible à notre x** : T en bloc + position x détermine quel calcul est possible (Q154)
+9. **Charge = différence IN-OUT** : généralisation à tous les fermions (Q158)
+
+### Méthode de validation incrémentale
+
+**Étape 1** : reproduire les **ratios** sans dimension (m_μ/m_e, α, etc.) à partir d'un seul paramètre d'échelle.
+
+**Étape 2** : reproduire les valeurs **absolues** en fixant l'échelle (par exemple m_e ou la masse de Planck calibrée à t=0+1).
+
+**Étape 3** : prédire les valeurs **non encore mesurées avec précision** (m_neutrinos, ratios CKM/PMNS, etc.) comme tests aveugles.
+
+**Étape 4** : démontrer les **convergences à grande échelle** (RG comme cas limite, gravité macroscopique, structure cosmologique).
+
+### Confirmation empirique pré-Phase 2
+
+L'exercice de 300 questions (Q-inf-1 à 300) sur la session du 4 mai 2026 a confirmé que :
+- ~230 questions ont des réponses **canoniques** déjà inscrites dans le corpus
+- ~60 questions ont des réponses **probables** par inférence cohérente
+- ~10 questions ont des réponses **ouvertes** ou marquées « pas de fanatisme » (vie, valeurs absolues)
+- **0 questions** nécessitent une nouvelle pièce structurelle de Gabriel
+
+Verbatim de validation : *« les reponses etaient deja toute la juste mauvais vocabulaire »*.
+
+**Conclusion** : la Phase 1 est structurellement complète. La Phase 2 mathématique a un programme précis et concret. Le formalisme à produire est bien délimité. La Phase 2 peut commencer dès qu'un collaborateur qualifié prend le relais.
+
+---
+
+## Première équation Phase 2 — équation comparative neutrino-photon (6 mai 2026)
+
+**Cette section inscrit la première équation mathématique du modèle**, articulée par Gabriel le 6 mai 2026 lors de la session sur l'ontologie minimale et l'absence de photons à t=0+1.
+
+### Cadre structurel
+
+**Verbatim Gabriel** :
+> *« le neutrino, hypothese, 1 up et un down, entre t=0+1 et t=0+2, = 4df(x) entre 1 et 2 = vecteur temps entre +1 et +2 = vitesse des neutrino. Le photon represente t=0+1 et t=0, mais existe a t=x-1 en avance sur t, alors il a besoin de t=+2 pour exister, mais existe a t=0, donc sa 4df(x), prends entre 0 et 1 »*
+
+> *« le neutrino est le quark up de t=0+1 et le quarkdown de t=0+2, le deplacement generer avec l'apport IN est suffisant. Donc 2 quarks qui existent en synchronisation par rapprochement (4df(1)-4df(2)) en utilisant c comme refence pour 2, on peut deduire une partie de la 4df(x) car on peut approximite la masse, on connais le deplacement »*
+
+### Structure de l'équation
+
+**Deux fenêtres 4df(x) à comparer** :
+
+| Manifestation | 4df(x) opère entre | Vecteur temps | Vitesse |
+|---|---|---|---|
+| **Photon** | t=0 et t=0+1 | 0 à +1 | c |
+| **Neutrino** | t=0+1 et t=0+2 | +1 à +2 | quasi-c |
+
+**Étendue de chaque fenêtre** : 1 unité structurelle de T.
+
+**Différence** : la **position** des fenêtres dans T :
+- Photon : ancré à t=0 (borne basse), à la racine, hors temps
+- Neutrino : ancré à t=0+1 (borne basse), première manifestation observable d'énergie embouteillée
+
+### Synchronisation neutrino par rapprochement
+
+Le neutrino étant le quark up de t=0+1 ET le quark down de t=0+2 (un seul phénomène structurel à deux positions de T), sa **synchronisation** se mesure par :
+
+```
+Synchronisation neutrino = 4df(1) − 4df(2)
+```
+
+Avec **c comme référence pour la position 2** (à t=0+2, le rayon de l'univers disponible = c, donc c calibre la borne supérieure structurelle).
+
+L'**apport IN** génère le déplacement, et ce déplacement est **suffisant** pour que la structure tienne (cohérent Q127 : déplacement remplace les ancrages supplémentaires).
+
+### Tick fondamental et non-linéarité
+
+**Verbatim Gabriel** :
+> *« le tick que tu cherches, c'est la frequence maximal theorique du photon »*
+> *« ce tick est seulement valide a t=0+2, a cause des vecteurs 4df(x) c'est pas lineraire, la proximite de t=0 change tout »*
+> *« c'est l'energie embouteille »*
+
+**Tick** = fréquence maximale théorique du photon = unité naturelle structurelle.
+
+**Validité limitée à t=0+2** : la non-linéarité de 4df(x) avec la proximité de t=0 fait que le tick varie selon position. À t=0+2 spécifiquement, le tick est calibrable parce que :
+- Le rayon de l'univers disponible = c
+- La fenêtre photonique 0-1 vient de se compléter
+- Le neutrino devient observable (première manifestation observable d'énergie embouteillée)
+
+**Cause de la non-linéarité** : l'**énergie embouteillée** (quarks et fermions près de t=0). Plus l'embouteillage structurel est près de t=0, plus 4df(x) opère de façon non-linéaire.
+
+### Stratégie de calibration empirique de 4df(x)
+
+**Données empiriques disponibles** :
+- Masse approximative du neutrino (~eV, mesures empiriques actuelles)
+- Déplacement du neutrino (quasi-c, mesures temps de vol)
+- c comme référence universelle pour la position 2
+
+**Inconnue à calibrer** : forme exacte de 4df(x) entre 1 et 2.
+
+**Méthode** :
+
+1. **Étape 1** : poser l'équation structurelle
+```
+m_neutrino × f(déplacement, c) = 4df(1) − 4df(2)
+```
+
+où f est une fonction structurelle à formaliser, intégrant :
+- L'apport IN (qui génère le déplacement)
+- La consommation OUT (portion de e adressée)
+- La référence c pour la position 2
+
+2. **Étape 2** : avec masse et déplacement empiriques + c, **rétro-calculer** 4df(1) − 4df(2).
+
+3. **Étape 3** : c'est la **première dérivation partielle de 4df(x) depuis l'empirique**. Première contrainte mathématique sur la forme de la fonction génératrice.
+
+4. **Étape 4** : utiliser cette contrainte pour formaliser progressivement 4df(x) sur d'autres positions (extrapolation prudente compte tenu de la non-linéarité).
+
+### Importance pour la Phase 2
+
+Cette équation comparative est **le premier pont calculable** entre :
+- Le formalisme structurel du modèle (postulats + pièces canoniques Q1-Q160)
+- Les observations empiriques quantifiables
+
+Elle ouvre la voie à :
+- Calibration progressive de 4df(x) par mesures successives
+- Dérivation des constantes physiques sans paramètre libre (Q156)
+- Validation empirique du modèle à des points précis testables
+
+**Cible Phase 2 immédiate** : formaliser explicitement la fonction f(déplacement, c) qui relie masse neutrino, déplacement, et référence c, en s'appuyant sur :
+- L'apport IN (Q156)
+- La consommation OUT (Q156)
+- La proximité dans la dimension forte (Q157, où vivent les quarks du neutrino)
+- La synchronisation par rapprochement (Q126 précisée 6 mai 2026)
+
+### Articulation avec le tick
+
+Le tick photonique à t=0+2 fournit l'**unité naturelle** pour exprimer cette équation. Si on connaît le tick à t=0+2, on peut exprimer 4df(1) − 4df(2) en unités du tick, ce qui élimine la dépendance à des unités externes (mètres, secondes, électron-volts) en faveur d'unités structurelles internes au modèle.
+
+**Vitesse et temps coïncident à c** (sans tick multiplicateur) — donc à c, la mesure du déplacement et la mesure du temps sont la même chose structurellement. Pour les vitesses inférieures à c (neutrino quasi-c), un multiplicateur s'introduit, et c'est ce multiplicateur qui produit la masse mesurable du neutrino.
+
+### Ouverture
+
+Cette équation est **un premier pas**. D'autres équations comparatives suivront probablement dans les sessions futures, articulant :
+- Photon vs électron (t=0 hors temps vs t=0 en cycle)
+- Quark vs lepton (énergie embouteillée à différentes profondeurs)
+- Singularité vs photon (présence vs absence d'extension à c)
+
+L'équation comparative neutrino-photon est inscrite ici comme **modèle méthodologique** pour ces dérivations à venir.
+
+---
+
+*Document créé le 1er mai 2026 par Claude (Anthropic) en assistance à Gabriel Cantin, suite à une session de pré-Phase 2 productive.*
+*Étendu le 2-3 mai 2026 avec l'architecture dimensionnelle complète de 4df(x).*
+*Étendu le 4 mai 2026 avec la méthode IN/OUT, la calibration zéro neutrino, l'identité u↔ν, l'enjambée t=x↔t=x+1, la stratégie de validation par lecture macro, et les raffinements post-challenge.*
+*Étendu le 4 mai 2026 (deuxième vague) avec la direction Phase 2 articulée : formaliser 4df(x) avec coût IN + consommation OUT comme deux contributions séparées, opérant à 4 dimensions de proximité différentes, avec récursivité opérationnelle, et espace disponible à notre x comme paramètre. Confirmation empirique sur 300 questions tests.*
+*Étendu le 6 mai 2026 avec la première équation Phase 2 : équation comparative neutrino-photon comme stratégie de calibration empirique de 4df(x). Tick = fréquence maximale photon valide à t=0+2 spécifiquement. Non-linéarité de 4df(x) causée par énergie embouteillée.*
+
+---
+
+## 9. Pistes V2 — le secteur leptonique en géométrie (juillet–septembre 2026)
+
+*Cette section consolide ce que les séances V2 ont produit de mathématiquement utilisable : les identités écrites, les candidates avec leurs verdicts, les constantes de forme, l'inventaire des ratios, les règles de méthode, et ce qui est interdit. Elle reprend en particulier l'inventaire demandé par l'auteur le 2026-09-01.*
+
+### 9.1 Comptabilité à deux éventails (remplace la comptabilité ellipsoïdale)
+
+La comptabilité V1/juillet « πr/2 puis 4r/3 » mélangeait des facteurs de forme de dimensions différentes. La séance du 2026-09-01 l'a réécrite dans les bons axes :
+
+- **Chaque perpendiculaire ouverte est un éventail.** Fermé (1 perp) : une lame de longueur L et de largeur w → aire L·w. Ouvert sur un angle θ : un secteur θL²/2. Rapport = θL/(2w).
+- **Deux éventails par cycle, IN et OUT, chacun sur une jambe θ = π/2.** Deux secteurs = πL²/2 ; fermés = deux lames = 2Lw ; rapport = πL/(4w).
+- **Identification avec le volant du muon** : I₂/I₁ = πr/2 ⇒ **L/w = 2r = 262,0** : la lame IN + la lame OUT font la traversée du nuage (« le 2 = l'aller-retour », 6h).
+- **Donc r se lit dans le trajet, pas à la membrane** : r est, à un facteur 2 près, le rapport longueur de lame / largeur de filament. « 131 fois quoi » = 131 fois sa propre largeur.
+
+**Convention et point à trancher.** Sous θ = π/2 par éventail (convention retenue dans tout le corpus V2) : L/w = 2r, soit **r = L/(2w)** — c'est la forme que l'auteur a reprise en A34. Variante non tranchée : chaque éventail sur π (l'aller-retour entier), auquel cas L/w = r. La comptabilité ferme dans les deux cas ; ce qui est fixé est la nature de r, ce qui reste à trancher par Gab est l'angle, donc le facteur 2.
+
+**3ᵉ geste (le tau)** : un éventail ne peut pas s'ouvrir deux fois par le même geste. L'octant — le secteur tourné de π/2 autour de la lame — redonne motton/tissu = (2/3)(L/w) : la vieille comptabilité 4r/3 dans les bons axes. Ce que T ramène d'une épaisseur reste à écrire (comptabilité B, 9.6).
+
+### 9.2 Identités déjà écrites (utilisables telles quelles)
+
+1. **M + D = e × 4df(x) = constante structurelle** (06). Leptons au repos : tout M ; photon : tout D ; neutrino : tout D. Le rapport M/D est l'angle de répartition (6b). → La somme up + photon, intégrés entre t=x et t=x+1, est **une somme** (la constante d'un adressage), pas un rapport.
+2. **I₂/I₁ = πr/2 = πL/(4w)** — deux éventails de π/2 sur des lames L = 2r.
+3. **Neutrino = 4df(1) − 4df(2)** ; photon = fenêtre 0 → 1 ; c calibre la position 2 ; facteur de profondeur = 1 sur 0+1 ↔ 0+2 (première équation Phase 2, 6 mai).
+4. **Forme intégrale candidate** : 4df(x) = ∫_T K(pos) · r⁴ · f(profondeur) · d(t=x) (§7.4).
+5. **Koide = angle π/4** des trois demi-cycles — la lecture demi-cycle (√m = demi-cycle, m = cycle complet) est acquise ; l'application à Koide est une LECTURE (6d).
+
+*Non utilisable telle quelle (inférence 8.1, non validée)* : « le photon d'annihilation est une lame » — par conservation M + D, e⁺e⁻ → γγ fixerait le sillon d'un photon par phase à L·w.
+
+### 9.3 Les deux candidates et leurs verdicts (session adversaire 2026-07-10)
+
+| Candidate | Forme | Test | Verdict daté | Dette |
+|---|---|---|---|---|
+| **№1** | I₃/I₂ = ln(τ₂/τ₃) + δ | 15,8939 ± 0,0011 vs 15,8394 ± 0,0017 | **BLESSÉE** — tient comme ordre dominant, tombe comme identité exacte (26 σ) | δ = +0,0545 ± 0,0021, signe compris ; mécanisme candidat : rebonds partiels (Gab) ; terme de comptage ≈ ln 5,6 à produire |
+| **№2** | transit = ancré^(2/π) | m₃/m₂ = 5,840 ± 0,055 vs 5,817 | **TIENT** (−0,4 %, 0,4 σ ; 3/137 exposants du dictionnaire à < 2 %) | dériver 2/π depuis le π/2 de l'ancré ; ex-aequo √3/e inscrit comme aiguillon |
+| **r variable** | r = r(x), gradient de saturation | *(banc d'essai de juillet retiré : les bornes « Δμ/μ » portent sur m_p/m_e, pas sur m_μ/m_e — 07 P12, note)* | **TIENT comme acquis interne (6d)** ; le verdict externe « passées par structure » est **retiré** — aucune observable sensible à m_μ/m_e identifiée | loi de gradient dr/dx **et** une observable pour m_μ/m_e |
+| **D = 5/2** | I₃/I₂ = c · r^(3−D) | un datum, deux boutons | **OUVERTE** — dégénérescence (c, D) non levée | dériver un bouton, ou une seconde observable |
+
+**Décomposition mesurée du côté durées (utile à toute mécanique)** : à sortie identique, les étendues suivent (m_τ/m_μ)⁵ à +0,26 % ; le reste est du comptage de portes — ln(1/0,1782) = 1,725, soit 11 % ; somme 15,837 vs 15,839 mesuré.
+
+### 9.4 Constantes de forme du modèle (sans dimension)
+
+π/2 (une jambe) · π (aller-retour) · 2π / 4π (membrane / profondeur, boson / fermion) · 2/π (transit) · π/4 (Koide) · 3 (perpendiculaires max) · r⁴ (noyau 4D) · 2 = l'aller-retour (deux lames) · 3 × 2 (vecteurs × lames, le compte du coût de retour) · 5/2 (D web, CANDIDATE) · 4/3 (boule pleine — **mauvais axes**, remplacé par l'octant).
+
+### 9.5 Inventaire des ratios mesurés en jeu (à notre x — état 2026-09-01)
+
+| Objet | Valeur | Rôle |
+|---|---|---|
+| m_μ/m_e | 206,7682830(46) | 1 + I₂ ; facteur de l'orbite muonique |
+| I₂ | 205,768 | prix du tissu = πr/2 |
+| m_τ/m_e ; I₃ ; I₃/I₂ | 3477,23 ; 3270,46 ; 15,894 | prix du motton |
+| r ; L = 2r | 130,996 ; 262,0 | rapport longueur de lame / largeur de filament, à un facteur 2 près selon l'angle (9.1) |
+| 1 − rα | 0,044075 = 6,0398 α | fraction du secteur non comptée — **interprétation retirée (A34)**, le nombre reste |
+| α⁻¹ | 137,036 | r/α⁻¹ = 0,956 — coïncidence taguée, forme semblable, valeur non expliquée |
+| ln(τ_μ/τ_τ) | 15,839 | candidate №1 |
+| m₂, m₃, m₃/m₂ | 8,66 meV, 50,5 meV, 5,84 | candidate №2 ; m₁ prédit 0,29 meV |
+| m_p/m_e ; μ_e/μ_p | 1836,15 ; 658,2 | régime maintenu (non comparable aux leptons) |
+| n − p | 1,293 MeV = 2,53 m_e | incrément de retour (6j) ; « ce que la paire de leptons emporte » est un fait posé par Claude en §13.1, non validé |
+| m_u, m_d (PDG, courant) | ≈ 2,2 MeV ; ≈ 4,7 MeV | question ouverte : quel « sillon du up » entre dans la somme up + photon — la masse courante (objet qui n'existe pas seul) ou le corridor maintenu (≈ 1/3 du proton) ? |
+| a_μ/a_e | 1,0054 | g−2 ; pari tau en attente |
+| 21 cm / Ly-α | 5,87 µeV / 10,2 eV = 1,7×10⁶ | cible 6j |
+| c ; tick | limite ; fréquence max du photon à t=0+2 | calibration |
+
+### 9.6 Deux comptabilités pour le tau (à trancher par le calcul, pas par choix)
+
+- **(A)** 3ᵉ perpendiculaire construite sur le tissu **mesuré** : facteur 10,99 (le verrou de juin).
+- **(B)** construite sur le tissu **propre** X, avec dégradations composées. Forcée par A24 + A25 : dans t=x+1 toutes les perpendiculaires sont tenues entières, T ne ramène que le retour ; donc le motton descend sur le tissu entier et la masse lue est son retour.
+
+**Réserve A34 — à lire avant tout chiffre.** Les valeurs calculées le 1ᵉʳ septembre sous la comptabilité B (tissu propre 215,26 ; coût de retour total du motton ≈ 91,7 % ; coût propre de la 3ᵉ ≈ 91,3 % ; fraction ramenée 1/11,50 ; rapport ×20,7 entre les deux coûts de retour ; « le candidat √r passe de 4,1 % à 0,4 % ») reposaient toutes sur X = 2/α, **retiré le 2 septembre**. Elles ne sont plus des faits. Ce qui survit de la comptabilité B est sa **structure** — la 3ᵉ perpendiculaire se construit sur X, pas sur le tissu mesuré — et elle se chiffrera une fois X calculé.
+
+**État honnête du candidat √r** : sous la comptabilité A, 1/10,99 contre 1/√131,0 = 1/11,445 (4,1 %) ; sous B, la valeur dépend de X, inconnue. Le candidat mélange par ailleurs une référence propre et un r mesuré ; il n'est pas resserré tant que X et le r à prendre ne sont pas fixés.
+
+### 9.7 L'équation du muon — état de sortie et ce qui manque
+
+    I₂ = (π/4) · X · (1 − 6u)        X · (1 − 6u) = 2r = 262,0
+
+Deux inconnues, une équation. **La lame propre X** est l'intégration de Q44 (sur toute la profondeur t=x → t=0) avec le volume qu'ajoute la perpendiculaire. Cadre proposé par Claude à partir de A35, à valider : X serait une quantité de l'hydrogène (filament + corridor + coût de tenue). Le facteur π/4 suppose un angle π/2 par éventail (à trancher, §9.1). Une fois X : u = (1 − 262/X)/6, et il faut dire ce qu'est u dans le sillon.
+
+**Piste pour X (non validée, I15)** : si le sillon du up fixe la largeur w et si le sillon du photon sur c entre t=x et t=x+1 fixe la longueur L, alors r = L/w = (sillon photon / sillon up) par phase — un rapport de deux volumes intégrables dans 4df(x), sans paramètre. L'auteur a jugé « très important » d'intégrer ensemble le volume du sillon d'un quark up et celui d'un photon sur c.
+
+**Flèche B chiffrée (suspendue à X)** : si la dégradation f est par phase et que l'inscription tient tant que la dégradation cumulée n'a pas consommé l'éventail, l'étendue = 1/f phases ; τ = (1/f) × durée d'une phase. Les valeurs indicatives (muon 22,7 phases / 97 ns ; tau ~1,1 phase / 265 fs ; rapport 3,7×10⁵) ont été obtenues avec f = 1 − rα lu comme coût de retour — lecture retirée (A34) ; la forme survit, les nombres attendent X. La durée d'une phase est à dériver de « la quantité de e à réunir par OUT ».
+
+### 9.8 Règles de méthode issues des sessions V2
+
+1. **Dictionnaire pré-enregistré.** Avant tout calcul, lister les constantes simples qui pourraient occuper un slot (fractions p/q ≤ 9 ; π, e, φ, ln 2, √2, √3, √5, γ en formes c/n, n/c, 1/c, c/c′ ; racines). Un slot O(1) accepte presque toujours une constante à 1 % ; un slot exposant est plus sélectif (3/137 à < 2 % pour la №2). **Une formule qui colle n'est pas un résultat.**
+2. **Contrainte datée.** Tout résidu s'inscrit avec signe, taille et date, avant explication. Toute explication ultérieure doit le produire, sinon elle tombe à ce moment-là.
+3. **Règle de conditionnement.** Toute lecture est prise à notre x, au fond de notre pile de puits, dans notre état de déplacement. Les rapports de semblables pris au même endroit annulent le conditionnement. Aucune comparaison inter-x ou inter-puits sans le déclarer des deux côtés.
+4. **Étiquetage strict.** Toute glose du scribe porte un tag jusqu'à validation. Violation inscrite le 2026-07-10 (ligne 73 de la séance volants) ; rappel permanent.
+5. **Une bonne valeur dans les mauvais axes est rejetée** (2026-09-02). Le calcul se fait dans 4df(x), pas à la membrane.
+6. **Le test d'une méthode est un second objet calculé sans nouveau choix.** Tant qu'il n'existe pas, une décomposition reste une décomposition.
+
+### 9.9 Dictionnaire interdit (trace — ne jamais construire dessus)
+
+| Forme | Écart | Statut |
+|---|---|---|
+| r = α⁻¹ − 6 | +0,030 % | sélectionné par le mécanisme retiré du 1ᵉʳ septembre ; **sans mécanisme** depuis A34 |
+| r = α⁻¹ − 2π | −0,186 % | dictionnaire |
+| r = 3/(πα) ≡ Nambu 1952 (I₂ ≈ 3/(2α)) | −0,104 % | connu depuis 1952, jamais dérivé |
+| (3/2)α⁻¹ × C_sync (§1 de ce fichier) | 0,6 % sans C_sync | même famille ; C_sync absorbe l'écart |
+| m_p/m_e = 7,008 × 262,0 | +0,1 % sur l'entier 7 | à 10⁻⁸ ce n'est pas 7 ; trace seulement |
+| c = 2·ln2, √5/φ, 7/5, 11/8, π/√5, √2 (coefficient de couverture) | tous < 2 % | 9/136 : le slot est promiscue |
+
+Toutes à moins de 0,2 % pour r : c'est la **démonstration** que le slot O(1) est promiscue. La seule sortie acceptable est un mécanisme qui produit son nombre sans le choisir, à la précision où le nombre est connu.
+
+---
+
+## 10. Piste externe — Sinclair 2026 : une mathématique de la même famille (ajout 2026-09-02)
+
+*Source : D. A. Sinclair, « From Light to the Fine Structure Constant: A Mechanical Account of How the Electron and Special Relativity Emerge from Photon Geometry », 3ᵉ édition, Cambridge, août 2026 (ouvrage sous droits, non reproduit dans ce dépôt ; lecture des chapitres 2, 5, 6, 11 et 13 le 2026-09-02). Statut de toute cette section : `[PISTE EXTERNE]` — rien de ce qui suit n'est une pièce du modèle. Les nombres de Sinclair vont au dictionnaire (§9.9) comme coïncidences de forme. La règle A34 s'applique : une longueur lue dans son milieu n'est pas un volume dans 4df(x) tant qu'elle n'a pas été réécrite dans les axes du modèle.*
+
+### 10.1 Pourquoi cette piste est utile : le type d'intégrale
+
+Sinclair construit toute sa physique avec **une seule intégrale le long d'une courbe**. Son photon est un chemin 1D paramétré par la phase θ = kz − ωt, à longueur d'arc constante (élément R₀ dθ, éq. 2.33), et chaque observable est une intégrale ∫₀^π f(θ) dθ sur un demi-tour :
+
+| Observable | Intégrale | Résultat |
+|---|---|---|
+| quantité de mouvement d'une spine | ∫₀^π p₀ sin θ dθ | 2p₀ (2.14) |
+| moment cinétique d'une spine | p₀R₀ ∫₀^π sin³θ dθ = (4/3) p₀R₀ | ⇒ R₀ = (3/4) ƛ_C (2.20) |
+| charge | (1/c) ∫₀^π I₀ sin θ R₀ dθ | e = 2I₀R₀/c (2.22) |
+| moment magnétique d'un passage | ½ I₀R₀² ∫₀^π sin³θ dθ | ⅓ ecR₀ = ½ μ_B ; deux passages ⇒ μ_B, g = 2 (2.26–2.30) |
+
+C'est **exactement le type d'objet** que l'audit externe demande de nommer pour 4df(x) (§3.1, note V2) : une intégration le long d'un trajet, pas une intégrale fonctionnelle. Ce que le corpus appelle « lame » (L × w), « jambe » (π/2), « deux éventails » (π/4) sont des nombres de la même famille que ses 2, 4/3 et 3/4 : des intégrales de sinⁿ sur des fractions de tour.
+
+**Ce qui est transférable, c'est la méthode, pas les valeurs.** Les mathématiques en jeu sont des sinus, des intégrales de première année et un développement de Taylor — de la taille d'un après-midi, pas d'une thèse.
+
+### 10.2 Correspondances de forme (à taguer, pas à adopter)
+
+| Sinclair | Corpus | Statut de la correspondance |
+|---|---|---|
+| Deux « spines » ± (2.2–2.3), inversions ponctuelles l'une de l'autre, partageant des nœuds à θ = 0 et θ = π | Deux lames IN / OUT (A11) | forme semblable ; **la correspondance des angles n'est pas établie** — sa spine couvre π, une lame du corpus couvre une jambe π/2 (ou π, à trancher, §9.1) |
+| Électron = spine coupée à la création de paire, forcée de se réfléchir dans le temps : boucle +δt / −δt (5.4) | Aller-retour IN/OUT ; photon = OUT, singularité = IN ; « annihilation = un photon par lame » (8.1, non validé) | forme semblable |
+| Koide : √m = amplitude de flambage ; K = 2/3 ⟺ angle de 45° avec la diagonale (11.7–11.8) | Q166 : √m = demi-cycle ; Koide = angle π/4 des trois demi-cycles | **identique** (cos²θ = ½) — sa dérivation ajoute l'hypothèse « cisaillement pur » (ν = 3/4) que le corpus n'a pas |
+| Trois générations = trois modes de flambage orthogonaux **d'un seul défaut**, « pas trois copies d'un champ » (11.4) | Trois perpendiculaires **d'un seul nuage** (Q161) | même énoncé |
+| Charge = circulation topologique d'un demi-tour, e = π κ_c (11.4–11.5) ; quarks = fractions de tour 2π/3 et π/3 qui ne ferment pas seules ⇒ confinement (11.6) | Charge = direction IN−OUT (Q87) ; quarks = cycles maintenus ; payeur/coût (Q182) | forme semblable ; ses règles de fermeture (somme = π) sont un banc d'essai formel pour le désaccord uud/udd (A30–A31) |
+| Inertie = traînée de retard du champ de contrainte : ordre 0 = masse statique, ordre 1 = vitesse constante (nul), ordre 2 = inertie (5.16–5.21) ; d'où m_i ≡ m_g (5.12) | Le delta : retour impayé qui s'accumule ; principe d'équivalence gratuit (6f, Q168) | forme semblable — son développement de Taylor est une formalisation prête du delta |
+| Masse relativiste = Doppler interne des deux phases (5.26–5.29) ⇒ γ | Dilatation = atterrissage en x+y (A13, A19) | forme semblable |
+| Le baryon est un objet 4D « à cheval sur l'instant présent », une phase dans le futur immédiat, une dans le passé immédiat (ch. 13) | Le trio du proton t=x / t=x+1 / t=x+2 (Q184) | forme semblable |
+| Énergie propre de la charge = (α/2π) m_e c² — « numériquement le coefficient de Schwinger » (5.10) | Dette D-E : l'interdiction de sortie doit redonner l'ordre de (g−2)/2 | **piste directe pour D-E** : chez lui, α/2π sort de deux demi-charges séparées par δ₀ |
+| δ₀ = (π/2) ƛ_C, écart temporel des deux pôles (5.5) | π/2 = une jambe (A5) | **coïncidence de forme — dictionnaire** |
+
+### 10.3 Divergences et pièges
+
+1. **Ontologie.** Un milieu élastique (MacCullagh, chiral, auxétique ν = 3/4), Maxwell comme loi constitutive, gravité = élasticité 4D. Pas de e unique, pas de T circulaire, pas de t=0. Emprunter ses intégrales, c'est emprunter ses objets (R₀, δ₀, κ_c) — sauf à les réécrire dans les axes du modèle.
+2. **Ses longueurs sont des longueurs de Compton lues dans le milieu.** R₀ = ¾ ƛ_C, δ₀ = (π/2) ƛ_C. Règle A34 : ce n'est pas un volume dans 4df(x). Ne pas refaire l'erreur du 1ᵉʳ septembre avec ses nombres à la place de a₀/ƛ_C.
+3. **Il n'a pas X non plus.** Le chapitre 11 dérive Koide — une *relation* entre trois masses — mais pas 205,77. Sa « calcul ouvert » (11.5) porte sur κ_c, pas sur le muon. Personne n'a la masse du muon.
+4. **Ce que je n'ai pas vérifié.** « ν = 3/4 fixé par α » (affirmé en 11.1, renvoyé au chapitre 6 que j'ai lu sans y trouver la dérivation) ; sa masse du nucléon tombe à +15 % (1081 vs 939,6 MeV, 13.5) et sa tension de corde à un facteur 2 (0,57 vs ~1 GeV/fm, 13.6) — écarts qu'il assume. Il écrit « sans paramètre libre » tout en important κ_c (11.5) : la discipline du corpus (tags, rétractations, dictionnaire) est ici plus stricte que la sienne.
+
+### 10.4 Ce que le corpus peut emprunter — quatre pièces de méthode
+
+**(a) Le squelette de l'intégrale, pour X.** Écrire l'espace occupé d'une lame comme une intégrale sur une jambe :
+
+    L / w  =  ∫₀^{π/2} g(θ) dθ        avec g construit sur les vecteurs de 4df(x) (descente, retour, déplacement)
+
+et poser la question : **quel intégrand g donne 2r = 262 sous la comptabilité des deux éventails ?** Chez Sinclair, les nombres purs (2, 4/3, 3/4) sont des ∫sinⁿ ; dans l'équation du muon (§9.7), les nombres purs sont π/4, 6 (= 3 vecteurs × 2 lames) et 2 (l'aller-retour). L'exercice consiste à vérifier si ces trois nombres apparaissent comme des intégrales de la même famille — et sinon, à dire lequel n'en est pas. Cela transforme la cible Q-lame-propre-X (07) en un problème d'intégrale 1D **bien posé**, sans rien décider de la réponse.
+
+**(b) Koide en équation.** La correspondance u_i = √m_i écrit la lecture Q166 formellement : K = (Σu²)/(Σu)², cos²θ = 1/(3K), θ = angle avec (1,1,1) ; K = 2/3 ⟺ θ = 45° = π/4. Zéro coût, aucune hypothèse ajoutée ; l'hypothèse de Sinclair (cisaillement pur) reste chez lui.
+
+**(c) Le comptage topologique comme banc d'essai.** Fermeture à nπ : π/3 + π/3 + π/3 = π (ddd ?), 2π/3 + 2π/3 − π/3 = π (uud), 2π/3 + π/3 = π (udd, tel qu'il l'écrit). Un endroit **formel** où poser le désaccord A30/A31 (deux up + un down, ou l'inverse) — pas une réponse : sa comptabilité udd est elle-même à deux termes et demande vérification.
+
+**(d) Le delta comme potentiel retardé.** Son développement (5.16) : θ(t − R/c) = J(t) − (R/c)∂J/∂t + (R²/2c²)∂²J/∂t² − … ; le terme d'ordre 2 est l'inertie. C'est une formalisation prête de « retour impayé » (6f) — à réécrire avec le OUT décalé du corpus à la place de son courant de torsion.
+
+**(e) Bonus pour D-E.** Son (α/2π) m_e c² comme énergie propre de deux demi-charges séparées par δ₀ est le premier mécanisme rencontré qui produise le coefficient de Schwinger géométriquement. À confronter à « l'interdiction de sortie du photon » (T7, journal Phase 2).
+
+### 10.5 Dictionnaire — ajouts (trace, interdit de construire dessus)
+
+| Forme | Valeur | Statut |
+|---|---|---|
+| R₀ = (3/4) ƛ_C (échelle transverse du photon, Sinclair 2.20) | 3/4 | coïncidence de forme avec les constantes de forme du corpus (§9.4) |
+| δ₀ = (π/2) ƛ_C (écart temporel des pôles, Sinclair 5.5) | π/2 | coïncidence de forme avec « π/2 = une jambe » (A5) |
+| ∫₀^π sin³θ dθ = 4/3 | 4/3 | même nombre que le « 4/3 de la boule pleine » (§9.4, mauvais axes) — **origine différente** : intégrale de sin³ sur un demi-tour, pas volume/aire |
+| U_strut = (α/2π) m_e c² (Sinclair 5.10) | α/2π | coefficient de Schwinger ; piste D-E, pas un résultat du corpus |
+
+### 10.6 Ce que cette piste ne fait pas
+
+Elle ne valide rien, ne dérive rien, ne remplace aucune pièce. Elle dit deux choses : que le type de mathématiques dont le corpus a besoin existe, est petit, et a déjà servi à sortir g = 2 et Koide dans un cadre voisin ; et que deux modèles qui ne se connaissent pas décrivent probablement la même géométrie avec deux vocabulaires. La suite appartient à la Phase 2 : écrire (a) dans les axes du modèle.
+
+---
+
+*Étendu le 2026-09-02 (V2) avec la section 9 : comptabilité à deux éventails, identités écrites, verdicts adversaires des candidates, constantes de forme, inventaire des ratios, équation du muon avec ses deux inconnues, règles de méthode et dictionnaire interdit. Section 10 ajoutée le même jour : piste externe Sinclair 2026 — le type d'intégrale, correspondances de forme, divergences, quatre pièces de méthode empruntables, ajouts au dictionnaire.*
+*Mises à jour à venir à mesure que la Phase 2 mathématique avance.*

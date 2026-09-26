@@ -6,19 +6,24 @@
 // =====================================================
 
 import { conceptByKey } from './concepts.js';
+import { pick, pickList, currentLang } from './i18n.js';
 
 const key = document.body.dataset.concept;
 const data = conceptByKey(key);
 
 if (!data) {
   document.body.innerHTML =
-    '<p style="padding:6rem 2rem;color:#a8acbf">Unknown concept: ' + (key || '(none)') + '</p>';
+    '<p style="padding:6rem 2rem;color:#a8acbf">Concept inconnu / unknown concept: ' + (key || '—') + '</p>';
 } else {
   buildConcept(data);
 }
 
 function buildConcept(data) {
-  document.title = `${data.title} — V2 — Structural cosmological model`;
+  const lang = currentLang();
+  const L = lang === 'fr' ? LABELS.fr : LABELS.en;
+  const title = pick(data.title, lang);
+  document.title = `${title} — ${L.suffix}`;
+  document.documentElement.lang = lang;
 
   // ---- Squelette ----
   document.body.innerHTML = `
@@ -33,10 +38,10 @@ function buildConcept(data) {
     <main class="from0-main">
       <div class="from0-left">
         <section class="from0-reader" id="reader" tabindex="0" aria-label="RSVP reader">
-          <span class="from0-reader-tag">RSVP · hover to control</span>
+          <span class="from0-reader-tag">${L.readerTag}</span>
           <div class="rsvp-word" id="rsvp-word"></div>
           <div class="rsvp-controls">
-            <button type="button" class="rsvp-btn" id="rsvp-toggle">Pause</button>
+            <button type="button" class="rsvp-btn" id="rsvp-toggle">${L.pause}</button>
             <label class="rsvp-speed">
               <input type="range" id="rsvp-speed" min="80" max="600" step="10" value="150" aria-label="Reading speed">
               <span id="rsvp-wpm">150 wpm</span>
@@ -45,31 +50,32 @@ function buildConcept(data) {
           </div>
         </section>
         <section class="from0-fulltext">
-          <h2>Full text</h2>
+          <h2>${L.fullText}</h2>
           <div class="from0-text" id="from0-text"></div>
           <p class="from0-note" id="c-note"></p>
         </section>
       </div>
       <aside class="from0-right">
         <div class="from0-images" id="from0-images">
-          <span class="from0-images-tag">Images</span>
+          <span class="from0-images-tag">${L.images}</span>
           <div class="from0-images-controls">
-            <button type="button" class="img-btn" id="img-pause" title="Pause / play images">Pause</button>
-            <button type="button" class="img-btn" id="img-max" title="Maximize">⤢ Maximize</button>
+            <button type="button" class="img-btn" id="img-pause" title="${L.imgToggleTitle}">${L.pause}</button>
+            <button type="button" class="img-btn" id="img-max" title="${L.maximize}">⤢ ${L.maximize}</button>
           </div>
-          <div class="from0-images-empty" id="from0-images-empty" hidden>Images will fade in here.</div>
+          <div class="from0-images-empty" id="from0-images-empty" hidden>${L.imagesEmpty}</div>
         </div>
       </aside>
     </main>
   `;
 
   // ---- En-tête : badge notation + titre + sous-titre + note ----
-  document.getElementById('c-tag').textContent = data.tag;
-  document.getElementById('c-title').textContent = data.title;
-  document.getElementById('c-sub').textContent = data.sub ? `— ${data.sub}` : '';
-  document.getElementById('c-note').textContent = data.note || '';
+  const sub = pick(data.sub, lang);
+  document.getElementById('c-tag').textContent = pick(data.tag, lang);
+  document.getElementById('c-title').textContent = title;
+  document.getElementById('c-sub').textContent = sub ? `— ${sub}` : '';
+  document.getElementById('c-note').textContent = pick(data.note, lang) || '';
 
-  const phrases = data.phrases || [];
+  const phrases = Array.isArray(data.phrases) ? data.phrases : pickList(data.phrases, lang);
   const images = data.images || [];
 
   // ---- Texte complet : une phrase par ligne ----
@@ -80,15 +86,43 @@ function buildConcept(data) {
     textBox.appendChild(p);
   }
 
-  initReader(phrases);
-  initImages(images);
+  initReader(phrases, L);
+  initImages(images, L);
 }
+
+// Libellés d'interface du lecteur, par langue.
+const LABELS = {
+  fr: {
+    suffix: 'V2 — Modèle cosmologique structurel',
+    readerTag: 'RSVP · survoler pour contrôler',
+    pause: 'Pause',
+    play: 'Lire',
+    fullText: 'Texte complet',
+    images: 'Images',
+    imagesEmpty: 'Les images apparaîtront ici en fondu.',
+    imgToggleTitle: 'Pause / lecture des images',
+    maximize: 'Plein écran',
+    close: 'Fermer',
+  },
+  en: {
+    suffix: 'V2 — Structural cosmological model',
+    readerTag: 'RSVP · hover to control',
+    pause: 'Pause',
+    play: 'Play',
+    fullText: 'Full text',
+    images: 'Images',
+    imagesEmpty: 'Images will fade in here.',
+    imgToggleTitle: 'Pause / play images',
+    maximize: 'Maximize',
+    close: 'Close',
+  },
+};
 
 // =====================================================
 // Lecteur RSVP : phrase grisée, mot courant éclairé,
 // confirmation de fin de phrase, boucle ambiante.
 // =====================================================
-function initReader(phrases) {
+function initReader(phrases, L) {
   const wordEl = document.getElementById('rsvp-word');
   const toggleBtn = document.getElementById('rsvp-toggle');
   const speedInput = document.getElementById('rsvp-speed');
@@ -153,7 +187,7 @@ function initReader(phrases) {
   }
   function setPlaying(on) {
     playing = on;
-    toggleBtn.textContent = on ? 'Pause' : 'Play';
+    toggleBtn.textContent = on ? L.pause : L.play;
     if (on) { step(); } else { clearTimeout(timer); }
   }
 
@@ -170,7 +204,7 @@ function initReader(phrases) {
 // =====================================================
 // Images en fondu (crossfade ambiant) + pause / maximize.
 // =====================================================
-function initImages(images) {
+function initImages(images, L) {
   const stage = document.getElementById('from0-images');
   const empty = document.getElementById('from0-images-empty');
   const imgPauseBtn = document.getElementById('img-pause');
@@ -201,8 +235,8 @@ function initImages(images) {
     startImages();
 
     imgPauseBtn.addEventListener('click', () => {
-      if (imgTimer) { stopImages(); imgPauseBtn.textContent = 'Play'; }
-      else { startImages(); imgPauseBtn.textContent = 'Pause'; }
+      if (imgTimer) { stopImages(); imgPauseBtn.textContent = L.play; }
+      else { startImages(); imgPauseBtn.textContent = L.pause; }
     });
   }
 
@@ -215,6 +249,6 @@ function initImages(images) {
     }
   });
   document.addEventListener('fullscreenchange', () => {
-    imgMaxBtn.textContent = document.fullscreenElement ? '⤡ Close' : '⤢ Maximize';
+    imgMaxBtn.textContent = document.fullscreenElement ? `⤡ ${L.close}` : `⤢ ${L.maximize}`;
   });
 }

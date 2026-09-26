@@ -26,6 +26,17 @@ export const CATEGORIES = {
     cover: '../images/C7_4dfx_lecture_profondeur.png',
     subs: ['blackhole', 'light', 'movement', 'timedilation', 'observation'],
   },
+
+  sillon: {
+    tag: 'V2',
+    title: { fr: 'Le sillon', en: 'The furrow' },
+    blurb: {
+      fr: 'Corpus V2 — le sillon, l\'éventail, le coût de retour, les quatre deltas, le trio du proton.',
+      en: 'V2 corpus — the furrow, the fan, the cost of return, the four deltas, the proton trio.',
+    },
+    cover: '../images/B2_quatre_forces.png',
+    subs: ['sillon', 'eventail', 'cout', 'deltas', 'trio'],
+  },
 };
 
 export function categoryByKey(key) {

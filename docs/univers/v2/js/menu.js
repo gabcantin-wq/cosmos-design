@@ -6,6 +6,7 @@
 
 import { CONCEPTS } from './concepts.js';
 import { CATEGORIES } from './categories.js';
+import { pick } from './i18n.js';
 
 function buildCard({ href, tag, title, blurb, cover, isCategory }) {
   const a = document.createElement('a');
@@ -37,7 +38,14 @@ export function renderCategories(mount, keys) {
       cover = first && first.images && first.images[0];
     }
     mount.appendChild(
-      buildCard({ href: `category-${key}.html`, tag: cat.tag, title: cat.title, blurb: cat.blurb, cover, isCategory: true })
+      buildCard({
+        href: `category-${key}.html`,
+        tag: pick(cat.tag),
+        title: pick(cat.title),
+        blurb: pick(cat.blurb),
+        cover,
+        isCategory: true,
+      })
     );
   }
 }
@@ -49,7 +57,13 @@ export function renderConcepts(mount, keys) {
     if (!c) continue;
     const cover = c.cover || (c.images && c.images[0]) || '';
     mount.appendChild(
-      buildCard({ href: `concept-${key}.html`, tag: c.tag, title: c.title, blurb: c.blurb || c.sub || '', cover })
+      buildCard({
+        href: `concept-${key}.html`,
+        tag: pick(c.tag),
+        title: pick(c.title),
+        blurb: pick(c.blurb) || pick(c.sub) || '',
+        cover,
+      })
     );
   }
 }

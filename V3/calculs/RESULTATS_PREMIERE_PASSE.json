@@ -1,0 +1,77 @@
+{
+  "scope": "Calculs conditionnels, tests de comparaison et non-identifiabilite ; aucune masse derivee de 4df.",
+  "inputs": {
+    "electron_mass_MeV_c2": 0.51099895069,
+    "muon_electron_ratio": 206.7682827,
+    "proton_electron_ratio": 1836.152673426,
+    "tau_mass_MeV_c2": 1776.93,
+    "muon_lifetime_s": 2.1969811e-06,
+    "tau_lifetime_s": 2.903e-13,
+    "Bohr_radius_m": 5.29177210544e-11
+  },
+  "mass_bookkeeping": {
+    "muon_mass_from_ratio_MeV_c2": 105.65837549567328,
+    "tau_electron_ratio": 3477.3652619063464,
+    "tau_muon_ratio": 16.81769184566694,
+    "I2": 205.7682827,
+    "I3": 3270.5969792063465,
+    "I3_over_I2": 15.894563225639178
+  },
+  "historical_geometry": {
+    "effective_X_theta_pi_over_2": 261.99231458588423,
+    "effective_X_theta_pi": 130.99615729294212,
+    "r_V2": 130.99615729294212,
+    "families_pi_over_2": [
+      {
+        "u": 0,
+        "X": 261.99231458588423
+      },
+      {
+        "u": 0.01,
+        "X": 278.7152282828556
+      },
+      {
+        "u": 0.05,
+        "X": 374.27473512269177
+      },
+      {
+        "u": 0.1,
+        "X": 654.9807864647106
+      }
+    ],
+    "not_new_cycle_count": true
+  },
+  "reduced_mass_external": {
+    "radius_ratio_e_over_mu": 185.94204646191864,
+    "inverse_ratio": 0.005378019759531916,
+    "Bohr_scale_e_m": 5.2946540946024625e-11,
+    "Bohr_scale_mu_m": 2.8474754340658607e-13,
+    "relative_difference_from_mass_ratio": -0.10072258649213688,
+    "mass_times_radius_mu_over_e": 1.1120039100050811,
+    "jacobian_determinant_mass_plus_predicted_radius": "0"
+  },
+  "adversarial_equal_increments": {
+    "tau_prediction_MeV_c2": 210.80575204065656,
+    "relative_residual": -0.8813651905023515,
+    "status": "REJETE pour cette hypothese seulement ; ne refute pas toutes les geometries V3."
+  },
+  "adversarial_constant_cost_times_lifetime": {
+    "predicted_tau_lifetime_s": 1.3822217501743597e-07,
+    "predicted_over_observed": 476135.6356094935,
+    "status": "REJETE pour le produit constant avec increments I2/I3."
+  },
+  "symbolic_checks": {
+    "sector_ratio": true,
+    "continuous_X_u_family": true,
+    "radius_mass_rank_deficiency": true,
+    "kinematics_identity_and_limits": true,
+    "conditional_survival": true
+  },
+  "uncomputed": [
+    "muon mass from structure",
+    "tau mass from structure",
+    "neutrino masses",
+    "intrinsic lifetime from structure",
+    "surface-to-additional-cycle map"
+  ]
+}

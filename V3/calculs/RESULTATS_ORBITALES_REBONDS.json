@@ -1,0 +1,232 @@
+{
+  "status": "PASS — comptages et contre-exemples vérifiés",
+  "cases": [
+    {
+      "atom": "He-4",
+      "Z": 2,
+      "N": 2,
+      "subshells": [
+        {
+          "subshell": "1s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        }
+      ],
+      "occupied_subshells": 1,
+      "closed_subshells": 1,
+      "candidate_U_per_column": 2,
+      "candidate_D_per_column": 2,
+      "candidate_single_rebounds": 2,
+      "candidate_double_rebounds": 0,
+      "doubles_equal_closed_subshells": false,
+      "source": "https://physics.nist.gov/PhysRefData/Handbook/Tables/heliumtable1.htm"
+    },
+    {
+      "atom": "Au-197",
+      "Z": 79,
+      "N": 118,
+      "subshells": [
+        {
+          "subshell": "1s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "2s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "2p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "3s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "3p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "3d",
+          "electrons": 10,
+          "capacity": 10,
+          "closed": true
+        },
+        {
+          "subshell": "4s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "4p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "4d",
+          "electrons": 10,
+          "capacity": 10,
+          "closed": true
+        },
+        {
+          "subshell": "5s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "5p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "4f",
+          "electrons": 14,
+          "capacity": 14,
+          "closed": true
+        },
+        {
+          "subshell": "5d",
+          "electrons": 10,
+          "capacity": 10,
+          "closed": true
+        },
+        {
+          "subshell": "6s",
+          "electrons": 1,
+          "capacity": 2,
+          "closed": false
+        }
+      ],
+      "occupied_subshells": 14,
+      "closed_subshells": 13,
+      "candidate_U_per_column": 92,
+      "candidate_D_per_column": 105,
+      "candidate_single_rebounds": 79,
+      "candidate_double_rebounds": 13,
+      "doubles_equal_closed_subshells": true,
+      "source": "https://physics.nist.gov/PhysRefData/Handbook/Tables/goldtable1.htm"
+    },
+    {
+      "atom": "Pt-195",
+      "Z": 78,
+      "N": 117,
+      "subshells": [
+        {
+          "subshell": "1s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "2s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "2p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "3s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "3p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "3d",
+          "electrons": 10,
+          "capacity": 10,
+          "closed": true
+        },
+        {
+          "subshell": "4s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "4p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "4d",
+          "electrons": 10,
+          "capacity": 10,
+          "closed": true
+        },
+        {
+          "subshell": "5s",
+          "electrons": 2,
+          "capacity": 2,
+          "closed": true
+        },
+        {
+          "subshell": "5p",
+          "electrons": 6,
+          "capacity": 6,
+          "closed": true
+        },
+        {
+          "subshell": "4f",
+          "electrons": 14,
+          "capacity": 14,
+          "closed": true
+        },
+        {
+          "subshell": "5d",
+          "electrons": 9,
+          "capacity": 10,
+          "closed": false
+        },
+        {
+          "subshell": "6s",
+          "electrons": 1,
+          "capacity": 2,
+          "closed": false
+        }
+      ],
+      "occupied_subshells": 14,
+      "closed_subshells": 12,
+      "candidate_U_per_column": 91,
+      "candidate_D_per_column": 104,
+      "candidate_single_rebounds": 78,
+      "candidate_double_rebounds": 13,
+      "doubles_equal_closed_subshells": false,
+      "source": "https://physics.nist.gov/PhysRefData/Handbook/Tables/platinumtable1.htm"
+    }
+  ],
+  "Au_spatial_orbitals_in_configuration_description": {
+    "doubly_occupied": 39,
+    "singly_occupied": 1,
+    "occupied_total": 40
+  },
+  "algebra": "Sous les hypothèses du chapitre 11 : R1=Z, R2=(N-Z)/3.",
+  "verdict": "La règle universelle R2=nombre de sous-couches fermées échoue pour He-4 et Pt-195.",
+  "scope": "Le lien général proposé par Gabriel reste ouvert ; aucune géométrie, occupation ou dynamique de 4df dérivée."
+}
