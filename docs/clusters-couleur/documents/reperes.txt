@@ -1,7 +1,7 @@
 CLUSTERS COULEUR — REPÈRES DE LECTURE
 Édition publique du 5 novembre 2026
 
-La page documentaire est une introduction destinée au grand public. Son compagnon guide-public.txt reprend son contenu complet. La page « La vision en grand » est une présentation satirique et prospective ; son texte complet figure dans vision-publique.txt.
+La page documentaire est une introduction destinée au grand public. Son compagnon guide-public.txt reprend son contenu complet. L’accueil Qubit propose une présentation commerciale des Clusters Couleur ; son texte complet figure dans vision-publique.txt, avec les observations et les perspectives dans leur portée.
 
 Ces éditions publiques sont préparées à partir du dossier de travail des 3 et 4 novembre 2026 :
 - Fondations et usages.
@@ -13,6 +13,8 @@ Ces éditions publiques sont préparées à partir du dossier de travail des 3 e
 - SDK, SysML v2, ITIL et oTickets.
 - Mémoire, expérience et itérations.
 - Scénario Québec, annexe prospective.
+
+La présentation commerciale intègre aussi la consolidation « ClusterCouleur — Référence complète pour les LLM conversationnels », édition du 5 novembre après révision Claude. Elle précise notamment les responsabilités, la réception du résultat par le partenaire et la mesure du bénéfice lors du réemploi.
 
 Les précisions de Gabriel Cantin du 4 novembre sont intégrées : coopération simultanée au sein d’un établissement et entre établissements ; patrimoine transmis selon un accord explicite ; missions distinctes au sein d’une même couleur ; séparation de l’identité et des données de santé dans un exemple ; suivi du contexte traité, du temps, des itérations et des débits.
 
