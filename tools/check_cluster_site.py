@@ -1,6 +1,6 @@
 """Check local links, fragments, metadata, images and capture declarations.
 
-Only the commercial homepage, documentation and aliases are inspected. Existing Univers content
+The commercial homepage, hardware, documentation and aliases are inspected. Existing Univers content
 is used as a link target but is not rewritten or re-qualified by this check.
 """
 from html.parser import HTMLParser
@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 from build_cluster_captures import START, END, gallery_markup
 
 ROOT = Path(__file__).resolve().parents[1] / 'docs'
-PAGES = ['index.html', 'clusters-couleur/index.html', 'clusters-couleur/vision/index.html', 'cosmos/index.html']
+PAGES = ['index.html', 'materiel/index.html', 'clusters-couleur/index.html', 'clusters-couleur/vision/index.html', 'cosmos/index.html']
 
 class Inspect(HTMLParser):
     def __init__(self):
@@ -103,7 +103,7 @@ for relative, channel in [('clusters-couleur/index.html', 'documentation'), ('in
         if text.count(START) != 1 or text.count(END) != 1 or text.split(START)[1].split(END)[0] != gallery_markup(manifest):
             errors.append('Documentary gallery is stale: run tools/build_cluster_captures.py')
 ET.parse(ROOT / 'sitemap.xml')
-for name in ('cluster-mark.svg', 'cluster-field.svg', 'qubit-wordmark.svg', 'qubit-symbol.svg', 'qubit-cooperation.svg', 'qubit-cooperation-mobile.svg'): ET.parse(ROOT / 'assets' / name)
+for name in ('cluster-mark.svg', 'cluster-field.svg', 'qubit-wordmark.svg', 'qubit-symbol.svg', 'qubit-cooperation.svg', 'qubit-cooperation-mobile.svg', 'hardware-landscape.svg'): ET.parse(ROOT / 'assets' / name)
 home = (ROOT / 'index.html').read_text(encoding='utf-8')
 if re.search(r'href="/(univers|cosmos|clusters-couleur)/', home):
     errors.append('Commercial homepage links to a separate page')
