@@ -1,167 +1,318 @@
 CLUSTERS COULEUR — ÉDITION PUBLIQUE DU 5 NOVEMBRE 2026
-Présentation Qubit, satirique et prospective, sans affiliation à Cohere. Les capacités envisagées ne sont pas déclarées toutes opérationnelles.
+Présentation commerciale Qubit. Les observations, les exemples et les perspectives conservent leur portée et leurs conditions de qualification.
 
 Qubit / Clusters Couleur
 
-Un cluster.
-De la suite
-dans les idées.
+L’expérience reste.
+Le travail avance.
 
-Des fonctions qui se parlent. Des acquis qui restent. Une mission qui traverse les changements de modèle. Voici le futur que nous travaillons à construire.
+Les Clusters Couleur réunissent des agents spécialisés, une mémoire d’expérience et des outils autour d’une mission commune avec vos équipes.
 
-Explorer la vision ↓ (#capacites) Examiner les acquis ↗ (#reperes)
-[Illustration : Composition conceptuelle des fonctions réunies autour d’une mission.]
-La coopération, représentée · Schéma conceptuel
+Une approche pour relier le savoir-faire aux opérations, conserver ce qui a été appris et faire évoluer les pratiques dans un cadre maîtrisé.
 
-Une architecture de coopération. Cette illustration ne représente pas un tableau de bord d’exploitation.
+Découvrir les bénéfices ↓ (#valeur) Voir le fonctionnement ↗ (#parcours)
 
-Mémoire Mission Coopération Continuité
+Le point de départ : votre organisation
 
-Des fonctions avec un métier
+Faire durer le savoir-faire.
+Le remettre au travail.
 
-Le collectif mérite
-son propre onglet.
+Le cluster est pensé comme un partenaire durable : une mission, des responsabilités et des acquis qui traversent les changements d’outils et de modèles.
 
-Quatre façons de comprendre la vision. Les schémas décrivent les relations recherchées ; les repères ci-dessous précisent ce qui a été éprouvé.
+01 / CAPITALISER
 
-La mémoire La coopération Les fonctions L’évolution
+Retrouver ce qui a déjà été compris.
 
-La vision · Mémoire d’expérience
+Conserver les sources, les méthodes et les corrections utiles pour aider la prochaine équipe ou la prochaine intervention.
 
-Le capital
-qu’on garde.
+L’objectif : moins de connaissances perdues entre deux tâches.
 
-Retrouver ce qui a déjà été compris. Préserver les sources, les erreurs corrigées et les conditions d’application. Réserver l’inférence nouvelle aux questions qui la demandent.
+02 / COORDONNER
 
-Les modèles changent ; les acquis de l’agent doivent pouvoir continuer à servir sa mission.
+Relier le besoin à l’action.
 
-Comprendre le réemploi ↗ (#reperes) Une question dans son contexte ↓ Un acquis retrouvé et réévalué ↓ Une suite utile à la mission Schéma conceptuel
+Mobiliser les fonctions compétentes, suivre leur travail et vérifier le résultat dans le contexte de la mission.
 
-Le rappel et l’applicabilité restent deux vérifications distinctes.
+L’objectif : une continuité entre information, décision et opération.
 
-La vision · Patrimoine et portées
+03 / MAÎTRISER
 
-Le savoir circule.
-Avec une adresse.
+Évoluer sans perdre ses repères.
 
-Partager une spécialisation utile, conserver un incident dans le bon établissement et faire travailler des expertises distinctes. Un collectif n’exige pas une mémoire ouverte à tout le monde.
+Identifier les versions, les responsabilités et les conditions d’adoption avant de modifier un processus partagé.
 
-L’accord entre partenaires définit le patrimoine transmis ; la mission et les droits déterminent les usages.
+L’objectif : des pratiques cohérentes entre équipes et établissements.
 
-Situer cet exemple ↗ (#reperes) Établissement X · 25 clusters ↕ Un acquis partageable · Un accord ↕ Établissement Y · 25 clusters Scénario pédagogique
+Du besoin au résultat
 
-Les informations locales gardent leur portée propre.
+Une mission mobilise
+tout un collectif.
 
-La vision · Agents spécialisés
+Une demande métier, un incident ou une amélioration à explorer suit un parcours commun. Chaque étape garde le contexte utile à la suivante.
 
-Chacun son rôle.
-Et son reçu.
+01
 
-Virtualiser avec les fonctions d’oMachine. Rechercher avec oWWW et oRadar. Suivre le travail dans oTickets. Donner aux agents des mécanismes communs avec le SDK.
+Observer
 
-La fonction rend un résultat dont on peut retrouver le contexte, la version et la preuve d’effet.
+Recueillir le besoin, l’état du système et les faits disponibles.
 
-Situer les capacités ↗ (#reperes) Besoin · Méthode · Fonction ↓ Exécution dans le mandat ↓ Effet observé · Résultat évalué Schéma conceptuel
+02
 
-Une acceptation de commande ne remplace pas l’observation du résultat.
+Retrouver
 
-La vision · Évolution contrôlée
+Rappeler les acquis pertinents et vérifier qu’ils s’appliquent encore.
 
-Faire grandir
-la bonne version.
+03
 
-Des idées mûrissent dans IdeaLane. Les réalisations et leurs liens sont conservés dans la COOP génétique. Les variantes sont éprouvées avant leur adoption dans une portée précise.
+Agir
 
-Les partenaires gardent des pratiques compréhensibles, tandis que le patrimoine continue à s’enrichir.
+Coordonner les agents et les outils dans leur mandat.
 
-Lire les repères ↗ (#reperes) Idée · Variante identifiée ↓ Essais · Validation · Décision ↓ Adoption · Version reçue Schéma conceptuel
+04
 
-Une nouvelle connaissance n’adopte pas silencieusement un processus.
+Vérifier
 
-Notre prochain
-tour de table ?
-Relire les résultats.
+Observer l’effet et le comparer au résultat attendu.
 
-Un clin d’œil au grand théâtre des présentations IA. Les chiffres, eux, restent dans leur contexte.
+05
 
-Des voies de développement
+Capitaliser
 
-Plusieurs couleurs.
-Des missions bien à elles.
+Conserver la méthode, le résultat et les limites pour la suite.
 
-Ces familles illustrent les usages envisagés. Elles ne représentent pas un parc d’établissements déjà équipé.
+Un résultat utile devient un acquis retrouvable. Une anomalie relance le diagnostic et la correction.
+
+Découvrir les fonctions du collectif ↓ (#capacites)
+
+L’ensemble du cluster
+
+Des fonctions spécialisées.
+Une mission commune.
+
+Le collectif associe mémoire, orchestration, administration, réalisation et validation. Ces rôles se complètent dans le périmètre retenu.
+
+[Illustration : Mémoire, fonctions, coopération et évolution sont reliées autour de la mission du cluster.]
+Architecture de coopération · Schéma conceptuel
+
+La mission relie les fonctions ; chaque fonction conserve sa responsabilité.
+
+Capitaliser
+Réaliser
+Coopérer
+Évoluer
+
+La mémoire d’expérience
+
+Votre expérience
+reste mobilisable.
+
+Une résolution utile conserve ses sources, son contexte et ses conditions d’application. Le cluster peut la retrouver et la réévaluer avant de refaire le travail.
+
+oMem, oIntello et les fonctions documentaires portent des responsabilités complémentaires de conservation, de curation et de transmission. Les acquis appartiennent au parcours du cluster, au-delà du modèle utilisé à un instant donné.
+
+Voir les éléments mesurés ↗ (#reperes) Une situation et ses sources ↓ Un acquis retrouvé et réévalué ↓ Une suite adaptée à la mission Parcours de réemploi
+
+La pertinence d’un acquis se vérifie au moment de son utilisation.
+
+Les fonctions et les outils
+
+De l’information
+à l’effet utile.
+
+oMachine porte la virtualisation ; oWWW et oRadar, la recherche web ; les agents d’administration, les systèmes et le réseau. oDoctor relie le diagnostic à la réparation par les fonctions compétentes.
+
+Le SDK apporte des mécanismes communs. SysML relie la description du système aux exigences et aux essais. oTickets conserve le cheminement du travail et de ses résultats.
+
+Voir des parcours d’usage ↗ (#missions) Besoin · Contexte · Résultat attendu ↓ Fonction compétente · Outil admis ↓ Effet observé · Résultat évalué Parcours de réalisation
+
+Une commande acceptée et un résultat vérifié sont deux étapes distinctes.
+
+Les missions et les portées
+
+Partager l’expertise.
+Respecter le contexte.
+
+Des clusters spécialisés peuvent coopérer au sein d’un établissement et entre partenaires. Une méthode utile à plusieurs équipes n’a pas la même portée qu’un incident propre à un site.
+
+Les accords de partage, les missions et les droits déterminent ce qui circule. La couleur donne un repère de famille ; elle ne définit pas à elle seule une expertise ou un accès.
+
+Comprendre le cadre de coopération ↗ (#maitrise) Établissement X · Missions locales ↕ Une spécialisation · Un accord de partage ↕ Établissement Y · Missions locales Scénario de coopération
+
+Partager une spécialisation ne rend pas toutes les données communes.
+
+L’amélioration et la transmission
+
+Faire progresser
+les bonnes pratiques.
+
+IdeaLane organise la maturation des idées. La COOP génétique conserve les variantes, leurs liens et leurs versions. Les essais et la validation préparent une adoption dans une portée définie.
+
+L’interface, la mémoire et les processus peuvent évoluer à des rythmes distincts. Une connaissance nouvelle ne remplace pas silencieusement une pratique commune protégée.
+
+Voir les conditions d’évolution ↗ (#maitrise) Idée · Variante identifiée ↓ Essais · Validation · Décision ↓ Adoption · Version reçue Parcours d’évolution
+
+Construire, publier et adopter gardent des décisions distinctes.
+
+Les rôles qui composent ce collectif.
+
+Une lecture de l’architecture, à qualifier fonction par fonction pour chaque mission.
+
+Observer et impulser
+
+Connaître l’état des ressources et faire émerger les suites utiles.
+
+oQuorum · oDemon
+
+Orchestrer
+
+Relier les demandes, les responsabilités et le contexte du travail.
+
+oMaster
+
+Administrer et réparer
+
+Entretenir les systèmes, le réseau et la continuité de service.
+
+oSysAdmin · oNetAdmin · oDoctor
+
+Réaliser et valider
+
+Construire, éprouver et conserver les preuves des changements.
+
+oDev · SDK · oTest · oVnV
+
+Capitaliser et transmettre
+
+Rendre les acquis retrouvables, compréhensibles et réutilisables.
+
+oMem · oIntello · oDOC
+
+Suivre et améliorer
+
+Garder la trace des besoins, des idées et des résultats.
+
+oTickets · IdeaLane · COOP génétique
+
+Des points d’entrée métier
+
+Commencer par
+un problème concret.
+
+Ces exemples illustrent des parcours à construire et à qualifier dans le contexte d’une organisation.
+
+CONTINUITÉ DES OPÉRATIONS
+
+Un service ralentit.
+
+Rassembler les observations, retrouver un incident comparable, mobiliser la fonction compétente, puis vérifier le rétablissement.
+
+À suivre : délai de résolution, reprises nécessaires et méthode conservée.
+
+TRANSMISSION DU SAVOIR-FAIRE
+
+Une expertise change d’équipe.
+
+Retrouver les procédures et leur contexte, expliquer les choix antérieurs, puis conserver les adaptations validées.
+
+À suivre : couverture documentaire, temps de recherche et qualité du réemploi.
+
+COOPÉRATION ENTRE SITES
+
+Une méthode devient utile ailleurs.
+
+Partager une spécialisation entre partenaires tout en conservant les informations et les incidents propres à chacun.
+
+À suivre : bénéfice de la méthode partagée, respect des portées et cohérence des versions.
+
+Explorer les familles de missions
+
+Les couleurs représentent des familles d’usage envisagées. Plusieurs clusters de même couleur peuvent servir des missions différentes ; un site peut en accueillir plusieurs.
 
 GRIS · Hôpitaux
 
-Faire coopérer des fonctions spécialisées et conserver des processus communs rigoureux.
+Fonctions spécialisées et processus communs rigoureux.
 
 VERT · Écoles
 
-Relier les besoins des lieux d’apprentissage à une mémoire et à des missions propres.
+Mémoire et missions liées aux lieux d’apprentissage.
 
 MAUVE · Centres locaux
 
-Des expertises adaptées aux CLSC et aux petits centres, avec leurs portées d’information.
+Expertises adaptées aux CLSC et aux petits centres.
 
 BLEU · Services publics
 
-Coordonner des missions au sein des édifices et des centres de services.
+Coopération au sein des édifices et des centres de services.
 
 JAUNE · Maisons
 
-Explorer un cluster à l’échelle du foyer et des besoins de ses habitants.
+Missions à l’échelle du foyer et de ses habitants.
 
 NOIR · Transport
 
-Des voies de coopération pour le ferroviaire, le métro et les infrastructures routières.
+Ferroviaire, métro et infrastructures routières.
 
-La couleur est un repère de famille. Plusieurs clusters d’une même couleur peuvent remplir des missions distinctes ; les accords et les droits ne se déduisent pas de cette couleur.
+Le cadre de votre mission
 
-Les moyens et les effets
+Des moyens adaptés.
+Des responsabilités claires.
 
-Moins de grand récit.
-Plus de mémoire.
+La valeur d’un collectif dépend aussi de ce qu’il peut faire, des informations qu’il peut utiliser et de la manière dont ses pratiques évoluent.
 
-L’ambition : faire davantage avec l’expérience conservée, des gestes ciblés et des fonctions qui travaillent ensemble.
+Un périmètre explicite
 
-Pour en juger, il faut regarder les ressources engagées, le temps, le contexte traité, la qualité et les reprises. Un budget annoncé ne mesure pas à lui seul la valeur d’un système.
+Définir les outils, les données, les fonctions et les droits utiles à la mission. Les validations humaines et les responsabilités gardent leur place.
 
-Lire les repères de mesure ↗ (#reperes)
+Une infrastructure répartie
 
-Une ambition, un cap commun
+Le cluster associe des ressources de calcul, de données et d’administration. Serveurs, nœuds d’inférence et environnements usagers contribuent selon leur rôle.
 
-Moins recommencer.
-Plus construire ensemble.
+Une croissance préparée
 
-Des agents spécialisés. Une mémoire qui garde les acquis utiles. Des évolutions que l’on peut comprendre, éprouver et adopter. C’est cette intelligence coopérative que les Clusters Couleur cherchent à faire grandir.
+L’éclosion établit la mission par dialogue. La mitose prépare un nouveau cluster avec des instructions, des relations et un patrimoine défini ; les droits se vérifient séparément.
 
-Explorer les capacités ↗ (#capacites)
+Le bon contexte.
+Le bon effort.
+Pour le bon résultat.
 
-L’ambition garde ses repères
+L’approche spectrale adapte la profondeur de traitement au geste demandé. Le réemploi de la mémoire vise à réduire les reconstructions inutiles ; ses gains se mesurent sur les cas de la mission.
 
-Une vision claire.
-Des faits situés.
+Les acquis et les prochaines mesures
 
-Cette présentation expose une direction de développement. Les exemples et les observations conservent leur date et leur portée.
+Une ambition soutenue
+par des observations.
 
-Mémoire : que montre le cas documenté ?
+Le cluster se développe à partir de fonctions et de parcours existants. Chaque témoin garde son contexte ; le périmètre d’une nouvelle mission reste à qualifier.
+
+Mémoire : un acquis retrouvé et réutilisé
 
 Le diagnostic historique du 13 septembre 2026 compte 875 tokens : 343 en entrée et 532 en sortie. Le rappel de cet acquis, exécuté le 4 novembre dans une mémoire de laboratoire, n’a pas demandé de nouvelle génération. La lecture, l’évaluation et le stockage conservent leur coût informatique.
 
-Cent occurrences du même cas vérifient la stabilité du réemploi ; elles ne représentent pas cent expériences différentes. Les gains sur des situations variées et la cible de 500 itérations en 3 à 5 heures restent à mesurer.
+Cent occurrences du même cas vérifient la stabilité du réemploi ; elles ne représentent pas cent expériences différentes. Les gains sur des situations variées se mesurent à qualité conservée.
 
-Coopération : pourquoi plusieurs missions dans un même lieu ?
+Fonctions : des parcours techniques documentés
 
-Dans l’exemple de deux hôpitaux, chacun réunit 25 clusters. Une spécialisation utile peut être partagée entre établissements, tandis qu’un incident local garde sa portée. Deux clusters de même couleur peuvent avoir des missions et des droits distincts.
+Le dossier préparatoire contient notamment un parcours pilote de naissance, une reprise de trois machines virtuelles observée en octobre 2026 et des essais SDK et SysML. Une partie des essais d’adaptateur utilise un fournisseur simulé. Ces observations ne constituent pas une activation générale de toutes les fonctions.
 
-Les familles de couleur et les usages sectoriels présentés ici sont des voies de développement. Ils ne constituent pas un inventaire de déploiements existants.
+Travail prolongé : mesurer contexte, temps et qualité ensemble
 
-Fonctions et évolution : qu’est-ce qui est établi ?
+Le principe est de conserver un corpus important et de travailler par ensembles ciblés en gardant la continuité entre les itérations. La cible de 500 itérations en 3 à 5 heures reste à éprouver. Son évaluation doit associer contexte unique parcouru, tokens cumulés, temps, itérations et qualité obtenue.
 
-Le dossier préparatoire contient notamment un parcours pilote de naissance, une reprise de trois machines virtuelles observée en octobre 2026 et des essais SDK et SysML. Une partie des essais d’adaptateur utilise un fournisseur simulé. Ces observations ne prouvent pas que toutes les fonctions sont actives partout.
+Repères issus des éditions documentaires des 3 et 4 novembre 2026. Les cas sectoriels présentés sont des exemples de développement, et non un inventaire d’installations existantes.
 
-Une idée, une réalisation testée et son adoption sont des étapes distinctes. L’apprentissage conserve des acquis ; un changement de processus suit son propre parcours de validation.
+Votre prochain pas
 
-Pastiche indépendant des présentations de plateformes IA, inspiré notamment de Cohere. Aucune affiliation. Cette vision prospective n’affirme pas une équivalence globale de performance, de coût ou de service. Repères issus des éditions documentaires des 3 et 4 novembre 2026.
+Partons d’une mission.
+Et d’un résultat observable.
+
+Un processus à fiabiliser, une expertise à conserver ou une coopération à organiser : le premier périmètre se construit autour d’un besoin métier précis.
+
+Nommer le problème et les équipes concernées.
+
+Identifier les outils, les données et les limites d’intervention.
+
+Choisir les résultats à mesurer et les conditions d’adoption.
+
+Préparer votre fiche de mission ↓ (https://parti-orange.com/assets/fiche-mission-qubit.txt)
 
 Repères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt

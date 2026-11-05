@@ -10,7 +10,7 @@ de captures brutes, de secrets ou de copie du corpus interne.
 - `docs/clusters-couleur/index.html` : découverte grand public sans comparaison
   avec une entreprise, fonctions, mémoire, coopération, évolution et preuves.
 - `docs/clusters-couleur/vision/index.html` : ancienne adresse commerciale,
-  redirigée vers l'accueil. La présentation reste satirique et prospective.
+  redirigée vers l'accueil commercial.
 - `docs/cosmos/index.html` : alias direct vers l'Univers existant.
 - `docs/assets/site.css`, `site.js` et les SVG : socle partagé, sans dépendance ni
   suivi externe. Les contenus restent lisibles sans JavaScript.
@@ -44,6 +44,12 @@ branche de travail ne remplace pas le déploiement de la production. Préparer e
 relire la réalisation avant l’intégration dans `main`.
 
 ## Deux rythmes de publication
+
+Correction éditoriale de Gab du 5 novembre 2026 : la page commerciale présente
+le cluster et sa valeur pour une organisation, sans se définir par référence à
+un concurrent ou commenter les intentions de son ton. Le parcours relie les
+bénéfices, le fonctionnement, les rôles natifs, les usages, la maîtrise et le
+cadrage d'une première mission. Les faits mesurés gardent leur portée.
 
 Décision de Gab du 5 novembre 2026 : la documentation suit l'évolution du cluster
 et de oMaster ; la présentation commerciale reste plus stable et soignée.

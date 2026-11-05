@@ -1,0 +1,37 @@
+QUBIT — CLUSTERS COULEUR
+Fiche de cadrage d'une première mission — novembre 2026
+
+Cette fiche sert à préparer un échange et à rendre un premier périmètre concret.
+Elle ne constitue ni un devis, ni une promesse de disponibilité d'une fonction.
+
+1. LE BESOIN
+Quel problème veut-on résoudre ? Pour quelles équipes ou quels usagers ?
+Comment est-il traité aujourd'hui ? Quelles conséquences observe-t-on ?
+
+2. LE PÉRIMÈTRE
+Quels sites, processus et systèmes sont concernés ?
+Quels outils et quelles données sont nécessaires ?
+Quelles informations doivent rester propres à une équipe ou à un établissement ?
+
+3. LES RESPONSABILITÉS
+Qui porte la mission et qui peut décider de ses changements ?
+Quelles actions demandent une validation humaine ?
+Quelles limites d'intervention faut-il respecter ?
+
+4. LES ACQUIS DISPONIBLES
+Quelles procédures, résolutions antérieures et sources peut-on réutiliser ?
+Quelle est leur date, leur provenance et leur portée ?
+Quelles connaissances demandent une vérification actuelle ?
+
+5. LE RÉSULTAT ATTENDU
+Quel résultat observable permettrait de juger le travail utile ?
+Quelle situation de départ servira de comparaison ?
+Quels indicateurs suivra-t-on : qualité, délai, couverture, reprises, ressources ?
+
+6. L'ADOPTION ET LA SUITE
+Quelles fonctions doivent être qualifiées pour ce périmètre ?
+Quelles conditions permettent l'adoption, l'arrêt ou le retour à la version précédente ?
+Quels acquis faudra-t-il conserver ou partager après l'expérience ?
+
+Coordonnées et notes à compléter par les partenaires :
+

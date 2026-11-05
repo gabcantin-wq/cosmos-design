@@ -89,4 +89,35 @@
  .qubit .industry-grid{grid-template-columns:1fr}.qubit .industry{min-height:0;padding:26px}.qubit .industry .color-dot{margin-bottom:22px}.qubit .proof-band{padding:32px 24px}.qubit .proof-band h2{font-size:1.55rem}.qubit .proof-band p{font-size:.9rem}
  .qubit .footer-grid{grid-template-columns:1fr 1fr}.qubit .footer-grid>div:first-child{grid-column:1/-1}.qubit .source-note{font-size:.7rem}
 }
+.qubit .hero-support{max-width:700px;margin:20px auto 0;color:var(--muted);font-size:.96rem}
+.qubit .value-grid,.qubit .use-case-grid,.qubit .trust-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.qubit .value-card,.qubit .use-case-grid>article{padding:30px;border:1px solid var(--line);background:white}
+.qubit .card-number{display:block;color:var(--qubit-blue);font-size:.65rem;font-weight:750;letter-spacing:.08em;margin-bottom:26px}
+.qubit .value-card h3,.qubit .use-case-grid h3,.qubit .trust-grid h3{font-size:1.15rem;line-height:1.5}
+.qubit .value-card p,.qubit .use-case-grid p,.qubit .trust-grid p{font-size:.91rem;color:var(--muted)}
+.qubit .card-outcome{border-top:1px solid var(--line);padding-top:20px;margin-top:24px;font-size:.8rem!important;color:var(--qubit-blue)!important}
+.qubit .mission-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;list-style:none;margin:38px 0 24px;padding:0;border-left:1px solid #cbd7e6}
+.qubit .mission-flow li{border:1px solid #cbd7e6;border-left:0;background:white;padding:25px 20px}
+.qubit .mission-flow li>span{display:block;font-size:.7rem;color:var(--qubit-blue);font-weight:750;margin-bottom:26px}
+.qubit .mission-flow h3{font-size:.94rem;letter-spacing:-.04em;margin-bottom:16px}
+.qubit .mission-flow p{font-size:.85rem;color:var(--muted)}
+.qubit .flow-caption{max-width:880px;font-size:.89rem;color:var(--muted)}
+.qubit .architecture-frame{margin-bottom:45px}
+.qubit .native-intro{margin-top:54px;margin-bottom:25px}
+.qubit .native-intro h3{font-size:1.25rem;line-height:1.4;margin-bottom:14px}
+.qubit .native-intro p{font-size:.85rem;color:var(--muted)}
+.qubit .native-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.qubit .native-grid article{padding:26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.qubit .native-grid h4{margin:0 0 12px;font-size:1rem;line-height:1.45}
+.qubit .native-grid p{color:var(--muted);font-size:.86rem;margin-bottom:15px}
+.qubit .native-grid small{font-size:.69rem;color:var(--qubit-blue);font-weight:700}
+.qubit .family-disclosure{margin-top:36px}
+.qubit .family-disclosure>.industry-grid{margin-top:25px}
+.qubit .family-disclosure .industry{min-height:190px}
+.qubit .trust-grid{gap:30px;margin-top:40px}
+.qubit .trust-grid article{border-top:3px solid var(--qubit-blue);padding-top:25px}
+.qubit .mission-brief{padding-left:20px;margin:27px 0;color:#c4d0df;max-width:800px;font-size:.9rem}
+.qubit .mission-brief li{padding-left:7px;margin-bottom:12px}
+@media(max-width:1000px){.qubit .mission-flow{grid-template-columns:repeat(3,minmax(0,1fr))}.qubit .native-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.qubit .value-grid,.qubit .use-case-grid,.qubit .trust-grid{gap:16px}.qubit .value-card,.qubit .use-case-grid>article{padding:23px}}
+@media(max-width:760px){.qubit .value-grid,.qubit .use-case-grid,.qubit .trust-grid{grid-template-columns:1fr;gap:20px}.qubit .mission-flow{grid-template-columns:1fr}.qubit .mission-flow li{display:grid;grid-template-columns:32px 1fr;gap:5px 14px;padding:22px}.qubit .mission-flow li>span{grid-row:1/3;margin:0;padding-top:2px}.qubit .mission-flow h3{margin:0 0 10px;font-size:1rem}.qubit .mission-flow p{grid-column:2}.qubit .native-grid{grid-template-columns:1fr}.qubit .hero-support{font-size:.9rem}.qubit .architecture-frame{margin-bottom:30px}.qubit .trust-grid{gap:30px}.qubit .native-intro h3{font-size:1.1rem}}
 @media print{.qubit .vision-hero h1{font-size:34pt}.qubit .product-panel[hidden]{display:grid}.qubit .big-quote,.qubit .proof-band{background:white;color:black;border:1px solid black}.qubit .big-quote em,.qubit .big-quote small,.qubit .proof-band p{color:black}}
