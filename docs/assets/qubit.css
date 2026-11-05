@@ -1,0 +1,92 @@
+@font-face{font-family:Unbounded;src:url('/assets/fonts/unbounded-variable.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:Manrope;src:url('/assets/fonts/manrope-variable.ttf') format('truetype');font-weight:200 800;font-display:swap}
+.qubit{--paper:#fff;--white:#fff;--ink:#080c12;--muted:#526172;--line:#d7e0ea;--mint:#eaf1f9;--blue:#eaf1f9;--lavender:#f0f3f8;--orange:#0b50a0;--qubit-blue:#0b50a0;--max:1240px;font-family:Manrope,"Segoe UI",sans-serif}
+.qubit :focus-visible{outline-color:#0b50a0}
+.qubit h1,.qubit h2,.qubit h3,.qubit .serif,.qubit .section-head h2,.qubit .product-panel h3,.qubit .proof-band h2{font-family:Unbounded,"Arial Black",sans-serif;font-weight:500;letter-spacing:-.045em;word-spacing:.04em}
+.qubit h2{font-size:clamp(1.75rem,3.5vw,3.5rem);line-height:1.24}
+.qubit .eyebrow{font-family:Manrope,sans-serif;font-weight:700;letter-spacing:.15em}
+.qubit .eyebrow:before{border-radius:0;background:var(--qubit-blue)}
+.qubit .vision-notice{background:#080c12;color:#fff;font-size:.7rem;letter-spacing:.065em;padding:10px 20px}
+.qubit .site-header{background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}
+.qubit .header-inner{min-height:100px}
+.qubit .qubit-brand{display:inline-flex;align-items:center;gap:25px;text-decoration:none;flex-shrink:0}
+.qubit .qubit-brand img{width:185px;height:auto;display:block}
+.qubit .brand-caption{font-size:.65rem;line-height:1.5;letter-spacing:.12em;text-transform:uppercase;border-left:1px solid #cbd4df;padding-left:25px}
+.qubit .site-nav{gap:27px}
+.qubit .site-nav a{font-weight:650;font-size:.83rem}
+.qubit .site-nav .nav-cta{background:var(--qubit-blue);color:white;border-color:var(--qubit-blue);border-radius:0;padding:12px 18px}
+.qubit .menu-toggle{border-radius:0}
+.qubit .vision-hero{max-width:1180px;padding:78px 0 58px}
+.qubit .vision-hero h1{font-family:Unbounded,"Arial Black",sans-serif;font-weight:600;font-size:clamp(3rem,6.4vw,6.4rem);line-height:1.11;letter-spacing:-.065em}
+.qubit .vision-hero h1 em{font-style:normal;color:var(--qubit-blue)}
+.qubit .vision-hero .lead{max-width:700px;font-size:1.15rem}
+.qubit .hero-kicker{display:inline-flex;align-items:center;gap:12px;font-size:.7rem;text-transform:uppercase;font-weight:700;letter-spacing:.12em;margin-bottom:28px}
+.qubit .hero-kicker:before{content:"";display:block;width:24px;height:5px;background:var(--qubit-blue);transform:skew(-40deg)}
+.qubit .button{background:var(--qubit-blue);border-color:var(--qubit-blue);color:white;border-radius:0;min-height:54px;font-family:Manrope,sans-serif;padding-inline:24px}
+.qubit .button:hover{background:#073b79}
+.qubit .button-light{background:white;color:var(--ink);border-color:#a4b5c7}
+.qubit .button-light:hover{background:#edf3fa}
+.qubit .vision-stage{background:#f0f5fb;border:1px solid #d0dfef;border-radius:0;min-height:0;position:relative}
+.qubit .vision-stage>img{width:100%;max-height:none;display:block}
+.qubit .vision-stage picture,.qubit .vision-stage picture img{display:block;width:100%}
+.qubit .stage-label{position:static;width:100%;padding:12px 22px;background:#fff;border-top:1px solid #d0dfef;font:600 .65rem/1.5 Manrope,sans-serif;letter-spacing:.12em;color:#526172;text-align:left}
+.qubit .capture-frame>figcaption{font-size:.75rem;margin-top:12px}
+.qubit .word-strip{font:600 .82rem Manrope,sans-serif;text-transform:uppercase;letter-spacing:.1em;justify-content:space-between;gap:20px;padding:29px 0}
+.qubit .word-strip span:before{content:"/";font-family:Unbounded,sans-serif;font-size:1.1rem;color:var(--qubit-blue);margin-right:18px}
+.qubit .section{padding-block:100px}
+.qubit .section-head>p{font-size:.93rem;max-width:330px}
+.qubit .product-tabs{gap:0;border-bottom:1px solid var(--line);margin-bottom:28px}
+.qubit .product-tabs button{border:0;border-radius:0;padding:18px 27px;background:transparent;font-weight:700;font-size:.86rem;border-bottom:3px solid transparent}
+.qubit .product-tabs button[aria-selected=true]{background:#edf3fa;color:var(--qubit-blue);border-bottom-color:var(--qubit-blue)}
+.qubit .product-panel{border-radius:0;padding:44px;border-color:#cfdbe8;gap:48px;background:#fff}
+.qubit .product-panel h3{font-size:clamp(1.7rem,2.7vw,2.8rem);line-height:1.25}
+.qubit .product-panel p{font-size:.94rem}
+.qubit .edition-label{font:600 .65rem Manrope,sans-serif;letter-spacing:.07em;text-transform:uppercase;border:0;border-left:3px solid var(--qubit-blue);border-radius:0;padding:3px 0 3px 10px;color:var(--qubit-blue)}
+.qubit .product-illustration{background:#edf3fa!important;border-radius:0;padding:35px;gap:14px;min-height:340px}
+.qubit .concept-chip{border:1px solid #c5d5e6;border-radius:0;background:white;min-width:85%;font-size:.8rem;font-weight:600;padding:16px 20px}
+.qubit .concept-chip.accent{background:var(--qubit-blue);border-color:var(--qubit-blue);color:white}
+.qubit .product-illustration>span{color:var(--qubit-blue)}
+.qubit .product-illustration small{color:#526172}
+.qubit .big-quote{border-radius:0;background:var(--qubit-blue);color:#fff;padding:65px 60px;overflow:hidden}
+.qubit .big-quote:after{content:"";position:absolute;right:-40px;top:0;width:230px;height:100%;border-left:1px solid #ffffff38;transform:skew(-25deg);pointer-events:none}
+.qubit .big-quote p{font-family:Unbounded,sans-serif;font-weight:500;font-size:clamp(1.8rem,3.7vw,3.7rem);line-height:1.3;letter-spacing:-.05em;max-width:1000px}
+.qubit .big-quote em{font-style:normal;color:#b7d9ff}
+.qubit .big-quote small{color:#d5e7ff;max-width:710px;position:relative;z-index:1}
+.qubit .tinted{background:#f3f6fa;border-block:1px solid #e0e7ee}
+.qubit .industry{border-radius:0;border-color:#d5dee9;min-height:240px;padding:28px}
+.qubit .industry h3{font-size:1.02rem;letter-spacing:-.035em;line-height:1.45}
+.qubit .industry .color-dot{border-radius:0;width:28px;height:8px;margin-bottom:32px}
+.qubit .industry p{font-size:.88rem}
+.qubit .text-link{font-size:.87rem;color:var(--qubit-blue)}
+.qubit .proof-band{border-radius:0;background:#080c12;padding:55px}
+.qubit .proof-band h2{font-size:clamp(1.8rem,3.6vw,3.4rem);line-height:1.3;max-width:950px}
+.qubit .proof-band .eyebrow:before{background:#6aaeff}
+.qubit .proof-band p{color:#c4d0df}
+.qubit .proof-band .button{background:white;color:#080c12;border-color:white}
+.qubit .proof-band .button:hover{background:#dce9fa}
+.qubit .proof-details{margin-top:36px;border-top:1px solid var(--line)}
+.qubit .proof-details details{border-bottom:1px solid var(--line);padding:24px 0}
+.qubit .proof-details summary{font-weight:700;cursor:pointer;margin-left:18px;font-size:1rem}
+.qubit .proof-details p{max-width:940px;margin:20px 0 0;color:var(--muted);font-size:.91rem}
+.qubit .site-footer{background:#080c12;color:#fff;padding-top:52px}
+.qubit .footer-grid{grid-template-columns:1.6fr 1fr 1fr}
+.qubit .footer-logo{background:white;padding:14px 18px;display:block;width:205px;margin-bottom:22px}
+.qubit .footer-logo img{width:100%;display:block}
+.qubit .footer-grid h2{font-family:Manrope,sans-serif;font-size:.72rem;letter-spacing:.12em}
+.qubit .footer-grid p,.qubit .footer-bottom{color:#a9b6c6}
+.qubit .footer-bottom{border-color:#303a47}
+.qubit .source-note{font-size:.73rem;line-height:1.7}
+@media(min-width:1600px){.qubit{--max:1360px}.qubit .vision-hero h1{font-size:7rem}}
+@media(max-width:1100px){.qubit .brand-caption{display:none}.qubit .site-nav{gap:20px}.qubit .product-panel{padding:32px;gap:30px}.qubit .product-tabs button{padding-inline:20px}}
+@media(max-width:760px){
+ .qubit .header-inner{min-height:80px}.qubit .qubit-brand img{width:155px}.qubit .site-nav{gap:0}.qubit .site-nav a{padding:12px 2px}.qubit .site-nav .nav-cta{padding:12px 16px}
+ .qubit .vision-notice{font-size:.6rem;padding:8px 16px;letter-spacing:.035em}.qubit .vision-hero{padding:48px 0 36px}.qubit .hero-kicker{font-size:.6rem;margin-bottom:25px;letter-spacing:.08em}
+ .qubit .vision-hero h1{font-size:clamp(1.85rem,7.7vw,3.4rem);line-height:1.25;letter-spacing:-.065em}.qubit .vision-hero .lead{font-size:1rem;line-height:1.75}.qubit .vision-hero .actions{gap:10px}.qubit .button{font-size:.77rem;min-height:48px;gap:18px;padding:12px 18px}
+ .qubit .word-strip{display:grid;grid-template-columns:1fr 1fr;font-size:.65rem;gap:20px;padding:25px 0}.qubit .word-strip span:before{margin-right:10px}.qubit .stage-label{font-size:.56rem;padding:10px 12px}
+ .qubit .section{padding-block:64px}.qubit h2{font-size:clamp(1.5rem,5.8vw,2.3rem);line-height:1.35}.qubit .section-head>p{max-width:100%}.qubit .product-tabs{display:grid;grid-template-columns:1fr 1fr}.qubit .product-tabs button{padding:15px 10px;font-size:.75rem}
+ .qubit .product-panel{grid-template-columns:1fr;padding:25px 21px;gap:28px}.qubit .product-panel h3{font-size:1.65rem}.qubit .product-illustration{min-height:290px;padding:25px 18px}.qubit .concept-chip{min-width:95%;font-size:.75rem;padding:13px 12px}
+ .qubit .big-quote{padding:36px 25px;margin-top:40px}.qubit .big-quote p{font-size:1.65rem;line-height:1.4}.qubit .big-quote small{font-size:.75rem}.qubit .big-quote:after{right:-140px}
+ .qubit .industry-grid{grid-template-columns:1fr}.qubit .industry{min-height:0;padding:26px}.qubit .industry .color-dot{margin-bottom:22px}.qubit .proof-band{padding:32px 24px}.qubit .proof-band h2{font-size:1.55rem}.qubit .proof-band p{font-size:.9rem}
+ .qubit .footer-grid{grid-template-columns:1fr 1fr}.qubit .footer-grid>div:first-child{grid-column:1/-1}.qubit .source-note{font-size:.7rem}
+}
+@media print{.qubit .vision-hero h1{font-size:34pt}.qubit .product-panel[hidden]{display:grid}.qubit .big-quote,.qubit .proof-band{background:white;color:black;border:1px solid black}.qubit .big-quote em,.qubit .big-quote small,.qubit .proof-band p{color:black}}

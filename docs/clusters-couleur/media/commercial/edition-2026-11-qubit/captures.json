@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "channel": "commercial",
+  "revision": "edition-2026-11-qubit",
+  "updated_on": "2026-11-05",
+  "items": [
+    {"id":"overview","src":null,"alt":null,"caption":null,"observed_on":null,"context":null},
+    {"id":"memory","src":null,"alt":null,"caption":null,"observed_on":null,"context":null},
+    {"id":"cooperation","src":null,"alt":null,"caption":null,"observed_on":null,"context":null},
+    {"id":"actions","src":null,"alt":null,"caption":null,"observed_on":null,"context":null},
+    {"id":"evolution","src":null,"alt":null,"caption":null,"observed_on":null,"context":null}
+  ]
+}

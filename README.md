@@ -10,16 +10,19 @@ Working sessions, verbatims, raw sources and internal notes are kept locally.
 ## Public website
 
 `docs/` is served at [parti-orange.com](https://parti-orange.com/) by GitHub Pages
-from `main`. The portal links to the cosmological model and the Clusters Couleur:
+from `main`. The public landing page is the Qubit presentation of Clusters Couleur.
+Other content remains reachable by direct URL, without a link from the landing page:
 
-- `/` — general portal.
+- `/` — Qubit commercial presentation; navigation stays within this page.
 - `/clusters-couleur/` — French public introduction, processes and bounded evidence.
-- `/clusters-couleur/vision/` — clearly identified satirical and prospective presentation.
+- `/clusters-couleur/vision/` — legacy address redirecting to `/`.
+- `/cosmos/` — direct alias redirecting to `/univers/`.
 - `/univers/` — existing FR/EN cosmological model and downloads.
 
 Shared portal assets live in `docs/assets/`. Documentary screenshots evolve in
 `media/documentation/`; the commercial page pins a separate selection under
-`media/commercial/edition-2026-11/`. Refresh the documentary gallery with
+`media/commercial/edition-2026-11-qubit/`. Its additional styles, provisional
+vector identity and locally served fonts live in `docs/assets/`. Refresh the documentary gallery with
 `python tools/build_cluster_captures.py`. Public text companions are generated
 from the cluster HTML with `python tools/build_cluster_texts.py`; check links and
 metadata with `python tools/check_cluster_site.py`.
