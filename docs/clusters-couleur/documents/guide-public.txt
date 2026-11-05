@@ -241,7 +241,7 @@ Suivre les mises à jour
 
 5 novembre 2026 — Première sélection de captures de oMaster : recherches mémoire, télémétrie et doctrine en cours de conception. La documentation et la vitrine disposent désormais de sélections indépendantes.
 
-Les prochaines évolutions de oMaster pourront renouveler cette galerie et les explications correspondantes. La vitrine (https://parti-orange.com/clusters-couleur/vision/) conserve une présentation choisie par édition, à un rythme plus stable. Consulter l’historique de préparation (https://github.com/gabcantin-wq/cosmos-design/commits/site/portail-clusters-20261105/docs/clusters-couleur/) .
+Les prochaines évolutions de oMaster pourront renouveler cette galerie et les explications correspondantes. La vitrine (https://parti-orange.com/clusters-couleur/vision/) conserve une présentation choisie par édition, à un rythme plus stable. Consulter l’historique des mises à jour (https://github.com/gabcantin-wq/cosmos-design/commits/main/docs/clusters-couleur/) .
 
 Quelques questions
 pour situer le projet.

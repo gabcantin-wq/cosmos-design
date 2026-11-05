@@ -111,8 +111,8 @@ opération sur un cluster vivant.
 
 Pour la séparation des publications, vérifier qu'un nouveau manifeste documentaire
 ne change pas le rendu de la vitrine, qu'une référence croisée est rejetée et
-qu'une image indisponible conserve la présentation précédente. Avant intégration
-dans `main`, actualiser le lien public vers l'historique de préparation.
+qu'une image indisponible conserve la présentation précédente. Le lien public
+vers l'historique suit `main`, qui porte les versions publiées.
 
 Les réglages de protection de `main`, de domaine et de redirection HTTPS restent
 ceux de l’hébergement existant ; cette contribution ne les modifie pas.
