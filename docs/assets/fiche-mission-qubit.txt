@@ -24,6 +24,7 @@ Quelle est leur date, leur provenance et leur portée ?
 Quelles connaissances demandent une vérification actuelle ?
 
 5. LE RÉSULTAT ATTENDU
+Quel usage doit être rétabli ou amélioré, et qui en appréciera le résultat ?
 Quel résultat observable permettrait de juger le travail utile ?
 Quelle situation de départ servira de comparaison ?
 Quels indicateurs suivra-t-on : qualité, délai, couverture, reprises, ressources ?
@@ -32,6 +33,7 @@ Quels indicateurs suivra-t-on : qualité, délai, couverture, reprises, ressourc
 Quelles fonctions doivent être qualifiées pour ce périmètre ?
 Quelles conditions permettent l'adoption, l'arrêt ou le retour à la version précédente ?
 Quels acquis faudra-t-il conserver ou partager après l'expérience ?
+Quel usage suivant permettra de vérifier le bénéfice du réemploi ?
 
 Coordonnées et notes à compléter par les partenaires :
 

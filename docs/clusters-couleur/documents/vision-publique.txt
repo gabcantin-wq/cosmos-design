@@ -6,9 +6,9 @@ Qubit / Clusters Couleur
 L’expérience reste.
 Le travail avance.
 
-Les Clusters Couleur réunissent des agents spécialisés, une mémoire d’expérience et des outils autour d’une mission commune avec vos équipes.
+Un Cluster Couleur est un partenaire numérique conçu pour votre organisation. Il réunit des agents spécialisés, une mémoire d’expérience et des outils autour d’une mission définie avec vos équipes.
 
-Une approche pour relier le savoir-faire aux opérations, conserver ce qui a été appris et faire évoluer les pratiques dans un cadre maîtrisé.
+Son rôle : relier le savoir-faire aux opérations, entretenir les moyens utiles à sa mission et conserver ce qui a été appris.
 
 Découvrir les bénéfices ↓ (#valeur) Voir le fonctionnement ↗ (#parcours)
 
@@ -54,7 +54,7 @@ Une demande métier, un incident ou une amélioration à explorer suit un parcou
 
 Observer
 
-Recueillir le besoin, l’état du système et les faits disponibles.
+Préciser le besoin, les faits disponibles et le résultat attendu avec vos équipes.
 
 02
 
@@ -64,15 +64,15 @@ Rappeler les acquis pertinents et vérifier qu’ils s’appliquent encore.
 
 03
 
-Agir
+Décider et agir
 
-Coordonner les agents et les outils dans leur mandat.
+Vos équipes gardent les décisions qui leur reviennent. Les agents conduisent le travail dans le cadre convenu.
 
 04
 
 Vérifier
 
-Observer l’effet et le comparer au résultat attendu.
+Vérifier l’effet et faire apprécier le résultat utile par les équipes concernées.
 
 05
 
@@ -80,7 +80,7 @@ Capitaliser
 
 Conserver la méthode, le résultat et les limites pour la suite.
 
-Un résultat utile devient un acquis retrouvable. Une anomalie relance le diagnostic et la correction.
+Un résultat reçu devient un acquis réutilisable. Une anomalie relance le diagnostic. Un changement de pratique suit sa décision d’adoption.
 
 Découvrir les fonctions du collectif ↓ (#capacites)
 
@@ -89,7 +89,7 @@ L’ensemble du cluster
 Des fonctions spécialisées.
 Une mission commune.
 
-Le collectif associe mémoire, orchestration, administration, réalisation et validation. Ces rôles se complètent dans le périmètre retenu.
+Quatre parcours pour comprendre le collectif. Chaque fonction garde sa responsabilité ; la mission les relie.
 
 [Illustration : Mémoire, fonctions, coopération et évolution sont reliées autour de la mission du cluster.]
 Architecture de coopération · Schéma conceptuel
@@ -108,7 +108,7 @@ reste mobilisable.
 
 Une résolution utile conserve ses sources, son contexte et ses conditions d’application. Le cluster peut la retrouver et la réévaluer avant de refaire le travail.
 
-oMem, oIntello et les fonctions documentaires portent des responsabilités complémentaires de conservation, de curation et de transmission. Les acquis appartiennent au parcours du cluster, au-delà du modèle utilisé à un instant donné.
+Conserver, trier et transmettre sont des responsabilités distinctes. Les acquis appartiennent au cluster, au-delà du modèle de langage utilisé à un instant donné.
 
 Voir les éléments mesurés ↗ (#reperes) Une situation et ses sources ↓ Un acquis retrouvé et réévalué ↓ Une suite adaptée à la mission Parcours de réemploi
 
@@ -119,9 +119,9 @@ Les fonctions et les outils
 De l’information
 à l’effet utile.
 
-oMachine porte la virtualisation ; oWWW et oRadar, la recherche web ; les agents d’administration, les systèmes et le réseau. oDoctor relie le diagnostic à la réparation par les fonctions compétentes.
+oMachine est chargé des environnements d’exécution. oWWW a pour rôle de recueillir la matière web ; oRadar, de la classer et d’en extraire les éléments à examiner. L’administration et oDoctor ont pour mission d’entretenir les systèmes, de diagnostiquer les défauts et de vérifier les réparations.
 
-Le SDK apporte des mécanismes communs. SysML relie la description du système aux exigences et aux essais. oTickets conserve le cheminement du travail et de ses résultats.
+Le SDK apporte un socle commun de communication et de suivi. SysML v2 sert à relier le modèle du système aux exigences et aux essais. oTickets suit le travail jusqu’à la résolution, dans une approche inspirée d’ITIL.
 
 Voir des parcours d’usage ↗ (#missions) Besoin · Contexte · Résultat attendu ↓ Fonction compétente · Outil admis ↓ Effet observé · Résultat évalué Parcours de réalisation
 
@@ -145,7 +145,7 @@ L’amélioration et la transmission
 Faire progresser
 les bonnes pratiques.
 
-IdeaLane organise la maturation des idées. La COOP génétique conserve les variantes, leurs liens et leurs versions. Les essais et la validation préparent une adoption dans une portée définie.
+IdeaLane est le parcours de maturation des idées jusqu’à une décision. La COOP génétique organise la filiation des fonctions et de leurs versions. Les essais et la validation préparent leur adoption dans un périmètre défini.
 
 L’interface, la mémoire et les processus peuvent évoluer à des rythmes distincts. Une connaissance nouvelle ne remplace pas silencieusement une pratique commune protégée.
 
@@ -153,21 +153,21 @@ Voir les conditions d’évolution ↗ (#maitrise) Idée · Variante identifiée
 
 Construire, publier et adopter gardent des décisions distinctes.
 
-Les rôles qui composent ce collectif.
+Voir les rôles qui portent ces parcours
 
-Une lecture de l’architecture, à qualifier fonction par fonction pour chaque mission.
+Ces responsabilités décrivent l’architecture. Les fonctions mobilisées sont à qualifier pour le périmètre de chaque mission.
 
 Observer et impulser
 
-Connaître l’état des ressources et faire émerger les suites utiles.
+Confronter les connaissances, repérer les contradictions et signaler le travail disponible.
 
-oQuorum · oDemon
+oIntello · oDemon
 
 Orchestrer
 
 Relier les demandes, les responsabilités et le contexte du travail.
 
-oMaster
+oMaster · oPlan
 
 Administrer et réparer
 
@@ -177,9 +177,9 @@ oSysAdmin · oNetAdmin · oDoctor
 
 Réaliser et valider
 
-Construire, éprouver et conserver les preuves des changements.
+Relier les exigences, la réalisation et les essais à un jugement de validation distinct.
 
-oDev · SDK · oTest · oVnV
+oReq · oDev · oTest · oVnV
 
 Capitaliser et transmettre
 
@@ -187,11 +187,11 @@ Rendre les acquis retrouvables, compréhensibles et réutilisables.
 
 oMem · oIntello · oDOC
 
-Suivre et améliorer
+Coopérer et évoluer
 
-Garder la trace des besoins, des idées et des résultats.
+Organiser les décisions communes, suivre les demandes et préparer les améliorations.
 
-oTickets · IdeaLane · COOP génétique
+oQuorum · oTickets · IdeaLane · COOP génétique
 
 Des points d’entrée métier
 
@@ -202,11 +202,11 @@ Ces exemples illustrent des parcours à construire et à qualifier dans le conte
 
 CONTINUITÉ DES OPÉRATIONS
 
-Un service ralentit.
+Un service ne revient pas.
 
-Rassembler les observations, retrouver un incident comparable, mobiliser la fonction compétente, puis vérifier le rétablissement.
+Une application reste indisponible après le redémarrage de sa machine. Le parcours relie diagnostic, correction et essai de l’usage attendu avec l’équipe concernée. La méthode conservée est réévaluée au prochain incident.
 
-À suivre : délai de résolution, reprises nécessaires et méthode conservée.
+À suivre : retour de l’usage, délai, reprises et effort économisé au prochain cas.
 
 TRANSMISSION DU SAVOIR-FAIRE
 
@@ -269,13 +269,13 @@ Le cluster associe des ressources de calcul, de données et d’administration. 
 
 Une croissance préparée
 
-L’éclosion établit la mission par dialogue. La mitose prépare un nouveau cluster avec des instructions, des relations et un patrimoine défini ; les droits se vérifient séparément.
+L’éclosion établit la mission par dialogue. La mitose prépare un nouveau cluster avec des instructions, des relations et un patrimoine défini ; les droits se vérifient séparément. Les acquis de l’enfant peuvent enrichir le patrimoine commun, après validation et selon les accords de partage.
 
 Le bon contexte.
 Le bon effort.
 Pour le bon résultat.
 
-L’approche spectrale adapte la profondeur de traitement au geste demandé. Le réemploi de la mémoire vise à réduire les reconstructions inutiles ; ses gains se mesurent sur les cas de la mission.
+L’approche spectrale commence par rechercher un acquis, un résultat déjà calculé ou une règle adaptée. Si un raisonnement est nécessaire, son effort est ajusté à la tâche. Les gains se mesurent sur les cas de la mission, à qualité conservée.
 
 Les acquis et les prochaines mesures
 
@@ -286,19 +286,19 @@ Le cluster se développe à partir de fonctions et de parcours existants. Chaque
 
 Mémoire : un acquis retrouvé et réutilisé
 
-Le diagnostic historique du 13 septembre 2026 compte 875 tokens : 343 en entrée et 532 en sortie. Le rappel de cet acquis, exécuté le 4 novembre dans une mémoire de laboratoire, n’a pas demandé de nouvelle génération. La lecture, l’évaluation et le stockage conservent leur coût informatique.
+Le diagnostic historique du 13 septembre 2026 compte 875 tokens : 343 en entrée et 532 en sortie. Le rappel de cet acquis, exécuté le 4 novembre dans une mémoire de laboratoire, n’a pas demandé de nouvelle génération. La lecture, l’évaluation et la transmission conservent leur coût informatique.
 
 Cent occurrences du même cas vérifient la stabilité du réemploi ; elles ne représentent pas cent expériences différentes. Les gains sur des situations variées se mesurent à qualité conservée.
 
 Fonctions : des parcours techniques documentés
 
-Le dossier préparatoire contient notamment un parcours pilote de naissance, une reprise de trois machines virtuelles observée en octobre 2026 et des essais SDK et SysML. Une partie des essais d’adaptateur utilise un fournisseur simulé. Ces observations ne constituent pas une activation générale de toutes les fonctions.
+Le dossier préparatoire rapporte notamment un parcours pilote de naissance, une reprise de trois machines virtuelles observée en octobre 2026 par l’équipe de conduite, sans validation indépendante dans ce témoin, et des essais SDK et SysML. Une partie des essais d’adaptateur utilise un fournisseur simulé. Ces observations ne constituent pas une activation générale de toutes les fonctions.
 
 Travail prolongé : mesurer contexte, temps et qualité ensemble
 
-Le principe est de conserver un corpus important et de travailler par ensembles ciblés en gardant la continuité entre les itérations. La cible de 500 itérations en 3 à 5 heures reste à éprouver. Son évaluation doit associer contexte unique parcouru, tokens cumulés, temps, itérations et qualité obtenue.
+Le principe est de conserver un corpus important et de travailler par ensembles ciblés en gardant la continuité entre les itérations. L’objectif de 500 itérations en 3 à 5 heures, illustré dans le dossier par un budget de 3 h 50, reste à éprouver. Son évaluation doit associer contexte unique parcouru, tokens cumulés, temps, itérations et qualité obtenue.
 
-Repères issus des éditions documentaires des 3 et 4 novembre 2026. Les cas sectoriels présentés sont des exemples de développement, et non un inventaire d’installations existantes.
+Repères issus des éditions documentaires des 3 et 4 novembre 2026 et de leur consolidation du 5 novembre. Les cas sectoriels présentés sont des exemples de développement, et non un inventaire d’installations existantes.
 
 Votre prochain pas
 
@@ -312,6 +312,8 @@ Nommer le problème et les équipes concernées.
 Identifier les outils, les données et les limites d’intervention.
 
 Choisir les résultats à mesurer et les conditions d’adoption.
+
+La fiche complétée sert de base au premier échange et au choix des résultats à recevoir avec vos équipes.
 
 Préparer votre fiche de mission ↓ (https://parti-orange.com/assets/fiche-mission-qubit.txt)
 

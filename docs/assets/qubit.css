@@ -103,9 +103,8 @@
 .qubit .mission-flow p{font-size:.85rem;color:var(--muted)}
 .qubit .flow-caption{max-width:880px;font-size:.89rem;color:var(--muted)}
 .qubit .architecture-frame{margin-bottom:45px}
-.qubit .native-intro{margin-top:54px;margin-bottom:25px}
-.qubit .native-intro h3{font-size:1.25rem;line-height:1.4;margin-bottom:14px}
-.qubit .native-intro p{font-size:.85rem;color:var(--muted)}
+.qubit .native-disclosure{margin-top:40px}
+.qubit .native-intro{margin:22px 0 25px;font-size:.85rem;color:var(--muted)}
 .qubit .native-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
 .qubit .native-grid article{padding:26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
 .qubit .native-grid h4{margin:0 0 12px;font-size:1rem;line-height:1.45}
