@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "channel": "documentation",
+  "revision": "doc-2026-11-05-r2",
+  "updated_on": "2026-11-05",
+  "items": [
+    {"id":"overview","src":null,"alt":null,"caption":null,"observed_on":null,"context":null},
+    {
+      "id": "memory",
+      "src": "/clusters-couleur/media/documentation/omaster-memory-20261105-092916.png",
+      "alt": "Trace de recherches mémoire dans oMaster, avec requêtes, résultats oMem et étapes de traitement.",
+      "caption": "La trace rend visibles des recherches mémoire et leurs résultats. Elle ne mesure pas à elle seule le gain de mémoire sur une mission complète.",
+      "observed_on": "2026-11-05",
+      "context": "Interface oMaster, panneau de traces"
+    },
+    {"id":"cooperation","src":null,"alt":null,"caption":null,"observed_on":null,"context":null},
+    {
+      "id": "actions",
+      "src": "/clusters-couleur/media/documentation/omaster-telemetrie-20261105-092859.png",
+      "alt": "Panneau de télémétrie distinguant les tokens, étapes et durées de la session et de la transaction.",
+      "caption": "Une session et une transaction ont des compteurs distincts. Cet instantané est indépendant du cas historique de 875 tokens présenté plus haut.",
+      "observed_on": "2026-11-05",
+      "context": "Interface oMaster, télémétrie affichée"
+    },
+    {
+      "id": "evolution",
+      "src": "/clusters-couleur/media/documentation/omaster-doctrine-20261105-092454.png",
+      "alt": "Écran Doctrine de oMaster présentant un schéma proposé de génétique des fonctions, explicitement marqué DRAFT.",
+      "caption": "La documentation du cluster expose aussi ses propositions. Ce schéma est affiché comme brouillon ; sa présence dans l’interface ne signifie pas son adoption.",
+      "observed_on": "2026-11-05",
+      "context": "oMaster v0.2.0, Doctrine, Function genetics — proposed"
+    }
+  ]
+}

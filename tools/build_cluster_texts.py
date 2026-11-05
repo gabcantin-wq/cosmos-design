@@ -4,6 +4,8 @@ Run from any directory with Python 3; no external dependencies are required.
 """
 from html.parser import HTMLParser
 from pathlib import Path
+from datetime import date
+import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1] / 'docs'
@@ -14,9 +16,12 @@ class PublicText(HTMLParser):
         self.in_main = False
         self.parts = []
         self.link = None
+        self.capture_manifest = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'body':
+            self.capture_manifest = attrs.get('data-capture-manifest')
         if tag == 'main':
             self.in_main = True
         if not self.in_main:
@@ -62,7 +67,11 @@ def generate():
     for source, target, status in targets:
         parser = PublicText()
         parser.feed((ROOT / source).read_text(encoding='utf-8'))
-        header = 'CLUSTERS COULEUR — ÉDITION PUBLIQUE DU 5 NOVEMBRE 2026\n' + status + '\n\n'
+        manifest = json.loads((ROOT / parser.capture_manifest.lstrip('/')).read_text(encoding='utf-8'))
+        updated = date.fromisoformat(manifest['updated_on'])
+        months = ['JANVIER', 'FÉVRIER', 'MARS', 'AVRIL', 'MAI', 'JUIN', 'JUILLET', 'AOÛT', 'SEPTEMBRE', 'OCTOBRE', 'NOVEMBRE', 'DÉCEMBRE']
+        edition_date = f'{updated.day} {months[updated.month - 1]} {updated.year}'
+        header = 'CLUSTERS COULEUR — ÉDITION PUBLIQUE DU ' + edition_date + '\n' + status + '\n\n'
         out = ROOT / 'clusters-couleur/documents' / target
         out.write_text(header + parser.text() + '\nRepères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt\n', encoding='utf-8')
         print(out.relative_to(ROOT))

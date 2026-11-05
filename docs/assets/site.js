@@ -62,26 +62,38 @@ if (tabList) {
   select(tabs[0]);
 }
 
-// Screenshots are optional. Until a reviewed image is declared, the documented
-// illustration stays visible. No invented live metrics or broken image slots.
+// Each page owns its publication channel. Commercial editions never read the
+// evolving documentary selection, even when both channels use the same slot ID.
 const captureFrames = [...document.querySelectorAll('[data-capture]')];
-if (captureFrames.length) {
-  fetch('/clusters-couleur/media/captures.json')
+const captureManifest = document.body.dataset.captureManifest;
+const captureChannel = document.body.dataset.captureChannel;
+const allowedManifest = captureChannel === 'documentation'
+  ? /^\/clusters-couleur\/media\/documentation\/captures\.json$/
+  : /^\/clusters-couleur\/media\/commercial\/edition-[a-z0-9-]+\/captures\.json$/;
+if (captureFrames.length && ['documentation', 'commercial'].includes(captureChannel) && allowedManifest.test(captureManifest)) {
+  const assetDirectory = captureManifest.slice(0, captureManifest.lastIndexOf('/') + 1);
+  fetch(captureManifest, { cache: 'no-cache' })
     .then(response => { if (!response.ok) throw new Error('Capture manifest unavailable'); return response.json(); })
     .then(manifest => {
+      if (manifest.schema_version !== 2 || manifest.channel !== captureChannel || !Array.isArray(manifest.items)) return;
       for (const frame of captureFrames) {
-        const item = manifest.items?.find(entry => entry.id === frame.dataset.capture);
-        if (!item?.src || !item.alt || !item.caption || !item.observed_on) continue;
-        if (!/^\/clusters-couleur\/media\/[a-zA-Z0-9_-]+\.(png|jpe?g|webp)$/.test(item.src)) continue;
+        const item = manifest.items.find(entry => entry.id === frame.dataset.capture);
+        if (!item?.src || !item.alt || !item.caption || !item.context || !/^\d{4}-\d{2}-\d{2}$/.test(item.observed_on)) continue;
+        if (!item.src.startsWith(assetDirectory) || !/^[a-zA-Z0-9_-]+\.(png|jpe?g|webp)$/.test(item.src.slice(assetDirectory.length))) continue;
         const image = new Image();
         image.alt = item.alt; image.decoding = 'async';
-        image.addEventListener('load', () => {
+        image.addEventListener('load', async () => {
+          try { await image.decode(); } catch { return; }
+          const link = document.createElement('a');
+          link.href = item.src;
+          link.setAttribute('aria-label', `Voir la capture en grand : ${item.alt}`);
+          link.append(image);
           const caption = document.createElement('figcaption');
-          caption.textContent = `${item.caption} · Capture du ${item.observed_on}`;
-          frame.replaceChildren(image, caption);
+          caption.textContent = `${item.caption} · ${item.context} · Capture du ${item.observed_on}`;
+          frame.replaceChildren(link, caption);
         }, { once: true });
         image.src = item.src;
       }
     })
-    .catch(() => { /* The meaningful, accessible diagram remains available. */ });
+    .catch(() => { /* The static, dated capture or conceptual diagram remains readable. */ });
 }
