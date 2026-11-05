@@ -17,6 +17,7 @@ They ARE committed to git so future maintenance work (by Claude or a human) has 
 | `06_V2_IMAGE_AUDIT.md` | Audit V2 des 28 images existantes — étape A (livrable 2026-05-12) |
 | `07_V2_GPT_PROMPT.md` | Prompt-bloc d'entrée pour ChatGPT (vue d'ensemble, à coller au début d'une session) |
 | `08_V2_VISUAL_BRIEF.md` | **Spec opérationnelle** : 19 fiches détaillées (1 par image V2) avec prompt prêt-à-coller |
+| `09_CLUSTER_PORTAL.md` | Portail général et deux pages Clusters Couleur, captures, compagnons publics et vérifications |
 | `build_image_catalog.py` + `images_catalog.png` | Script et catalogue des 28 images V1 (référence pour ChatGPT) |
 
 ## Rules for editing the website

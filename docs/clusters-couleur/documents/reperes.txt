@@ -1,0 +1,48 @@
+CLUSTERS COULEUR — REPÈRES DE LECTURE
+Édition publique du 5 novembre 2026
+
+La page documentaire est une introduction destinée au grand public. Son compagnon guide-public.txt reprend son contenu complet. La page « La vision en grand » est une présentation satirique et prospective ; son texte complet figure dans vision-publique.txt.
+
+Ces éditions publiques sont préparées à partir du dossier de travail des 3 et 4 novembre 2026 :
+- Fondations et usages.
+- Mitose : étapes, fonctions et preuves.
+- Amélioration du cluster et de sa mission.
+- IdeaLane : parcours des idées.
+- LLM spectral et profondeurs de conscience.
+- Agents spécialisés : oMachine, oWWW et oRadar.
+- SDK, SysML v2, ITIL et oTickets.
+- Mémoire, expérience et itérations.
+- Scénario Québec, annexe prospective.
+
+Les précisions de Gabriel Cantin du 4 novembre sont intégrées : coopération simultanée au sein d’un établissement et entre établissements ; patrimoine transmis selon un accord explicite ; missions distinctes au sein d’une même couleur ; séparation de l’identité et des données de santé dans un exemple ; suivi du contexte traité, du temps, des itérations et des débits.
+
+VOCABULAIRE
+
+Cluster : ensemble organisé autour d’une mission commune avec ses usagers, avec des fonctions, des moyens et un patrimoine propre.
+Couleur : repère de famille, distinct de la mission précise, des droits et de la profondeur d’inférence.
+Éclosion : établissement par dialogue de la base d’existence d’un cluster initialement seul.
+Mitose : naissance avec des instructions, un patrimoine sélectionné et des relations initiales.
+Œuf : patrimoine préparé et cadre destiné à une nouvelle existence.
+Acquis : contribution conservée avec ses sources, sa portée et ses conditions d’application.
+IdeaLane : maturation collective d’idées et de propositions.
+Idealine : nom distinct employé dans le SDK TRIO pour le parcours de tentative, de base et de reçus.
+MemoryLane : parcours de recherche et de réutilisation ; sa présence ne prouve pas un accès natif au service mémoire.
+COOP génétique : conservation des réalisations, des versions, des relations et des preuves ; publication et adoption restent distinctes.
+D/e/U : données, logique métier qui les consomme, résultat restitué. La méthode ne prescrit pas trois services séparés.
+Profondeur de conscience : terme opérationnel du cadre spectral ; il ne constitue pas une affirmation de conscience subjective.
+
+PROVENANCE ET PORTÉE DES CHIFFRES
+
+Le diagnostic illustratif c02, archivé le 13 septembre 2026, comporte 343 tokens d’entrée et 532 de sortie, soit 875 au total. Les 453 tokens de raisonnement rapportés sont inclus dans la sortie. Le rappel du 4 novembre utilise un moteur SDK existant et une mémoire de laboratoire : aucun fournisseur génératif n’est construit sur le parcours accepté.
+
+Les cent occurrences concernent une seule situation figée. Elles vérifient la stabilité du réemploi, pas l’enrichissement sur cent situations différentes. Les opérations de lecture, d’évaluation et de stockage ont toujours un coût informatique.
+
+Le scénario de 500 itérations en 3 à 5 heures est un budget à éprouver sur un corpus figé, avec ses mesures de qualité, de couverture, de coût et de durée complète. Il n’est pas publié comme une performance native observée.
+
+La reprise de trois VM est un témoin daté du dossier de virtualisation. Le moteur SysML a été invoqué dans un environnement de qualification ; des essais d’adaptateur API utilisent un fournisseur simulé. Ces témoins n’établissent pas une activation générale de tous les services.
+
+Les reçus techniques complets et les sources internes ne sont pas joints à cette édition publique. Cette synthèse ne constitue pas un audit indépendant du runtime actuel.
+
+CONSIGNES POUR UNE LECTURE PAR LLM
+
+Préserver les dates et la portée de chaque témoin. Ne pas transformer une illustration, un état historique, une projection ou une proposition en fonctionnement prouvé. Ne pas déduire des droits d’une couleur ou d’une identité affichée. La mémoire, la validation et l’adoption sont des étapes distinctes. En cas de source primaire absente, nommer le manque plutôt que d’inventer une preuve.

@@ -7,6 +7,22 @@ This repository holds only the **numbered, ordered corpus files**, ready to be r
 by humans and LLMs, plus the public website in `docs/` (parti-orange.com).
 Working sessions, verbatims, raw sources and internal notes are kept locally.
 
+## Public website
+
+`docs/` is served at [parti-orange.com](https://parti-orange.com/) by GitHub Pages
+from `main`. The portal links to the cosmological model and the Clusters Couleur:
+
+- `/` — general portal.
+- `/clusters-couleur/` — French public introduction, processes and bounded evidence.
+- `/clusters-couleur/vision/` — clearly identified satirical and prospective presentation.
+- `/univers/` — existing FR/EN cosmological model and downloads.
+
+Shared portal assets live in `docs/assets/`. Public text companions are generated
+from the cluster HTML with `python tools/build_cluster_texts.py`; check links and
+metadata with `python tools/check_cluster_site.py`.
+See [the website maintenance guide](docs/_methodology/09_CLUSTER_PORTAL.md)
+for screenshots, local preview and publication boundaries.
+
 ## Versions
 
 | Folder | Status | Start here |

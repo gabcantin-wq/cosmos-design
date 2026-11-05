@@ -1,0 +1,235 @@
+CLUSTERS COULEUR — ÉDITION PUBLIQUE DU 5 NOVEMBRE 2026
+Présentation documentaire. Les scénarios et les preuves conservent leur portée datée.
+
+Accueil (https://parti-orange.com/) / Clusters Couleur
+
+Comprendre les Clusters Couleur
+
+Une mission.
+Des fonctions.
+Un collectif.
+
+Un cluster réunit des machines, des logiciels et des agents spécialisés autour d’une mission commune avec ses usagers. Il est conçu pour conserver l’expérience utile et évoluer dans un cadre explicite.
+
+Comment ça fonctionne ↓ (#fonctionnement) Voir un exemple ↗ (#cooperation)
+[Illustration : Les fonctions et la mémoire sont reliées autour de la mission du cluster.]
+Schéma conceptuel
+
+Des unités spécialisées, un cadre commun. La couleur seule ne définit ni la mission ni les accès.
+
+01 · Fonctionnement (#fonctionnement) 02 · Mémoire (#memoire) 03 · Coopération (#cooperation) 04 · Naître et évoluer (#evolution) 05 · Acquis (#acquis) 06 · Documents (#documents)
+
+01 / LE FONCTIONNEMENT
+
+Du besoin
+au résultat utile.
+
+Le cluster est pensé comme un partenaire durable. Sa continuité repose sur une mission, des fonctions entretenues et des acquis qui restent utilisables quand les outils et les modèles changent.
+
+Le travail circule entre des responsabilités complémentaires. Une demande reçue, une action réalisée et un effet vérifié sont trois étapes différentes.
+
+Observer
+
+Recevoir un besoin ou constater un écart. Conserver la situation et les faits utiles.
+
+Observations · supervision · oTickets
+
+Comprendre
+
+Retrouver les acquis pertinents, préciser le résultat attendu et les conditions de réussite.
+
+Mémoire · analyse · mission
+
+Organiser
+
+Confier le travail aux fonctions compétentes, selon leurs rôles et les moyens disponibles.
+
+Orchestration · méthodes · agents
+
+Réaliser
+
+Exécuter le geste admis et conserver ce qui a été fait, dans quel contexte et sur quelle version.
+
+Fonctions natives · SDK · outils
+
+Vérifier
+
+Observer l’effet et juger s’il répond au besoin. Une commande acceptée ne suffit pas.
+
+Essais · observations · validation
+
+Apprendre
+
+Conserver la correction et ses limites, puis vérifier qu’elle peut être retrouvée et réutilisée.
+
+oMem · oIntello · documentation
+
+Où se situent les agents spécialisés ?
+
+oMachine intervient dans le domaine de la virtualisation. oWWW et oRadar portent des fonctions de recherche et de traitement des sources web. oDoctor relie diagnostic, réparation par les fonctions compétentes et vérification du rétablissement. Chaque agent conserve son métier ; son nom ne prouve pas à lui seul que tous les parcours sont actifs.
+
+Le SDK apporte des mécanismes communs aux agents. SysML relie la description du système à ses exigences et à ses essais. oTickets conserve le parcours d’une observation et du travail qui en découle.
+
+02 / LA MÉMOIRE
+
+Une expérience
+peut servir encore.
+
+Lorsqu’un acquis reste applicable, le cluster peut le retrouver et le réévaluer au lieu de reconstruire toute la réponse.
+
+Cette mémoire garde la provenance, le contexte et les conditions d’usage. Un fait qui change demande une observation actuelle ; une méthode éprouvée peut aider à savoir quoi vérifier.
+
+1 Retrouver une contribution pertinente 2 Vérifier son applicabilité maintenant 3 Réutiliser l’acquis ou traiter le manque 4 Conserver le résultat et sa portée
+
+Un cas documenté, une portée précise.
+
+Diagnostic d’une réponse informatique mal interprétée. Témoin historique et contrôles de laboratoire.
+
+Résolution initiale 875
+
+tokens au fournisseur : 343 en entrée et 532 en sortie.
+
+Mesure archivée du 13 septembre 2026.
+
+Après un acquis 0
+
+nouveau token de génération pour le rappel local exécuté sur la même base.
+
+Contribution retrouvée, réévaluée et acceptée.
+
+Après 100 occurrences 1
+
+situation distincte couverte. Le contrôle montre la stabilité du réemploi.
+
+Le patrimoine de cent expériences variées reste à mesurer.
+
+Comprendre ces chiffres et leurs limites
+
+Le cas initial a nécessité un appel génératif mesuré. Les rappels ont été exécutés le 4 novembre avec le moteur SDK et une mémoire de laboratoire. Sur ce parcours fermé, aucun fournisseur génératif n’a été construit. La lecture, l’évaluation et le stockage gardent leur coût informatique.
+
+Cent occurrences du même cas ne représentent pas cent connaissances nouvelles. Le gain d’un patrimoine enrichi doit être mesuré sur d’autres questions, à qualité conservée. Une mesure absente reste inconnue.
+
+Et les très grands contextes ?
+
+Le principe est de conserver le corpus, de travailler par ensembles ciblés et de garder la continuité entre les itérations. La cible de 500 itérations en 3 à 5 heures reste un scénario à éprouver. Le suivi doit associer contexte unique parcouru, tokens cumulés, temps, appels, itérations et qualité obtenue.
+
+03 / LA COOPÉRATION
+
+Ensemble.
+À la bonne portée.
+
+Deux établissements peuvent partager des acquis tout en conservant des informations propres à chacun.
+
+Dans l’exemple de Gab, l’hôpital X et l’hôpital Y réunissent chacun 25 clusters. Les clusters d’un même établissement coopèrent, et les 50 peuvent aussi travailler ensemble.
+
+Un établissement peut accueillir plusieurs clusters. Une même couleur de base peut réunir des missions distinctes.
+
+Exemple pédagogique · 25 + 25 clusters Un fait local Un acquis partageable
+
+Hôpital X
+
+25 clusters ·
+
+Hôpital Y
+
+25 clusters
+
+Un incident à un étage de Y concerne les 25 clusters de Y. X ne reçoit pas automatiquement cette information locale.
+
+Autre situation : une spécialisation de Y peut servir à un cluster de X, selon sa mission et l’accord de partage applicable.
+
+Coopérer ne signifie pas tout rapprocher
+
+Dans un autre exemple, l’identité d’un patient et ses données de santé sont séparées entre deux clusters de même couleur, aux missions distinctes. L’objectif est d’éviter les corrélations non sollicitées. Les règles qui permettent un rapprochement doivent être définies et vérifiées ; la séparation seule n’en constitue pas la preuve.
+
+Le patrimoine transmis à d’autres partenaires peut être plus large, selon un accord explicite. Sa portée dépend du contenu, des missions et de cet accord.
+
+04 / LA NAISSANCE ET L’ÉVOLUTION
+
+Un héritage.
+Une existence propre.
+
+Le nouveau cluster reçoit des moyens et un cadre. Il doit établir sa mission, ses responsabilités et ses conditions de fonctionnement.
+
+Naître par le dialogue
+
+L’éclosion
+
+Le cluster est initialement seul. Le dialogue avec l’usager établit sa base d’existence, ses objectifs et son contexte. Son Œuf peut déjà contenir des outils et des acquis préparés.
+
+Naître dans une coopération
+
+La mitose
+
+Le cluster reçoit des instructions et des relations initiales. Le patrimoine transmis est identifié ; hériter d’une fonction ou d’une connaissance ne donne pas automatiquement tous les droits du cluster d’origine.
+
+Apprendre sans modifier silencieusement les pratiques.
+
+Une expérience locale peut enrichir la mémoire. Modifier un processus commun protégé suit un parcours distinct : proposition, essais, validation, décision d’adoption et observation de la version reçue.
+
+Des idées aux méthodes éprouvées.
+
+IdeaLane organise la maturation des idées. La COOP génétique conserve les réalisations et leurs versions. L’approche spectrale adapte les moyens d’inférence au geste demandé ; elle ne change pas l’autorité de l’agent.
+
+Pourquoi parler de profondeurs de conscience ?
+
+Dans ce cadre, l’expression désigne des profondeurs opérationnelles de traitement et de mobilisation du contexte. Elle ne constitue pas une affirmation de conscience subjective. L’agent garde sa mission et ses acquis à travers les changements de modèle.
+
+05 / LES ACQUIS ET LA SUITE
+
+La preuve garde
+son contexte.
+
+Un témoin daté permet une affirmation précise. Il ne prouve pas que toutes les fonctions sont actives partout.
+
+Témoins documentés et limites de portée
+
+| Domaine | Témoin documenté | Portée
+
+| Naissance d’un cluster | Amorce d’un cluster enfant, fonctions et transferts de patrimoine décrits. | Un parcours pilote daté, pas un déploiement hospitalier.
+
+| Virtualisation | Reprise de trois machines virtuelles observée en octobre 2026. | Un environnement et des conditions déterminés.
+
+| Mémoire | Rappels locaux d’un acquis sans nouvelle génération, sur un cas stable. | Le service mémoire natif et les situations variées demandent leur campagne.
+
+| SDK et SysML | Moteur SysML invoqué et essais d’adaptateur API réalisés. | Une partie des essais utilise un fournisseur simulé.
+
+| Travail prolongé | Scénario de contexte volumineux et budget d’itérations préparés. | Les débits, la durée et la qualité restent à mesurer ensemble.
+
+Synthèse des éditions documentaires des 3 et 4 novembre 2026. Les exemples de missions et les états historiques ne sont pas une observation de l’exploitation actuelle.
+
+06 / POUR ALLER PLUS LOIN
+
+Une lecture humaine.
+Un texte transmissible.
+
+Retrouvez cette présentation complète dans une version textuelle, avec son contexte et ses limites. Elle peut accompagner une lecture humaine ou une analyse par un LLM.
+
+Le guide public complet ↓ (https://parti-orange.com/clusters-couleur/documents/guide-public.txt)
+
+Texte de cette page, définitions, exemples et portée des preuves.
+
+Repères et méthode de lecture ↗ (https://parti-orange.com/clusters-couleur/documents/reperes.txt)
+
+Vocabulaire, provenance documentaire et distinction entre acquis, scénarios et vision.
+
+Quelques questions
+pour situer le projet.
+
+Un cluster correspond-il à un bâtiment ?
+
+Non. Un lieu peut accueillir plusieurs clusters spécialisés. Leur nombre dépend des missions et de l’organisation. L’exemple des deux hôpitaux ne fixe pas un ratio pour tous les établissements.
+
+Les couleurs définissent-elles toutes les expertises ?
+
+Elles constituent un repère de famille. La mission, l’expertise, les droits et la portée de l’information restent distincts. Deux clusters de même couleur peuvent avoir des fonctions différentes.
+
+Le cluster apprend-il en modifiant les poids de ses modèles ?
+
+L’amélioration décrite ici repose notamment sur la mémoire, les méthodes, les outils et leur réutilisation. Elle ne signifie pas que le cluster réentraîne automatiquement les modèles à chaque expérience.
+
+Les exemples d’hôpitaux, d’écoles et de maisons sont-ils déployés ?
+
+Ils décrivent des voies de développement et des situations d’usage. Les acquis techniques cités ont leur propre portée. Le scénario Québec ne constitue pas un inventaire de clusters déjà installés.
+
+Repères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt
