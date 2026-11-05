@@ -14,6 +14,13 @@ la source du compagnon complet `clusters-couleur/documents/materiel-public.txt`.
   JAUNE avec un GB10, arbres de huit GB10 et absence de mémoire cohérente unique
   déduite du nombre de nœuds.
 - Gab : avantages et forces des types, cinq critères d'acceptabilité sociale.
+- Précision de Gab : chaque cluster comprend quatre nœuds oCPU, deux critiques
+  et deux de support. Le budget de puissance est strictement inférieur à
+  2 000 W pour le cluster complet, et non pour les seuls oCPU. Il englobe
+  l'inférence, le stockage, le réseau et les autres équipements. C'est une
+  contrainte de dimensionnement à vérifier sur la configuration complète,
+  pas une mesure déjà obtenue ni une somme de TDP de composants. L'arbre de
+  huit GB10 ne permet pas, à lui seul, de conclure au respect de cette enveloppe.
 
 Les anciens noms de moteurs et placements de oVISION ne sont pas repris comme
 politique d'inférence ni comme observation actuelle.
