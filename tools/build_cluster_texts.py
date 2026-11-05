@@ -1,4 +1,4 @@
-"""Regenerate public, complete text companions from the two cluster pages.
+"""Regenerate public, complete text companions from the cluster pages.
 
 Run from any directory with Python 3; no external dependencies are required.
 """
@@ -26,7 +26,7 @@ class PublicText(HTMLParser):
             self.in_main = True
         if not self.in_main:
             return
-        if tag in ('h1', 'h2', 'h3', 'p', 'article', 'section', 'figcaption', 'details', 'tr', 'li'):
+        if tag in ('h1', 'h2', 'h3', 'p', 'article', 'section', 'figcaption', 'details', 'tr', 'li', 'dt', 'dd'):
             self.parts.append('\n\n')
         if tag in ('br', 'summary'):
             self.parts.append('\n')
@@ -48,7 +48,7 @@ class PublicText(HTMLParser):
             self.link = None
         if tag in ('div', 'button', 'span', 'small', 'strong', 'em'):
             self.parts.append(' ')
-        if tag in ('h1', 'h2', 'h3', 'p', 'figcaption', 'summary', 'tr', 'li'):
+        if tag in ('h1', 'h2', 'h3', 'p', 'figcaption', 'summary', 'tr', 'li', 'dt', 'dd'):
             self.parts.append('\n\n')
 
     def handle_data(self, data):
@@ -63,11 +63,12 @@ def generate():
     targets = [
         ('clusters-couleur/index.html', 'guide-public.txt', 'Présentation documentaire. Les scénarios et les preuves conservent leur portée datée.'),
         ('index.html', 'vision-publique.txt', 'Présentation des capacités et des processus du cluster.'),
+        ('materiel/index.html', 'materiel-public.txt', 'Types matériels, forces, usages et intégration dans les lieux.'),
     ]
     for source, target, status in targets:
         parser = PublicText()
         parser.feed((ROOT / source).read_text(encoding='utf-8'))
-        if target == 'vision-publique.txt':
+        if target in ('vision-publique.txt', 'materiel-public.txt'):
             header = 'QUBIT — CLUSTERS COULEUR\n' + status + '\n\n'
             footer = ''
         else:

@@ -15,6 +15,7 @@ Other content remains reachable by direct URL, without a link from the landing p
 
 - `/` — Qubit commercial presentation; navigation stays within this page.
 - `/clusters-couleur/` — French public introduction, processes and bounded evidence.
+- `/materiel/` — hardware types, strengths, modularity and social acceptability.
 - `/clusters-couleur/vision/` — legacy address redirecting to `/`.
 - `/cosmos/` — direct alias redirecting to `/univers/`.
 - `/univers/` — existing FR/EN cosmological model and downloads.
@@ -28,6 +29,10 @@ from the cluster HTML with `python tools/build_cluster_texts.py`; check links an
 metadata with `python tools/check_cluster_site.py`.
 See [the website maintenance guide](docs/_methodology/09_CLUSTER_PORTAL.md)
 for screenshots, local preview and publication boundaries.
+
+The [oDOC/oWeb publication agreement](docs/_methodology/10_ODOC_OWEB_PUBLICATIONS.md)
+records documentary ownership, commercial contributions from DEV clusters and
+color-specific editions. Hardware content has [its own source register](docs/_methodology/11_HARDWARE_SOURCES.md).
 
 ## Versions
 

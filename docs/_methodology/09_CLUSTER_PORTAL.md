@@ -12,6 +12,8 @@ de captures brutes, de secrets ou de copie du corpus interne.
 - `docs/clusters-couleur/vision/index.html` : ancienne adresse commerciale,
   redirigée vers l'accueil commercial.
 - `docs/cosmos/index.html` : alias direct vers l'Univers existant.
+- `docs/materiel/index.html` : présentation Qubit des types matériels, de leurs
+  forces et de leur intégration dans les lieux, accessible directement.
 - `docs/assets/site.css`, `site.js` et les SVG : socle partagé, sans dépendance ni
   suivi externe. Les contenus restent lisibles sans JavaScript.
 - `docs/univers/` : conservé tel quel.
@@ -21,6 +23,10 @@ Leurs adresses restent publiques : cette discrétion de navigation n'est pas une
 restriction d'accès. Le contenu documentaire et l'Univers n'ont pas été déplacés.
 
 ## Identité Qubit provisoire
+
+La répartition des responsabilités oDOC/oWeb et des contributions des clusters
+DEV est conservée dans [le contrat de publication](10_ODOC_OWEB_PUBLICATIONS.md).
+La page Matériel a ses [sources et règles d'entretien](11_HARDWARE_SOURCES.md).
 
 Décision de Gab du 5 novembre 2026 : adapter la présentation commerciale au
 visuel Qubit fourni et en faire directement le landing. Le fichier original et

@@ -1,0 +1,304 @@
+QUBIT — CLUSTERS COULEUR
+Types matériels, forces, usages et intégration dans les lieux.
+
+Le matériel des Clusters Couleur
+
+Utile au quotidien.
+À sa place chez vous.
+
+Une technologie s’adopte aussi par la place qu’elle prend, le calme qu’elle respecte et les services qu’elle rend.
+
+Du petit relais au calcul partagé, le matériel se compose autour du lieu, des personnes et de la mission.
+
+Explorer les types ↓ (#types) Nos cinq repères ↗ (#accueillir)
+
+[Illustration : Un petit capteur, un poste compact et des unités de calcul reliés dans un même espace.]
+
+Des formats complémentaires · Illustration de principe, hors échelle.
+
+L’acceptabilité sociale commence ici
+
+Cinq repères.
+Une place à trouver.
+
+Le bon matériel répond aux habitudes des personnes qui vivent et travaillent à ses côtés.
+
+01
+
+Peu encombrant
+
+Un format proportionné au service, avec une place prévue pour le boîtier, ses câbles et sa ventilation.
+
+02
+
+Soigné et discret
+
+Une intégration dans le décor, un câblage rangé et des voyants, du bruit et de la chaleur compatibles avec le lieu.
+
+03
+
+Une énergie justifiée
+
+Le bon niveau de calcul pour la tâche. Mémoire, règles et ressources partagées participent au choix des moyens.
+
+04
+
+Mobile et modulaire
+
+Des unités que l’on peut déplacer, entretenir ou remplacer en préservant la continuité du service.
+
+05
+
+Des bienfaits concrets
+
+Une information utile, une tâche simplifiée, un service maintenu : les personnes doivent comprendre ce que le matériel leur apporte.
+
+L’intégration se juge avec les usagers : utilité, confort, maîtrise des données et possibilité de faire évoluer l’installation.
+
+Six familles complémentaires
+
+À chaque matériel,
+sa force.
+
+Le type décrit la capacité dominante d’une machine. La couleur du cluster indique une famille de missions ; les fonctions précisent le travail confié à chaque machine.
+
+oMICRO · LE RELAIS
+
+Un lien avec le terrain.
+
+Un petit dispositif pour capter un signal, relayer une information ou signaler une présence.
+
+Sa force
+
+Une fonction précise, au plus près de l’endroit où elle est utile.
+
+Sa place
+
+Dans un boîtier discret, près d’un équipement ou d’un point de mesure.
+
+Son apport
+
+Rendre une situation observable et transmettre les éléments utiles au collectif.
+
+Le raisonnement plus exigeant rejoint les ressources du cluster.
+
+oNANO · LA PERCEPTION CIBLÉE
+
+Observer un détail utile.
+
+Un matériel de vision légère ou de capture spécialisée, dédié à un traitement bien délimité.
+
+Sa force
+
+Extraire un signal pertinent sans mobiliser tout le collectif à chaque instant.
+
+Sa place
+
+Auprès du phénomène observé, avec un champ de capture expliqué aux usagers.
+
+Son apport
+
+Faire remonter un événement exploitable plutôt qu’un flux sans contexte.
+
+Le traitement reste adapté aux ressources de l’appareil.
+
+oMINI · L’IA DE PROXIMITÉ
+
+Comprendre près de la source.
+
+Un petit ordinateur équipé pour la vision et des traitements d’IA locaux de taille adaptée.
+
+Sa force
+
+Associer perception et interprétation dans un format compact.
+
+Sa place
+
+Près d’un poste, d’un appareil ou d’une installation, dans un boîtier ventilé.
+
+Son apport
+
+Enrichir un événement avant de le transmettre aux autres fonctions.
+
+Exemple de plateforme : Jetson Orin Nano Super (https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/index.html) . Son nom produit ne le confond pas avec le type oNANO.
+
+oSMALL · LE POSTE DE PROXIMITÉ
+
+Travailler avec les gens.
+
+Un poste ou un petit serveur pour les interfaces, les outils et les tâches d’un agent ou d’une équipe.
+
+Sa force
+
+Accueillir les logiciels et les habitudes du travail quotidien.
+
+Sa place
+
+Sur un bureau, derrière un écran ou dans un espace de service accessible.
+
+Son apport
+
+Consulter, produire des documents et piloter les fonctions utiles à la mission.
+
+Windows et LibreOffice font partie du cadre des postes documentaires. L’inférence peut être fournie ailleurs dans le cluster.
+
+oCPU · LE SOCLE DES SERVICES
+
+Faire tenir le collectif.
+
+Les ressources qui portent les données, les échanges, l’orchestration et les services communs.
+
+Sa force
+
+Donner une continuité aux fonctions et à leur état de travail.
+
+Sa place
+
+Un espace de service adapté au boîtier, au stockage et à l’entretien.
+
+Son apport
+
+Garder les informations disponibles et relier les interventions entre elles.
+
+Un rôle d’infrastructure ; le format physique dépend du volume de services.
+
+oGPU · LE CALCUL PARTAGÉ
+
+Apporter l’effort nécessaire.
+
+Les ressources d’inférence pour les modèles et les traitements qui demandent davantage de calcul ou de mémoire.
+
+Sa force
+
+Mettre une capacité exigeante au service de plusieurs fonctions.
+
+Sa place
+
+Un boîtier compact ou un espace technique, selon la puissance et le refroidissement.
+
+Son apport
+
+Donner accès au calcul lourd sans en équiper chaque poste utilisateur.
+
+La charge, la chaleur et le niveau sonore guident son emplacement.
+
+Les silhouettes illustrent des formats, pas des produits à l’échelle. Un type matériel ne fixe ni une marque ni une dimension unique.
+
+Le calcul dans un petit volume
+
+Le GB10.
+Un exemple concret.
+
+Le GB10 associe CPU et GPU. Les systèmes qui l’intègrent illustrent une place possible pour le calcul dans un format de bureau.
+
+De la mémoire et du calcul, près de l’usage.
+
+Dans la composition d’un cluster, ce type de machine apporte une ressource d’inférence. Les fonctions, les données et les interfaces restent réparties selon leur rôle.
+
+Le modèle DGX Spark de NVIDIA donne un repère physique précis. Les boîtiers d’autres fabricants ont leurs propres caractéristiques.
+
+Caractéristiques du DGX Spark ↗ (https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
+
+15 × 15 cm Emprise du DGX Spark
+5,05 cm de hauteur
+
+1,2 kg Poids annoncé
+du système
+
+128 Go Mémoire unifiée
+au sein de cette machine
+
+Lire l’énergie à la bonne échelle
+
+Pour le DGX Spark, NVIDIA annonce un TDP de 140 W pour le composant GB10 et une alimentation de 240 W. Ces valeurs ne sont pas une mesure de consommation à la prise pendant une mission. Source : gestion de l’énergie du DGX Spark (https://docs.nvidia.com/dgx/dgx-spark/hardware.html#power-and-thermal-management) .
+
+Pour le Jetson Orin Nano Super, les modes de 7 à 25 W concernent le module. Le boîtier complet, ses périphériques et son alimentation comptent aussi. Source : configuration du module Jetson (https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/) .
+
+Le choix utile porte sur l’ensemble installé : énergie au repos et en activité, durée de travail, bruit et chaleur dans le lieu. Le service rendu donne le sens de cette dépense.
+
+Déplaçable, remplaçable, coopératif
+
+Des modules.
+Un travail commun.
+
+La modularité permet de choisir où placer les ressources et comment les faire évoluer autour d’une mission.
+
+L’arbre d’inférence à huit GB10.
+
+Cette composition réunit huit nœuds de calcul reliés par le réseau et la coordination du cluster. Les demandes se répartissent selon les ressources, les priorités et les contraintes du travail.
+
+La modularité porte sur les nœuds : déplacer une unité, en remplacer une ou répartir les traitements. Chaque machine conserve sa mémoire propre ; huit nœuds ne constituent pas automatiquement une seule mémoire unifiée.
+
+L’ensemble demande aussi un réseau, une alimentation et un refroidissement adaptés. Déplacer une ressource passe par la reprise de ses fonctions et de ses accès.
+
+ARBRE D’INFÉRENCE GB10 GB10 GB10 GB10 GB10 GB10 GB10 GB10 Réseau · Coordination · Missions
+
+Schéma d’assemblage du cluster.
+
+01 / PLACER
+
+Au bon endroit.
+
+La perception près du terrain, le poste près de l’usager, les ressources exigeantes dans un espace approprié.
+
+02 / RELIER
+
+Avec un rôle clair.
+
+Chaque nœud rejoint la mission avec ses fonctions, ses accès et ses conditions de fonctionnement.
+
+03 / FAIRE DURER
+
+Avec une reprise prévue.
+
+Entretien, déplacement et remplacement conservent la continuité des connaissances et du travail.
+
+La technologie dans son contexte
+
+Quel service,
+dans quel lieu ?
+
+Des exemples de composition pour relier les types matériels aux personnes qui en bénéficient.
+
+À la maison Avec une équipe Entre plusieurs sites
+
+JAUNE · LE FOYER
+
+Une présence utile, dans l’espace de vie.
+
+Le cadre du foyer JAUNE associe un GB10 aux besoins de la maison. Un poste ou de petits modules complètent l’usage selon la mission.
+
+Le bienfait recherché Retrouver une information, conserver le savoir-faire du foyer et accompagner les tâches utiles aux habitants.
+
+Ce qui fait sa place Un boîtier intégré, des câbles rangés, un niveau sonore compatible avec la pièce et une consommation comprise.
+
+ÉCOLE · BUREAU · CENTRE DE SERVICES
+
+Un poste accessible, des moyens partagés.
+
+Des oSMALL accueillent les interfaces et les outils. Les oCPU portent les services communs ; l’inférence rejoint les ressources adaptées.
+
+Le bienfait recherché Transmettre les procédures, retrouver les connaissances et relier les interventions entre collègues.
+
+Ce qui fait sa place Des postes faciles à utiliser et à entretenir ; les équipements plus bruyants trouvent leur place dans un espace de service.
+
+COOPÉRATION ENTRE ÉTABLISSEMENTS
+
+Mutualiser une force, garder les missions.
+
+Les ressources de calcul et les fonctions coopèrent selon les accords entre partenaires. Les nœuds de proximité restent liés aux besoins de leur lieu.
+
+Le bienfait recherché Rendre une capacité exigeante accessible à plusieurs équipes et transmettre les méthodes qui leur sont utiles.
+
+Ce qui fait sa place Des responsabilités identifiées, une répartition du travail lisible et un entretien organisé pour la continuité.
+
+L’acceptabilité se construit avec les personnes : elles savent à quoi sert l’installation, quelles informations elle utilise et à qui s’adresser.
+
+Le point de départ reste votre vie quotidienne
+
+Le matériel prend sa place
+quand son utilité est claire.
+
+Le bon ensemble associe le service attendu, les contraintes du lieu et les moyens pour le faire durer.
+
+Décrire votre mission ↓ (https://parti-orange.com/assets/fiche-mission-qubit.txt) Lire la présentation complète en texte ↓ (https://parti-orange.com/clusters-couleur/documents/materiel-public.txt)
