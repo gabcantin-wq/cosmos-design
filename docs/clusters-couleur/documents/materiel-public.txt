@@ -39,7 +39,7 @@ Une intégration dans le décor, un câblage rangé et des voyants, du bruit et 
 
 Une énergie justifiée
 
-Le bon niveau de calcul pour la tâche. Mémoire, règles et ressources partagées participent au choix des moyens.
+Un budget de puissance inférieur à 2 000 W pour le cluster complet. Mémoire, règles et ressources partagées guident le choix des moyens.
 
 04
 
@@ -146,7 +146,7 @@ oCPU · LE SOCLE DES SERVICES
 
 Faire tenir le collectif.
 
-Les ressources qui portent les données, les échanges, l’orchestration et les services communs.
+Chaque cluster comprend quatre nœuds oCPU : deux critiques et deux de support. Ils portent les données, les échanges, l’orchestration et les services communs.
 
 Sa force
 
@@ -209,6 +209,8 @@ du système
 au sein de cette machine
 
 Lire l’énergie à la bonne échelle
+
+Le dimensionnement doit rester sous 2 000 W pour le cluster complet : les quatre oCPU, l’inférence, le stockage, le réseau et les autres équipements. Cette enveloppe guide le choix des machines et la répartition de la charge ; elle se vérifie sur l’ensemble installé.
 
 Pour le DGX Spark, NVIDIA annonce un TDP de 140 W pour le composant GB10 et une alimentation de 240 W. Ces valeurs ne sont pas une mesure de consommation à la prise pendant une mission. Source : gestion de l’énergie du DGX Spark (https://docs.nvidia.com/dgx/dgx-spark/hardware.html#power-and-thermal-management) .
 
