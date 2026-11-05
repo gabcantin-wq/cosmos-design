@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 500" role="img" aria-labelledby="title desc">
+<title id="title">Une mission, des fonctions qui coopèrent</title><desc id="desc">La mémoire, les fonctions, la coopération et l'évolution sont reliées autour d'une mission commune. Illustration conceptuelle.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#c6d6e7"/></pattern></defs>
+<rect width="1180" height="500" fill="#f0f5fb"/><rect width="1180" height="500" fill="url(#grid)"/>
+<g fill="none" stroke="#0b50a0" stroke-width="2"><path d="M328 118H590V190M852 118H590M328 382H590V310M852 382H590"/><circle cx="590" cy="250" r="160" stroke="#c1d4e9"/><circle cx="590" cy="250" r="200" stroke="#d5e1ee" stroke-dasharray="4 12"/></g>
+<g fill="#fff" stroke="#9dbbda"><path d="M90 70H308L328 90V166H90Z"/><path d="M852 70H1070V146L1050 166H852Z"/><path d="M90 334H328V410L308 430H90Z"/><path d="M872 334H1070V430H852V354Z"/></g>
+<path d="M465 190H695L715 210V310H485L465 290Z" fill="#0b50a0"/>
+<g fill="#0b50a0"><rect x="110" y="90" width="24" height="7"/><rect x="872" y="90" width="24" height="7"/><rect x="110" y="354" width="24" height="7"/><rect x="872" y="354" width="24" height="7"/><circle cx="590" cy="118" r="5"/><circle cx="590" cy="382" r="5"/></g>
+<g font-family="Arial,sans-serif" fill="#0a121c"><text x="110" y="128" font-size="21" font-weight="700">MÉMOIRE</text><text x="110" y="148" font-size="12" fill="#536b84">Conserver. Retrouver. Réutiliser.</text><text x="872" y="128" font-size="21" font-weight="700">FONCTIONS</text><text x="872" y="148" font-size="12" fill="#536b84">Des agents, des responsabilités.</text><text x="110" y="392" font-size="20" font-weight="700">COOPÉRATION</text><text x="110" y="412" font-size="12" fill="#536b84">Partager à la bonne portée.</text><text x="872" y="392" font-size="21" font-weight="700">ÉVOLUTION</text><text x="872" y="412" font-size="12" fill="#536b84">Éprouver avant d'adopter.</text></g>
+<g fill="#fff" font-family="Arial,sans-serif" text-anchor="middle"><text x="590" y="238" font-size="13" letter-spacing="3">LE POINT COMMUN</text><text x="590" y="271" font-size="26" font-weight="700">LA MISSION</text></g>
+<path d="M32 32H90M32 32V70M1148 468H1090M1148 468V430" stroke="#0b50a0" fill="none" stroke-width="2"/>
+</svg>

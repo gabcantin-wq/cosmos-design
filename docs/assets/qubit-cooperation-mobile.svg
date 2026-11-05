@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 500" role="img" aria-labelledby="title desc">
+<title id="title">Une mission commune</title><desc id="desc">Mémoire, fonctions, coopération et évolution sont reliées à la mission du cluster. Schéma conceptuel.</desc>
+<defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#c6d6e7"/></pattern></defs>
+<rect width="420" height="500" fill="#f0f5fb"/><rect width="420" height="500" fill="url(#grid)"/>
+<g stroke="#0b50a0" fill="none" stroke-width="1.5"><path d="M110 135V170H210V210M310 135V170H210M210 290V330H110V365M210 330H310V365"/><circle cx="210" cy="250" r="155" stroke="#cadbec" stroke-dasharray="3 9"/></g>
+<g fill="#fff" stroke="#a7c1dd"><path d="M20 30H185L200 45V135H20Z"/><path d="M220 30H400V120L385 135H220Z"/><path d="M20 365H200V455L185 470H20Z"/><path d="M235 365H400V470H220V380Z"/></g>
+<path d="M90 210H315L330 225V290H105L90 275Z" fill="#0b50a0"/>
+<g fill="#0b50a0"><path d="M37 49H57V54H37ZM237 49H257V54H237ZM37 384H57V389H37ZM237 384H257V389H237Z"/><circle cx="210" cy="170" r="4"/><circle cx="210" cy="330" r="4"/></g>
+<g font-family="Arial,sans-serif" fill="#080c12" font-size="16" font-weight="700"><text x="37" y="81">MÉMOIRE</text><text x="237" y="81">FONCTIONS</text><text x="37" y="417">COOPÉRATION</text><text x="237" y="417">ÉVOLUTION</text></g>
+<g font-family="Arial,sans-serif" fill="#526172" font-size="12"><text x="37" y="102">Conserver. Retrouver.</text><text x="37" y="120">Réutiliser.</text><text x="237" y="102">Des agents,</text><text x="237" y="120">des responsabilités.</text><text x="37" y="439">Partager à</text><text x="37" y="457">la bonne portée.</text><text x="237" y="439">Éprouver avant</text><text x="237" y="457">d’adopter.</text></g>
+<g font-family="Arial,sans-serif" fill="#fff" text-anchor="middle"><text x="210" y="237" font-size="10" letter-spacing="2">LE POINT COMMUN</text><text x="210" y="266" font-size="24" font-weight="700">LA MISSION</text></g>
+</svg>

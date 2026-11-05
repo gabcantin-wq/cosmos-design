@@ -1,7 +1,7 @@
 CLUSTERS COULEUR — ÉDITION PUBLIQUE DU 5 NOVEMBRE 2026
-Présentation satirique et prospective, sans affiliation à Cohere. Les capacités envisagées ne sont pas déclarées toutes opérationnelles.
+Présentation Qubit, satirique et prospective, sans affiliation à Cohere. Les capacités envisagées ne sont pas déclarées toutes opérationnelles.
 
-Le cluster, côté grand écran
+Qubit / Clusters Couleur
 
 Un cluster.
 De la suite
@@ -9,7 +9,7 @@ dans les idées.
 
 Des fonctions qui se parlent. Des acquis qui restent. Une mission qui traverse les changements de modèle. Voici le futur que nous travaillons à construire.
 
-Explorer la vision ↓ (#capacites) Examiner les acquis ↗ (https://parti-orange.com/clusters-couleur/#acquis)
+Explorer la vision ↓ (#capacites) Examiner les acquis ↗ (#reperes)
 [Illustration : Composition conceptuelle des fonctions réunies autour d’une mission.]
 La coopération, représentée · Schéma conceptuel
 
@@ -22,7 +22,7 @@ Des fonctions avec un métier
 Le collectif mérite
 son propre onglet.
 
-Quatre façons de comprendre la vision. Les schémas décrivent les relations recherchées ; le dossier précise ce qui a été éprouvé.
+Quatre façons de comprendre la vision. Les schémas décrivent les relations recherchées ; les repères ci-dessous précisent ce qui a été éprouvé.
 
 La mémoire La coopération Les fonctions L’évolution
 
@@ -35,7 +35,7 @@ Retrouver ce qui a déjà été compris. Préserver les sources, les erreurs cor
 
 Les modèles changent ; les acquis de l’agent doivent pouvoir continuer à servir sa mission.
 
-Comprendre le réemploi ↗ (https://parti-orange.com/clusters-couleur/#memoire) Une question dans son contexte ↓ Un acquis retrouvé et réévalué ↓ Une suite utile à la mission Schéma conceptuel
+Comprendre le réemploi ↗ (#reperes) Une question dans son contexte ↓ Un acquis retrouvé et réévalué ↓ Une suite utile à la mission Schéma conceptuel
 
 Le rappel et l’applicabilité restent deux vérifications distinctes.
 
@@ -48,7 +48,7 @@ Partager une spécialisation utile, conserver un incident dans le bon établisse
 
 L’accord entre partenaires définit le patrimoine transmis ; la mission et les droits déterminent les usages.
 
-Explorer les deux hôpitaux ↗ (https://parti-orange.com/clusters-couleur/#cooperation) Établissement X · 25 clusters ↕ Un acquis partageable · Un accord ↕ Établissement Y · 25 clusters Scénario pédagogique
+Situer cet exemple ↗ (#reperes) Établissement X · 25 clusters ↕ Un acquis partageable · Un accord ↕ Établissement Y · 25 clusters Scénario pédagogique
 
 Les informations locales gardent leur portée propre.
 
@@ -61,7 +61,7 @@ Virtualiser avec les fonctions d’oMachine. Rechercher avec oWWW et oRadar. Sui
 
 La fonction rend un résultat dont on peut retrouver le contexte, la version et la preuve d’effet.
 
-Suivre le parcours du travail ↗ (https://parti-orange.com/clusters-couleur/#fonctionnement) Besoin · Méthode · Fonction ↓ Exécution dans le mandat ↓ Effet observé · Résultat évalué Schéma conceptuel
+Situer les capacités ↗ (#reperes) Besoin · Méthode · Fonction ↓ Exécution dans le mandat ↓ Effet observé · Résultat évalué Schéma conceptuel
 
 Une acceptation de commande ne remplace pas l’observation du résultat.
 
@@ -74,7 +74,7 @@ Des idées mûrissent dans IdeaLane. Les réalisations et leurs liens sont conse
 
 Les partenaires gardent des pratiques compréhensibles, tandis que le patrimoine continue à s’enrichir.
 
-Comprendre l’adoption ↗ (https://parti-orange.com/clusters-couleur/#evolution) Idée · Variante identifiée ↓ Essais · Validation · Décision ↓ Adoption · Version reçue Schéma conceptuel
+Lire les repères ↗ (#reperes) Idée · Variante identifiée ↓ Essais · Validation · Décision ↓ Adoption · Version reçue Schéma conceptuel
 
 Une nouvelle connaissance n’adopte pas silencieusement un processus.
 
@@ -126,17 +126,42 @@ L’ambition : faire davantage avec l’expérience conservée, des gestes cibl�
 
 Pour en juger, il faut regarder les ressources engagées, le temps, le contexte traité, la qualité et les reprises. Un budget annoncé ne mesure pas à lui seul la valeur d’un système.
 
-Voir ce que montre la démonstration ↗ (https://parti-orange.com/clusters-couleur/#memoire)
+Lire les repères de mesure ↗ (#reperes)
 
-Le dossier derrière la présentation
+Une ambition, un cap commun
 
-Le beau discours
-a un bouton « vérifier ».
+Moins recommencer.
+Plus construire ensemble.
 
-Retrouvez les concepts, les processus, les témoins disponibles et les questions encore ouvertes. La vision donne une direction ; le dossier permet d’examiner le chemin.
+Des agents spécialisés. Une mémoire qui garde les acquis utiles. Des évolutions que l’on peut comprendre, éprouver et adopter. C’est cette intelligence coopérative que les Clusters Couleur cherchent à faire grandir.
 
-Ouvrir la page documentaire ↗ (https://parti-orange.com/clusters-couleur/)
+Explorer les capacités ↗ (#capacites)
 
-Pastiche indépendant des présentations de plateformes IA, inspiré notamment de la page de Cohere (https://cohere.com/) . Aucune affiliation. Cette page expose une vision prospective ; elle n’affirme pas une équivalence globale de performance, de coût ou de service. Version textuelle complète (https://parti-orange.com/clusters-couleur/documents/vision-publique.txt) .
+L’ambition garde ses repères
+
+Une vision claire.
+Des faits situés.
+
+Cette présentation expose une direction de développement. Les exemples et les observations conservent leur date et leur portée.
+
+Mémoire : que montre le cas documenté ?
+
+Le diagnostic historique du 13 septembre 2026 compte 875 tokens : 343 en entrée et 532 en sortie. Le rappel de cet acquis, exécuté le 4 novembre dans une mémoire de laboratoire, n’a pas demandé de nouvelle génération. La lecture, l’évaluation et le stockage conservent leur coût informatique.
+
+Cent occurrences du même cas vérifient la stabilité du réemploi ; elles ne représentent pas cent expériences différentes. Les gains sur des situations variées et la cible de 500 itérations en 3 à 5 heures restent à mesurer.
+
+Coopération : pourquoi plusieurs missions dans un même lieu ?
+
+Dans l’exemple de deux hôpitaux, chacun réunit 25 clusters. Une spécialisation utile peut être partagée entre établissements, tandis qu’un incident local garde sa portée. Deux clusters de même couleur peuvent avoir des missions et des droits distincts.
+
+Les familles de couleur et les usages sectoriels présentés ici sont des voies de développement. Ils ne constituent pas un inventaire de déploiements existants.
+
+Fonctions et évolution : qu’est-ce qui est établi ?
+
+Le dossier préparatoire contient notamment un parcours pilote de naissance, une reprise de trois machines virtuelles observée en octobre 2026 et des essais SDK et SysML. Une partie des essais d’adaptateur utilise un fournisseur simulé. Ces observations ne prouvent pas que toutes les fonctions sont actives partout.
+
+Une idée, une réalisation testée et son adoption sont des étapes distinctes. L’apprentissage conserve des acquis ; un changement de processus suit son propre parcours de validation.
+
+Pastiche indépendant des présentations de plateformes IA, inspiré notamment de Cohere. Aucune affiliation. Cette vision prospective n’affirme pas une équivalence globale de performance, de coût ou de service. Repères issus des éditions documentaires des 3 et 4 novembre 2026.
 
 Repères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt

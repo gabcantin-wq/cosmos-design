@@ -62,7 +62,7 @@ class PublicText(HTMLParser):
 def generate():
     targets = [
         ('clusters-couleur/index.html', 'guide-public.txt', 'Présentation documentaire. Les scénarios et les preuves conservent leur portée datée.'),
-        ('clusters-couleur/vision/index.html', 'vision-publique.txt', 'Présentation satirique et prospective, sans affiliation à Cohere. Les capacités envisagées ne sont pas déclarées toutes opérationnelles.'),
+        ('index.html', 'vision-publique.txt', 'Présentation Qubit, satirique et prospective, sans affiliation à Cohere. Les capacités envisagées ne sont pas déclarées toutes opérationnelles.'),
     ]
     for source, target, status in targets:
         parser = PublicText()

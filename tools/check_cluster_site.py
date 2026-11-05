@@ -1,6 +1,6 @@
 """Check local links, fragments, metadata, images and capture declarations.
 
-Only the new portal and cluster pages are inspected. Existing Univers content
+Only the commercial homepage, documentation and aliases are inspected. Existing Univers content
 is used as a link target but is not rewritten or re-qualified by this check.
 """
 from html.parser import HTMLParser
@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 from build_cluster_captures import START, END, gallery_markup
 
 ROOT = Path(__file__).resolve().parents[1] / 'docs'
-PAGES = ['index.html', 'clusters-couleur/index.html', 'clusters-couleur/vision/index.html']
+PAGES = ['index.html', 'clusters-couleur/index.html', 'clusters-couleur/vision/index.html', 'cosmos/index.html']
 
 class Inspect(HTMLParser):
     def __init__(self):
@@ -36,6 +36,8 @@ class Inspect(HTMLParser):
             self.viewport |= a.get('name') == 'viewport'
         if tag == 'link' and a.get('rel') == 'canonical': self.canonical = a.get('href')
         if tag == 'img': self.images.append(a)
+        if tag == 'source' and a.get('srcset'):
+            self.references.extend(value.strip().split()[0] for value in a['srcset'].split(','))
         if tag == 'script' and a.get('src', '').startswith(('https:', 'http:', '//')): self.external_scripts.append(a['src'])
         for key in ('href', 'src'):
             if key in a: self.references.append(a[key])
@@ -67,7 +69,7 @@ for relative in PAGES:
             if target not in cache: cache[target] = inspect(target)
             if unquote(url.fragment) not in cache[target].ids: errors.append(f'{relative}: missing fragment {ref}')
 capture_count = 0
-for relative, channel in [('clusters-couleur/index.html', 'documentation'), ('clusters-couleur/vision/index.html', 'commercial')]:
+for relative, channel in [('clusters-couleur/index.html', 'documentation'), ('index.html', 'commercial')]:
     page = cache[ROOT / relative]
     prefix = '/clusters-couleur/media/'
     pattern = prefix + ('documentation/captures.json' if channel == 'documentation' else r'commercial/edition-[a-z0-9-]+/captures.json')
@@ -101,7 +103,13 @@ for relative, channel in [('clusters-couleur/index.html', 'documentation'), ('cl
         if text.count(START) != 1 or text.count(END) != 1 or text.split(START)[1].split(END)[0] != gallery_markup(manifest):
             errors.append('Documentary gallery is stale: run tools/build_cluster_captures.py')
 ET.parse(ROOT / 'sitemap.xml')
-for name in ('cluster-mark.svg', 'cluster-field.svg'): ET.parse(ROOT / 'assets' / name)
+for name in ('cluster-mark.svg', 'cluster-field.svg', 'qubit-wordmark.svg', 'qubit-symbol.svg', 'qubit-cooperation.svg', 'qubit-cooperation-mobile.svg'): ET.parse(ROOT / 'assets' / name)
+home = (ROOT / 'index.html').read_text(encoding='utf-8')
+if re.search(r'href="/(univers|cosmos|clusters-couleur)/', home):
+    errors.append('Commercial homepage links to a separate page')
+for font in ('unbounded', 'manrope'):
+    if not (ROOT / f'assets/fonts/{font}-variable.ttf').is_file(): errors.append(f'Missing local font: {font}')
+    if not (ROOT / f'assets/fonts/{font}-OFL.txt').is_file(): errors.append(f'Missing font license: {font}')
 report = {'pages': len(PAGES), 'references_checked': checked, 'capture_channels': 2, 'capture_slots': capture_count, 'errors': errors}
 print(json.dumps(report, ensure_ascii=False, indent=2))
 raise SystemExit(bool(errors))
