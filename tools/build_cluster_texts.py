@@ -62,18 +62,23 @@ class PublicText(HTMLParser):
 def generate():
     targets = [
         ('clusters-couleur/index.html', 'guide-public.txt', 'Présentation documentaire. Les scénarios et les preuves conservent leur portée datée.'),
-        ('index.html', 'vision-publique.txt', 'Présentation commerciale Qubit. Les observations, les exemples et les perspectives conservent leur portée et leurs conditions de qualification.'),
+        ('index.html', 'vision-publique.txt', 'Présentation des capacités et des processus du cluster.'),
     ]
     for source, target, status in targets:
         parser = PublicText()
         parser.feed((ROOT / source).read_text(encoding='utf-8'))
-        manifest = json.loads((ROOT / parser.capture_manifest.lstrip('/')).read_text(encoding='utf-8'))
-        updated = date.fromisoformat(manifest['updated_on'])
-        months = ['JANVIER', 'FÉVRIER', 'MARS', 'AVRIL', 'MAI', 'JUIN', 'JUILLET', 'AOÛT', 'SEPTEMBRE', 'OCTOBRE', 'NOVEMBRE', 'DÉCEMBRE']
-        edition_date = f'{updated.day} {months[updated.month - 1]} {updated.year}'
-        header = 'CLUSTERS COULEUR — ÉDITION PUBLIQUE DU ' + edition_date + '\n' + status + '\n\n'
+        if target == 'vision-publique.txt':
+            header = 'QUBIT — CLUSTERS COULEUR\n' + status + '\n\n'
+            footer = ''
+        else:
+            manifest = json.loads((ROOT / parser.capture_manifest.lstrip('/')).read_text(encoding='utf-8'))
+            updated = date.fromisoformat(manifest['updated_on'])
+            months = ['JANVIER', 'FÉVRIER', 'MARS', 'AVRIL', 'MAI', 'JUIN', 'JUILLET', 'AOÛT', 'SEPTEMBRE', 'OCTOBRE', 'NOVEMBRE', 'DÉCEMBRE']
+            edition_date = f'{updated.day} {months[updated.month - 1]} {updated.year}'
+            header = 'CLUSTERS COULEUR — ÉDITION PUBLIQUE DU ' + edition_date + '\n' + status + '\n\n'
+            footer = '\nRepères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt\n'
         out = ROOT / 'clusters-couleur/documents' / target
-        out.write_text(header + parser.text() + '\nRepères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt\n', encoding='utf-8')
+        out.write_text(header + parser.text() + footer, encoding='utf-8')
         print(out.relative_to(ROOT))
 
 if __name__ == '__main__':

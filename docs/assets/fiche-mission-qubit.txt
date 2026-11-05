@@ -1,8 +1,7 @@
 QUBIT — CLUSTERS COULEUR
-Fiche de cadrage d'une première mission — novembre 2026
+Fiche de mission
 
-Cette fiche sert à préparer un échange et à rendre un premier périmètre concret.
-Elle ne constitue ni un devis, ni une promesse de disponibilité d'une fonction.
+Cette fiche rassemble votre contexte métier, vos usages et votre cadre de coopération.
 
 1. LE BESOIN
 Quel problème veut-on résoudre ? Pour quelles équipes ou quels usagers ?
@@ -20,7 +19,7 @@ Quelles limites d'intervention faut-il respecter ?
 
 4. LES ACQUIS DISPONIBLES
 Quelles procédures, résolutions antérieures et sources peut-on réutiliser ?
-Quelle est leur date, leur provenance et leur portée ?
+Quelle est leur provenance, leur fraîcheur et leur portée ?
 Quelles connaissances demandent une vérification actuelle ?
 
 5. LE RÉSULTAT ATTENDU
@@ -30,7 +29,7 @@ Quelle situation de départ servira de comparaison ?
 Quels indicateurs suivra-t-on : qualité, délai, couverture, reprises, ressources ?
 
 6. L'ADOPTION ET LA SUITE
-Quelles fonctions doivent être qualifiées pour ce périmètre ?
+Quelles fonctions servent ce périmètre ?
 Quelles conditions permettent l'adoption, l'arrêt ou le retour à la version précédente ?
 Quels acquis faudra-t-il conserver ou partager après l'expérience ?
 Quel usage suivant permettra de vérifier le bénéfice du réemploi ?
