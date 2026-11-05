@@ -49,7 +49,15 @@ Correction éditoriale de Gab du 5 novembre 2026 : la page commerciale présente
 le cluster et sa valeur pour une organisation, sans se définir par référence à
 un concurrent ou commenter les intentions de son ton. Le parcours relie les
 bénéfices, le fonctionnement, les rôles natifs, les usages, la maîtrise et le
-cadrage d'une première mission. Les faits mesurés gardent leur portée.
+cadrage d'une mission.
+
+Précision éditoriale de Gab : la vitrine est une présentation intemporelle des
+capacités et des grandes lignes des processus, rédigée au présent. Elle ne porte
+ni dates d'édition visibles, ni calendrier, ni objectifs de performance chiffrés,
+ni inventaire d'essais. Le compagnon commercial et la fiche de mission suivent
+ce choix. Les observations datées et leur provenance restent dans les documents
+de référence. Les textes commerciaux n'ajoutent pas de performance, de client ou
+de déploiement qui ne figure pas dans les sources.
 
 La consolidation documentaire `CLUSTERCOULEUR_REFERENCE_LLM.md`, édition du
 5 novembre fournie par Gab après révision Claude, précise ce parcours : critères
