@@ -68,7 +68,7 @@
   <div class="wrap memory-explorer" data-tabs>
     <div class="tab-list" role="tablist" aria-label="Deux moments du réemploi"><button type="button" id="memory-first-tab" role="tab" aria-controls="memory-first" aria-selected="true" tabindex="0">La première rencontre <span>01</span></button><button type="button" id="memory-next-tab" role="tab" aria-controls="memory-next" aria-selected="false" tabindex="-1">Le besoin revient <span>02</span></button></div>
     <div id="memory-first" class="tab-panel" role="tabpanel" aria-labelledby="memory-first-tab" tabindex="0"><p class="process-line">Comprendre <span>→</span> Vérifier <span>→</span> Retenir</p><p>Le collectif explore la situation, vérifie le résultat et conserve les acquis utiles avec leur contexte. Les erreurs comprises font partie de cette expérience.</p></div>
-    <div id="memory-next" class="tab-panel" role="tabpanel" aria-labelledby="memory-next-tab" tabindex="0" hidden><p class="process-line">Retrouver <span>→</span> Réévaluer <span>→</span> Réutiliser</p><p>La mémoire rapproche le nouveau besoin des acquis disponibles. Leur pertinence est vérifiée avant réemploi ; ce qui a changé appelle un nouveau travail.</p></div>
+    <div id="memory-next" class="tab-panel" role="tabpanel" aria-labelledby="memory-next-tab" tabindex="0"><p class="process-line">Retrouver <span>→</span> Réévaluer <span>→</span> Réutiliser</p><p>La mémoire rapproche le nouveau besoin des acquis disponibles. Leur pertinence est vérifiée avant réemploi ; ce qui a changé appelle un nouveau travail.</p></div>
   </div>
 </section>
 
@@ -90,13 +90,15 @@
 <section class="mission-section section" id="mission" aria-labelledby="mission-title"><div class="wrap mission-layout">
   <div class="mission-intro"><p class="eyebrow">Et si on partait de vous ?</p><h2 id="mission-title">Donnez une<br><span class="accent-orange">direction.</span></h2><p class="section-intro">Un besoin concret, les connaissances disponibles et un résultat attendu : c’est le point de départ d’une mission.</p><p class="mission-note">Préparez votre fiche, puis gardez-la ou partagez-la avec votre équipe. Aucun envoi automatique.</p><a class="text-link" href="/technique/">D’abord, explorer l’architecture <span aria-hidden="true">↗</span></a></div>
   <form id="mission-form" class="mission-form">
+    <fieldset id="mission-fields" disabled><legend class="sr-only">Préparer une fiche de mission</legend>
     <label for="mission-name">Qu’aimeriez-vous faire avancer ? <span>Obligatoire</span></label><input id="mission-name" name="mission" maxlength="160" placeholder="Ex. Transmettre notre savoir-faire technique" required>
     <label for="mission-context">Sur quoi pouvons-nous nous appuyer ?</label><textarea id="mission-context" name="context" rows="3" maxlength="3000" placeholder="Vos équipes, vos documents, vos outils, votre expérience…"></textarea>
     <label for="mission-result">À quoi reconnaîtrez-vous un résultat utile ?</label><textarea id="mission-result" name="result" rows="3" maxlength="3000" placeholder="Le changement concret que vous souhaitez observer…"></textarea>
     <button type="submit" class="button button-primary">Créer ma fiche <span aria-hidden="true">↗</span></button>
     <p class="form-hint">La fiche est préparée uniquement dans votre navigateur.</p>
     <div id="mission-output" class="mission-output" hidden><p role="status" id="mission-status">Votre fiche est prête.</p><label for="mission-text">Votre fiche de mission</label><textarea id="mission-text" rows="9" readonly></textarea><div class="actions"><button type="button" class="button button-outline" id="download-mission">Télécharger la fiche ↓</button><button type="button" class="text-button" id="copy-mission">Copier le texte</button></div></div>
-    <noscript><p>Pour préparer une fiche sans JavaScript, notez ces trois éléments dans un document : votre besoin, les ressources disponibles et le résultat attendu.</p></noscript>
+    </fieldset>
+    <p id="mission-fallback" class="form-fallback">Vous pouvez préparer votre fiche dans un document : notez votre besoin, les ressources disponibles et le résultat attendu. Le formulaire interactif devient disponible lorsque son chargement est terminé.</p>
   </form>
 </div></section>
 </main>

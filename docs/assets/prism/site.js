@@ -37,6 +37,7 @@ document.querySelectorAll('[data-tabs]').forEach(group => {
     });
     if (focus) button.focus();
   }
+  activate(buttons[0]);
   buttons.forEach((button, index) => {
     button.addEventListener('click', () => activate(button));
     button.addEventListener('keydown', event => {
@@ -97,6 +98,9 @@ if (missionForm) {
       status.textContent = 'Le texte est sélectionné. Utilisez la commande Copier de votre appareil.';
     }
   });
+  // Enable input only after the local submit handler is installed.
+  document.querySelector('#mission-fields').disabled = false;
+  document.querySelector('#mission-fallback').hidden = true;
 }
 
 const imageDialog = document.querySelector('.image-dialog');
