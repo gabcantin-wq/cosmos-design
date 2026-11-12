@@ -92,6 +92,7 @@ def main():
         def load(route):
             page.goto(BASE + route, wait_until="networkidle")
             page.evaluate("document.fonts.ready")
+            assert page.locator("html").get_attribute("lang") == "en"
             page.add_style_tag(content="html{scroll-behavior:auto!important}")
             page.evaluate("document.querySelectorAll('img[src]').forEach(i=>i.loading='eager')")
             page.wait_for_function("[...document.querySelectorAll('img[src]')].every(i=>i.complete && i.naturalWidth>0)")
@@ -123,9 +124,9 @@ def main():
         page.locator("#memory-next-tab").press("ArrowLeft")
         assert page.locator("#memory-first").is_visible()
         page.locator("[data-mission-example]").first.click()
-        assert "savoir-faire" in page.locator("#mission-name").input_value()
-        page.locator("#mission-context").fill("SYNTHETIC_PRIVATE_CONTEXT — équipe et outils")
-        page.locator("#mission-result").fill("SYNTHETIC_PRIVATE_RESULT — résultat vérifiable")
+        assert "know-how" in page.locator("#mission-name").input_value()
+        page.locator("#mission-context").fill("SYNTHETIC_PRIVATE_CONTEXT — team and tools")
+        page.locator("#mission-result").fill("SYNTHETIC_PRIVATE_RESULT — verifiable result")
         page.locator("#mission-form button[type=submit]").click()
         assert page.locator("#mission-output").is_visible()
         assert "SYNTHETIC_PRIVATE_CONTEXT" in page.locator("#mission-text").input_value()
@@ -152,6 +153,10 @@ def main():
         page.keyboard.press("Escape")
         assert not page.locator(".image-dialog").is_visible()
         assert link.evaluate("e=>e===document.activeElement")
+        for mechanism in ("deduplication", "mitosis", "egg"):
+            page.locator(f'.lifecycle-map a[href="#{mechanism}"]').click()
+            assert urlparse(page.url).fragment == mechanism
+            assert page.locator(f"#{mechanism} .phase-list li").count() == 3
         page.locator("details").first.locator("summary").click()
         assert page.locator("details").first.get_attribute("open") is not None
         context.close()
@@ -173,7 +178,7 @@ def main():
         assert not errors, errors
         assert not unexpected, unexpected
         browser.close()
-    result = {"status":"PASS", "mode":"headless Chromium with exact static files routed from repository", "viewports":[1440,768,390,320], "pages":["/","/technique/"], "original_images_verified":images, "checks":["links/anchors/unique IDs", "all page images decoded", "responsive overflow", "screenshots", "keyboard tabs", "mission example", "local form generation and download", "blank input validation", "mobile menu/Escape", "image dialog/focus restoration", "disclosure panels", "JavaScript disabled and unavailable", "no unexpected outgoing request or form query", "no JavaScript errors"]}
+    result = {"status":"PASS", "mode":"headless Chromium with exact static files routed from repository", "viewports":[1440,768,390,320], "pages":["/","/technique/"], "original_images_verified":images, "checks":["links/anchors/unique IDs", "all page images decoded", "responsive overflow", "screenshots", "keyboard tabs", "English page language", "three evolution mechanisms and phase links", "mission example", "local form generation and download", "blank input validation", "mobile menu/Escape", "image dialog/focus restoration", "disclosure panels", "JavaScript disabled and unavailable", "no unexpected outgoing request or form query", "no JavaScript errors"]}
     (out / "qa.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False), flush=True)
 

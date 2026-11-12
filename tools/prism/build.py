@@ -19,13 +19,13 @@ def render(template, values):
 
 PAGES = (
     ("home.html", "docs/index.html", {
-        "title": "L’intelligence, à l’œuvre.",
-        "description": "Des agents qui coopèrent, une mémoire qui se construit et un rayon dédié à votre mission. Découvrez une autre façon de mettre l’intelligence au travail.",
+        "title": BRAND["tagline"],
+        "description": "A collective of agents, a memory that carries experience forward, and a ray dedicated to your mission. Discover intelligence organised for useful work.",
         "page_path": "/", "page_class": "commercial", "nav_home": 'aria-current="page"', "nav_tech": ""
     }),
     ("technical.html", "docs/technique/index.html", {
-        "title": "Architecture : agents, mémoire et coopération",
-        "description": "Explorez les rayons autonomes, les fonctions des agents, les portées de mémoire, les itérations et le cycle de développement. Des descriptions et des schémas pour comprendre.",
+        "title": "Architecture: agents, memory and evolution",
+        "description": "Explore autonomous rays, agent functions, memory, cooperation and development. Understand the differences between deduplication, mitosis and the egg.",
         "page_path": "/technique/", "page_class": "technical", "nav_home": "", "nav_tech": 'aria-current="page"'
     }),
 )
@@ -34,6 +34,8 @@ for source, destination, page in PAGES:
     values = {key: html.escape(value, quote=True) for key, value in BRAND.items()}
     values["brand_descriptor"] = html.escape(BRAND["company"].removeprefix(BRAND["brand"]).strip(), quote=True)
     values.update({key: html.escape(value, quote=True) if key in ("title", "description") else value for key, value in page.items()})
+    first, _, rest = BRAND["tagline"].partition(" ")
+    values["hero_title"] = html.escape(first) + "<br><span>" + html.escape(rest) + "</span>"
     values["content"] = render((HERE / source).read_text(encoding="utf-8"), values)
     values["preload"] = '<link rel="preload" as="image" href="/assets/prism/prism-hero.png" fetchpriority="high">' if page["page_class"] == "commercial" else ""
     output = ROOT / destination

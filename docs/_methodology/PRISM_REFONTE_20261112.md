@@ -64,3 +64,36 @@ les identités des agents ni les services des rayons.
 Pour revenir à la version antérieure de l'accueil, rétablir `docs/index.html`
 depuis la source de départ dans un nouveau commit puis publier ce commit. Les
 nouveaux assets peuvent rester présents sans être référencés.
+
+## Itération anglaise et évolution — 12 novembre 2026
+
+À la demande de Gab, les deux pages publiques, leurs métadonnées, textes alternatifs,
+libellés accessibles et messages de la fiche sont en anglais. La signature
+« Intelligence into action. » est définie dans `brand.json` et composée pour le
+hero, le titre et le pied de page. « Ray » est défini dès la première occurrence
+comme un collectif d'agents dédié à une mission. Les anciennes ancres et l'URL
+`/technique/` sont conservées pour les liens existants ; le corpus scientifique
+archivé n'est pas retraduit par cette passe.
+
+Un aperçu commercial et un chapitre technique distinguent les phases et résultats
+propres à la déduplication, à la mitose et à l'œuf. Ils ne sont pas présentés comme
+une chaîne automatique. La déduplication exacte conserve l'identité des événements ;
+la mitose crée une lignée et un périmètre enfant ; l'œuf prépare la naissance puis
+le transfert aux services propres du nouveau rayon. Une variante de fonction et un
+rayon autonome ne sont pas confondus. Les capacités portables/hors ligne restent
+conditionnées à leurs preuves, sans promesse de naissance universelle en un clic.
+
+Sources ORANGE consultées au snapshot `ca645fea751a8657cab58f22d04744d339640531` :
+
+- `md/specs/function-deu-methodology.md`, section 2 : identité et déduplication du contenu.
+- `md/specs/CONTRAT_PASSAGE_V0.md`, préimage : individuation des événements, absence de déduplication sémantique.
+- `md/specs/intercluster-reconciliation-v1.md`, admission : rejeu d'une opération et conflit de contenu.
+- `md/core/oLLM_EVOLUTIVE_DOCTRINE.md`, application et section 2 : enfant, parents et adoption distincte.
+- `md/core/oLLM_CLUSTER_AUTONOMY.md`, mitoses d'apprentissage : mission, identité et autorités propres.
+- `md/tickets/orEGG_cluster_seed_profile_development_plan.md`, profil et EGG-001..014 : seed, bootstrap, handoff et extinction.
+- `services/orange-egg/README.md` : distinguer plan, exécuteurs et qualification complète portable/hors ligne.
+
+La destination réelle du contact « Discuss your mission » a été demandée à Gab.
+La fiche locale reste indépendante ; aucun contenu saisi ne doit être joint à un
+contact ou envoyé automatiquement. Les contrôles conservent le test sans JavaScript
+et ajoutent la langue et les liens vers les trois mécanismes.

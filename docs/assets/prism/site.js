@@ -68,15 +68,15 @@ if (missionForm) {
   missionForm.addEventListener('submit', event => {
     event.preventDefault();
     if (!missionName.value.trim()) {
-      missionName.setCustomValidity('Décrivez le besoin que vous souhaitez faire avancer.');
+      missionName.setCustomValidity('Describe the need you would like to move forward.');
       missionName.reportValidity(); return;
     }
     const data = new FormData(missionForm);
-    const context = String(data.get('context') || '').trim() || 'À préciser avec l’équipe.';
-    const result = String(data.get('result') || '').trim() || 'À définir avec l’équipe.';
-    textArea.value = `${brand} · Fiche de mission\n\nLE BESOIN\n${missionName.value.trim()}\n\nLES RESSOURCES ET LE CONTEXTE\n${context}\n\nLE RÉSULTAT ATTENDU\n${result}\n\nLES PROCHAINES QUESTIONS\n- Qui porte la mission ?\n- Quelles données peuvent être utilisées ou partagées ?\n- Quelles décisions restent humaines ?\n- Comment vérifier le résultat ?\n\nFiche préparée localement, sans envoi automatique.\n`;
+    const context = String(data.get('context') || '').trim() || 'To clarify with the team.';
+    const result = String(data.get('result') || '').trim() || 'To define with the team.';
+    textArea.value = `${brand} · Mission worksheet\n\nTHE NEED\n${missionName.value.trim()}\n\nRESOURCES AND CONTEXT\n${context}\n\nEXPECTED OUTCOME\n${result}\n\nNEXT QUESTIONS\n- Who owns the mission?\n- What data may be used or shared?\n- Which decisions remain with people?\n- How will the result be verified?\n\nWorksheet prepared locally. Nothing is sent automatically.\n`;
     output.hidden = false;
-    status.textContent = 'Votre fiche est prête. Vous pouvez la télécharger ou la copier.';
+    status.textContent = 'Your worksheet is ready to download or copy.';
     textArea.focus({ preventScroll: true });
     output.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
   });
@@ -87,15 +87,15 @@ if (missionForm) {
     link.download = `${brand.toLowerCase().replace(/[^a-z0-9-]/g, '-')}-mission.txt`;
     document.body.append(link); link.click(); link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1500);
-    status.textContent = 'Téléchargement de votre fiche lancé.';
+    status.textContent = 'Your worksheet download has started.';
   });
   document.querySelector('#copy-mission').addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(textArea.value);
-      status.textContent = 'La fiche a été copiée.';
+      status.textContent = 'Worksheet copied.';
     } catch {
       textArea.focus(); textArea.select();
-      status.textContent = 'Le texte est sélectionné. Utilisez la commande Copier de votre appareil.';
+      status.textContent = 'The text is selected. Use the Copy command on your device.';
     }
   });
   // Enable input only after the local submit handler is installed.

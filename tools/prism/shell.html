@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,10 @@
   <meta property="og:title" content="{{company}} — {{title}}">
   <meta property="og:description" content="{{description}}">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="fr_CA">
+  <meta property="og:locale" content="en_CA">
   <meta property="og:url" content="{{url}}{{page_path}}">
   <meta property="og:image" content="{{url}}/assets/prism/prism-hero.png">
-  <meta property="og:image:alt" content="Un prisme de verre relie des fonctions colorées par des faisceaux lumineux.">
+  <meta property="og:image:alt" content="A glass prism connects coloured functions through beams of light.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/prism/mark.svg" type="image/svg+xml">
   <link rel="preload" href="/assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
@@ -24,35 +24,35 @@
   <script src="/assets/prism/site.js?v={{edition}}" defer></script>
 </head>
 <body class="{{page_class}}">
-  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <a class="skip-link" href="#contenu">Skip to content</a>
   <header class="site-header">
     <div class="header-inner wrap">
-      <a class="brand" href="/" aria-label="{{company}}, accueil">
+      <a class="brand" href="/" aria-label="{{company}}, home">
         <img src="/assets/prism/mark.svg" width="40" height="40" alt="">
         <span class="brand-name">{{brand}}<span class="brand-descriptor">{{brand_descriptor}}</span></span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
-      <nav class="site-navigation" id="site-navigation" aria-label="Navigation principale">
-        <a href="/#approche" {{nav_home}}>L’approche</a>
-        <a href="/#memoire">La mémoire</a>
-        <a href="/#cooperation">La coopération</a>
+      <nav class="site-navigation" id="site-navigation" aria-label="Main navigation">
+        <a href="/#approche" {{nav_home}}>The approach</a>
+        <a href="/#memoire">Memory</a>
+        <a href="/#cooperation">Cooperation</a>
         <a href="/technique/" {{nav_tech}}>Architecture <span aria-hidden="true">↗</span></a>
-        <a class="nav-cta" href="/#mission">Votre mission <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="/#mission">Your mission <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
   <main id="contenu">{{content}}</main>
   <footer class="site-footer">
     <div class="wrap footer-top">
-      <div><a class="brand footer-brand" href="/"><img src="/assets/prism/mark.svg" width="34" height="34" alt=""><span>{{brand}}</span></a><p>L’intelligence prend une direction.<br>La vôtre.</p></div>
-      <nav aria-label="Navigation de pied de page"><a href="/#approche">L’approche</a><a href="/technique/">L’architecture</a><a href="/#mission">Préparer une mission</a><a href="/univers/">Archives scientifiques <span aria-hidden="true">↗</span></a></nav>
+      <div><a class="brand footer-brand" href="/"><img src="/assets/prism/mark.svg" width="34" height="34" alt=""><span>{{brand}}</span></a><p>{{tagline}}<br>Directed by your mission.</p></div>
+      <nav aria-label="Footer navigation"><a href="/#approche">The approach</a><a href="/technique/">Architecture</a><a href="/#mission">Prepare a mission</a><a href="/univers/">Science archives <span aria-hidden="true">↗</span></a></nav>
     </div>
-    <div class="wrap footer-bottom"><span>© 2026 {{company}}</span><span>Des agents. Une mémoire. Une direction.</span><a href="#contenu">Retour en haut ↑</a></div>
+    <div class="wrap footer-bottom"><span>© 2026 {{company}}</span><span>Agents. Memory. Direction.</span><a href="#contenu">Back to top ↑</a></div>
   </footer>
   <dialog class="image-dialog" aria-labelledby="image-dialog-caption">
-    <div class="dialog-toolbar"><p id="image-dialog-caption">Illustration</p><button class="dialog-close" type="button" aria-label="Fermer l’illustration">Fermer <span aria-hidden="true">×</span></button></div>
+    <div class="dialog-toolbar"><p id="image-dialog-caption">Illustration</p><button class="dialog-close" type="button" aria-label="Close illustration">Close <span aria-hidden="true">×</span></button></div>
     <div class="dialog-image-wrap"><img class="dialog-image" alt=""></div>
-    <a class="dialog-original" target="_blank" rel="noopener">Ouvrir l’original ↗</a>
+    <a class="dialog-original" target="_blank" rel="noopener">Open original ↗</a>
   </dialog>
 </body>
 </html>
