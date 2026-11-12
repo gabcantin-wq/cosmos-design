@@ -20,14 +20,14 @@ nomenclature ORG-14828 et au mandat de publication ponctuel ORG-14689.
   la ligne de flottaison se chargent à la demande.
 
 La page commerciale présente l'approche, le réemploi de l'expérience, la
-coopération, des usages et une fiche de mission. La page technique décrit les
+coopération, des usages et les mécanismes d’évolution. La page technique décrit les
 rayons, les fonctions, les portées de mémoire, les itérations, le cycle de
 développement, la coopération et les espaces de dialogue. Les schémas détaillés
 fournis en anglais s'ouvrent en grand avec un lien vers l'original.
 
-La fiche de mission est préparée dans le navigateur. Aucun formulaire n'envoie
-de données à un serveur. Le téléchargement et la copie sont déclenchés par le
-visiteur. Aucun service d'analytics ou de suivi n'est ajouté.
+La section et la fiche de mission ont été retirées à la demande de Gab. La vitrine
+présente le concept et ses mécanismes ; elle ne propose pas de vente de missions.
+Aucun formulaire, contact commercial, analytics ou service de suivi n’est ajouté.
 
 ## Vérifications
 
@@ -40,16 +40,15 @@ Vérifiés sur les deux pages : liens, ancres, identifiants uniques, empreintes 
 dix images, décodage des images, polices et absence de débordement horizontal en
 1440, 768, 390 et 320 pixels. Les captures ordinateur/mobile ont été inspectées.
 Les onglets et leur navigation clavier, le menu mobile et Échap, les schémas
-agrandis avec retour de focus, les détails déroulants, les exemples de mission,
-la génération et le téléchargement du texte et le refus d'un titre vide ont été
-exercés. Aucun échec JavaScript ni requête sortante inattendue dans ces parcours.
+agrandis avec retour de focus, les détails déroulants et l’absence de formulaire ou de liens vers la section
+mission supprimée ont été exercés. Aucun échec JavaScript ni requête sortante inattendue dans ces parcours.
 
-Correction conservée : un formulaire HTML ordinaire pouvait envoyer ses champs
-par GET si JavaScript était indisponible. Les contrôles sont désormais désactivés
-dans le HTML initial et activés seulement après installation du traitement local.
-Sans JavaScript ou si le script ne charge pas, une consigne textuelle reste
-accessible et aucun champ ne peut être soumis par l'interface. Les deux panneaux
-de mémoire restent lisibles dans ce mode ; leur alternance s'initialise en JavaScript.
+Leçon de la première version, désormais retirée : un formulaire HTML ordinaire
+pouvait envoyer ses champs par GET si JavaScript était indisponible. La correction
+avait désactivé ses contrôles jusqu’à l’installation du traitement local. La
+suppression actuelle retire entièrement ce formulaire et son code. Les deux
+panneaux de mémoire restent lisibles sans JavaScript ; leur alternance est
+initialisée lorsque le script est disponible.
 
 ## Publication
 
@@ -93,7 +92,20 @@ Sources ORANGE consultées au snapshot `ca645fea751a8657cab58f22d04744d339640531
 - `md/tickets/orEGG_cluster_seed_profile_development_plan.md`, profil et EGG-001..014 : seed, bootstrap, handoff et extinction.
 - `services/orange-egg/README.md` : distinguer plan, exécuteurs et qualification complète portable/hors ligne.
 
-La destination réelle du contact « Discuss your mission » a été demandée à Gab.
-La fiche locale reste indépendante ; aucun contenu saisi ne doit être joint à un
-contact ou envoyé automatiquement. Les contrôles conservent le test sans JavaScript
-et ajoutent la langue et les liens vers les trois mécanismes.
+La demande de contact et de fiche a été remplacée par la correction suivante de Gab.
+Les contrôles conservent la navigation sans JavaScript, la langue et les liens vers
+les trois mécanismes.
+
+## Correction de positionnement — 12 novembre 2026
+
+Gab : « enleve toute la section de mission je ne veux pas vendre des missions tout
+de suite. » Cette instruction remplace la demande de contact et de fiche locale.
+La section, le formulaire, son téléchargement, sa copie et les appels à préparer
+une mission sont retirés, ainsi que leur code et leurs styles dédiés. Les exemples
+restent descriptifs. Le mot « mission » garde son sens technique dans la définition
+d’un rayon ; il ne constitue pas une offre commerciale. Aucun contact n’est encore
+à raccorder pour cette demande. Le site reste une présentation anglaise de Prism,
+de ses usages et de son architecture.
+
+La vérification visuelle a également corrigé le chevauchement des libellés longs
+de déduplication et de mitose dans l’aperçu commercial mobile.

@@ -93,6 +93,7 @@ def main():
             page.goto(BASE + route, wait_until="networkidle")
             page.evaluate("document.fonts.ready")
             assert page.locator("html").get_attribute("lang") == "en"
+            assert page.locator('form, #mission, [data-mission-example], a[href$="#mission"]').count() == 0
             page.add_style_tag(content="html{scroll-behavior:auto!important}")
             page.evaluate("document.querySelectorAll('img[src]').forEach(i=>i.loading='eager')")
             page.wait_for_function("[...document.querySelectorAll('img[src]')].every(i=>i.complete && i.naturalWidth>0)")
@@ -123,21 +124,6 @@ def main():
         assert page.locator("#memory-next").is_visible() and not page.locator("#memory-first").is_visible()
         page.locator("#memory-next-tab").press("ArrowLeft")
         assert page.locator("#memory-first").is_visible()
-        page.locator("[data-mission-example]").first.click()
-        assert "know-how" in page.locator("#mission-name").input_value()
-        page.locator("#mission-context").fill("SYNTHETIC_PRIVATE_CONTEXT — team and tools")
-        page.locator("#mission-result").fill("SYNTHETIC_PRIVATE_RESULT — verifiable result")
-        page.locator("#mission-form button[type=submit]").click()
-        assert page.locator("#mission-output").is_visible()
-        assert "SYNTHETIC_PRIVATE_CONTEXT" in page.locator("#mission-text").input_value()
-        with page.expect_download() as event:
-            page.locator("#download-mission").click()
-        event.value.save_as(str(out / "mission-test.txt"))
-        assert "SYNTHETIC_PRIVATE_RESULT" in (out / "mission-test.txt").read_text(encoding="utf-8-sig")
-        assert urlparse(page.url).query == ""
-        page.locator("#mission-name").fill("   ")
-        page.locator("#mission-form button[type=submit]").click()
-        assert not page.locator("#mission-name").evaluate("e=>e.checkValidity()")
         page.set_viewport_size({"width":390,"height":844})
         load("/")
         assert not page.locator("#site-navigation").is_visible()
@@ -167,18 +153,16 @@ def main():
                 fallback.route("**/assets/prism/site.js*", lambda route: route.abort())
             f = fallback.new_page()
             f.goto(BASE, wait_until="networkidle")
-            assert f.locator("#mission-name").is_disabled()
-            assert f.locator("#mission-form button[type=submit]").is_disabled()
-            assert f.locator("#mission-fallback").is_visible()
+            assert f.locator("form, #mission").count() == 0
             assert f.locator("#memory-first").is_visible() and f.locator("#memory-next").is_visible()
             assert f.locator("#site-navigation").is_visible()
             assert urlparse(f.url).query == ""
-            print(f"PASS {mode}: no input or submission, readable memory and navigation", flush=True)
+            print(f"PASS {mode}: no mission form, readable memory and navigation", flush=True)
             fallback.close()
         assert not errors, errors
         assert not unexpected, unexpected
         browser.close()
-    result = {"status":"PASS", "mode":"headless Chromium with exact static files routed from repository", "viewports":[1440,768,390,320], "pages":["/","/technique/"], "original_images_verified":images, "checks":["links/anchors/unique IDs", "all page images decoded", "responsive overflow", "screenshots", "keyboard tabs", "English page language", "three evolution mechanisms and phase links", "mission example", "local form generation and download", "blank input validation", "mobile menu/Escape", "image dialog/focus restoration", "disclosure panels", "JavaScript disabled and unavailable", "no unexpected outgoing request or form query", "no JavaScript errors"]}
+    result = {"status":"PASS", "mode":"headless Chromium with exact static files routed from repository", "viewports":[1440,768,390,320], "pages":["/","/technique/"], "original_images_verified":images, "checks":["links/anchors/unique IDs", "all page images decoded", "responsive overflow", "screenshots", "keyboard tabs", "English page language", "three evolution mechanisms and phase links", "presentation only: no mission form or calls to action", "mobile menu/Escape", "image dialog/focus restoration", "disclosure panels", "JavaScript disabled and unavailable", "no unexpected outgoing request or form query", "no JavaScript errors"]}
     (out / "qa.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False), flush=True)
 

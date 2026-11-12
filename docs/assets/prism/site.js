@@ -51,58 +51,6 @@ document.querySelectorAll('[data-tabs]').forEach(group => {
   });
 });
 
-const missionForm = document.querySelector('#mission-form');
-if (missionForm) {
-  const missionName = document.querySelector('#mission-name');
-  const output = document.querySelector('#mission-output');
-  const textArea = document.querySelector('#mission-text');
-  const status = document.querySelector('#mission-status');
-  const brand = document.querySelector('meta[name="application-name"]').content;
-  missionName.addEventListener('input', () => missionName.setCustomValidity(''));
-  document.querySelectorAll('[data-mission-example]').forEach(link => {
-    link.addEventListener('click', () => {
-      missionName.value = link.dataset.missionExample;
-      missionName.setCustomValidity('');
-    });
-  });
-  missionForm.addEventListener('submit', event => {
-    event.preventDefault();
-    if (!missionName.value.trim()) {
-      missionName.setCustomValidity('Describe the need you would like to move forward.');
-      missionName.reportValidity(); return;
-    }
-    const data = new FormData(missionForm);
-    const context = String(data.get('context') || '').trim() || 'To clarify with the team.';
-    const result = String(data.get('result') || '').trim() || 'To define with the team.';
-    textArea.value = `${brand} · Mission worksheet\n\nTHE NEED\n${missionName.value.trim()}\n\nRESOURCES AND CONTEXT\n${context}\n\nEXPECTED OUTCOME\n${result}\n\nNEXT QUESTIONS\n- Who owns the mission?\n- What data may be used or shared?\n- Which decisions remain with people?\n- How will the result be verified?\n\nWorksheet prepared locally. Nothing is sent automatically.\n`;
-    output.hidden = false;
-    status.textContent = 'Your worksheet is ready to download or copy.';
-    textArea.focus({ preventScroll: true });
-    output.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
-  });
-  document.querySelector('#download-mission').addEventListener('click', () => {
-    const url = URL.createObjectURL(new Blob(['\ufeff', textArea.value], { type: 'text/plain;charset=utf-8' }));
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `${brand.toLowerCase().replace(/[^a-z0-9-]/g, '-')}-mission.txt`;
-    document.body.append(link); link.click(); link.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 1500);
-    status.textContent = 'Your worksheet download has started.';
-  });
-  document.querySelector('#copy-mission').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(textArea.value);
-      status.textContent = 'Worksheet copied.';
-    } catch {
-      textArea.focus(); textArea.select();
-      status.textContent = 'The text is selected. Use the Copy command on your device.';
-    }
-  });
-  // Enable input only after the local submit handler is installed.
-  document.querySelector('#mission-fields').disabled = false;
-  document.querySelector('#mission-fallback').hidden = true;
-}
-
 const imageDialog = document.querySelector('.image-dialog');
 if (imageDialog && typeof imageDialog.showModal === 'function') {
   let trigger = null;
