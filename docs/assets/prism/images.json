@@ -1,0 +1,112 @@
+[
+  {
+    "file": "prism-hero.png",
+    "source_filename": "OpenAI Playground 2026-11-12 at 09.05.56 (2).png",
+    "width": 1914,
+    "height": 822,
+    "bytes": 1827694,
+    "sha256": "319587c5998ae9d65d7d6f618a716d3ec077b3c0e9897a9a02c0089f5f0b67c8",
+    "alt": "La lumière des modèles orientée vers des fonctions complémentaires.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "development-cycle.png",
+    "source_filename": "41b39f70-fc27-420d-9ed9-4da3492dd11e.png",
+    "width": 1586,
+    "height": 992,
+    "bytes": 2024910,
+    "sha256": "e27c3d7f11f276fae2433690012c7ee615a8e10478322904f74319bba2a9e3bf",
+    "alt": "Une boucle de conception, de réalisation et de validation.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "agent-cooperation.png",
+    "source_filename": "f9654188-72a0-4a80-828d-7cb50c3fe8bd.png",
+    "width": 1586,
+    "height": 992,
+    "bytes": 2060217,
+    "sha256": "570eac8bb78f6dddc4767bc1bb83e7a126ad11fe169cb50ea920e087e1ad0339",
+    "alt": "Deux collectifs d’agents reliés par un échange choisi.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "memory-reuse.png",
+    "source_filename": "5c7d0fb6-4093-4d78-827e-92d0ad65fd69.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1896817,
+    "sha256": "2df7814f2e129d8ba0868d26bc3a7a36ccaf77df7c51d1489bb0e4a93acd2f21",
+    "alt": "Un premier parcours de travail et le réemploi de ses acquis.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "spectral-work.png",
+    "source_filename": "163d5268-6d70-44c4-b9c1-16b603cb3809.png",
+    "width": 1586,
+    "height": 992,
+    "bytes": 2071220,
+    "sha256": "c5b61f63a58fc8aca09903deba5f088964b7f48cb48f6445a90f03824d237b01",
+    "alt": "Des sources sélectionnées alimentent plusieurs étapes de travail.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "ray-federation.png",
+    "source_filename": "Three autonomous islands, one resilient mesh.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2221630,
+    "sha256": "17f0db7d7adfd7b1b0882e926918650c1fbfc660ed6c6f7346e586ce8034270a",
+    "alt": "Trois rayons autonomes reliés par des échanges.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "memory-scopes-diagram.png",
+    "source_filename": "agent-memory-cooperation-scopes.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 627920,
+    "sha256": "5d53c5a6059ea97eaea18093008cda37ec8df2f0aa4b3e52dd202979d35a553a",
+    "alt": "Schéma de référence des quatre portées de mémoire et de coopération.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "spectral-iterations-diagram.png",
+    "source_filename": "spectral-iterations.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 786699,
+    "sha256": "bd44c6de5a4a3b07e7022f8192bac2626f87676271a006a201578036098eb4b8",
+    "alt": "Schéma de référence des itérations et des entrées bornées.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "development-cycle-diagram.png",
+    "source_filename": "agent-development-v-cycle.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 787142,
+    "sha256": "7f28080c81ef9e38c94bdc6c1fc68a9fe10fc6f30c25ed21ce1c7aa41069a6cf",
+    "alt": "Schéma de référence du cycle de développement et de ses vérifications.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  },
+  {
+    "file": "memory-reuse-diagram.png",
+    "source_filename": "Spectral Memory_ Verified Reasoning Reuse.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1950687,
+    "sha256": "edbca4c9c19c520b763465637366f68a455b7408e3723c26afc88895760ae99a",
+    "alt": "Schéma de référence : raisonner, valider, retenir ; retrouver, vérifier, réutiliser.",
+    "provenance": "Visuel fourni par Gab pour la refonte du 12 novembre 2026",
+    "transformation": "Aucune ; original copié à l’identique"
+  }
+]
