@@ -1,15 +1,16 @@
 # Custom Domain & DNS
 
-## Prism domain migration — prepared 2026-11-13
+## Prism domain — active 2026-11-13
 
 Gab acquired **prismintelligence.ai** at Domain.com / Network Solutions and
 requested moving the existing Prism site to this address. The hosting remains
 GitHub Pages, `gabcantin-wq/cosmos-design`, `main` / `docs`.
 
-The source on the migration branch targets the new domain. The production
-domain is still **parti-orange.com** until the branch is integrated and the
-GitHub Pages setting is changed. DNS and HTTPS activation are separate checks;
-this document does not claim that either has completed.
+The production domain is **prismintelligence.ai**. GitHub Pages serves the
+published source from `main/docs`; its certificate is approved for the apex
+and `www`, and HTTPS enforcement is enabled. Both HTTPS addresses were checked
+successfully on 13 November. The former domain's redirect is still separate
+unfinished work.
 
 | Type | Host | Value |
 |---|---|---|
@@ -19,8 +20,9 @@ this document does not claim that either has completed.
 | A | `@` | `185.199.111.153` |
 | CNAME | `www` | `gabcantin-wq.github.io` |
 
-Use Domain.com's DNS settings for **prismintelligence.ai**, with the default
-TTL. These are website records only. Preserve email and verification records.
+Use Domain.com's DNS settings for **prismintelligence.ai**. Gab's saved zone
+shows a one-hour TTL for the A records and four hours for the CNAME; both are
+valid. These are website records only. Preserve email and verification records.
 The CNAME value has no protocol or repository name.
 
 The [migration record](PRISM_DOMAIN_20261113.md) carries the activation sequence,

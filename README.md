@@ -10,7 +10,7 @@ Working sessions, verbatims, raw sources and internal notes are kept locally.
 ## Public website
 
 `docs/` is served at [prismintelligence.ai](https://prismintelligence.ai/) by GitHub Pages
-from `main` after the domain migration is activated. The public landing page
+from `main`. The public landing page
 presents Prism Intelligence. See [the domain migration record](docs/_methodology/PRISM_DOMAIN_20261113.md)
 for the DNS configuration and activation status.
 

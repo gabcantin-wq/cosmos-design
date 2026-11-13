@@ -1,6 +1,6 @@
 # Prism Intelligence domain migration
 
-Status: prepared; DNS configuration and production cutover pending.
+Status: new domain active over HTTPS; former-domain redirect pending.
 
 Gab's instruction, 13 November 2026: use the newly purchased
 **prismintelligence.ai** domain for the cluster's public site, already presented
@@ -43,6 +43,32 @@ URL, canonical links, Open Graph page/image URLs, robots and XML sitemap were
 checked together against `https://prismintelligence.ai`. The sitemap includes
 the home and architecture pages. `git diff --check` passed. No layout, script or
 style changed, so no new graphical-browser session was needed for this migration.
+
+## Deployment observations — 13 November 2026
+
+The candidate `f1576bed633feada84af99d636e4651c8d411115` was published to `main`
+by a normal fast-forward. Gab configured all five records at Domain.com. GitHub's
+DNS health endpoint confirmed that the apex and `www` are valid, served by Pages,
+eligible for HTTPS, and free of CAA errors or unrelated destination addresses.
+The home page, architecture page, robots and sitemap returned HTTP 200 with
+hashes identical to the candidate's Git blobs.
+
+The first certificate request remained incomplete after the domain was bound
+before DNS configuration. With the DNS health check now valid, the documented
+GitHub remove-and-add procedure was applied once. It produced GitHub's commits
+`3eef117` (delete CNAME) and `2d8799f` (create CNAME); the only net source change
+was the CNAME file's trailing newline. The build of `2d8799f` completed successfully.
+
+At 20:17 UTC, GitHub reported an approved certificate covering
+`prismintelligence.ai` and `www.prismintelligence.ai`, expiring 11 February 2027.
+Both HTTPS addresses returned the Prism home page with normal certificate
+verification; `www` resolved to the apex URL. HTTPS enforcement was enabled and
+read back as true. These observations supersede the prepared state above.
+No browser security check was disabled. A browser tab opened before certificate
+delivery may need reloading.
+
+The old `parti-orange.com` redirect has not been configured. Its DNS and Google
+Workspace records were not modified during this cutover.
 
 ## Activation
 
