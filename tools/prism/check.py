@@ -118,6 +118,22 @@ def main():
                         page.locator("#cooperation").scroll_into_view_if_needed()
                         page.screenshot(path=str(out / "home-cooperation-desktop.png"))
                 print(f"PASS {label} {width}px: images, fonts, overflow", flush=True)
+        for width in (1920, 2560, 3840):
+            page.set_viewport_size({"width":width,"height":1080})
+            load("/")
+            assert not page.evaluate("document.documentElement.scrollWidth>innerWidth"), f"wide overflow {width}"
+            alignment = page.evaluate("""() => {
+                const selectors = ['.header-inner', '.hero-content', '.hero-bottom', '#approche', '.footer-top'];
+                return selectors.map(selector => {
+                    const rect = document.querySelector(selector).getBoundingClientRect();
+                    return {selector, x:rect.x, width:rect.width};
+                });
+            }""")
+            for box in alignment:
+                assert .03 * width <= box["x"] <= .08 * width, f"excessive wide margin: {box} at {width}"
+                assert abs(box["x"] - alignment[0]["x"]) < 2, f"wide alignment: {box} at {width}"
+            page.screenshot(path=str(out / f"home-wide-{width}.png"))
+            print(f"PASS home {width}px: proportional margin and aligned sections", flush=True)
         page.set_viewport_size({"width":1440,"height":960})
         load("/")
         page.locator("#memory-next-tab").click()
@@ -163,6 +179,8 @@ def main():
         assert not unexpected, unexpected
         browser.close()
     result = {"status":"PASS", "mode":"headless Chromium with exact static files routed from repository", "viewports":[1440,768,390,320], "pages":["/","/technique/"], "original_images_verified":images, "checks":["links/anchors/unique IDs", "all page images decoded", "responsive overflow", "screenshots", "keyboard tabs", "English page language", "three evolution mechanisms and phase links", "presentation only: no mission form or calls to action", "mobile menu/Escape", "image dialog/focus restoration", "disclosure panels", "JavaScript disabled and unavailable", "no unexpected outgoing request or form query", "no JavaScript errors"]}
+    result["wide_home_viewports"] = [1920,2560,3840]
+    result["checks"].append("wide home margins and header/hero/sections/footer alignment")
     (out / "qa.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False), flush=True)
 

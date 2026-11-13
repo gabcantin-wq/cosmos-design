@@ -35,3 +35,6 @@
 @media(max-width:700px){.lifecycle-map{grid-template-columns:1fr;gap:10px}.lifecycle-map>a{display:grid;grid-template-columns:46px 1fr;gap:3px 18px;padding:17px 20px}.lifecycle-symbol{grid-row:1 / 3;align-self:center}.lifecycle-map>a>span:last-child{grid-column:2}.lifecycle-detail>h3{font-size:27px}.phase-list li{grid-template-columns:24px minmax(0,1fr);gap:5px 14px}.phase-list li>span{grid-column:2}.birth-relationship{padding:23px}.lifecycle-detail{scroll-margin-top:195px}}
 
 @media(max-width:700px){.evolution-preview .principles article{display:block}.evolution-preview .principles .index{display:block}.evolution-preview .principles h3{margin:14px 0 12px}}
+
+/* Keep the commercial layout proportional on wide displays. */
+@media(min-width:1440px){.commercial .wrap{width:90%}.commercial .principles p{max-width:56ch}}
