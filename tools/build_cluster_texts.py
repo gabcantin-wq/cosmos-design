@@ -34,7 +34,7 @@ class PublicText(HTMLParser):
             self.parts.append(' | ')
         if tag == 'a':
             href = attrs.get('href', '')
-            self.link = 'https://parti-orange.com' + href if href.startswith('/') else href
+            self.link = 'https://prismintelligence.ai' + href if href.startswith('/') else href
         if tag == 'img' and attrs.get('alt'):
             self.parts.append('\n[Illustration : ' + attrs['alt'] + ']\n')
 
@@ -77,7 +77,7 @@ def generate():
             months = ['JANVIER', 'FÉVRIER', 'MARS', 'AVRIL', 'MAI', 'JUIN', 'JUILLET', 'AOÛT', 'SEPTEMBRE', 'OCTOBRE', 'NOVEMBRE', 'DÉCEMBRE']
             edition_date = f'{updated.day} {months[updated.month - 1]} {updated.year}'
             header = 'CLUSTERS COULEUR — ÉDITION PUBLIQUE DU ' + edition_date + '\n' + status + '\n\n'
-            footer = '\nRepères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt\n'
+            footer = '\nRepères et provenance : https://prismintelligence.ai/clusters-couleur/documents/reperes.txt\n'
         out = ROOT / 'clusters-couleur/documents' / target
         out.write_text(header + parser.text() + footer, encoding='utf-8')
         print(out.relative_to(ROOT))

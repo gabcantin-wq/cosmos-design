@@ -1,7 +1,7 @@
 CLUSTERS COULEUR — ÉDITION PUBLIQUE DU 5 NOVEMBRE 2026
 Présentation documentaire. Les scénarios et les preuves conservent leur portée datée.
 
-Accueil (https://parti-orange.com/) / Clusters Couleur
+Accueil (https://prismintelligence.ai/) / Clusters Couleur
 
 Comprendre les Clusters Couleur
 
@@ -205,11 +205,11 @@ Un texte transmissible.
 
 Retrouvez cette présentation complète dans une version textuelle, avec son contexte et ses limites. Elle peut accompagner une lecture humaine ou une analyse par un LLM.
 
-Le guide public complet ↓ (https://parti-orange.com/clusters-couleur/documents/guide-public.txt)
+Le guide public complet ↓ (https://prismintelligence.ai/clusters-couleur/documents/guide-public.txt)
 
 Texte de cette page, définitions, exemples et portée des preuves.
 
-Repères et méthode de lecture ↗ (https://parti-orange.com/clusters-couleur/documents/reperes.txt)
+Repères et méthode de lecture ↗ (https://prismintelligence.ai/clusters-couleur/documents/reperes.txt)
 
 Vocabulaire, provenance documentaire et distinction entre acquis, scénarios et vision.
 
@@ -223,17 +223,17 @@ Les interfaces, la structure et les fonctions se précisent au fil du travail. L
 Cliquez sur une capture pour la lire en grand. Les textes, les états affichés et les mesures décrivent le moment capturé ; les acquis vérifiés restent présentés dans leur propre contexte (#acquis) .
 
 [Illustration : Trace de recherches mémoire dans oMaster, avec requêtes, résultats oMem et étapes de traitement.]
-(https://parti-orange.com/clusters-couleur/media/documentation/omaster-memory-20261105-092916.png)
+(https://prismintelligence.ai/clusters-couleur/media/documentation/omaster-memory-20261105-092916.png)
 
 La trace rend visibles des recherches mémoire et leurs résultats. Elle ne mesure pas à elle seule le gain de mémoire sur une mission complète. · Interface oMaster, panneau de traces · Capture du 2026-11-05
 
 [Illustration : Panneau de télémétrie distinguant les tokens, étapes et durées de la session et de la transaction.]
-(https://parti-orange.com/clusters-couleur/media/documentation/omaster-telemetrie-20261105-092859.png)
+(https://prismintelligence.ai/clusters-couleur/media/documentation/omaster-telemetrie-20261105-092859.png)
 
 Une session et une transaction ont des compteurs distincts. Cet instantané est indépendant du cas historique de 875 tokens présenté plus haut. · Interface oMaster, télémétrie affichée · Capture du 2026-11-05
 
 [Illustration : Écran Doctrine de oMaster présentant un schéma proposé de génétique des fonctions, explicitement marqué DRAFT.]
-(https://parti-orange.com/clusters-couleur/media/documentation/omaster-doctrine-20261105-092454.png)
+(https://prismintelligence.ai/clusters-couleur/media/documentation/omaster-doctrine-20261105-092454.png)
 
 La documentation du cluster expose aussi ses propositions. Ce schéma est affiché comme brouillon ; sa présence dans l’interface ne signifie pas son adoption. · oMaster v0.2.0, Doctrine, Function genetics — proposed · Capture du 2026-11-05
 
@@ -241,7 +241,7 @@ Suivre les mises à jour
 
 5 novembre 2026 — Première sélection de captures de oMaster : recherches mémoire, télémétrie et doctrine en cours de conception. La documentation et la vitrine disposent désormais de sélections indépendantes.
 
-Les prochaines évolutions de oMaster pourront renouveler cette galerie et les explications correspondantes. La vitrine (https://parti-orange.com/clusters-couleur/vision/) conserve une présentation choisie par édition, à un rythme plus stable. Consulter l’historique des mises à jour (https://github.com/gabcantin-wq/cosmos-design/commits/main/docs/clusters-couleur/) .
+Les prochaines évolutions de oMaster pourront renouveler cette galerie et les explications correspondantes. La vitrine (https://prismintelligence.ai/clusters-couleur/vision/) conserve une présentation choisie par édition, à un rythme plus stable. Consulter l’historique des mises à jour (https://github.com/gabcantin-wq/cosmos-design/commits/main/docs/clusters-couleur/) .
 
 Quelques questions
 pour situer le projet.
@@ -262,4 +262,4 @@ Les exemples d’hôpitaux, d’écoles et de maisons sont-ils déployés ?
 
 Ils décrivent des voies de développement et des situations d’usage. Les acquis techniques cités ont leur propre portée. Le scénario Québec ne constitue pas un inventaire de clusters déjà installés.
 
-Repères et provenance : https://parti-orange.com/clusters-couleur/documents/reperes.txt
+Repères et provenance : https://prismintelligence.ai/clusters-couleur/documents/reperes.txt

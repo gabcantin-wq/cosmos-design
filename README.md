@@ -4,16 +4,18 @@ Original structural model of the universe by Gabriel Cantin (Lanoraie, Québec, 
 The corpus is written in French; V1 also has English translations.
 
 This repository holds only the **numbered, ordered corpus files**, ready to be read
-by humans and LLMs, plus the public website in `docs/` (parti-orange.com).
+by humans and LLMs, plus the public website in `docs/` (prismintelligence.ai).
 Working sessions, verbatims, raw sources and internal notes are kept locally.
 
 ## Public website
 
-`docs/` is served at [parti-orange.com](https://parti-orange.com/) by GitHub Pages
-from `main`. The public landing page is the Qubit presentation of Clusters Couleur.
-Other content remains reachable by direct URL, without a link from the landing page:
+`docs/` is served at [prismintelligence.ai](https://prismintelligence.ai/) by GitHub Pages
+from `main` after the domain migration is activated. The public landing page
+presents Prism Intelligence. See [the domain migration record](docs/_methodology/PRISM_DOMAIN_20261113.md)
+for the DNS configuration and activation status.
 
-- `/` — Qubit commercial presentation; navigation stays within this page.
+- `/` — Prism Intelligence presentation.
+- `/technique/` — agents, memory, cooperation, evolution and the birth of rays.
 - `/clusters-couleur/` — French public introduction, processes and bounded evidence.
 - `/materiel/` — hardware types, strengths, modularity and social acceptability.
 - `/clusters-couleur/vision/` — legacy address redirecting to `/`.

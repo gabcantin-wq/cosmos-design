@@ -1,6 +1,33 @@
 # Custom Domain & DNS
 
-## Current production (since 2026-05-11)
+## Prism domain migration — prepared 2026-11-13
+
+Gab acquired **prismintelligence.ai** at Domain.com / Network Solutions and
+requested moving the existing Prism site to this address. The hosting remains
+GitHub Pages, `gabcantin-wq/cosmos-design`, `main` / `docs`.
+
+The source on the migration branch targets the new domain. The production
+domain is still **parti-orange.com** until the branch is integrated and the
+GitHub Pages setting is changed. DNS and HTTPS activation are separate checks;
+this document does not claim that either has completed.
+
+| Type | Host | Value |
+|---|---|---|
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `gabcantin-wq.github.io` |
+
+Use Domain.com's DNS settings for **prismintelligence.ai**, with the default
+TTL. These are website records only. Preserve email and verification records.
+The CNAME value has no protocol or repository name.
+
+The [migration record](PRISM_DOMAIN_20261113.md) carries the activation sequence,
+verification criteria and the separate old-domain redirect dependency.
+Values follow the [GitHub Pages domain guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+## Previous domain configuration (observed since 2026-05-11)
 
 | Layer | Value | Notes |
 |---|---|---|
@@ -14,7 +41,8 @@
 | TXT (SPF) | `v=spf1 include:_spf.google.com ~all` | Google Workspace — NE PAS TOUCHER |
 | CNAME `_domainconnect` | `_domainconnect.domains.squarespace.com` | Inoffensif, laisser tel quel |
 
-Le fichier `docs/CNAME` du repo contient `parti-orange.com` — c'est ce qui dit à GitHub Pages de servir sur ce domaine.
+Avant migration, `docs/CNAME` contenait `parti-orange.com`. La branche de migration
+le remplace par `prismintelligence.ai` ; son intégration fait partie de la bascule.
 
 **Éditer les DNS :** Squarespace → Domains → parti-orange.com → DNS Settings → section « Enregistrements personnalisés ». La section « Enregistrements Google » est réservée à l'email Workspace — ne pas y mettre les records GitHub même si le nom est tentant.
 

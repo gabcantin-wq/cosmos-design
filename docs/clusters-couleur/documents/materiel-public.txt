@@ -303,4 +303,4 @@ quand son utilité est claire.
 
 Le bon ensemble associe le service attendu, les contraintes du lieu et les moyens pour le faire durer.
 
-Décrire votre mission ↓ (https://parti-orange.com/assets/fiche-mission-qubit.txt) Lire la présentation complète en texte ↓ (https://parti-orange.com/clusters-couleur/documents/materiel-public.txt)
+Décrire votre mission ↓ (https://prismintelligence.ai/assets/fiche-mission-qubit.txt) Lire la présentation complète en texte ↓ (https://prismintelligence.ai/clusters-couleur/documents/materiel-public.txt)

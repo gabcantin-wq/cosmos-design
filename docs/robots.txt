@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://parti-orange.com/sitemap.xml
+Sitemap: https://prismintelligence.ai/sitemap.xml
