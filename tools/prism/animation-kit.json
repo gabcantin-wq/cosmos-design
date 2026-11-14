@@ -1,0 +1,116 @@
+{
+  "kit_version": "1.0.0",
+  "prepared_at_utc": "2026-11-14T22:57:49.033363+00:00",
+  "purpose": "Offline animation previews and integration sources for Codex Astra",
+  "website": "https://prismintelligence.ai/",
+  "source_checkout": "F:\\SITE-LANES\\prism-domain-20261113",
+  "source_commit": "a0b6c7cf10d74045d7150eb162712fd3b2eef654",
+  "status": "integrated source; publication tracked in ORG-14829",
+  "visual_reference": "reference/approved-memory-prototype.html",
+  "playback": {
+    "loop": false,
+    "autoplay": "once when visible and motion preference allows",
+    "concurrent_scenes": 1,
+    "maximum_concurrent_packets": 3
+  },
+  "scenes": [
+    {
+      "scene": "development-cycle",
+      "file": "assets/development-cycle.png",
+      "width": 1586,
+      "height": 992,
+      "sha256": "e27c3d7f11f276fae2433690012c7ee615a8e10478322904f74319bba2a9e3bf",
+      "bytes": 2024910,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 39,
+      "variants": [
+        "standard"
+      ]
+    },
+    {
+      "scene": "agent-cooperation",
+      "file": "assets/agent-cooperation.png",
+      "width": 1586,
+      "height": 992,
+      "sha256": "570eac8bb78f6dddc4767bc1bb83e7a126ad11fe169cb50ea920e087e1ad0339",
+      "bytes": 2060217,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 29,
+      "variants": [
+        "accepted",
+        "declined"
+      ]
+    },
+    {
+      "scene": "memory-reuse",
+      "file": "assets/memory-reuse.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2df7814f2e129d8ba0868d26bc3a7a36ccaf77df7c51d1489bb0e4a93acd2f21",
+      "bytes": 1896817,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 24,
+      "variants": [
+        "compatible",
+        "changed"
+      ]
+    },
+    {
+      "scene": "spectral-work",
+      "file": "assets/spectral-work.png",
+      "width": 1586,
+      "height": 992,
+      "sha256": "c5b61f63a58fc8aca09903deba5f088964b7f48cb48f6445a90f03824d237b01",
+      "bytes": 2071220,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 35,
+      "variants": [
+        "iterate",
+        "enough"
+      ]
+    },
+    {
+      "scene": "spectral-memory",
+      "file": "assets/memory-reuse-diagram.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "edbca4c9c19c520b763465637366f68a455b7408e3723c26afc88895760ae99a",
+      "bytes": 1950687,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 25,
+      "variants": [
+        "compatible",
+        "changed"
+      ]
+    },
+    {
+      "scene": "ray-federation",
+      "file": "assets/ray-federation.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "17f0db7d7adfd7b1b0882e926918650c1fbfc660ed6c6f7346e586ce8034270a",
+      "bytes": 2221630,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 35,
+      "variants": [
+        "extend",
+        "limited"
+      ]
+    },
+    {
+      "scene": "prism-hero",
+      "file": "assets/prism-hero.png",
+      "width": 1914,
+      "height": 822,
+      "sha256": "319587c5998ae9d65d7d6f618a716d3ec077b3c0e9897a9a02c0089f5f0b67c8",
+      "bytes": 1827694,
+      "transformation": "none; original PNG bytes preserved",
+      "duration_seconds": 25,
+      "variants": [
+        "standard"
+      ]
+    }
+  ],
+  "integration_base": "a0b6c7cf10d74045d7150eb162712fd3b2eef654",
+  "reference_sha256": "4bc3b0fbd5de92b1bcd1a2d6d4de43f90201d51bc01c72feeab1c647b06df73c"
+}

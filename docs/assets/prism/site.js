@@ -64,6 +64,7 @@ if (imageDialog && typeof imageDialog.showModal === 'function') {
       image.src = link.href; image.alt = link.querySelector('img').alt;
       caption.textContent = link.dataset.caption || image.alt;
       original.href = link.href;
+      if (window.PrismMotion) window.PrismMotion.pauseAll();
       imageDialog.showModal();
       imageDialog.querySelector('.dialog-close').focus();
     });
@@ -85,4 +86,32 @@ if ('IntersectionObserver' in window && sectionLinks.length) {
     });
   }, { rootMargin: '-20% 0px -65% 0px', threshold: 0 });
   document.querySelectorAll('.technical-section').forEach(section => observer.observe(section));
+}
+
+// Progressive enhancement: illustrations and captions remain ordinary HTML.
+if (window.PrismMotion && window.PrismScenes) {
+  document.querySelectorAll('[data-prism-scene]').forEach(host => {
+    const controls = document.getElementById(host.dataset.prismControls);
+    const detailed = host.hasAttribute('data-prism-details');
+    PrismMotion.mount(host, host.dataset.prismScene, {
+      controls, lang: 'en', autoplay: true, compact: !detailed, headingTag: 'h3'
+    });
+    if (detailed) {
+      // Playback remains immediately available; the explanatory walkthrough
+      // opens on request, outside the illustration's lightbox link.
+      const ui = controls.querySelector('.pm-ui');
+      const toolbar = ui.querySelector('.pm-toolbar');
+      const details = document.createElement('details');
+      details.className = 'prism-motion-details';
+      const summary = document.createElement('summary');
+      summary.textContent = 'Explore the steps';
+      details.append(summary);
+      const variants = toolbar.querySelector('.pm-variants');
+      if (variants) details.append(variants);
+      [...ui.children].forEach(child => {
+        if (child !== toolbar && !child.classList.contains('pm-notice')) details.append(child);
+      });
+      ui.insertBefore(details, ui.querySelector('.pm-notice'));
+    }
+  });
 }
