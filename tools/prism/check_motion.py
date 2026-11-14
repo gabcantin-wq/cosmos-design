@@ -175,13 +175,40 @@ def main():
                 page.wait_for_timeout(80)
                 call(page,scene,"c.pause('user')")
             page.emulate_media(reduced_motion='no-preference')
+        # Enlarging one scene must not consume autoplay for unseen scenes.
+        page.close()
+        page=context.new_page()
+        load(page,'/technique/')
+        first=show(page,'agent-cooperation')
+        page.wait_for_function("document.querySelector('[data-prism-scene=\"agent-cooperation\"]').__prismMotion.getState().running")
+        first.click(position={'x':25,'y':25})
+        page.set_viewport_size({'width':1440,'height':1001})
+        page.wait_for_timeout(120)
+        assert not page.evaluate("[...document.querySelectorAll('[data-prism-scene]')].some(h=>h.__prismMotion.getState().running)")
+        page.keyboard.press('Escape')
+        assert not state(page,'agent-cooperation')['running']
+        show(page,'spectral-memory')
+        page.wait_for_function("document.querySelector('[data-prism-scene=\"spectral-memory\"]').__prismMotion.getState().running")
         # Exercise the document-visibility handler deterministically. Headless
         # Chromium has no user tab strip; this is an event-contract test.
         load(page,'/')
+        show(page,'prism-hero')
+        page.wait_for_function("document.querySelector('[data-prism-scene=\"prism-hero\"]').__prismMotion.getState().running")
         page.evaluate("Object.defineProperty(document,'hidden',{configurable:true,get:()=>true});document.dispatchEvent(new Event('visibilitychange'))")
         assert not state(page,'prism-hero')['running'] and state(page,'prism-hero')['reason']=='hidden'
+        stopped=state(page,'prism-hero')['time']
         page.evaluate("delete document.hidden;document.dispatchEvent(new Event('visibilitychange'))")
-        assert not state(page,'prism-hero')['running']
+        page.wait_for_timeout(100)
+        assert not state(page,'prism-hero')['running'] and state(page,'prism-hero')['time']==stopped
+        # A short mobile viewport initially shows the copy, not the hero image.
+        # Wait for the actual illustration before consuming its single pass.
+        page.close()
+        page=context.new_page()
+        page.set_viewport_size({'width':390,'height':568})
+        load(page,'/')
+        assert state(page,'prism-hero')['time']==0 and not state(page,'prism-hero')['running']
+        page.locator('.hero-image').scroll_into_view_if_needed()
+        page.wait_for_function("document.querySelector('[data-prism-scene=\"prism-hero\"]').__prismMotion.getState().running")
         context.close()
         for mode in ('no-javascript','engine-unavailable'):
             fallback=browser.new_context(java_script_enabled=mode!='no-javascript',viewport={'width':390,'height':844})
@@ -203,7 +230,7 @@ def main():
     assert not unexpected,unexpected
     assert not errors,errors
     assert not failed,failed
-    report={'status':'passed','mode':'live HTTPS' if args.live else 'exact local static resources','checks':checks,'reduced_motion':'passed','single_active_scene':'passed','once_visible_autoplay':'passed','hidden_document_event_contract':'passed (synthetic event; headless has no user tab strip)','lightbox_keyboard_focus':'passed','no_js_and_engine_failure_fallback':'passed','errors':errors,'unexpected_requests':unexpected,'failed_requests':failed}
+    report={'status':'passed','mode':'live HTTPS' if args.live else 'exact local static resources','checks':checks,'reduced_motion':'passed','single_active_scene':'passed','once_visible_autoplay':'passed','hero_short_mobile_390x568':'passed','hidden_document_event_contract':'passed (synthetic event; headless has no user tab strip)','lightbox_keyboard_focus':'passed','unseen_autoplay_after_lightbox':'passed','no_js_and_engine_failure_fallback':'passed','errors':errors,'unexpected_requests':unexpected,'failed_requests':failed}
     (args.artifacts/'motion-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'status':'passed','scene_viewports':len(checks),'report':str(args.artifacts/'motion-report.json'),'mode':report['mode']}),flush=True)
 

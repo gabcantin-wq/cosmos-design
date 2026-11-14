@@ -64,8 +64,10 @@ if (imageDialog && typeof imageDialog.showModal === 'function') {
       image.src = link.href; image.alt = link.querySelector('img').alt;
       caption.textContent = link.dataset.caption || image.alt;
       original.href = link.href;
-      if (window.PrismMotion) window.PrismMotion.pauseAll();
       imageDialog.showModal();
+      document.querySelectorAll('[data-prism-scene]').forEach(host => {
+        if (host.__prismMotion) host.__prismMotion.pause('dialog');
+      });
       imageDialog.querySelector('.dialog-close').focus();
     });
   });
@@ -94,7 +96,8 @@ if (window.PrismMotion && window.PrismScenes) {
     const controls = document.getElementById(host.dataset.prismControls);
     const detailed = host.hasAttribute('data-prism-details');
     PrismMotion.mount(host, host.dataset.prismScene, {
-      controls, lang: 'en', autoplay: true, compact: !detailed, headingTag: 'h3'
+      controls, lang: 'en', autoplay: true, compact: !detailed, headingTag: 'h3',
+      canAutoplay: () => !imageDialog || !imageDialog.open
     });
     if (detailed) {
       // Playback remains immediately available; the explanatory walkthrough

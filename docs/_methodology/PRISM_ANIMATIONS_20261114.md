@@ -49,6 +49,21 @@ Two defects found by browser acceptance were corrected in the engine:
 The engine additionally supports an `h3` explanation heading for the site's
 existing section hierarchy. Instance cleanup cancels pending autoplay work.
 
+An integration regression was also found and corrected: the initial lightbox
+handler called the explicit global user pause, consuming autoplay for unseen
+scenes. Dialog pause now preserves that eligibility, and a `canAutoplay` callback
+suppresses automatic playback while the dialog is open. Closing it does not
+restart an already-started scene. The next unseen scene still starts on arrival.
+
+Independent review of the initial candidate was GO with minor observations.
+Its lightbox observation was reproduced and corrected as above. Visibility now
+observes the image rather than the entire host, so a short mobile viewport does
+not consume the hero's passage while only its text is visible. The latest entry
+from each intersection report is used. The hidden-document test now explicitly
+waits for an active scene before verifying that it pauses and stays paused.
+The kit's two playback buttons both read “Replay” at completion; this minor
+original UI behaviour is retained, with both actions usable.
+
 ## Verification
 
 Commands, with artifacts outside the checkout:
@@ -76,7 +91,9 @@ Before publication:
   completion without looping, durable offscreen pause, one active scene and
   first-visibility autoplay. Reduced motion suppresses autoplay; explicit play
   remains available. Architecture variants, disclosures, lightboxes and focus
-  restoration passed. No horizontal overflow or JavaScript errors occurred.
+  restoration passed, including autoplay of unseen scenes after a lightbox is
+  closed, and delayed hero autoplay at 390 by 568 px. No horizontal overflow or
+  JavaScript errors occurred.
 - The existing site checker passed both pages at 1440/768/390/320 px and the
   home at 1920/2560/3840 px, including navigation, tabs, ten original images,
   links, no-JS and script-failure fallbacks. No unexpected request occurred.
