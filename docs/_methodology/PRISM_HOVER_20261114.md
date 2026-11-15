@@ -36,10 +36,13 @@ itself, including the mobile hero crop. Offscreen images, a hidden document or
 an open lightbox stop playback. Reduced-motion preference suppresses automatic
 playback while preserving explicit activation. Failed media leave the original
 image usable. Architecture's enlargement links remain separate from playback;
-on narrow screens they sit below the image so they do not cover its contents.
+on narrow screens they sit below the image with a minimum 44 px target so they
+do not cover its contents. The image alt text also describes its playback
+button through aria-describedby; the action label changes without a redundant
+pressed state. These two accessibility improvements follow independent review.
 
 The two templates and `shell.html` load this runtime instead of the old SVG
-engine. `build.py` generates both pages with edition `2026-11-14-hover-1`.
+engine. `build.py` generates both pages with edition `2026-11-14-hover-2`.
 The old kit files and checker remain historical material; `check_hover.py` is
 the acceptance checker for the currently mounted videos.
 
@@ -50,7 +53,7 @@ Artifacts are outside the checkout in
 `F:/ORANGE-RUNTIME/prism-hover-20261114`.
 
 ```text
-python tools/prism/render_hover.py --frames <artifacts>/frames
+python tools/prism/render_hover.py --output <artifacts>/render-check --frames <artifacts>/frames
 python tools/prism/build.py
 python tools/prism/check.py --artifacts <artifacts>/site-qa
 python tools/prism/check_hover.py --artifacts <artifacts>/hover-qa

@@ -73,6 +73,14 @@ def main():
     def wait_stop(page,scene):
         page.wait_for_function("id=>{const h=document.querySelector('[data-prism-film=\"'+id+'\"]');return h.querySelector('video').paused&&!h.classList.contains('is-playing')}",arg=scene)
     def show(page,scene):host(page,scene).locator('img').scroll_into_view_if_needed()
+    def accessible_descriptions(page):
+        # Check the browser's accessibility tree, not only the ARIA attributes.
+        expected=page.locator('[data-prism-film]').evaluate_all("hs=>hs.map(h=>({name:h.getAttribute('aria-label'),description:h.querySelector('img').alt}))")
+        cdp=page.context.new_cdp_session(page)
+        nodes=cdp.send('Accessibility.getFullAXTree')['nodes'];cdp.detach()
+        for item in expected:
+            matching=[n for n in nodes if n.get('role',{}).get('value')=='button' and n.get('name',{}).get('value')==item['name']]
+            assert len(matching)==1 and matching[0].get('description',{}).get('value')==item['description'],(item,matching)
     def geometry(page,scene):
         result=host(page,scene).evaluate("""h=>{
           const i=h.querySelector('img'),v=h.querySelector('video'),a=i.getBoundingClientRect(),b=v.getBoundingClientRect(),s=getComputedStyle(i),t=getComputedStyle(v);
@@ -89,6 +97,7 @@ def main():
         page=desktop.new_page()
         for path,scenes in PAGES.items():
             before=len(requests);load(page,path)
+            accessible_descriptions(page)
             assert not [u for u in requests[before:] if re.search(r'\.(webm|mp4)',u)],'video downloaded before intent'
             for scene in scenes:
                 show(page,scene)
@@ -112,6 +121,8 @@ def main():
             page=touch.new_page()
             for path,scenes in PAGES.items():
                 load(page,path)
+                if path=='/technique/':
+                    assert page.locator('.prism-film-figure>.zoom-label').evaluate_all('es=>es.every(e=>e.getBoundingClientRect().height>=44&&e.getBoundingClientRect().width>=44)')
                 for scene in scenes:
                     show(page,scene);wait_play(page,scene);details=geometry(page,scene)
                     assert state(page,scene)['mode']=='visible'
@@ -161,6 +172,7 @@ def main():
             if mode in ('no-js','script-unavailable'):
                 assert page.locator('video').count()==0
                 assert host(page,'memory-reuse').locator('img').is_visible()
+                accessible_descriptions(page)
             else:
                 show(page,'memory-reuse');host(page,'memory-reuse').hover()
                 if mode=='webm-fallback':

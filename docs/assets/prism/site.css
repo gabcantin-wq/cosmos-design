@@ -53,5 +53,5 @@
 .hero-art>video{z-index:-2;border-radius:0}
 .hero-shade{pointer-events:none}
 .hero:has(.hero-art:focus-visible){outline:2px solid var(--blue);outline-offset:-4px}
-@media(max-width:700px){.prism-film-figure>.zoom-label{position:static;display:table;margin:6px 0 0 auto;padding:3px 0;border:0;background:none;backdrop-filter:none}}
+@media(max-width:700px){.prism-film-figure>.zoom-label{position:static;display:table;margin:6px 0 0 auto;padding:10px 12px;min-height:44px;min-width:44px;font-size:12px;border:0;background:none;backdrop-filter:none}}
 @media(prefers-reduced-motion:reduce){.prism-film>video{transition:none}}

@@ -33,7 +33,6 @@
     video.setAttribute('aria-hidden','true'); video.tabIndex = -1;
     host.append(video);
     host.disabled = false;
-    host.setAttribute('aria-pressed','false');
     let ratio=0, hovered=false, keyboard=false, manual=false, userPaused=false;
     let requested=false, generation=0, lastIntent=0, failed=false, fallback=false;
     const trigger = host.closest('.hero') || host;
@@ -48,7 +47,6 @@
     }
     function labelState(playing) {
       host.classList.toggle('is-playing',playing);
-      host.setAttribute('aria-pressed',String(playing));
       host.setAttribute('aria-label',(playing?'Pause ':'Animate ')+label);
     }
     function stop() {
