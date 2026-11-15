@@ -1,0 +1,1638 @@
+{
+  "version": 1,
+  "style": "Native image lighting; no drawn packets, paths, rings or camera motion.",
+  "speed": 1.6,
+  "fps": 24,
+  "source_commit": "b83af8ddc1b89c845155ac3157eb685a903169b8",
+  "scenes": {
+    "development-cycle": {
+      "file": "development-cycle.png",
+      "width": 1586,
+      "height": 992,
+      "duration": 39,
+      "defaultVariant": "standard",
+      "nodes": {
+        "need": {
+          "x": 210,
+          "y": 170,
+          "rx": 62,
+          "ry": 38,
+          "color": "#ffb365"
+        },
+        "requirements": {
+          "x": 338,
+          "y": 311,
+          "rx": 65,
+          "ry": 41,
+          "color": "#ffb365"
+        },
+        "design": {
+          "x": 451,
+          "y": 437,
+          "rx": 68,
+          "ry": 43,
+          "color": "#ffb365"
+        },
+        "build": {
+          "x": 550,
+          "y": 586,
+          "rx": 71,
+          "ry": 44,
+          "color": "#ffb365"
+        },
+        "assembly": {
+          "x": 736,
+          "y": 815,
+          "rx": 94,
+          "ry": 62,
+          "color": "#ffb365"
+        },
+        "unit": {
+          "x": 949,
+          "y": 579,
+          "rx": 64,
+          "ry": 46,
+          "color": "#75d8f8"
+        },
+        "system": {
+          "x": 1060,
+          "y": 410,
+          "rx": 66,
+          "ry": 48,
+          "color": "#75d8f8"
+        },
+        "accept": {
+          "x": 1181,
+          "y": 273,
+          "rx": 65,
+          "ry": 55,
+          "color": "#a5efd4"
+        },
+        "deploy": {
+          "x": 1399,
+          "y": 158,
+          "rx": 126,
+          "ry": 52,
+          "color": "#a5efd4"
+        }
+      },
+      "routes": [
+        {
+          "id": "need-requirements",
+          "d": "M 210 226 C 240 256 271 304 318 329",
+          "start": 0.3,
+          "end": 3.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "requirements-design",
+          "d": "M 338 367 L 408 448",
+          "start": 4.15,
+          "end": 7.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "design-build",
+          "d": "M 451 505 L 509 576",
+          "start": 8.1,
+          "end": 10.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "build-candidate",
+          "d": "M 548 651 C 569 674 604 683 644 696",
+          "start": 10.8,
+          "end": 12.7,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "candidate-assembly",
+          "d": "M 656 736 C 702 743 720 766 728 805",
+          "start": 12.8,
+          "end": 15.3,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "variant-assembly",
+          "d": "M 807 740 C 768 750 751 771 746 805",
+          "start": 12.8,
+          "end": 15.3,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "assembly-unit",
+          "d": "M 862 821 C 902 767 936 692 952 649",
+          "start": 15.7,
+          "end": 19,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "unit-system",
+          "d": "M 1018 548 L 1060 480",
+          "start": 19.1,
+          "end": 21.8,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "system-acceptance",
+          "d": "M 1153 425 L 1200 338",
+          "start": 22.2,
+          "end": 25.7,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "admitted-a",
+          "d": "M 1260 266 C 1300 247 1320 220 1318 181",
+          "start": 26.2,
+          "end": 30.5,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": null
+        },
+        {
+          "id": "admitted-b",
+          "d": "M 1268 282 C 1341 269 1389 240 1390 204",
+          "start": 26.7,
+          "end": 30.8,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": null
+        },
+        {
+          "id": "admitted-c",
+          "d": "M 1277 299 C 1378 292 1445 266 1460 232",
+          "start": 27.2,
+          "end": 30.8,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": null
+        },
+        {
+          "id": "feedback",
+          "d": "M 1232 194 C 1271 168 1261 115 1221 96 C 1189 80 1142 84 1072 84 L 382 84 C 292 81 251 86 214 124",
+          "start": 31.2,
+          "end": 38.7,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 4,
+          "title": {
+            "fr": "Cadrer",
+            "en": "Define"
+          },
+          "copy": {
+            "fr": "Le besoin devient une intention explicite, avec les critères qui permettront de reconnaître un résultat utile.",
+            "en": "The need becomes an explicit intent, with criteria for recognising a useful outcome."
+          },
+          "focus": [
+            "need",
+            "requirements"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 8,
+          "title": {
+            "fr": "Concevoir",
+            "en": "Design"
+          },
+          "copy": {
+            "fr": "Les exigences se traduisent en contrats, dépendances et choix de conception.",
+            "en": "Requirements become contracts, dependencies and design choices."
+          },
+          "focus": [
+            "requirements",
+            "design"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 15.5,
+          "title": {
+            "fr": "Construire",
+            "en": "Build"
+          },
+          "copy": {
+            "fr": "Les contributions et variantes sont comparées puis assemblées en un candidat traçable.",
+            "en": "Contributions and variants are compared and assembled into a traceable candidate."
+          },
+          "focus": [
+            "build",
+            "assembly"
+          ]
+        },
+        {
+          "from": 15.5,
+          "to": 22,
+          "title": {
+            "fr": "Vérifier",
+            "en": "Verify"
+          },
+          "copy": {
+            "fr": "Le candidat passe par les vérifications unitaires et d'intégration. L'assemblage seul ne constitue pas une preuve.",
+            "en": "The candidate goes through unit and integration checks. Assembly alone is not evidence."
+          },
+          "focus": [
+            "unit",
+            "system"
+          ]
+        },
+        {
+          "from": 22,
+          "to": 26,
+          "title": {
+            "fr": "Valider",
+            "en": "Validate"
+          },
+          "copy": {
+            "fr": "Le comportement est confronté au besoin et aux critères d'acceptation.",
+            "en": "Behaviour is checked against the need and acceptance criteria."
+          },
+          "focus": [
+            "accept"
+          ]
+        },
+        {
+          "from": 26,
+          "to": 31,
+          "title": {
+            "fr": "Adopter",
+            "en": "Adopt"
+          },
+          "copy": {
+            "fr": "Une version admise peut être appliquée. Ses effets sont ensuite observés dans son environnement.",
+            "en": "An admitted version may be applied. Its effects are then observed in its environment."
+          },
+          "focus": [
+            "deploy"
+          ]
+        },
+        {
+          "from": 31,
+          "to": 39,
+          "title": {
+            "fr": "Apprendre",
+            "en": "Learn"
+          },
+          "copy": {
+            "fr": "L'expérience revient vers le cadrage du prochain cycle. Ce retour conserve la provenance des constats.",
+            "en": "Experience informs the next cycle. The feedback retains the provenance of its findings."
+          },
+          "focus": [
+            "need"
+          ]
+        }
+      ]
+    },
+    "agent-cooperation": {
+      "file": "agent-cooperation.png",
+      "width": 1586,
+      "height": 992,
+      "duration": 29,
+      "defaultVariant": "accepted",
+      "nodes": {
+        "source": {
+          "x": 490,
+          "y": 526,
+          "rx": 82,
+          "ry": 41,
+          "color": "#75d8f8"
+        },
+        "export": {
+          "x": 660,
+          "y": 481,
+          "rx": 34,
+          "ry": 66,
+          "color": "#ffb365"
+        },
+        "import": {
+          "x": 949,
+          "y": 484,
+          "rx": 33,
+          "ry": 65,
+          "color": "#ffb365"
+        },
+        "recipient": {
+          "x": 1166,
+          "y": 528,
+          "rx": 84,
+          "ry": 41,
+          "color": "#75d8f8"
+        }
+      },
+      "routes": [
+        {
+          "id": "prepare",
+          "d": "M 419 519 C 449 496 486 493 525 516",
+          "start": 0.4,
+          "end": 4.1,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "select-export",
+          "d": "M 526 529 C 572 543 613 532 659 505",
+          "start": 4.7,
+          "end": 8.2,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "selected-transfer",
+          "d": "M 692 482 L 926 482",
+          "start": 8.7,
+          "end": 13.2,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "adopt-local",
+          "d": "M 966 500 C 1018 535 1097 553 1162 531",
+          "start": 18.3,
+          "end": 22.7,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": [
+            "accepted"
+          ]
+        },
+        {
+          "id": "application-receipt",
+          "d": "M 1162 540 C 1101 565 1018 550 965 509",
+          "start": 23.1,
+          "end": 25,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": [
+            "accepted"
+          ]
+        },
+        {
+          "id": "decision-return",
+          "d": "M 925 495 L 693 495",
+          "start": 25.1,
+          "end": 28.7,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": null
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 4.5,
+          "title": {
+            "fr": "Sélectionner",
+            "en": "Select"
+          },
+          "copy": {
+            "fr": "Le collectif prépare une contribution utile. Ses mémoires privées restent dans leur périmètre.",
+            "en": "The collective prepares a useful contribution. Its private memories remain within their scope."
+          },
+          "focus": [
+            "source"
+          ]
+        },
+        {
+          "from": 4.5,
+          "to": 8.5,
+          "title": {
+            "fr": "Autoriser",
+            "en": "Authorise"
+          },
+          "copy": {
+            "fr": "L'objet, sa portée et les conditions de partage sont définis avant le transfert.",
+            "en": "The object, scope and sharing conditions are defined before transfer."
+          },
+          "focus": [
+            "export"
+          ]
+        },
+        {
+          "from": 8.5,
+          "to": 13.5,
+          "title": {
+            "fr": "Transmettre",
+            "en": "Transfer"
+          },
+          "copy": {
+            "fr": "Un objet sélectionné traverse le passage. La connexion n'accorde aucun droit supplémentaire.",
+            "en": "A selected object crosses the passage. Connectivity grants no additional authority."
+          },
+          "focus": [
+            "export",
+            "import"
+          ]
+        },
+        {
+          "from": 13.5,
+          "to": 18,
+          "title": {
+            "fr": "Examiner",
+            "en": "Review"
+          },
+          "copy": {
+            "fr": "Le destinataire examine la contribution selon ses propres règles et son besoin.",
+            "en": "The recipient reviews the contribution against its own rules and needs."
+          },
+          "focus": [
+            "import"
+          ]
+        },
+        {
+          "from": 18,
+          "to": 23,
+          "title": {
+            "fr": "Adopter",
+            "en": "Adopt"
+          },
+          "copy": {
+            "fr": "Après sa décision, le destinataire peut utiliser la contribution dans son propre espace.",
+            "en": "After its decision, the recipient may use the contribution within its own space."
+          },
+          "focus": [
+            "recipient"
+          ]
+        },
+        {
+          "from": 23,
+          "to": 29,
+          "title": {
+            "fr": "Retourner un reçu",
+            "en": "Return a receipt"
+          },
+          "copy": {
+            "fr": "Le retour distingue réception, décision et application. Un échange ne fusionne pas les deux collectifs.",
+            "en": "The return distinguishes receipt, decision and application. An exchange does not merge the collectives."
+          },
+          "focus": [
+            "import",
+            "export"
+          ]
+        }
+      ]
+    },
+    "memory-reuse": {
+      "file": "memory-reuse.png",
+      "width": 1672,
+      "height": 941,
+      "duration": 24,
+      "defaultVariant": "compatible",
+      "nodes": {
+        "source": {
+          "x": 99,
+          "y": 417,
+          "rx": 44,
+          "ry": 31,
+          "color": "#ffb365"
+        },
+        "candidate": {
+          "x": 690,
+          "y": 403,
+          "rx": 55,
+          "ry": 46,
+          "color": "#ffb365"
+        },
+        "memory": {
+          "x": 917,
+          "y": 657,
+          "rx": 51,
+          "ry": 40,
+          "color": "#b8a0ff"
+        },
+        "need": {
+          "x": 1055,
+          "y": 423,
+          "rx": 44,
+          "ry": 31,
+          "color": "#ffb365"
+        },
+        "gate": {
+          "x": 1310,
+          "y": 445,
+          "rx": 50,
+          "ry": 67,
+          "color": "#b8a0ff"
+        },
+        "result": {
+          "x": 1533,
+          "y": 408,
+          "rx": 58,
+          "ry": 49,
+          "color": "#a5efd4"
+        },
+        "explore": {
+          "x": 450,
+          "y": 393,
+          "rx": 270,
+          "ry": 180,
+          "color": "#75d8f8"
+        }
+      },
+      "routes": [
+        {
+          "id": "incoming",
+          "d": "M 103 419 C 130 418 160 408 194 409",
+          "start": 0.2,
+          "end": 1.3,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "upper",
+          "d": "M 194 409 C 263 409 238 298 315 298 L 360 294 L 407 272 C 520 246 522 310 552 360 C 568 387 596 395 628 395",
+          "start": 1.3,
+          "end": 5.3,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "middle",
+          "d": "M 194 409 L 291 409 L 332 407 C 375 407 400 387 437 381 L 475 378 C 532 378 570 399 628 399",
+          "start": 1.45,
+          "end": 4.9,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "lower",
+          "d": "M 194 409 C 256 409 247 500 311 503 L 363 503 L 407 501 C 525 501 518 445 570 414 C 589 404 607 401 628 402",
+          "start": 1.6,
+          "end": 5.5,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "verified",
+          "d": "M 628 398 L 686 408",
+          "start": 7.2,
+          "end": 8.7,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "store",
+          "d": "M 777 503 C 855 509 883 584 916 657",
+          "start": 9,
+          "end": 12.2,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "new-need",
+          "d": "M 1065 422 C 1129 415 1164 418 1206 437 C 1230 446 1250 447 1271 445 L 1306 446",
+          "start": 12.6,
+          "end": 16,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "recall",
+          "d": "M 918 657 C 978 677 1034 679 1070 633 C 1099 605 1151 599 1203 581 C 1255 563 1271 551 1271 514 L 1271 484 L 1306 446",
+          "start": 12.6,
+          "end": 16.2,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "reuse",
+          "d": "M 1307 446 C 1360 446 1375 441 1401 431 C 1426 420 1448 416 1473 416 L 1531 410",
+          "start": 20.2,
+          "end": 23.7,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": [
+            "compatible"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 5.6,
+          "title": {
+            "fr": "Explorer",
+            "en": "Explore"
+          },
+          "copy": {
+            "fr": "Une demande mobilise plusieurs chemins de raisonnement. Les contributions convergent vers un résultat candidat.",
+            "en": "A request activates several reasoning paths. Contributions converge into a candidate result."
+          },
+          "focus": [
+            "source"
+          ]
+        },
+        {
+          "from": 5.6,
+          "to": 8.8,
+          "title": {
+            "fr": "Vérifier",
+            "en": "Verify"
+          },
+          "copy": {
+            "fr": "Le résultat candidat est vérifié avant de devenir une expérience réutilisable.",
+            "en": "The candidate result is checked before it becomes reusable experience."
+          },
+          "focus": [
+            "candidate"
+          ]
+        },
+        {
+          "from": 8.8,
+          "to": 12.4,
+          "title": {
+            "fr": "Mémoriser",
+            "en": "Remember"
+          },
+          "copy": {
+            "fr": "La méthode, les sources, les conditions et le résultat vérifié sont conservés ensemble.",
+            "en": "The method, sources, conditions and verified result are retained together."
+          },
+          "focus": [
+            "memory"
+          ]
+        },
+        {
+          "from": 12.4,
+          "to": 16.3,
+          "title": {
+            "fr": "Rappeler",
+            "en": "Retrieve"
+          },
+          "copy": {
+            "fr": "Un nouveau besoin arrive. Une expérience pertinente est rappelée pour éclairer la situation.",
+            "en": "A new need arrives. Relevant experience is retrieved to inform the situation."
+          },
+          "focus": [
+            "need",
+            "memory"
+          ]
+        },
+        {
+          "from": 16.3,
+          "to": 20,
+          "title": {
+            "fr": "Réévaluer",
+            "en": "Reassess"
+          },
+          "copy": {
+            "fr": "La pertinence, la validité et les conditions d'application sont réexaminées avant le réemploi.",
+            "en": "Relevance, validity and conditions of use are reassessed before reuse."
+          },
+          "focus": [
+            "gate"
+          ]
+        },
+        {
+          "from": 20,
+          "to": 24,
+          "title": {
+            "fr": "Réutiliser",
+            "en": "Reuse"
+          },
+          "copy": {
+            "fr": "Les conditions sont compatibles. L'expérience vérifiée ouvre une voie plus directe vers le résultat.",
+            "en": "The conditions are compatible. Verified experience opens a more direct route to the result."
+          },
+          "focus": [
+            "result"
+          ]
+        }
+      ]
+    },
+    "spectral-work": {
+      "file": "spectral-work.png",
+      "width": 1586,
+      "height": 992,
+      "duration": 35,
+      "defaultVariant": "iterate",
+      "nodes": {
+        "selection": {
+          "x": 350,
+          "y": 466,
+          "rx": 44,
+          "ry": 100,
+          "color": "#ffb365"
+        },
+        "parent": {
+          "x": 892,
+          "y": 291,
+          "rx": 124,
+          "ry": 75,
+          "color": "#75d8f8"
+        },
+        "left": {
+          "x": 733,
+          "y": 513,
+          "rx": 65,
+          "ry": 43,
+          "color": "#75d8f8"
+        },
+        "right": {
+          "x": 1096,
+          "y": 507,
+          "rx": 65,
+          "ry": 43,
+          "color": "#75d8f8"
+        },
+        "nested": {
+          "x": 1132,
+          "y": 600,
+          "rx": 36,
+          "ry": 22,
+          "color": "#75d8f8"
+        },
+        "memory": {
+          "x": 861,
+          "y": 758,
+          "rx": 306,
+          "ry": 54,
+          "color": "#b8a0ff"
+        },
+        "result": {
+          "x": 1432,
+          "y": 317,
+          "rx": 102,
+          "ry": 125,
+          "color": "#a5efd4"
+        }
+      },
+      "routes": [
+        {
+          "id": "source-a",
+          "d": "M 211 257 C 280 273 306 328 342 420",
+          "start": 0.3,
+          "end": 4.2,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "source-b",
+          "d": "M 176 351 C 242 366 288 431 343 471",
+          "start": 0.5,
+          "end": 4.2,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "source-c",
+          "d": "M 209 441 C 253 448 297 476 345 487",
+          "start": 0.7,
+          "end": 4.3,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "bounded-input",
+          "d": "M 427 471 C 476 471 478 457 478 420 L 478 334 Q 478 307 510 307 L 704 307",
+          "start": 4.7,
+          "end": 8.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "delegate-left",
+          "d": "M 819 380 C 819 418 746 402 740 449",
+          "start": 9.2,
+          "end": 12.5,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "delegate-right",
+          "d": "M 982 380 C 981 418 1068 411 1068 449",
+          "start": 9.5,
+          "end": 12.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "nested-input",
+          "d": "M 1099 514 C 1100 550 1139 566 1138 585",
+          "start": 12.9,
+          "end": 15.1,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "nested-return",
+          "d": "M 1137 584 C 1137 558 1101 551 1100 518",
+          "start": 15.3,
+          "end": 17.4,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "left-return",
+          "d": "M 832 467 C 863 465 858 417 858 387",
+          "start": 15.4,
+          "end": 18.5,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "right-return",
+          "d": "M 1000 468 C 942 466 945 412 946 386",
+          "start": 17.5,
+          "end": 20.7,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "retain-left",
+          "d": "M 734 599 C 734 650 700 639 700 693",
+          "start": 21.2,
+          "end": 24.7,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "retain-right",
+          "d": "M 1106 621 C 1106 653 1084 662 1084 694",
+          "start": 21.4,
+          "end": 24.8,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "synthesis",
+          "d": "M 1096 310 C 1184 310 1225 294 1249 327 C 1265 347 1286 343 1303 343",
+          "start": 25.2,
+          "end": 29.3,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": null
+        },
+        {
+          "id": "next-context",
+          "d": "M 486 763 L 403 763 C 359 762 341 739 340 685 L 341 590",
+          "start": 29.8,
+          "end": 34.7,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": [
+            "iterate"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 4.5,
+          "title": {
+            "fr": "Sélectionner",
+            "en": "Select"
+          },
+          "copy": {
+            "fr": "Quelques sources pertinentes sont sélectionnées. Le corpus complet reste à l'extérieur de chaque contexte d'appel.",
+            "en": "Relevant sources are selected. The full corpus remains outside each call's context."
+          },
+          "focus": [
+            "selection"
+          ]
+        },
+        {
+          "from": 4.5,
+          "to": 9,
+          "title": {
+            "fr": "Borner le contexte",
+            "en": "Bound the context"
+          },
+          "copy": {
+            "fr": "L'objectif, les extraits utiles, les contraintes et les acquis forment une entrée maîtrisée.",
+            "en": "The objective, relevant excerpts, constraints and prior findings form a bounded input."
+          },
+          "focus": [
+            "parent"
+          ]
+        },
+        {
+          "from": 9,
+          "to": 15.2,
+          "title": {
+            "fr": "Répartir",
+            "en": "Distribute"
+          },
+          "copy": {
+            "fr": "Le travail peut être décomposé en sous-tâches, chacune avec une portée et une entrée bornées.",
+            "en": "Work may be split into subtasks, each with bounded scope and input."
+          },
+          "focus": [
+            "left",
+            "right",
+            "nested"
+          ]
+        },
+        {
+          "from": 15.2,
+          "to": 21,
+          "title": {
+            "fr": "Rapprocher les résultats",
+            "en": "Connect findings"
+          },
+          "copy": {
+            "fr": "Les sous-tâches rendent leurs résultats reliés aux sources. Le parent conserve les incertitudes à résoudre.",
+            "en": "Subtasks return source-linked findings. The parent retains uncertainties still to resolve."
+          },
+          "focus": [
+            "parent"
+          ]
+        },
+        {
+          "from": 21,
+          "to": 25,
+          "title": {
+            "fr": "Conserver les acquis",
+            "en": "Retain findings"
+          },
+          "copy": {
+            "fr": "Les résultats intermédiaires et les points de reprise rejoignent la mémoire de travail.",
+            "en": "Intermediate findings and recovery points enter working memory."
+          },
+          "focus": [
+            "memory"
+          ]
+        },
+        {
+          "from": 25,
+          "to": 29.5,
+          "title": {
+            "fr": "Consolider",
+            "en": "Consolidate"
+          },
+          "copy": {
+            "fr": "La synthèse est évaluée à partir des preuves, de la couverture et des incertitudes restantes.",
+            "en": "The synthesis is assessed against evidence, coverage and remaining uncertainty."
+          },
+          "focus": [
+            "result"
+          ]
+        },
+        {
+          "from": 29.5,
+          "to": 35,
+          "title": {
+            "fr": "Préparer la suite",
+            "en": "Prepare the next step"
+          },
+          "copy": {
+            "fr": "Une étape utile réutilise les acquis pour construire son prochain contexte borné. Elle n'emporte pas tout le corpus.",
+            "en": "A useful next step reuses findings to build its next bounded context. It does not carry the entire corpus."
+          },
+          "focus": [
+            "memory",
+            "selection"
+          ]
+        }
+      ]
+    },
+    "spectral-memory": {
+      "file": "memory-reuse-diagram.png",
+      "width": 1672,
+      "height": 941,
+      "duration": 25,
+      "defaultVariant": "compatible",
+      "nodes": {
+        "source": {
+          "x": 88,
+          "y": 418,
+          "rx": 35,
+          "ry": 44,
+          "color": "#ffb365"
+        },
+        "candidate": {
+          "x": 690,
+          "y": 393,
+          "rx": 53,
+          "ry": 49,
+          "color": "#ffb365"
+        },
+        "memory": {
+          "x": 575,
+          "y": 631,
+          "rx": 47,
+          "ry": 41,
+          "color": "#b8a0ff"
+        },
+        "recalled": {
+          "x": 1155,
+          "y": 539,
+          "rx": 46,
+          "ry": 40,
+          "color": "#b8a0ff"
+        },
+        "gate": {
+          "x": 1404,
+          "y": 517,
+          "rx": 42,
+          "ry": 56,
+          "color": "#75d8f8"
+        },
+        "result": {
+          "x": 1574,
+          "y": 509,
+          "rx": 49,
+          "ry": 50,
+          "color": "#a5efd4"
+        },
+        "reasoning": {
+          "x": 387,
+          "y": 408,
+          "rx": 204,
+          "ry": 104,
+          "color": "#75d8f8"
+        }
+      },
+      "routes": [
+        {
+          "id": "incoming",
+          "d": "M 135 418 L 190 418",
+          "start": 0.2,
+          "end": 1.3,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "reason-top",
+          "d": "M 245 403 C 275 399 259 335 314 336 L 375 335 C 418 334 411 365 431 371 L 475 375 C 505 376 503 401 526 402",
+          "start": 1.3,
+          "end": 5.6,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "reason-mid",
+          "d": "M 245 414 C 277 414 279 400 310 401 L 365 401 C 414 403 410 374 431 372",
+          "start": 1.5,
+          "end": 4.7,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "reason-low",
+          "d": "M 245 424 C 273 432 269 475 315 476 L 389 476 C 424 474 416 455 436 451 L 474 449 C 504 449 506 411 527 409",
+          "start": 1.6,
+          "end": 5.6,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "verified-result",
+          "d": "M 581 407 L 631 407",
+          "start": 7.1,
+          "end": 8.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "store",
+          "d": "M 683 448 C 685 493 665 523 623 532 C 582 540 568 559 571 589 L 575 630",
+          "start": 9.2,
+          "end": 12.6,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "recall",
+          "d": "M 627 641 C 794 638 943 621 1052 589 L 1112 575 L 1156 540",
+          "start": 13,
+          "end": 16.8,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "new-request",
+          "d": "M 969 518 L 1005 518",
+          "start": 13.2,
+          "end": 15.7,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "reach-check",
+          "d": "M 1286 519 L 1350 519",
+          "start": 17.2,
+          "end": 19.4,
+          "kind": "memory",
+          "color": "#b8a0ff",
+          "variants": null
+        },
+        {
+          "id": "reuse",
+          "d": "M 1461 519 L 1518 519 L 1570 518",
+          "start": 21.2,
+          "end": 24.7,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": [
+            "compatible"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 5.8,
+          "title": {
+            "fr": "Raisonner",
+            "en": "Reason"
+          },
+          "copy": {
+            "fr": "La demande traverse plusieurs contributions avant de produire un résultat candidat.",
+            "en": "The request passes through several contributions before yielding a candidate result."
+          },
+          "focus": [
+            "source"
+          ]
+        },
+        {
+          "from": 5.8,
+          "to": 9,
+          "title": {
+            "fr": "Valider",
+            "en": "Validate"
+          },
+          "copy": {
+            "fr": "Le résultat est validé avec ses preuves et ses limites.",
+            "en": "The result is validated with its evidence and limits."
+          },
+          "focus": [
+            "candidate"
+          ]
+        },
+        {
+          "from": 9,
+          "to": 12.8,
+          "title": {
+            "fr": "Mémoriser",
+            "en": "Remember"
+          },
+          "copy": {
+            "fr": "L'expérience conserve le résultat, sa méthode et les conditions de sa validité.",
+            "en": "Experience retains the result, method and conditions of validity."
+          },
+          "focus": [
+            "memory"
+          ]
+        },
+        {
+          "from": 12.8,
+          "to": 17,
+          "title": {
+            "fr": "Rappeler",
+            "en": "Retrieve"
+          },
+          "copy": {
+            "fr": "Un besoin récurrent retrouve une expérience pertinente. Le rappel ne vaut pas encore autorisation de réemploi.",
+            "en": "A recurring need retrieves relevant experience. Retrieval does not yet authorise reuse."
+          },
+          "focus": [
+            "recalled"
+          ]
+        },
+        {
+          "from": 17,
+          "to": 21,
+          "title": {
+            "fr": "Vérifier le contexte",
+            "en": "Verify the context"
+          },
+          "copy": {
+            "fr": "La vérification confirme que les conditions d'application concordent toujours.",
+            "en": "Verification confirms that the conditions of use still match."
+          },
+          "focus": [
+            "gate"
+          ]
+        },
+        {
+          "from": 21,
+          "to": 25,
+          "title": {
+            "fr": "Réutiliser",
+            "en": "Reuse"
+          },
+          "copy": {
+            "fr": "Le résultat est obtenu par un chemin plus direct, après vérification.",
+            "en": "The result follows a more direct path, after verification."
+          },
+          "focus": [
+            "result"
+          ]
+        }
+      ]
+    },
+    "ray-federation": {
+      "file": "ray-federation.png",
+      "width": 1672,
+      "height": 941,
+      "duration": 35,
+      "defaultVariant": "extend",
+      "nodes": {
+        "orange": {
+          "x": 352,
+          "y": 271,
+          "rx": 64,
+          "ry": 32,
+          "color": "#ffb365"
+        },
+        "blueReview": {
+          "x": 656,
+          "y": 568,
+          "rx": 77,
+          "ry": 55,
+          "color": "#ffb365"
+        },
+        "blueWork": {
+          "x": 823,
+          "y": 696,
+          "rx": 77,
+          "ry": 42,
+          "color": "#75d8f8"
+        },
+        "violetReview": {
+          "x": 1269,
+          "y": 164,
+          "rx": 70,
+          "ry": 48,
+          "color": "#b8a0ff"
+        }
+      },
+      "routes": [
+        {
+          "id": "select",
+          "d": "M 350 298 L 349 349",
+          "start": 0.3,
+          "end": 3.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "orange-blue",
+          "d": "M 349 362 C 345 430 480 487 538 541 L 561 567",
+          "start": 4.2,
+          "end": 9.8,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "blue-adoption",
+          "d": "M 674 668 C 711 694 748 705 777 707",
+          "start": 14.2,
+          "end": 18.7,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "blue-receipt",
+          "d": "M 561 559 C 502 499 391 455 362 404 L 350 366",
+          "start": 19.3,
+          "end": 24.7,
+          "kind": "receipt",
+          "color": "#a5efd4",
+          "variants": null
+        },
+        {
+          "id": "blue-violet",
+          "d": "M 1049 565 C 1063 516 1166 466 1280 402 C 1327 377 1349 372 1345 351",
+          "start": 25.2,
+          "end": 30.3,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": [
+            "extend"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 4,
+          "title": {
+            "fr": "Choisir une contribution",
+            "en": "Select a contribution"
+          },
+          "copy": {
+            "fr": "ORANGE sélectionne une proposition avec ses sources et ses preuves. Le reste de sa mémoire demeure dans son périmètre.",
+            "en": "ORANGE selects a proposal with its sources and evidence. Its remaining memory stays within its scope."
+          },
+          "focus": [
+            "orange"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 10,
+          "title": {
+            "fr": "Proposer à BLEU",
+            "en": "Propose to BLEU"
+          },
+          "copy": {
+            "fr": "La contribution sélectionnée rejoint BLEU par un échange admis.",
+            "en": "The selected contribution reaches BLEU through an admitted exchange."
+          },
+          "focus": [
+            "orange",
+            "blueReview"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 14,
+          "title": {
+            "fr": "Examiner localement",
+            "en": "Review locally"
+          },
+          "copy": {
+            "fr": "BLEU examine la proposition selon ses besoins et ses règles. La réception ne vaut pas adoption.",
+            "en": "BLEU reviews the proposal against its needs and rules. Receipt does not imply adoption."
+          },
+          "focus": [
+            "blueReview"
+          ]
+        },
+        {
+          "from": 14,
+          "to": 19,
+          "title": {
+            "fr": "Adopter localement",
+            "en": "Adopt locally"
+          },
+          "copy": {
+            "fr": "Après sa décision, BLEU peut appliquer la contribution dans son propre périmètre.",
+            "en": "Following its decision, BLEU may apply the contribution within its own scope."
+          },
+          "focus": [
+            "blueWork"
+          ]
+        },
+        {
+          "from": 19,
+          "to": 25,
+          "title": {
+            "fr": "Retourner le résultat",
+            "en": "Return the outcome"
+          },
+          "copy": {
+            "fr": "Un reçu retourne vers ORANGE et distingue application et résultat vérifié.",
+            "en": "A receipt returns to ORANGE and distinguishes application from verified outcome."
+          },
+          "focus": [
+            "orange"
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30.5,
+          "title": {
+            "fr": "Choisir un autre échange",
+            "en": "Choose another exchange"
+          },
+          "copy": {
+            "fr": "Un accord distinct permet à BLEU de sélectionner une contribution pour le rayon violet. Rien n'est diffusé automatiquement à tous.",
+            "en": "A separate agreement lets BLEU select a contribution for the violet ray. Nothing is automatically broadcast to all."
+          },
+          "focus": [
+            "blueWork",
+            "violetReview"
+          ]
+        },
+        {
+          "from": 30.5,
+          "to": 35,
+          "title": {
+            "fr": "Garder sa décision",
+            "en": "Retain the decision"
+          },
+          "copy": {
+            "fr": "Le rayon violet examine la contribution reçue. Son adoption éventuelle reste sa propre décision.",
+            "en": "The violet ray reviews the received contribution. Any subsequent adoption remains its own decision."
+          },
+          "focus": [
+            "violetReview"
+          ]
+        }
+      ]
+    },
+    "prism-hero": {
+      "file": "prism-hero.png",
+      "width": 1914,
+      "height": 822,
+      "duration": 25,
+      "defaultVariant": "standard",
+      "nodes": {
+        "source": {
+          "x": 1757,
+          "y": 342,
+          "rx": 59,
+          "ry": 84,
+          "color": "#ffb365"
+        },
+        "prism": {
+          "x": 1198,
+          "y": 389,
+          "rx": 56,
+          "ry": 42,
+          "color": "#ffb365"
+        },
+        "orange": {
+          "x": 731,
+          "y": 416,
+          "rx": 79,
+          "ry": 34,
+          "color": "#ffb365"
+        },
+        "cyan": {
+          "x": 888,
+          "y": 567,
+          "rx": 83,
+          "ry": 40,
+          "color": "#75d8f8"
+        },
+        "blue": {
+          "x": 915,
+          "y": 267,
+          "rx": 72,
+          "ry": 32,
+          "color": "#75d8f8"
+        }
+      },
+      "routes": [
+        {
+          "id": "capabilities",
+          "d": "M 1690 391 L 1525 392 L 1200 390",
+          "start": 0.4,
+          "end": 5.7,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "orange-function",
+          "d": "M 1195 390 C 1043 404 929 407 824 417 L 734 416",
+          "start": 9.2,
+          "end": 15.2,
+          "kind": "request",
+          "color": "#ffb365",
+          "variants": null
+        },
+        {
+          "id": "cyan-function",
+          "d": "M 1195 390 L 1043 485 L 895 565",
+          "start": 10.2,
+          "end": 16.2,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        },
+        {
+          "id": "blue-function",
+          "d": "M 1195 390 L 1030 324 L 920 273",
+          "start": 11.2,
+          "end": 17.3,
+          "kind": "work",
+          "color": "#75d8f8",
+          "variants": null
+        }
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 6,
+          "title": {
+            "fr": "Capacités disponibles",
+            "en": "Available capabilities"
+          },
+          "copy": {
+            "fr": "La lumière représente les capacités des modèles mises à disposition du travail.",
+            "en": "Light represents model capabilities made available for work."
+          },
+          "focus": [
+            "source"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 9,
+          "title": {
+            "fr": "Donner une direction",
+            "en": "Set a direction"
+          },
+          "copy": {
+            "fr": "La mission, le contexte et les règles orientent l'utilisation de ces capacités.",
+            "en": "The mission, context and rules guide the use of those capabilities."
+          },
+          "focus": [
+            "prism"
+          ]
+        },
+        {
+          "from": 9,
+          "to": 17.5,
+          "title": {
+            "fr": "Mobiliser les fonctions",
+            "en": "Activate useful functions"
+          },
+          "copy": {
+            "fr": "Seules les fonctions utiles à cette mission sont mises en évidence. Une couleur ne fixe pas un modèle exclusif.",
+            "en": "Only functions useful to this mission are highlighted. A colour does not prescribe an exclusive model."
+          },
+          "focus": [
+            "orange",
+            "cyan",
+            "blue"
+          ]
+        },
+        {
+          "from": 17.5,
+          "to": 21.5,
+          "title": {
+            "fr": "Contribuer au travail",
+            "en": "Contribute to the work"
+          },
+          "copy": {
+            "fr": "Les fonctions apportent des contributions complémentaires, chacune dans sa responsabilité.",
+            "en": "Functions make complementary contributions, each within its responsibility."
+          },
+          "focus": [
+            "orange",
+            "cyan",
+            "blue"
+          ]
+        },
+        {
+          "from": 21.5,
+          "to": 25,
+          "title": {
+            "fr": "Garder le cap",
+            "en": "Keep the direction"
+          },
+          "copy": {
+            "fr": "La capacité des modèles devient un travail orienté. Le prisme reste une métaphore : aucun hub obligatoire n'est décrit.",
+            "en": "Model capacity becomes directed work. The prism remains a metaphor: no mandatory hub is depicted."
+          },
+          "focus": [
+            "prism"
+          ]
+        }
+      ]
+    }
+  }
+}

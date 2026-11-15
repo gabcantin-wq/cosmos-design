@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "method": "Source-pixel relighting; original camera, geometry, colours and text retained. No drawn overlays.",
+  "scenes": {
+    "memory-reuse": {
+      "scene": "memory-reuse",
+      "source": "memory-reuse.png",
+      "source_sha256": "2df7814f2e129d8ba0868d26bc3a7a36ccaf77df7c51d1489bb0e4a93acd2f21",
+      "width": 1672,
+      "height": 940,
+      "fps": 24,
+      "frames": 360,
+      "duration_seconds": 15.0,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "memory-reuse.mp4",
+          "bytes": 535549,
+          "sha256": "d00dc66d951413bc5204bdb0ff98349fed1954d7a8e8950be9dd3b56f8800aa3"
+        },
+        "webm": {
+          "file": "memory-reuse.webm",
+          "bytes": 258306,
+          "sha256": "1537d9fe5b8ea8acc30691f08f9a274a201b2f802f32d35050c7e48d2872e903"
+        }
+      },
+      "mean_pixel_change_peak": 0.45293528792968885,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    },
+    "development-cycle": {
+      "scene": "development-cycle",
+      "source": "development-cycle.png",
+      "source_sha256": "e27c3d7f11f276fae2433690012c7ee615a8e10478322904f74319bba2a9e3bf",
+      "width": 1586,
+      "height": 992,
+      "fps": 24,
+      "frames": 585,
+      "duration_seconds": 24.375,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "development-cycle.mp4",
+          "bytes": 662433,
+          "sha256": "9369e29eff4bfd972c7a0dd7cceb9494b52675d424aa70469eaf7085a696489f"
+        },
+        "webm": {
+          "file": "development-cycle.webm",
+          "bytes": 290625,
+          "sha256": "0456c5c94b3017e11269aa03fa40b6f1ef35399a2d10299718c8a77e8c99b673"
+        }
+      },
+      "mean_pixel_change_peak": 0.21873516929043105,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    },
+    "agent-cooperation": {
+      "scene": "agent-cooperation",
+      "source": "agent-cooperation.png",
+      "source_sha256": "570eac8bb78f6dddc4767bc1bb83e7a126ad11fe169cb50ea920e087e1ad0339",
+      "width": 1586,
+      "height": 992,
+      "fps": 24,
+      "frames": 435,
+      "duration_seconds": 18.125,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "agent-cooperation.mp4",
+          "bytes": 537005,
+          "sha256": "e4dabd850cabcf6a712af46765bf0afaba530ee6a8e948018259afbb057013a0"
+        },
+        "webm": {
+          "file": "agent-cooperation.webm",
+          "bytes": 315745,
+          "sha256": "59177c2797e2baa6f733289df0b68650f80f86846d260711bb7e7bd264eae60a"
+        }
+      },
+      "mean_pixel_change_peak": 0.09307371964365618,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    },
+    "spectral-work": {
+      "scene": "spectral-work",
+      "source": "spectral-work.png",
+      "source_sha256": "c5b61f63a58fc8aca09903deba5f088964b7f48cb48f6445a90f03824d237b01",
+      "width": 1586,
+      "height": 992,
+      "fps": 24,
+      "frames": 525,
+      "duration_seconds": 21.875,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "spectral-work.mp4",
+          "bytes": 652567,
+          "sha256": "d2a1695b25e4df326b6ec34530f146d9a545e3626f20cfc1ea394100e5f04977"
+        },
+        "webm": {
+          "file": "spectral-work.webm",
+          "bytes": 360425,
+          "sha256": "760eb2202204f5314b0400d300306b5f14a5a7414119c482f0a6e4bfe35b92bb"
+        }
+      },
+      "mean_pixel_change_peak": 0.28362333726559,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    },
+    "spectral-memory": {
+      "scene": "spectral-memory",
+      "source": "memory-reuse-diagram.png",
+      "source_sha256": "edbca4c9c19c520b763465637366f68a455b7408e3723c26afc88895760ae99a",
+      "width": 1672,
+      "height": 940,
+      "fps": 24,
+      "frames": 375,
+      "duration_seconds": 15.625,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "spectral-memory.mp4",
+          "bytes": 502875,
+          "sha256": "bc48872c14c4cc25035a00ae969dfdaf55a5694a5a216b1a465506d9508a6eb2"
+        },
+        "webm": {
+          "file": "spectral-memory.webm",
+          "bytes": 298621,
+          "sha256": "c7ea6ab420aabb055d53bf9f4aa88d3d3cabcd8ec2c1aaac5cbb457fe87f4073"
+        }
+      },
+      "mean_pixel_change_peak": 0.21385629814381213,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    },
+    "ray-federation": {
+      "scene": "ray-federation",
+      "source": "ray-federation.png",
+      "source_sha256": "17f0db7d7adfd7b1b0882e926918650c1fbfc660ed6c6f7346e586ce8034270a",
+      "width": 1672,
+      "height": 940,
+      "fps": 24,
+      "frames": 525,
+      "duration_seconds": 21.875,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "ray-federation.mp4",
+          "bytes": 618312,
+          "sha256": "4f0cd61c0fe2864a58522c9d92a4c65a83bc4ef733a411a0b778b6a1e6f8390d"
+        },
+        "webm": {
+          "file": "ray-federation.webm",
+          "bytes": 342118,
+          "sha256": "28ba103c9b03d15457c2c5dedb4f28167d30eeaf61f4428d10f12d17e5268bcf"
+        }
+      },
+      "mean_pixel_change_peak": 0.13553183005870575,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    },
+    "prism-hero": {
+      "scene": "prism-hero",
+      "source": "prism-hero.png",
+      "source_sha256": "319587c5998ae9d65d7d6f618a716d3ec077b3c0e9897a9a02c0089f5f0b67c8",
+      "width": 1914,
+      "height": 822,
+      "fps": 24,
+      "frames": 375,
+      "duration_seconds": 15.625,
+      "speed_vs_kit": 1.6,
+      "audio": false,
+      "files": {
+        "mp4": {
+          "file": "prism-hero.mp4",
+          "bytes": 505902,
+          "sha256": "8f4c560ad6d94b161e51409b345acedefefae6468583c3df6677d2d108969cf0"
+        },
+        "webm": {
+          "file": "prism-hero.webm",
+          "bytes": 218283,
+          "sha256": "d4ab813bb4f827fe9b8822d87ae3af245bc2552eaa488e094194bd332ecba5bc"
+        }
+      },
+      "mean_pixel_change_peak": 0.28840909302776907,
+      "mean_pixel_change_first": 0.0,
+      "mean_pixel_change_last": 0.0
+    }
+  }
+}

@@ -39,18 +39,19 @@
 /* Keep the commercial layout proportional on wide displays. */
 @media(min-width:1440px){.commercial .wrap{width:90%}.commercial .principles p{max-width:56ch}}
 
-/* Animation overlays follow the original images, including the mobile mask. */
-.prism-motion-media{position:relative}
-.prism-motion-media>img{display:block;width:100%;border-radius:var(--radius)}
-.hero-image{z-index:-4}.hero>.pm-overlay{z-index:-3}
-.hero-motion-controls:not(:empty){margin-top:18px}
-.prism-motion-controls:empty{display:none}
-.prism-motion-controls:not(:empty){margin-top:14px}
-.technical-figure .pm-ui{margin-top:0}
-.prism-motion-details{margin-top:12px;font-size:12px;color:var(--muted)}
-.prism-motion-details>summary{cursor:pointer;display:list-item;width:fit-content;padding:8px 0;min-height:44px}
-.prism-motion-details[open]>summary{margin-bottom:10px;color:var(--white)}
-.prism-motion-details .pm-variants{margin-bottom:12px}
-.prism-motion-details .pm-phase-title{margin-top:0}
-.zoom-label{z-index:1}
-@media(max-width:700px){.hero>.pm-overlay{mask-image:linear-gradient(to bottom,transparent 0%,#000 18%,#000 82%,transparent 100%)}}
+/* Cinemagraphs keep the illustration's geometry; no visible player interface. */
+.prism-film{position:relative;display:block;width:100%;padding:0;border:0;border-radius:var(--radius);background:transparent;color:inherit;text-align:inherit;line-height:0;cursor:pointer;isolation:isolate}
+.prism-film:disabled{cursor:default;opacity:1}
+.prism-film>img:not(.hero-image){display:block;width:100%;height:auto;border-radius:inherit}
+.prism-film>video{position:absolute;display:block;max-width:none;pointer-events:none;opacity:0;transition:opacity .22s ease;border-radius:inherit}
+.prism-film.is-playing>video{opacity:1}
+.prism-film-figure{position:relative}
+.prism-film-figure>.zoom-label{z-index:2;line-height:1.75}
+.technical-figure .prism-film{border:1px solid var(--line);border-radius:12px}
+.technical-figure .prism-film>img{border:0}
+.hero-art{position:absolute;inset:0;height:100%;border-radius:0;z-index:-3}
+.hero-art>video{z-index:-2;border-radius:0}
+.hero-shade{pointer-events:none}
+.hero:has(.hero-art:focus-visible){outline:2px solid var(--blue);outline-offset:-4px}
+@media(max-width:700px){.prism-film-figure>.zoom-label{position:static;display:table;margin:6px 0 0 auto;padding:3px 0;border:0;background:none;backdrop-filter:none}}
+@media(prefers-reduced-motion:reduce){.prism-film>video{transition:none}}

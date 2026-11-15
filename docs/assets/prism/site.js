@@ -61,19 +61,20 @@ if (imageDialog && typeof imageDialog.showModal === 'function') {
     link.addEventListener('click', event => {
       if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
       event.preventDefault(); trigger = link;
-      image.src = link.href; image.alt = link.querySelector('img').alt;
+      image.src = link.href; image.alt = (link.querySelector('img') || link.closest('figure').querySelector('img')).alt;
       caption.textContent = link.dataset.caption || image.alt;
       original.href = link.href;
       imageDialog.showModal();
-      document.querySelectorAll('[data-prism-scene]').forEach(host => {
-        if (host.__prismMotion) host.__prismMotion.pause('dialog');
-      });
+      if (window.PrismHover) PrismHover.refresh();
       imageDialog.querySelector('.dialog-close').focus();
     });
   });
   imageDialog.querySelector('.dialog-close').addEventListener('click', () => imageDialog.close());
   imageDialog.addEventListener('click', event => { if (event.target === imageDialog) imageDialog.close(); });
-  imageDialog.addEventListener('close', () => { if (trigger) trigger.focus({ preventScroll: true }); });
+  imageDialog.addEventListener('close', () => {
+    if (trigger) trigger.focus({ preventScroll: true });
+    if (window.PrismHover) PrismHover.refresh();
+  });
 }
 
 const sectionLinks = [...document.querySelectorAll('.section-navigation a')];
@@ -88,33 +89,4 @@ if ('IntersectionObserver' in window && sectionLinks.length) {
     });
   }, { rootMargin: '-20% 0px -65% 0px', threshold: 0 });
   document.querySelectorAll('.technical-section').forEach(section => observer.observe(section));
-}
-
-// Progressive enhancement: illustrations and captions remain ordinary HTML.
-if (window.PrismMotion && window.PrismScenes) {
-  document.querySelectorAll('[data-prism-scene]').forEach(host => {
-    const controls = document.getElementById(host.dataset.prismControls);
-    const detailed = host.hasAttribute('data-prism-details');
-    PrismMotion.mount(host, host.dataset.prismScene, {
-      controls, lang: 'en', autoplay: true, compact: !detailed, headingTag: 'h3',
-      canAutoplay: () => !imageDialog || !imageDialog.open
-    });
-    if (detailed) {
-      // Playback remains immediately available; the explanatory walkthrough
-      // opens on request, outside the illustration's lightbox link.
-      const ui = controls.querySelector('.pm-ui');
-      const toolbar = ui.querySelector('.pm-toolbar');
-      const details = document.createElement('details');
-      details.className = 'prism-motion-details';
-      const summary = document.createElement('summary');
-      summary.textContent = 'Explore the steps';
-      details.append(summary);
-      const variants = toolbar.querySelector('.pm-variants');
-      if (variants) details.append(variants);
-      [...ui.children].forEach(child => {
-        if (child !== toolbar && !child.classList.contains('pm-notice')) details.append(child);
-      });
-      ui.insertBefore(details, ui.querySelector('.pm-notice'));
-    }
-  });
 }
