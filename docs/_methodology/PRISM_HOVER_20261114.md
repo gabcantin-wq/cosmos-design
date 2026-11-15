@@ -17,7 +17,7 @@ Existing page text, navigation and original illustrations remain in place.
 Seven silent raster cinemagraphs replace the runtime SVG overlays. They use
 WebM/VP9 with MP4/H.264 fallback, not GIF: the browser decodes ordinary videos
 without displaying controls. The PNG underneath remains the static image.
-The seven WebM files total 2,978,047 bytes; one clip is 218–360 kB. Downloads
+The seven WebM files total 2,978,047 bytes; one clip is 318-555 kB. Downloads
 begin only when playback is requested. At most one clip plays at a time.
 
 `tools/prism/render_hover.py` reproduces the clips from the original pixels,
