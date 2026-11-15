@@ -16,16 +16,16 @@
       "files": {
         "mp4": {
           "file": "memory-reuse.mp4",
-          "bytes": 535549,
-          "sha256": "d00dc66d951413bc5204bdb0ff98349fed1954d7a8e8950be9dd3b56f8800aa3"
+          "bytes": 674777,
+          "sha256": "a4c36fbbce68db1a810786518d17931ab82b4f799dd4041ecdd8dd322de416b1"
         },
         "webm": {
           "file": "memory-reuse.webm",
-          "bytes": 258306,
-          "sha256": "1537d9fe5b8ea8acc30691f08f9a274a201b2f802f32d35050c7e48d2872e903"
+          "bytes": 389734,
+          "sha256": "538f29a3e22460f2b00d30ed935ea4604ceb51309905d9e3978165b584c5592e"
         }
       },
-      "mean_pixel_change_peak": 0.45293528792968885,
+      "mean_pixel_change_peak": 1.5789439750246022,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     },
@@ -43,16 +43,16 @@
       "files": {
         "mp4": {
           "file": "development-cycle.mp4",
-          "bytes": 662433,
-          "sha256": "9369e29eff4bfd972c7a0dd7cceb9494b52675d424aa70469eaf7085a696489f"
+          "bytes": 856764,
+          "sha256": "f7c922db8627e94f10a2a63015176d9ef6a33c555a0e6b30699fb5e48a936639"
         },
         "webm": {
           "file": "development-cycle.webm",
-          "bytes": 290625,
-          "sha256": "0456c5c94b3017e11269aa03fa40b6f1ef35399a2d10299718c8a77e8c99b673"
+          "bytes": 472961,
+          "sha256": "a85d878c9c66017668c1417c5044d7742580f6472afdbfad1c41eecfd364e037"
         }
       },
-      "mean_pixel_change_peak": 0.21873516929043105,
+      "mean_pixel_change_peak": 0.6746140201901043,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     },
@@ -70,16 +70,16 @@
       "files": {
         "mp4": {
           "file": "agent-cooperation.mp4",
-          "bytes": 537005,
-          "sha256": "e4dabd850cabcf6a712af46765bf0afaba530ee6a8e948018259afbb057013a0"
+          "bytes": 639433,
+          "sha256": "0ce5a75c7390151d8bfdb7d9c5b0937a8338d09f75427d2f82a03e18a4324500"
         },
         "webm": {
           "file": "agent-cooperation.webm",
-          "bytes": 315745,
-          "sha256": "59177c2797e2baa6f733289df0b68650f80f86846d260711bb7e7bd264eae60a"
+          "bytes": 401231,
+          "sha256": "3a180b57d844d461204e81b70771c225e20da745460f9794a333ae63c06687aa"
         }
       },
-      "mean_pixel_change_peak": 0.09307371964365618,
+      "mean_pixel_change_peak": 0.40814727148842694,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     },
@@ -97,16 +97,16 @@
       "files": {
         "mp4": {
           "file": "spectral-work.mp4",
-          "bytes": 652567,
-          "sha256": "d2a1695b25e4df326b6ec34530f146d9a545e3626f20cfc1ea394100e5f04977"
+          "bytes": 936926,
+          "sha256": "6502092fcfed192440119a675757c6058e0554d80b9d9ab7210ab4dc85341260"
         },
         "webm": {
           "file": "spectral-work.webm",
-          "bytes": 360425,
-          "sha256": "760eb2202204f5314b0400d300306b5f14a5a7414119c482f0a6e4bfe35b92bb"
+          "bytes": 554953,
+          "sha256": "01e843fed90ce171a8652899aa6cc0bbfd2f4d49a0be1527c8c7a0e7cf9a88ea"
         }
       },
-      "mean_pixel_change_peak": 0.28362333726559,
+      "mean_pixel_change_peak": 1.1906583055363462,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     },
@@ -124,16 +124,16 @@
       "files": {
         "mp4": {
           "file": "spectral-memory.mp4",
-          "bytes": 502875,
-          "sha256": "bc48872c14c4cc25035a00ae969dfdaf55a5694a5a216b1a465506d9508a6eb2"
+          "bytes": 619086,
+          "sha256": "351d2076e82e4d93c1d6f084086655c28aa71721da2ff174cdd3d3b4becc8237"
         },
         "webm": {
           "file": "spectral-memory.webm",
-          "bytes": 298621,
-          "sha256": "c7ea6ab420aabb055d53bf9f4aa88d3d3cabcd8ec2c1aaac5cbb457fe87f4073"
+          "bytes": 397578,
+          "sha256": "7f8012b81750974798aad70ba08d61e8c54aa24b68a8867c31930959a3bcbd12"
         }
       },
-      "mean_pixel_change_peak": 0.21385629814381213,
+      "mean_pixel_change_peak": 0.7768281923377108,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     },
@@ -151,16 +151,16 @@
       "files": {
         "mp4": {
           "file": "ray-federation.mp4",
-          "bytes": 618312,
-          "sha256": "4f0cd61c0fe2864a58522c9d92a4c65a83bc4ef733a411a0b778b6a1e6f8390d"
+          "bytes": 770280,
+          "sha256": "ba415734dda5c3137a86a8a6b3f2a2ad1a3fde6cd646dcb1a874d2e0b47525fa"
         },
         "webm": {
           "file": "ray-federation.webm",
-          "bytes": 342118,
-          "sha256": "28ba103c9b03d15457c2c5dedb4f28167d30eeaf61f4428d10f12d17e5268bcf"
+          "bytes": 443948,
+          "sha256": "d7dd1dbbaec80e1f484fb0793dcbe889374249a2c34aa34aa4f4dcdc1eacb445"
         }
       },
-      "mean_pixel_change_peak": 0.13553183005870575,
+      "mean_pixel_change_peak": 0.5603070175438597,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     },
@@ -178,16 +178,16 @@
       "files": {
         "mp4": {
           "file": "prism-hero.mp4",
-          "bytes": 505902,
-          "sha256": "8f4c560ad6d94b161e51409b345acedefefae6468583c3df6677d2d108969cf0"
+          "bytes": 631589,
+          "sha256": "89588f112d52a3c78322681bde34c99e555dc53464b410cd33787b5620831d91"
         },
         "webm": {
           "file": "prism-hero.webm",
-          "bytes": 218283,
-          "sha256": "d4ab813bb4f827fe9b8822d87ae3af245bc2552eaa488e094194bd332ecba5bc"
+          "bytes": 317642,
+          "sha256": "649a1cb3156d9e0b8e76444e0c3e96f23f11ee10e31bca0f452571e81f46e3b4"
         }
       },
-      "mean_pixel_change_peak": 0.28840909302776907,
+      "mean_pixel_change_peak": 1.0120851522185528,
       "mean_pixel_change_first": 0.0,
       "mean_pixel_change_last": 0.0
     }

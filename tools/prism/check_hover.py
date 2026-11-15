@@ -165,8 +165,8 @@ def main():
             print('CHECK fallback',mode,flush=True)
             context=browser.new_context(java_script_enabled=mode!='no-js',viewport={'width':1440,'height':1000});configure(context)
             if mode=='script-unavailable':context.route('**/prism-hover.js*',lambda r:r.abort())
-            if mode in ('webm-fallback','media-unavailable'):context.route('**/*.webm',lambda r:r.fulfill(status=404,body=''))
-            if mode=='media-unavailable':context.route('**/*.mp4',lambda r:r.fulfill(status=404,body=''))
+            if mode in ('webm-fallback','media-unavailable'):context.route('**/*.webm*',lambda r:r.fulfill(status=404,body=''))
+            if mode=='media-unavailable':context.route('**/*.mp4*',lambda r:r.fulfill(status=404,body=''))
             page=context.new_page();load(page,'/',scripts=mode!='no-js')
             print('LOADED fallback',mode,flush=True)
             if mode in ('no-js','script-unavailable'):
@@ -176,7 +176,7 @@ def main():
             else:
                 show(page,'memory-reuse');host(page,'memory-reuse').hover()
                 if mode=='webm-fallback':
-                    wait_play(page,'memory-reuse');assert state(page,'memory-reuse')['source'].endswith('.mp4')
+                    wait_play(page,'memory-reuse');assert state(page,'memory-reuse')['source'].split('?')[0].endswith('.mp4')
                 else:
                     page.wait_for_function("document.querySelector('[data-prism-film=\"memory-reuse\"]').__prismFilm.getState().failed")
                     assert host(page,'memory-reuse').locator('img').is_visible()

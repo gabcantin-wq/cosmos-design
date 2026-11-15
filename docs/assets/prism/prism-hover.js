@@ -2,6 +2,7 @@
    No player panels, no SVG overlays, no video request until playback is wanted. */
 (function () {
   'use strict';
+  const mediaVersion = '2026-11-14-vivid-1';
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const finePointer = matchMedia('(hover: hover) and (pointer: fine)');
   const players = [];
@@ -57,7 +58,7 @@
     function attachSource() {
       if (video.getAttribute('src')) return;
       const format=!fallback && video.canPlayType('video/webm; codecs="vp9"') ? 'webm' : 'mp4';
-      video.src='/assets/prism/motion/'+scene+'.'+format;
+      video.src='/assets/prism/motion/'+scene+'.'+format+'?v='+mediaVersion;
     }
     async function start() {
       if (requested || failed) return;
@@ -104,7 +105,7 @@
       manual=!userPaused; failed=false; lastIntent=++intent; refresh();
     });
     video.addEventListener('error', () => {
-      const tryMP4=!fallback && video.getAttribute('src')?.endsWith('.webm');
+      const tryMP4=!fallback && video.getAttribute('src')?.split('?')[0].endsWith('.webm');
       stop();
       if (tryMP4) { fallback=true; video.removeAttribute('src'); refresh(); }
       else failed=true;

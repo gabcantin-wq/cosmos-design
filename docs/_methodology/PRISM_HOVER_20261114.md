@@ -17,7 +17,7 @@ Existing page text, navigation and original illustrations remain in place.
 Seven silent raster cinemagraphs replace the runtime SVG overlays. They use
 WebM/VP9 with MP4/H.264 fallback, not GIF: the browser decodes ordinary videos
 without displaying controls. The PNG underneath remains the static image.
-The seven WebM files total 2,084,123 bytes; one clip is 218–360 kB. Downloads
+The seven WebM files total 2,978,047 bytes; one clip is 218–360 kB. Downloads
 begin only when playback is requested. At most one clip plays at a time.
 
 `tools/prism/render_hover.py` reproduces the clips from the original pixels,
@@ -42,7 +42,7 @@ button through aria-describedby; the action label changes without a redundant
 pressed state. These two accessibility improvements follow independent review.
 
 The two templates and `shell.html` load this runtime instead of the old SVG
-engine. `build.py` generates both pages with edition `2026-11-14-hover-2`.
+engine. `build.py` generates both pages with edition `2026-11-14-vivid-1`.
 The old kit files and checker remain historical material; `check_hover.py` is
 the acceptance checker for the currently mounted videos.
 
@@ -86,3 +86,15 @@ state; this source document does not claim its own commit is already live.
 
 Recovery uses a new revert commit through the same workflow. DNS, certificate
 settings and cluster runtime are outside this visual change.
+
+## Stronger movement, requested after publication
+
+Gab found the first cinemagraphs too subtle and requested continuation with
+less overhead. The follow-up broadens the native beam illumination, increases
+the travelling bright/dark contrast and triples the core breathing amplitude.
+All seven clips are re-rendered; timing, image geometry and interaction stay
+unchanged. Their measured peak pixel variation is more than twice the previous
+version in every scene. Video URLs carry a new version query so browsers fetch
+the stronger clips. The cache query is retained by both format-fallback tests.
+Source images are still unchanged. Scope and receipts remain in ORG-14829;
+follow-up artifacts are in F:/ORANGE-RUNTIME/prism-vivid-20261114.

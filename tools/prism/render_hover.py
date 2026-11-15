@@ -1,4 +1,4 @@
-"""Render subtle cinemagraphs from the existing illustration pixels.
+"""Render image-native cinemagraphs from the existing illustration pixels.
 
 No new objects are painted: authored light routes and core regions modulate
 the original RGB values. Dark pixels stay dark, textures and silhouettes stay
@@ -57,7 +57,7 @@ def route_field(route,width,height):
     seeds[y,x]=True;positions[y,x]=progress
     distance,indices=distance_transform_edt(~seeds,return_indices=True)
     # A soft optical shoulder modulates existing reflections, never adds a line.
-    band=np.exp(-.5*(distance/4.8)**2)+.26*np.exp(-.5*(distance/15)**2)
+    band=np.exp(-.5*(distance/7)**2)+.26*np.exp(-.5*(distance/18)**2)
     return (slice(y0,y1),slice(x0,x1)),positions[indices[0],indices[1]],band.astype(np.float32)
 
 
@@ -110,17 +110,17 @@ def render(name,output,frames_dir=None,formats=('mp4','webm')):
             if not 0<t<1:continue
             # An elongated highlight travelling INSIDE existing light/material.
             envelope=float(smooth(t/.12)*smooth((1-t)/.15))
-            wave=np.exp(-.5*((position-t)/.15)**2).astype(np.float32)
-            energy[region]+=band*(1.8*wave-.32)*envelope
+            wave=np.exp(-.5*((position-t)/.12)**2).astype(np.float32)
+            energy[region]+=band*(2.8*wave-.85)*envelope
         phase=next((p for p in scene['phases'] if p['from']<=time_in_scene<p['to']),scene['phases'][-1])
         fraction=(time_in_scene-phase['from'])/(phase['to']-phase['from'])
         breathe=math.sin(math.pi*fraction)**2
         for key in phase['focus']:
-            region,field=nodes[key];energy[region]+=.40*breathe*field
+            region,field=nodes[key];energy[region]+=1.20*breathe*field
         energy*=material
         # Source-dependent screen exposure preserves the native colours/textures.
-        exposure=np.clip(energy,-.5,1.65)[...,None]
-        rendered=(base+base*(1-base)*(.76*np.maximum(exposure,0)))*(1+.42*np.minimum(exposure,0))
+        exposure=np.clip(energy,-.8,2.2)[...,None]
+        rendered=(base+base*(1-base)*(1.05*np.maximum(exposure,0)))*(1+.78*np.minimum(exposure,0))
         frame=np.rint(np.clip(rendered,0,1)*255).astype(np.uint8)
         difference.append(float(np.mean(np.abs(frame.astype(np.int16)-original))))
         if frames_dir and index in snapshots:
