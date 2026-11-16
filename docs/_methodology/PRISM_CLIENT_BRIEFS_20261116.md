@@ -8,7 +8,7 @@ its sites, equipment, vendors, addresses or internal files.
 
 `/partages/data-center/` describes a limited pilot for video streams and
 facility sensors, with context-aware analysis and responses bounded by client
-rules. The private `F:/5c` corpus informed the setting and the need for a
+rules. Private source material informed the setting and the need for a
 read-only, staged first slice; it is not proof that Prism already processes
 those video feeds. The copy explicitly makes connection and validation in the
 client environment part of the first pilot.
