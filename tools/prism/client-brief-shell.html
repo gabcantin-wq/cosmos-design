@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#080c13">
+  <title>{{title}} — {{company}}</title>
+  <meta name="description" content="{{summary}}">
+  <link rel="canonical" href="{{url}}/partages/{{slug}}/">
+  <link rel="icon" href="/assets/prism/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/assets/prism/client-brief.css?v={{edition}}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="/" aria-label="{{company}}, home">
+        <img src="/assets/prism/mark.svg" width="40" height="40" alt="">
+        <span>Prism<small>INTELLIGENCE</small></span>
+      </a>
+      <span class="header-note">A focused look at {{topic}}</span>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">{{eyebrow}}</p>
+        <h1 id="page-title">{{headline}}</h1>
+        <p class="lead">{{lead}}</p>
+        <p class="outcome"><span>{{outcome_label}}</span>{{outcome}}</p>
+      </div>
+      <figure class="hero-figure">
+        <img src="{{image}}" width="{{image_width}}" height="{{image_height}}" alt="{{image_alt}}">
+        <figcaption>{{image_caption}}</figcaption>
+      </figure>
+    </section>
+    <section class="section section-dark" aria-labelledby="benefits-title">
+      <div class="wrap">
+        <p class="eyebrow">What matters for this need</p>
+        <h2 id="benefits-title">Relevant capabilities.</h2>
+        <div class="benefit-grid">{{benefit_cards}}</div>
+      </div>
+    </section>
+    <section class="section wrap example" aria-labelledby="example-title">
+      <div>
+        <p class="eyebrow">A situation in practice</p>
+        <h2 id="example-title">{{example_title}}</h2>
+        <p>{{example_intro}}</p>
+      </div>
+      <ol class="example-steps">{{example_steps}}</ol>
+    </section>
+    {{technical_link}}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-row"><span>{{company}} · {{tagline}}</span><a href="/">Visit the main site ↗</a></div>
+  </footer>
+</body>
+</html>

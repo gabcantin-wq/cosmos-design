@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "slug": "data-center",
+      "status": "ready",
+      "title": "Data center operations",
+      "summary": "A focused Prism pilot for video and facility signals: understand events, coordinate bounded responses and expand only after validation.",
+      "topic": "operations",
+      "eyebrow": "Prism for data center operations",
+      "headline": "See the signal. Understand the situation. Act with care.",
+      "lead": "Bring selected video streams and facility sensors into a shared operational picture. Prism can relate what is happening to the surrounding context, prepare a response and carry the lesson into the next event.",
+      "outcome_label": "A practical first step",
+      "outcome": "Begin with a small set of permitted feeds, sensor points and agreed responses. Verify that slice in the client's environment, then extend it as needs and evidence grow.",
+      "image": "/assets/prism/spectral-work.png",
+      "image_alt": "Several sources feed connected work modules and a consolidated result.",
+      "image_caption": "Signals keep their source and context as they move through the work.",
+      "benefits": [
+        {"title": "Connect the right signals", "text": "Select the video streams and sensor readings that matter to one operating situation, rather than importing every system at once."},
+        {"title": "Read events in context", "text": "Compare timing, source and nearby measurements so an alert has an explanation and an uncertainty level."},
+        {"title": "Keep action bounded", "text": "Notify, suggest or carry out only the responses agreed for that site. Operators keep the decisions that need human judgment."}
+      ],
+      "example_title": "Start with one operating area.",
+      "example_intro": "A first pilot can be useful without covering an entire facility. Its behavior is defined with the operations team and checked against the systems already on site.",
+      "example_steps": [
+        {"title": "Select", "text": "Choose a limited set of camera views, sensor points and events to examine."},
+        {"title": "Understand", "text": "Relate a detected event to current measurements, recent changes and the available visual context."},
+        {"title": "Respond and refine", "text": "Test an approved notification or response, review operator feedback, then expand the scope deliberately."}
+      ],
+      "technical": {"href": "/technique/", "label": "Explore Prism's architecture"}
+    },
+    {
+      "slug": "control-center",
+      "status": "ready",
+      "title": "Software development cycle",
+      "summary": "A focused Prism view of the development cycle: requirements, study of external software, implementation, tests, validation, documentation and learning.",
+      "topic": "software delivery",
+      "eyebrow": "Prism for software delivery",
+      "headline": "From a requirement to a verified change.",
+      "lead": "Prism can organize the work from the first question to the observed result: understand an existing system, clarify the requirement, implement a change, test it, validate it and document what was learned.",
+      "outcome_label": "A visible thread",
+      "outcome": "Each change can retain its reason, the tests that challenged it, the validation that admitted it and the knowledge needed for the next cycle.",
+      "image": "/assets/prism/development-cycle.png",
+      "image_alt": "A development path connects design and implementation to verification and the next round of work.",
+      "image_caption": "The work continues from a clear need to a checked result and a reusable lesson.",
+      "benefits": [
+        {"title": "Understand before changing", "text": "Study external software and its documentation, capture constraints and turn the requested outcome into testable requirements."},
+        {"title": "Build with evidence", "text": "Connect implementation to focused tests, integration checks and review so the effect of a change can be seen."},
+        {"title": "Document and learn", "text": "Record the validated behavior, remaining limits and useful corrections for the people and cycles that follow."}
+      ],
+      "example_title": "A complete change, end to end.",
+      "example_intro": "When a team needs to extend unfamiliar software, the cycle keeps discovery, delivery and verification connected without hiding the decisions that belong to people.",
+      "example_steps": [
+        {"title": "Learn and specify", "text": "Read the existing software, its interfaces and its documentation; agree on the expected behavior and acceptance checks."},
+        {"title": "Implement and test", "text": "Make the bounded change, run meaningful tests and address the failures they reveal."},
+        {"title": "Validate and carry forward", "text": "Review the result against the requirement, document what is proven and retain the lesson for later work."}
+      ],
+      "technical": {"href": "/technique/#cycle", "label": "See the development cycle"}
+    }
+  ]
+}
